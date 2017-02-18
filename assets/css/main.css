@@ -2169,6 +2169,8 @@ h1 {
 		.wrapper.style3 {
 			background: #fff;
 			color: inherit;
+            border: solid 1.2px;
+            border-color: #52D681;
 		}
 
 		.wrapper.style4 {
@@ -2550,7 +2552,7 @@ h1 {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 5em 5em;
+		padding: 3em 5em 3em 5em;
 		text-align: center;
 	}
 
