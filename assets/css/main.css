@@ -1749,7 +1749,7 @@ h1 {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #52D681;
+			border-color: #328cc1;
 		}
 
 	input[type="text"],
@@ -1825,7 +1825,7 @@ h1 {
 	.icon {
 		text-decoration: none;
 		position: relative;
-        color:#52D681;
+        color:#328cc1;
 	}
 
 		.icon:before {
@@ -1865,7 +1865,7 @@ h1 {
 			}
 
 				.icon.circle.fa-file-text-o:hover {
-					background: #7fb7d2;
+					background: #70aecd;
 				}
 
 			.icon.circle.fa-twitter {
@@ -2144,7 +2144,7 @@ h1 {
 		}
 
 		.wrapper.style2 {
-			background-color: #52D681;
+			background-color: #328cc1;
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2158,7 +2158,7 @@ h1 {
 			.wrapper.style2 .button.special {
 				background: #fff;
 				border-color: #fff;
-				color: #52D681 !important;
+				color: #328cc1 !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -2170,7 +2170,7 @@ h1 {
 			background: #fff;
 			color: inherit;
             border: solid 1.2px;
-            border-color: #52D681;
+            border-color: #328cc1;
 		}
 
 		.wrapper.style4 {
@@ -2277,7 +2277,7 @@ h1 {
 					font-size: 1em;
 					min-width: 0;
 					width: auto;
-                    background: #52D681;
+                    background: #328cc1;
 				}
 
 				#header nav ul li.submenu > a {
@@ -2382,7 +2382,7 @@ h1 {
 			}
 
 			.dropotron > li:hover > a {
-				background: #52D681;
+				background: #328cc1;
 				color: #fff;
 			}
 
