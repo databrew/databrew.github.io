@@ -1,0 +1,12 @@
+# Site settings
+title: databrew
+email: info@databrew.cc
+description: 
+  databrew empowers organizations and individuals to understand data
+baseurl: ""
+url: "http://locahost:4000" # the base hostname & protocol for your site
+twitter_username: databrew_cc
+github_username:  databrew
+
+# Build settings
+markdown: kramdown
