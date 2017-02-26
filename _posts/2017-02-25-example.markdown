@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Example post"
+date:   2017-02-25 14:36:23
+permalink: /example.html
+---
+<span class="image featured"><img src="/images/health.jpg" alt=""></span>
+
+This is just a placeholder.
+
+We don't actually have any posts yet. 
+
+But we will soon!
