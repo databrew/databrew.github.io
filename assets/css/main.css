@@ -1691,6 +1691,7 @@ h1 {
 
 		header.special h2 {
 			margin-bottom: 0;
+        
 		}
 
 		header.special h2 + p {
@@ -1792,7 +1793,6 @@ h1 {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1818,6 +1818,11 @@ h1 {
 			.image.featured img {
 				display: block;
 				width: 100%;
+			}
+
+        .image.logo {
+				position:relative;
+                margin-top: -1em;
 			}
 
 /* Icon */
@@ -2471,12 +2476,12 @@ h1 {
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner2.jpeg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url("images/overlay.png"), url("../../images/banner2.jpeg");
+		background-position: top left, top center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2540,7 +2545,7 @@ h1 {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		background-color: #fff;
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2629,7 +2634,7 @@ h1 {
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
+				padding-top: 0em;
 				margin-bottom: 4em;
 			}
 
@@ -2756,7 +2761,7 @@ h1 {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: auto, cover;
 			}
 
 		/* Main */
@@ -3198,7 +3203,7 @@ h1 {
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				background-size: auto, cover;
 				padding: 6em 0;
 			}
 
