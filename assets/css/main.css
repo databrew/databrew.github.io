@@ -1596,6 +1596,7 @@
 		margin: 0 0 2em 0;
 	}
 
+
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
@@ -2146,7 +2147,7 @@ h1 {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			background: rgba(188, 202, 206, 0.2);
 			border-color: inherit;
 		}
 
@@ -2182,6 +2183,24 @@ h1 {
 			min-width: 14em;
 			padding: 0.5em 0;
 		}
+
+        input[type="button"].orange,
+		input[type="submit"].orange,
+		input[type="reset"].orange,
+		.button.orange {
+			background: #ff9900;
+			border-color: #ff9900;
+			color: #fff !important;
+            margin-bottom: 4em;
+		}
+
+			input[type="button"].orange:hover,
+			input[type="submit"].orange:hover,
+			input[type="reset"].orange:hover,
+			.button.orange:hover {
+				background: #7c8081 !important;
+				border-color: #7c8081 !important;
+			}
 
 /* Wrapper */
 
@@ -2228,7 +2247,7 @@ h1 {
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
-			padding: 4em;
+			padding: 3em;
 		}
 
 /* Header */
@@ -2525,9 +2544,9 @@ h1 {
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					font-size: 2.5em;
-					font-weight: 900;
-					letter-spacing: 0.2em;
+					font-size: 3em;
+					font-weight: 500;
+					letter-spacing: 0.em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
@@ -2537,7 +2556,7 @@ h1 {
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: none;
 			}
 
 				#banner .inner p a {
@@ -2683,7 +2702,7 @@ h1 {
 			}
 
 				.wrapper.style4 {
-					padding: 3em;
+					padding: 4em;
 				}
 
 		/* Header */
