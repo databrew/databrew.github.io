@@ -1,0 +1,274 @@
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<!-- Reason 1 -->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 1: It's free
+
+![](images/metical.jpg)
+
+<!-- Reason 2 -->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 2: It's "open source"
+
+<img src="images/open_source.jpg" alt="mxcursos.com" style="width: 350px;"/>
+
+<!-- Reason 3 -->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 3: It's beautiful
+
+<img src="images/tweets.jpg" alt="https://www.r-bloggers.com/a-map-of-the-world-by-tweets/" style="width: 350px;"/>
+
+<!-- Reason 3 b-->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 3: It's beautiful
+
+<img src="images/africa.png" alt="http://www.isric.org/sites/default/files/image01.png" style="width: 600px;"/>
+
+<!-- Reason 3 c-->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 3: It's beautiful
+
+<img src="images/clouds.png" alt="https://ryouready.wordpress.com/2015/04/14/beautiful-plots-while-simulating-loss-in-two-part-procrustes-problem/" style="width: 350px;"/>
+
+<!-- Reason 3 d-->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 3: It's beautiful
+
+<img src="images/nyc.svg" alt="http://asbcllc.com/visualizations/weather/gotham_2014/plot.svg" style="width: 750px;"/>
+
+<!-- Reason 4 -->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 4: It's powerful
+
+<img src="images/powerful.jpeg" alt="https://medium.com/@itamargilad/analyze-your-data-like-a-pro-with-r-e5e89a64564a#.thq1nkp65" style="width: 550px;"/>
+
+<!-- Reason 5 -->
+## 5 reasons to use R {.flexbox .vcenter}
+
+Reason 5: It's fun
+
+<img src="images/fun.jpg" alt="http://www.hlgjyl888.com/group/fun-pictures/" style="width: 550px;"/>
+
+## Installation and set-up
+
+1. Download R: https://www.r-project.org/
+
+2. Download RStudio: https://www.rstudio.com/products/rstudio/download/ 
+
+## Getting familiar with RStudio {.flexbox .vcenter}
+
+<img src="images/rstudio.png" alt="" style="width: 750px;"/>
+
+## First code
+
+Let's write some code!
+
+```{r, eval = FALSE}
+2 + 2
+```
+
+## First code
+
+Let's write some code!
+
+```{r, eval = TRUE}
+2 + 2
+```
+
+## First code
+
+Let's write some code!
+
+```{r, eval = TRUE}
+x <- c(1,2,3,4,5)
+```
+
+## First code
+
+Let's write some code!
+
+```{r, eval = TRUE}
+x
+```
+
+## First code
+
+Let's write some code!
+
+```{r, eval = TRUE}
+barplot(x)
+```
+
+
+## Packages {.flexbox .vcenter}
+
+<img src="images/package.jpg" alt="http://www.rgbstock.com/bigphoto/mB1JGWC/Box" style="width: 350px;"/>
+
+
+## Packages
+
+A "package" is simply a collection of code written by someone else.
+
+It's what makes R _powerful_, but also _confusing_.
+
+## Installing packages
+
+You only have to install a package _one time_.
+
+```{r, eval = FALSE}
+install.packages('dplyr')
+install.packages('devtools')
+devtools::install_github('databrew/databrew')
+devtools::install_github('joebrew/cism')
+```
+
+## Using packages
+
+You have to use the `library` function _every_ time you use a package. 
+
+```{r}
+library(databrew)
+library(cism)
+library(sp)
+```
+
+Writing `library` just means "I am going to use this package".
+
+## Using packages
+
+Since we've already written `library(cism)`, now we can use some tools from the `cism` package.
+
+## A map of Mozambique
+
+```{r}
+plot(moz0)
+```
+
+## A map of Manhiça
+
+```{r}
+plot(man3)
+```
+
+## Creating objects
+
+```{r, eval = FALSE}
+a <- 1
+a + 3
+```
+
+
+## Creating objects
+
+```{r, eval = TRUE}
+a <- 1
+a + 3
+```
+
+## Creating objects
+
+Let's create an object called "ages", with the age of everyone
+
+```{r, eval = FALSE}
+ages <- c()
+```
+
+
+```{r, eval = TRUE, echo = FALSE}
+ages <- c(30, 26, 31, 39, 45, 27, 28, 22, 19, 30, 35)
+```
+
+## Exploring objects
+
+How do we view our `ages` object?
+
+```{r, eval = FALSE}
+ages
+```
+
+
+## Exploring objects
+
+How do we view our `ages` object?
+
+```{r, eval = TRUE}
+ages
+```
+
+## Exploring objects
+
+How do we view just the _first_ element of our `ages` object?
+
+```{r, eval = FALSE}
+ages[1]
+```
+
+
+## Exploring objects
+
+How do we view just the _first_ element of our `ages` object?
+
+```{r, eval = TRUE}
+ages[1]
+```
+
+## Exploring objects
+
+How do we _sort_ our `ages` object?
+
+```{r, eval = TRUE}
+sorted_ages <- sort(ages)
+```
+
+```{r, eval = TRUE}
+sorted_ages
+```
+
+## Exploring objects
+
+How do we get the minimum, maximum, average age?
+
+```{r, eval = FALSE}
+min(ages)
+max(ages)
+mean(ages)
+```
+
+## Exploring objects
+
+
+```{r, eval = TRUE}
+min(ages)
+max(ages)
+mean(ages)
+```
+
+
+## Visualizing objects
+
+How do we visualize our `ages` object?
+
+```{r, eval = TRUE}
+hist(ages)
+```
+
+## Workflow, projects
+
+1. Always save your scripts.
+
+2. Never save your "workspace".
+
+3. Work in "projects"
+
+
+
