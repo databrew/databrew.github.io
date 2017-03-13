@@ -2600,6 +2600,7 @@ h1 {
 		padding-top: 5em;
 	}
 
+
 /* CTA */
 
 	#cta {
@@ -3316,10 +3317,10 @@ h1 {
         right: 0;
         bottom: 0;
         left: 0;
-        padding-top: 50px;
+        padding-top: 30px;
         background-color: rgb(0,0,0);    
         background: rgba(0,0,0,0.4);
-        color: #000;
+        color: #7c8081;
         line-height: 1.5em;
         text-align: left;
         z-index: 1;
@@ -3336,9 +3337,9 @@ h1 {
     }
 
     .modalDialog > div {
-        width: 600px;
         position: relative;
         margin: 15% auto;
+        width: 70%;
         padding: 15px 20px 15px 20px;
         border-radius: 10px;
         background: #fff;
