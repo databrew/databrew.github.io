@@ -294,4 +294,3 @@ plot(weather$date,
      ylab = 'Maximum temperature',
      main = 'Maximim temperature in Maputo')
 ```
-

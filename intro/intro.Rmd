@@ -11,8 +11,6 @@ output:
 ---
 
 
-
-
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
 
 # Alternative output, for html rather than slides
