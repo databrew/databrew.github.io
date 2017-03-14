@@ -1832,6 +1832,13 @@ h1 {
 				position:relative;
                 margin-top: -1em;
 			}
+        .image.logo.small {
+				height:50px;
+                position:relative;
+                padding-top: .2em;
+                margin-top: -1em;
+                margin-bottom: -1em;
+			}
 
 /* Icon */
 
@@ -2903,6 +2910,10 @@ h1 {
 			.wrapper.style4 {
 				padding-bottom: 3em;
 			}
+        
+            .wrapper.style2 {
+				text-align: center;
+			}
 
 		/* Main */
 
@@ -3131,7 +3142,7 @@ h1 {
 			}
 
 			p {
-				text-align: justify;
+				text-align: center;
 			}
 
 		/* Section/Article */
@@ -3343,17 +3354,19 @@ h1 {
         padding: 15px 20px 15px 20px;
         border-radius: 10px;
         background: #fff;
+        max-height: calc(100vh - 210px);
+        overflow-y: auto;
     }
 
     .close {
         background: #606061;
         color: #FFFFFF;
-        line-height: 25px;
+        line-height: 30px;
         position: absolute;
-        right: -12px;
+        right: 12px;
         text-align: center;
-        top: -10px;
-        width: 24px;
+        top: 10px;
+        width: 30px;
         text-decoration: none;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
