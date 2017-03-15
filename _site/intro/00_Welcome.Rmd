@@ -3,6 +3,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+## BEM VINDOS
+
+These slides: 
+http://www.databrew.cc/cism
+
+
+### This course
+
+- 6 classes
+- 6 homework assignments
+- 1 final exam
+- 1 certificate of completion
+
+### Rules
+
+- Be on time (class starts at 15:00 exactly)
+- Do your homework
+- Ask for help
+
 <!-- Reason 1 -->
 ## 5 reasons to use R {.flexbox .vcenter}
 
@@ -261,6 +280,48 @@ How do we visualize our `ages` object?
 ```{r, eval = TRUE}
 hist(ages)
 ```
+
+## Multi-dimensional objects
+
+Previously, we looked at a one dimensional object: `ages`.
+
+But most data is _two_ dimensional: rows and columns.
+
+This is called a _data frame_.
+
+Let's play around with some _real_ data.
+
+## Multi-dimensional objects
+
+Let's create a simple dataframe
+
+www.databrew.cc/frangos.csv
+
+```{r, echo = FALSE}
+# http://koaning.io/theme/data/chickweight.csv
+```
+
+
+```{r}
+frangos <- databrew::frangos
+```
+
+## Frangos {.build}
+
+```{r}
+head(frangos)
+```
+
+## Frangos {.build}
+
+Let's explore.
+
+Brackets: `[]`
+
+## Let's filter
+
+## Let's visualize
+
 
 ## Workflow, projects
 

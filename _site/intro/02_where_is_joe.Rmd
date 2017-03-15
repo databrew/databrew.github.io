@@ -19,11 +19,7 @@ joe <- joe
 
 Let's have a look at the structure of our data.
 
-```{r, eval = FALSE}
-head(joe)
-```
-
-```{r}
+```{r, eval = TRUE}
 head(joe)
 ```
 
