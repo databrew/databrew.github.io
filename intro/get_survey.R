@@ -25,6 +25,8 @@ cat(paste0(participants$First.name,
 # Write to each participant
 from = 'joebrew@gmail.com'
 
+participants <- participants %>%
+  filter(First.name == 'Edgar')
 
 for (i in 1:nrow(participants)){
   destinataire <- participants$Email.address[i]
@@ -52,5 +54,5 @@ for (i in 1:nrow(participants)){
                         ssl=TRUE),
             authenticate = TRUE,
             send = TRUE)
-  Sys.sleep(30)
+  # Sys.sleep(30)
 }
