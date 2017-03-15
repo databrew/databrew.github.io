@@ -208,6 +208,11 @@ cism_map(lng = census$longitude,
 
 9. See the documentation on `cism_map` and how to use it (hint, use a "?").
 
-10. Make an interactive map using the `cism_map_interactive` function. 
+10. Make an interactive map using the `cism_map_interactive` function. If you do this right, it should look like this:
+
+```{r, echo = FALSE, eval = TRUE}
+cism_map_interactive(lng = census$longitude,
+         lat = census$latitude)
+```
 
 You're done! Congratulations! Email your R code and answers to Joe: joebrew@gmail.com
