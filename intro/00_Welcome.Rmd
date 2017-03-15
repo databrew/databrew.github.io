@@ -273,6 +273,44 @@ How do we visualize our `ages` object?
 hist(ages)
 ```
 
+## Multi-dimensional objects
+
+Previously, we looked at a one dimensional object: `ages`.
+
+But most data is _two_ dimensional: rows and columns.
+
+This is called a _data frame_.
+
+Let's play around with some _real_ data.
+
+## Multi-dimensional objects
+
+Let's create a simple dataframe
+
+http://koaning.io/theme/data/chickweight.csv
+
+
+```{r}
+frangos <- databrew::frangos
+```
+
+## Frangos {.build}
+
+```{r}
+head(frangos)
+```
+
+## Frangos {.build}
+
+Let's explore.
+
+Brackets: `[]`
+
+## Let's filter
+
+## Let's visualize
+
+
 ## Workflow, projects
 
 1. Always save your scripts.
