@@ -16,7 +16,7 @@ knitr::opts_chunk$set(comment = NA,
                cache = FALSE)
 ```
 
-This is homework assignment number 1. The assignment consists of creating an R script containing code for sectoins 3-5. You must email that script to joebrew@gmail.com before 23:59 on Monday, March 27, 2017.
+This is homework assignment number 1. The assignment consists of creating an R script containing code for sections 3-5. You must email that script to joebrew@gmail.com before 23:59 on Monday, March 27, 2017.
 
 If you run into any problems or have any questions, please email Joe.
 
