@@ -14,6 +14,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+## BEM VINDOS
+
+These slides: 
+http://www.databrew.cc/cism
+
+
+### This course
+
+- 6 classes
+- 6 homework assignments
+- 1 final exam
+- 1 certificate of completion
+
+### Rules
+
+- Be on time (class starts at 15:00 exactly)
+- Do your homework
+- Ask for help
+
 <!-- Reason 1 -->
 ## 5 reasons to use R {.flexbox .vcenter}
 
@@ -287,7 +306,11 @@ Let's play around with some _real_ data.
 
 Let's create a simple dataframe
 
-http://koaning.io/theme/data/chickweight.csv
+www.databrew.cc/frangos.csv
+
+```{r, echo = FALSE}
+# http://koaning.io/theme/data/chickweight.csv
+```
 
 
 ```{r}
