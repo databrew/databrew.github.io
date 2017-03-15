@@ -1,0 +1,231 @@
+---
+title: "Homework 1"
+author: "CISM Introductory R Course"
+date: "Due: Monday, March 27, 2017"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(stringr)
+
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = TRUE,
+               eval = FALSE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+This is homework assignment number 1. The assignment consists of creating an R script containing code for sectoins 3-5. You must email that script to joebrew@gmail.com before 23:59 on Monday, March 27, 2017.
+
+If you run into any problems or have any questions, please email Joe.
+
+## Section 1: Installation
+
+Find a place with a good internet connection. We're going to install some packages from the internet.
+
+### Install RTools
+
+Run the following code.
+
+```{r}
+version$minor
+```
+
+This tells you what _version_ of R you have. Now, if you have Windows, go to this site:
+
+https://cran.r-project.org/bin/windows/Rtools/
+
+And download and install the `RtoolsXX.exe` file that corresponds to your version of R.
+
+So far so good, right? Any problems, just email Joe.
+
+### Install the "devtools" package
+
+```{r}
+install.packages('devtools')
+```
+
+If you run the above successfully, great! Keep going.
+
+If you have problems, or get errors, email joebrew@gmail.com
+
+### Install the "databrew" package
+
+```{r}
+library(devtools)
+install_github('databrew/databrew')
+```
+
+### Install some other packages
+
+This could take a while, because we're about to install _a lot_ of packages. Make sure you have a good internet connection. While things are downloading, go have a drink.
+
+```{r}
+library(databrew)
+install_packages()
+```
+
+Done, right? Wrong! There is one more package to install:
+
+```{r}
+library(devtools)
+install_github('joebrew/cism')
+```
+
+Did you make it to here? Great! Now you have a lot of new, interesting, packages ready to use in R. These are:
+
+```{r, eval = TRUE, echo = FALSE}
+pkgs <- c("data.table", "devtools", "ggmap", "ggthemes", 
+        "gsheet", "knitr", "leaflet", "maptools", "raster", "RColorBrewer", 
+        "rgdal", "rgeos", "rmarkdown", "sp", "tidyr", "tidyverse", 
+        "tufte")
+pkgs <- c('cism', 'databrew', pkgs)
+cat(paste0(pkgs, collapse = '\n'))
+```
+
+You don't know what these are for? That's okay - we'll learn more about each one as we go.
+
+## Section 2: Getting new data
+
+We're going to get some new data to analyze. This data is like the census data. However, it has been "anonymized" (locations have been jittered and mix-matched randomly, answers have been permutated, etc.).
+
+### Two ways to get data
+
+You can download this data at www.databrew.cc/census.csv. Then, once you have it downloaded, you can read it in (just like we did in class).
+
+```{r}
+census <- read.csv('C:/Users/Amone/Desktop/census.csv')
+```
+
+Or, you can load it directly in R by just running the following.
+
+```{r, eval = TRUE}
+census <- databrew::census
+```
+
+Tudo bem? Great! You've now got some data to explore.
+
+## Section 3: Exploration
+
+Now begins the "real work". Everything before here was just preparation. You'll need to send the code for sections 3-5 to Joe.
+
+Answer the following questions. For an answer to be correct, you must both have the correct answer _and the correct code_.
+
+1. How many rows are in the data? (hint: use `nrow`)
+2. How many columns are in the data? (hint: use `ncol`)
+3. What are the names of the columns? (hint: use `colnames`)
+
+That wasn't so bad, was it? Now we knoow about the _form_ of our data. It's time to explore the _content_.
+
+4. Create an object called `sex_table` like this: 
+
+```{r, eval = TRUE}
+sex_table <- table(census$sex)
+```
+
+5. How many males are in our data? 
+
+6. What _percentage_ of our observations are female? You can do this by running `prop.table(sex_table)` or by running `sex_table / nrow(census)`
+
+7. What is the maximum age in our data?
+
+8. What is the minimum age in our data?
+
+9. Create a histogram of the ages of the people in our data. Make it pretty (ie, title, axis labels, etc.).
+
+10. Create a barplot of the `sex_table` object you created earlier. Make it pretty.
+
+## Section 4: More exploration 
+
+You're doing great! Now it's time to do even greater!
+
+1. Use the `table` function to create an object called `floor_table` which tabulates the floor material of all the houses in our data.
+
+2. How many of our houses have cement floors?
+
+3. What percentage of our houses have cement floors?
+
+4. Create another table called `bike_table` with information about whether people have bikes or not.
+
+5. Create a barplot of `bike_table`. Make it pretty.
+
+6. Create a new variable called "tv_and_car" like this:
+
+```{r}
+census$tv_and_car <-
+  ifelse(census$tv == 'yes' &
+           census$car == 'yes',
+         'Has TV and car',
+         'Does not have TV and car')
+```
+
+7. Use `table` to see how many people have both a TV and a car?
+
+8. Use `prop.table` to see what percentage of people have both a TV and a car.
+
+9. Create a _two variable_ table (a "cross-table") called `xt` using the `tv_and_car` variable and the `celular` variable (hint, use the `table` function, but just put a comma between the variables)
+
+10. Are there any people that have a TV and a car, but don't have a cell phone?
+
+## Section 5: Mapping
+
+Let's make some maps!
+
+1. We're going to make a map of Mozambique. This map is easily available in the `cism` package. It's called `moz0`. 
+
+```{r, eval = TRUE}
+library(cism)
+library(sp)
+plot(moz0)
+```
+
+The `0` means that it is at the national level. You can also make a map at the province level (`moz1`), the district level (`moz2`) or the sub-district level (`moz3`). (But you don't have to do this yet)
+
+2. Now, make the above map "orange" by adding a `col` argument to `plot`.
+
+3. Now, make a map of Manhiça by running `plot(man2)`.
+
+4. Make the same map, but make it green and add a title.
+
+5. Make a map of Manhiça at the sub-district level.
+
+6. Create a simple scatterplot of the geographic coordinates in our `census` data (hint: longitude should be on the x-axis).
+
+7. Make a map of Manhiça at the district level. Then, on the next line, run `points(census$longitude, census$latitude)` to _add_ the points to our map. It should look like this:
+
+```{r, echo = FALSE}
+plot(man2)
+points(census$longitude, census$latitude)
+```
+
+8. Make a map with CISM colors by running the following:
+
+```{r, eval = FALSE}
+cism_map(lng = census$longitude,
+         lat = census$latitude)
+```
+
+9. See the documentation on `cism_map` and how to use it (hint, use a "?").
+
+10. Make an interactive map using the `cism_map_interactive` function. 
+
+You're done! Congratulations! Email your R code and answers to Joe: joebrew@gmail.com
