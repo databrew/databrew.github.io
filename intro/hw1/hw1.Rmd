@@ -75,6 +75,30 @@ library(devtools)
 install_github('databrew/databrew')
 ```
 
+If the above gives you errors, then run the following:
+
+```{r}
+pkgs <- c("data.table", "devtools", "ggmap", "ggthemes", 
+        "gsheet", "knitr", "leaflet", "maptools", "raster", "RColorBrewer", 
+        "rgdal", "rgeos", "rmarkdown", "sp", "tidyr", "tidyverse", 
+        "tufte")
+pkgs <- pkgs[!(pkgs %in% installed.packages()[, "Package"])]
+pkgs <- sort(pkgs)
+if (length(pkgs) == 0) {
+    message("All packages already installed. No action being taken.")
+} else {
+    the_message <- paste0("Installing the following packages:\n", 
+        paste0("--- ", pkgs, collapse = "\n"))
+    message(the_message)
+    for (i in 1:length(pkgs)) {
+        message("Installing ", pkgs[i])
+        install.packages(pkgs[i])
+    }
+}
+library(devtools)
+install_github('databrew/databrew')
+```
+
 ### Install some other packages
 
 This could take a while, because we're about to install _a lot_ of packages. Make sure you have a good internet connection. While things are downloading, go have a drink.
