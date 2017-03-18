@@ -2217,7 +2217,7 @@ h1 {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 3em;
             margin-top: 5em;
 		}
 
@@ -2225,8 +2225,10 @@ h1 {
 			background-color: #328cc1;
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-size: 20em, 20em;
 			color: #fff;
+            padding-top: 3em;
+            padding-bottom: 3em;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -2247,8 +2249,10 @@ h1 {
 		.wrapper.style3 {
 			background: #fff;
 			color: inherit;
-            border: solid 1.2px;
+            border: solid 2px;
             border-color: #328cc1;
+            padding-top: 3em;
+            padding-bottom: 3em;
 		}
 
 		.wrapper.style4 {
