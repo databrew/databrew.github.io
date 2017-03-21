@@ -54,7 +54,7 @@ If you have problems, or get errors, email joebrew@gmail.com
 
 ```{r}
 library(devtools)
-install_github('databrew/databrew')
+install_github('databrew/databrew', dependencies = TRUE, force = TRUE)
 ```
 
 If the above gives you errors, then run the following:

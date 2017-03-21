@@ -24,9 +24,12 @@ cat(paste0(participants$First.name,
 
 # Write to each participant
 from = 'joebrew@gmail.com'
+password = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 participants <- participants %>%
-  filter(First.name == 'Edgar')
+  filter(First.name %in% c('Andrew', 'Augusto', 'Helena'))
+participants <- participants %>%
+  filter(!grepl('Messa', Last.name))
 
 for (i in 1:nrow(participants)){
   destinataire <- participants$Email.address[i]
