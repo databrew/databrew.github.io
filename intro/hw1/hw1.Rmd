@@ -47,7 +47,7 @@ Find a place with a good internet connection. We're going to install some packag
 Run the following code.
 
 ```{r}
-version$minor
+version
 ```
 
 This tells you what _version_ of R you have. Now, if you have Windows, go to this site:
