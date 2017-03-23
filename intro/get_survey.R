@@ -26,6 +26,10 @@ cat(paste0(participants$First.name,
 from = 'joebrew@gmail.com'
 password = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
+# Comma separated list of participants
+cat(paste0(participants$Email.address, 
+                         collapse = ', '))
+
 participants <- participants %>%
   filter(First.name %in% c('Andrew', 'Augusto', 'Helena'))
 participants <- participants %>%

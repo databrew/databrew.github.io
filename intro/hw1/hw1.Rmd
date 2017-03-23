@@ -77,23 +77,48 @@ install_github('databrew/databrew', dependencies = TRUE, force = TRUE)
 
 If the above gives you errors, then run the following:
 
+(This could take a while, because we're about to install _a lot_ of packages. Make sure you have a good internet connection. While things are downloading, go have a drink.)
+
 ```{r}
-pkgs <- c("data.table", "devtools", "ggmap", "ggthemes", 
-        "gsheet", "knitr", "leaflet", "maptools", "raster", "RColorBrewer", 
-        "rgdal", "rgeos", "rmarkdown", "sp", "tidyr", "tidyverse", 
-        "tufte")
-pkgs <- pkgs[!(pkgs %in% installed.packages()[, "Package"])]
+pkgs <- c('data.table',
+          'devtools',
+          'extrafont',
+          'ggmap',
+          'ggthemes',
+          'gsheet',
+          'knitr',
+          'leaflet',
+          'maptools',
+          'raster',
+          'RColorBrewer',
+          'rgdal',
+          'rgeos',
+          'rmarkdown',
+          'sp',
+          'stringdist',
+          'tidyr',
+          'tidyverse',
+          'tufte')
+
+# Only install those which don't already have
+if(!re_install){
+  pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
+}
+
+# Alphabetize
 pkgs <- sort(pkgs)
-if (length(pkgs) == 0) {
-    message("All packages already installed. No action being taken.")
+
+if(length(pkgs) == 0){
+  message('All packages already installed. No action being taken.')
 } else {
-    the_message <- paste0("Installing the following packages:\n", 
-        paste0("--- ", pkgs, collapse = "\n"))
-    message(the_message)
-    for (i in 1:length(pkgs)) {
-        message("Installing ", pkgs[i])
-        install.packages(pkgs[i])
-    }
+  the_message <-
+    paste0('Installing the following packages:\n',
+           paste0('--- ', pkgs, collapse = '\n'))
+  message(the_message)
+  for (i in 1:length(pkgs)){
+    message('Installing ', pkgs[i])
+    install.packages(pkgs[i])
+  }
 }
 library(devtools)
 install_github('databrew/databrew')
@@ -101,7 +126,7 @@ install_github('databrew/databrew')
 
 ### Install some other packages
 
-This could take a while, because we're about to install _a lot_ of packages. Make sure you have a good internet connection. While things are downloading, go have a drink.
+Run the following:
 
 ```{r}
 library(databrew)
@@ -118,9 +143,9 @@ install_github('joebrew/cism')
 Did you make it to here? Great! Now you have a lot of new, interesting, packages ready to use in R. These are:
 
 ```{r, eval = TRUE, echo = FALSE}
-pkgs <- c("data.table", "devtools", "ggmap", "ggthemes", 
+pkgs <- c("data.table", "devtools", 'extrafont', "ggmap", "ggthemes", 
         "gsheet", "knitr", "leaflet", "maptools", "raster", "RColorBrewer", 
-        "rgdal", "rgeos", "rmarkdown", "sp", "tidyr", "tidyverse", 
+        "rgdal", "rgeos", "rmarkdown", "sp", 'stringdist', "tidyr", "tidyverse", 
         "tufte")
 pkgs <- c('cism', 'databrew', pkgs)
 cat(paste0(pkgs, collapse = '\n'))
