@@ -121,7 +121,7 @@ if(length(pkgs) == 0){
   }
 }
 library(devtools)
-install_github('databrew/databrew')
+install_github('databrew/databrew', dependencies = TRUE, force = TRUE)
 ```
 
 ### Install some other packages
@@ -137,7 +137,7 @@ Done, right? Wrong! There is one more package to install:
 
 ```{r}
 library(devtools)
-install_github('joebrew/cism')
+install_github('joebrew/cism', dependencies = TRUE, force = TRUE)
 ```
 
 Did you make it to here? Great! Now you have a lot of new, interesting, packages ready to use in R. These are:
