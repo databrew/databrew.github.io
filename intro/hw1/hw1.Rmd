@@ -101,9 +101,7 @@ pkgs <- c('data.table',
           'tufte')
 
 # Only install those which don't already have
-if(!re_install){
-  pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
-}
+pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
 
 # Alphabetize
 pkgs <- sort(pkgs)
