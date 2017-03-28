@@ -1,0 +1,296 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<!-- Getting data -->
+## Getting data {.flexbox .vcenter}
+
+We're going to use the `cism` package to get weather data for the `FQMA` weather station (Maputo).
+
+```{r}
+library(cism)
+```
+
+```{r, eval = FALSE}
+??get_weather
+```
+
+## Getting data {.flexbox .vcenter}
+
+
+```{r}
+weather <- get_weather(station = 'FQMA', 
+                       start_year = 2010,
+                       end_year = 2016)
+```
+
+## Exploring data
+
+Now that we have our weather data, we can look at it.
+
+```{r, eval = FALSE}
+head(weather)
+```
+
+## Exploring data
+
+Now that we have our weather data, we can look at it.
+
+```{r, eval = TRUE}
+head(weather)
+```
+
+
+
+## Some questions on our data
+
+1. How many rows are in our data?
+2. How many columns?
+3. What are the names of the columns?
+
+
+## Some questions on our data
+
+```{r, eval = FALSE}
+# 1. How many rows are in our data?
+nrow(weather)
+# 2. How many columns?
+ncol(weather)
+# 3. What are the names of the columns?
+colnames(weather)
+```
+
+## Some questions on our data
+
+```{r, eval = TRUE}
+# 1. How many rows are in our data?
+nrow(weather)
+```
+
+## Some questions on our data
+
+
+```{r, eval = TRUE}
+# 2. How many columns?
+ncol(weather)
+```
+
+## Some questions on our data
+
+```{r, eval = TRUE}
+# 3. What are the names of the columns?
+colnames(weather)
+```
+
+## Questions about specific columns
+
+4. What is the date range?
+5. What is the maximum temperature?
+6. What is the minimum temperature?
+7. What is the average temperature?
+
+
+## Questions about specific columns
+
+```{r, eval = FALSE}
+# 4. What is the date range?
+range(weather$date)
+# 5. What is the maximum temperature?
+max(weather$temp_max)
+# 6. What is the minimum temperature?
+min(weather$temp_min)
+# 7. What is the average temperature?
+mean(weather$temp_mean)
+```
+
+
+## Questions about specific columns
+
+```{r, eval = TRUE}
+# 4. What is the date range?
+range(weather$date)
+```
+
+## Questions about specific columns
+
+
+```{r, eval = TRUE}
+# 5. What is the maximum temperature?
+max(weather$temp_max, na.rm = TRUE)
+```
+
+## Questions about specific columns
+
+```{r, eval = TRUE}
+# 6. What is the minimum temperature?
+min(weather$temp_min, na.rm = TRUE)
+```
+
+## Questions about specific columns
+
+```{r, eval = TRUE}
+# 7. What is the average temperature?
+mean(weather$temp_mean, na.rm = TRUE)
+```
+
+## Visualizing our data
+
+Which variables do we have which are _numeric and continuous_?
+
+How can we visualize these?
+
+## Visualizing our data
+
+Which variables do we have which are _numeric and continuous_?
+
+* `temp_max`, `temp_mean`, `temp_min`, etc...
+
+How can we visualize these?
+
+* boxplot, histogram
+
+## Boxplot
+
+```{r}
+boxplot(weather$temp_mean)
+```
+
+## Histogram
+
+```{r}
+hist(weather$temp_mean)
+```
+
+## Creating new variables
+
+Let's create a variable called "hot"
+
+## Creating new variables
+
+
+```{r}
+weather$hot <- ifelse(weather$temp_max > 30, 'hot', 'not hot')
+```
+
+## Creating new variables
+
+```{r, eval = FALSE}
+head(weather)
+```
+
+## Creating new variables
+
+```{r, eval = TRUE}
+head(weather)
+```
+
+## Exploring our new variable
+
+```{r, eval = FALSE}
+table(weather$hot)
+hot_table <- table(weather$hot)
+hot_prop_table <- prop.table(hot_table)
+```
+
+
+## Exploring our new variable
+
+```{r, eval = TRUE}
+hot_table <- table(weather$hot)
+hot_prop_table <- prop.table(hot_table)
+barplot(hot_table)
+```
+
+## Making our plot prettier {.smaller}
+
+
+```{r, fig.height = 3}
+barplot(hot_table,
+        main = 'Hot days in Maputo')
+```
+
+
+## Making our plot prettier {.smaller}
+
+
+```{r, fig.height = 3}
+barplot(hot_table,
+        main = 'Hot days in Maputo',
+        ylab = 'Number of days')
+```
+
+## Making our plot prettier
+
+```{r, fig.height = 3}
+barplot(hot_table,
+        main = 'Hot days in Maputo',
+        ylab = 'Number of days',
+        xlab = 'Temperature')
+```
+
+## Making our plot prettier {.smaller}
+
+```{r, fig.height = 3}
+barplot(hot_table,
+        main = 'Hot days in Maputo',
+        ylab = 'Number of days',
+        xlab = 'Temperature',
+        col = c('red', 'blue'))
+```
+
+## Making our plot prettier {.smaller}
+
+```{r, fig.height = 3}
+barplot(hot_table,
+        main = 'Hot days in Maputo',
+        ylab = 'Number of days',
+        xlab = 'Temperature',
+        col = c('red', 'blue'),
+        border = 'darkgrey')
+```
+
+## Multi-variable plots
+
+Let's create a plot of date (x-axis) and the maximum temperature
+
+## Multi-variable plots
+
+Let's create a plot of date (x-axis) and the maximum temperature
+
+```{r, fig.height = 3}
+plot(weather$date,
+     weather$temp_max)
+```
+
+
+## Multi-variable plots
+
+Let's make our plot prettier
+
+
+## Multi-variable plots {.smaller}
+
+
+Let's make our plot prettier
+
+```{r, fig.height = 3}
+plot(weather$date,
+     weather$temp_max,
+     type = 'l',
+     col = 'red',
+     xlab = 'Date',
+     ylab = 'Maximum temperature',
+     main = 'Maximim temperature in Maputo')
+```

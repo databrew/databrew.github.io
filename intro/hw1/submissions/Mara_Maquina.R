@@ -62,8 +62,9 @@ colnames(census)
 
 sex_table <- table(census$sex)
 
-#5. How many males are in our data?
+#5. How many males are in our data?_
 sex_table
+?which()
 
 #6. What percentage of our observations are female?
 prop.table(sex_table)
@@ -133,12 +134,85 @@ table(xt)
 
 #1. We're going to make a map of Mozambique. This map is easily available in the cism package. It's called moz0.
 
-install.packages('cism')
+pkgs <- c('data.table',
+          'devtools',
+          'extrafont',
+          'ggmap',
+          'ggthemes',
+          'gsheet',
+          'knitr',
+          'leaflet',
+          'maptools',
+          'raster',
+          'RColorBrewer',
+          'rgdal',
+          'rgeos',
+          'rmarkdown',
+          'sp',
+          'stringdist',
+          'tidyr',
+          'tidyverse',
+          'tufte')
+
+# Only install those which don't already have
+pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
+
+# Alphabetize
+pkgs <- sort(pkgs)
+
+if(length(pkgs) == 0){
+  message('All packages already installed. No action being taken.')
+} else {
+  the_message <-
+    paste0('Installing the following packages:\n',
+           paste0('--- ', pkgs, collapse = '\n'))
+  message(the_message)
+  for (i in 1:length(pkgs)){
+    message('Installing ', pkgs[i])
+    install.packages(pkgs[i])
+  }
+}
+
+devtools::install_github('joebrew/cism', force = T, dependencies = T)
+
+
+
+#1. We're going to make a map of Mozambique. This map is easily available in the cism package. It's called moz0.
 library(cism)
 library(sp)
 plot(moz0)
 
+#2. Now, make the above map "orange" by adding a col argument to plot.
+plot(moz0, col='orange')
 
-devtools::install_github('joebrew/cism', force = T, dependencies = T)
+#3.Now, make a map of Manhiça by running plot(man2)
+plot(man2)
 
+#4.Make the same map, but make it green and add a title
+plot(man2, col='green', main='Manhica district')
+
+#5. Make a map of Manhiça at the sub-district level.
+plot(man3)
+
+#6. Create a simple scatterplot of the geographic coordinates in 
+#our census data (hint: longitude should be on the x-axis)
+plot(census$longitude, census$latitude)
+
+#7.Make a map of Manhiça at the district level. Then, on the next line, 
+#run points(census$longitude, census$latitude) to add the points to our map. It should look like this
+plot(man3)
+points(census$longitude, census$latitude)
+
+#8.Make a map with CISM colors by running the following:
+cism_map(lng = census$longitude,
+         lat = census$latitude)
+
+#9. See the documentation on cism_map and how to use it (hint, use a "?")
+?cism_map_interactive
+
+#10. Make an interactive map using the cism_map_interactive function. 
+#If you do this right, it should look like this
+cism_map_interactive(lng = census$longitude, lat = census$latitude, x = NULL, popup = NULL, spdf = NULL,
+                     type = NULL, make_simple = TRUE, n_simple = 10, opacity = 0.5,
+                     point_size = 1)
 
