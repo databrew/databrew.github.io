@@ -90,7 +90,7 @@ census <- databrew::census
 
 1. How many people in the data have a motorcycle.
 
-2. Make a table called `floors` without the different types of floor materials.
+2. Make a table called `floors` with the different types of floor materials.
 
 3. Make a barplot of the `floors` table.
 
