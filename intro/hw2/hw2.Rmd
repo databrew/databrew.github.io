@@ -123,9 +123,9 @@ weather <- get_weather(station = 'FQMA',
 
 6. Use `range` to get the first and last dates in our data.
 
-7. What was the hottest temperature in the data?
+7. What was the hottest temperature in the data? (Hint: if you get `NA` as the answer, then you need to add `na.rm = TRUE` to the inside of the parentheses.)
 
-8. What was the coldest temperature in the data?
+8. What was the coldest temperature in the data? (Hint: if you get `NA` as the answer, then you need to add `na.rm = TRUE` to the inside of the parentheses.)
 
 9. Make a boxplot of the average daily temperature. Make it pretty.
 
@@ -167,6 +167,9 @@ pxt <- prop.table(xt, 1)
 
 24. Which month has the most "good" days according to your criteria? Which month has the most "bad" days? 
 
-25. Extra credit: Explain your weather criteria (ie, number 15) and why you think your conditions for a "good day" are better than other people's.
+
+
+
+Extra credit: Explain your weather criteria (ie, number 15) and why you think your conditions for a "good day" are better than other people's.
 
 Great work!
