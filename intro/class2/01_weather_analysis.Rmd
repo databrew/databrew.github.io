@@ -305,3 +305,12 @@ plot(weather$date,
      ylab = 'Maximum temperature',
      main = 'Maximim temperature in Maputo')
 ```
+
+## Correlation plots
+
+Make a plot showing the association between `humidity_max` and `temp_max`.
+
+```{r}
+plot(weather$temp_min,
+     weather$temp_max)
+```

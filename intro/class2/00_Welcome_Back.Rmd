@@ -35,9 +35,16 @@ plot(x, y, type = 'l',
      ylab = 'Number of people asking for help')
 ```
 
+## Comments on homework
+
+- Use comments
+- Send the R script
+- It's okay to have problems.
+- It's supposed to be hard!
+
 ## Difficulty
 
-```{r}
+```{r, echo = FALSE}
 x <- 1:10
 y <- c(1:8, 4, 1)^2
 plot(x, y,
@@ -53,6 +60,8 @@ points(x = 8, y = 8^2,
 - Ask for help!
 - Ask early.
 - Ask often.
+- Ask by email.
+- Include error messages.
 
 
 ## Review of rules
@@ -64,12 +73,15 @@ points(x = 8, y = 8^2,
 ## Review
 
 ```{r}
+library(databrew)
 frangos <- databrew::frangos
 ```
 
 ## Census {.build}
 
 ```{r}
+library(databrew)
+library(cism)
 census <- databrew::census
 ```
 
