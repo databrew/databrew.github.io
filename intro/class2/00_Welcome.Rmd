@@ -35,8 +35,27 @@ plot(x, y, type = 'l',
      ylab = 'Number of people asking for help')
 ```
 
+## Difficulty
 
-### Review of rules
+```{r}
+x <- 1:10
+y <- c(1:8, 4, 1)^2
+plot(x, y,
+     type = 'l',
+     xlab = 'Level of difficulty',
+     ylab = 'Amount of learning')
+points(x = 8, y = 8^2,
+       col = 'red')
+```
+
+## For next homework
+
+- Ask for help!
+- Ask early.
+- Ask often.
+
+
+## Review of rules
 
 - Be on time (class starts at 15:00 exactly)
 - Do your homework
@@ -66,3 +85,14 @@ census <- databrew::census
 4. Make a dataframe of only those people without floors.
 
 5. Make a map of only those people without floors.
+
+## Some more questions
+
+6. Make a map of _all_ people using `cism_map`, and color the map by the "floor_material" variable.
+
+7. Make a map of only those people without floors, and color the map by the "sex" variable.
+
+8. Make a table called `xt`. This will be a cross-table of the "moto" and "bike" variables.
+
+9. Use `chisq.test` on the `xt` table to see if their is a significant correlation between having a motorcycle and having a bike.
+

@@ -36,7 +36,7 @@ min(census$age)
 
 #Create a histogram of the ages of the people in our data. Make it pretty (ie, title, axis labels, etc.).
 hist(census$age)
-hist(census$age, xlab = "Idade", border="blue", 
+hist(census$age, xlab = "Idade", border="blue",
      col="gray", ylab = "Frequencia")
 
 #Create a barplot of the sex_table object you created earlier. Make it pretty.
@@ -128,21 +128,21 @@ plot(moz0)
 #Now, make the above map "orange" by adding a col argument to plot.
 plot(moz0,col = "orange")
 
-#Now, make a map of Manhiça by running plot(man2)
+#Now, make a map of Manhiï¿½a by running plot(man2)
 plot(man2)
 
 #Make the same map, but make it green and add a title.
 plot(man2, col = "green", main = "Mapa de Manhica")
 
-#Make a map of Manhiça at the sub-district level.
+#Make a map of Manhiï¿½a at the sub-district level.
 plot(man3)
 
 #Create a simple scatterplot of the geographic coordinates in our census data (hint: longitude should be on the x-axis).
 plot(census$longitude, census$latitude)
 
-#Make a map of Manhiça at the district level. Then, on the next line, run points(census$longitude, census$latitude) to add the points to our map. It should look like this:
+#Make a map of Manhiï¿½a at the district level. Then, on the next line, run points(census$longitude, census$latitude) to add the points to our map. It should look like this:
 plot(man3)
-points(census$longitude, census$latitude) 
+points(census$longitude, census$latitude)
 
 #Make a map with CISM colors by running the following:
 cism_map(lng = census$longitude,

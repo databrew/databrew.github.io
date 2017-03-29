@@ -40,7 +40,7 @@ max(belen$Time)
 max(belen$weight)
 
 frangos$color <- 'red'
-frangos$color <- 
+frangos$color <-
 ifelse(frangos$Diet == 1, 'blue', 'green')
 plot(x=frangos$Time,
    y=frangos$weight,

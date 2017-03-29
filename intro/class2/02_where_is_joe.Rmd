@@ -79,3 +79,18 @@ Let's also try with an interactive map
 visualize_location(x = joe_filtered,
                    use_leaflet = TRUE)
 ```
+
+## Some questions
+
+1. Create an object called mar10. This will be the rows of `joe` which were on March 1, 2017.
+
+```{r, echo = FALSE}
+mar10 <- joe[joe$date == '2017-03-10',]
+```
+
+2. Where was Joe on March 10, 2017.
+
+```{r, eval = FALSE, echo = FALSE}
+visualize_location(mar10)
+```
+
