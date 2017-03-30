@@ -303,10 +303,10 @@ weather &lt;- get_weather(station = 'FQMA',
 </ol>
 <pre class="r"><code>weather$month &lt;- format(weather$date, '%m')</code></pre>
 <ol start="20" style="list-style-type: decimal">
-<li><p>Make a cross table of <code>month</code> and <code>good_or_bad</code>. Call this cross-table <code>xt</code>. Make sure to put <code>good_or_bad</code> first.</p></li>
-<li><p>Create an object called <code>pxt</code>. To do this, use <code>prop.table</code> to create a proportional table of <code>xt</code>. Add <code>1</code> to make the proportions by row.</p></li>
+<li><p>Make a cross table of <code>month</code> and <code>good_or_bad</code>. Call this cross-table <code>xt</code>. Make sure to put <code>month</code> first.</p></li>
+<li><p>Create an object called <code>pxt</code>. To do this, use <code>prop.table</code> to create a proportional table of <code>xt</code>. Add <code>2</code> to make the proportions by column (1 = by row, 2 = by column).</p></li>
 </ol>
-<pre class="r"><code>pxt &lt;- prop.table(xt, 1)</code></pre>
+<pre class="r"><code>pxt &lt;- prop.table(xt, 2)</code></pre>
 <ol start="22" style="list-style-type: decimal">
 <li><p>Multiply <code>pxt</code> by 100 to get percentages and over-write <code>pxt</code>.</p></li>
 <li><p>Make a barplot of pxt with a legend (hint, use <code>legend = TRUE</code>) and with the bars beside one another (hint, use <code>beside = TRUE</code>).</p></li>

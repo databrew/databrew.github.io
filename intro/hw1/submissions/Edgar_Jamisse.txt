@@ -1,0 +1,149 @@
+
+> # Ready csv file
+> # census <- read.csv('E:/R/Aulas/census.csv')
+> 
+> library(databrew)
+There were 11 warnings (use warnings() to see them)
+> library(cism)
+Warning messages:
+1: replacing previous import ‘data.table::first’ by ‘dplyr::first’ when loading ‘cism’ 
+2: replacing previous import ‘data.table::between’ by ‘dplyr::between’ when loading ‘cism’ 
+3: replacing previous import ‘data.table::last’ by ‘dplyr::last’ when loading ‘cism’ 
+> census <- databrew::census
+> 
+> #determinate number of  rows 
+> nrow(census)
+[1] 9000
+> 
+> #determinate number of columns 
+> ncol(census)
+[1] 14
+> 
+> #names of the columns
+> colnames(census)
+ [1] "latitude"        "longitude"       "floor_material"  "bike"            "car"             "pigs"            "celular"         "moto"           
+ [9] "telephone"       "tv"              "wash_after_poop" "water_source"    "sex"             "age"            
+> names(census)
+ [1] "latitude"        "longitude"       "floor_material"  "bike"            "car"             "pigs"            "celular"         "moto"           
+ [9] "telephone"       "tv"              "wash_after_poop" "water_source"    "sex"             "age"            
+> 
+> #determinate the number of male and female
+> sex_table <-table(census$sex)
+> sex_table
+
+female   male 
+  4502   4498 
+> 
+> # percentage of observations in female
+> sex_table/nrow(census)
+
+   female      male 
+0.5002222 0.4997778 
+> 
+> #to determinate the maximum age in the data
+> max(census$age)
+[1] 88.81537
+> 
+> #to determinate the minimum  age in the data
+> min(census$age)
+[1] 18.00225
+> 
+> #Creation of histogram of the ages 
+> hist(census$age, main ='Grafico de distribuicao de idades', 
++      xlab = 'Idades', ylab = 'Frequencias')
+> 
+> #Creation of barplot of the sex_table
+> barplot(sex_table)
+> 
+> #Creation of an object called floor_table
+> floor_table <- table(census$floor_material)
+> 
+> #total of houses that have cement floors
+> floor_table['Cement']
+Cement 
+  7588 
+> 
+> 
+> #percentage of our houses that have cement floors
+> floor_table['Cement']/nrow(census)
+   Cement 
+0.8431111 
+> 
+> 
+> #Creation of another table called bike_table
+> bike_table <- table(census$bike)
+> 
+> 
+> #Creation of a barplot of bike_table
+> barplot(bike_table, main = 'Distribuicao de bicicletas')
+> 
+> 
+> #Creation of new variable called “tv_and_car” 
+> census$tv_and_car <-
++     ifelse(census$tv =='yes' &
++                census$car == 'yes',
++            'Has TV and car',
++            'Does not have TV and car ')
+> 
+> #people that have both a TV and a car
+> tt <- table(census$tv_and_car)
+> tt["Has TV and car"]
+Has TV and car 
+           509 
+> 
+> library(cism)
+> library(sp)
+> plot(moz0)
+> 
+> #making the above map “orange” by adding a col argument to plot
+> plot(moz0, col='orange')
+> 
+> 
+> #making a map of Manhiça by running plot(man2)
+> plot(man2)
+> 
+> #Making the same map, but make it green and add a title.
+> plot(man2, col = 'green', main = 'Distrito da Manhiça')
+> 
+> #Making a map of Manhiça at the sub-district level.
+> plot(man3)
+> 
+> # Create a simple scatterplot of the geographic coordinates in our census data (hint: longitude should be on the x-axis).
+> plot(x = census$longitude,y = census$latitude)
+> 
+> # Make a map of Manhiça at the district level. Then, on the next line, run points(census$longitude, census$latitude) to add the points to our map. It should look like this:
+> plot (man2)
+> points(census$longitude, census$latitude)
+> 
+> 
+> #Make a map with CISM colors by running the following:
+> cism_map(lng = census$longitude,
++          lat = census$latitude)
+Removing 0 observations of a total 9000. 0%.
+Warning messages:
+1: In grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+2: In grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+3: In grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+> 
+> # See the documentation on cism_map and how to use it (hint, use a “?”).
+> # 
+> # Make an interactive map using the cism_map_interactive function. If you do this right, it should look like this:
+> 
+> cism_map_interactive(lng = census$longitude,
++                      lat = census$latitude)
+Removing 0 observations of a total 9000. 0%.
+Warning messages:
+1: In grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+2: In grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+3: In grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+4: In grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+5: In grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  font family not found in Windows font database
+> 

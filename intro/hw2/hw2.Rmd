@@ -157,12 +157,12 @@ weather <- get_weather(station = 'FQMA',
 weather$month <- format(weather$date, '%m')
 ```
 
-20. Make a cross table of `month` and `good_or_bad`. Call this cross-table `xt`. Make sure to put `good_or_bad` first.
+20. Make a cross table of `month` and `good_or_bad`. Call this cross-table `xt`. Make sure to put `month` first.
 
-21. Create an object called `pxt`. To do this, use `prop.table` to create a proportional table of `xt`. Add `1` to make the proportions by row.
+21. Create an object called `pxt`. To do this, use `prop.table` to create a proportional table of `xt`. Add `2` to make the proportions by column (1 = by row, 2 = by column).
 
 ```{r, eval = FALSE}
-pxt <- prop.table(xt, 1)
+pxt <- prop.table(xt, 2)
 ```
 
 22. Multiply `pxt` by 100 to get percentages and over-write `pxt`.
