@@ -222,7 +222,7 @@ div.tocify {
 
 
 <p>This is homework assignment number 2. The assignment consists of creating an R script in this format: <code>Firstname_Lastname.R</code> (for example <code>Joe_Brew.R</code> with the code for the following problems. You must email that script to <a href="mailto:joebrew@gmail.com">joebrew@gmail.com</a> before 23:59 on Monday, April, 2017.</p>
-<p>Make sure to use comments (<code>#</code>) in your code indicating which could refers to which sections/numbers.</p>
+<p>Make sure to use comments (<code>#</code>) in your code indicating which could refers to which sections/numbers. Also, given your answers below each question by also writing comments.</p>
 <p>If you run into any problems or have any questions, please email Joe.</p>
 <div id="section-1-maps" class="section level2">
 <h2>Section 1: Maps</h2>
@@ -276,7 +276,11 @@ points(census$longitude,
 <li><p>Read about the <code>get_weather</code> function by running <code>?get_weather</code></p></li>
 <li><p>WITH A GOOD INTERNET CONNECTION, run the following code to get the last 7 years of Maputo weather data:</p></li>
 </ol>
-<pre class="r"><code>weather &lt;- get_weather(station = 'FQMA', 
+<pre class="r"><code># Get which folder you are working in right now
+wd &lt;- getwd()
+print(wd)
+# Get weather data
+weather &lt;- get_weather(station = 'FQMA', 
                        start_year = 2010,
                        end_year = 2017)</code></pre>
 <ol start="4" style="list-style-type: decimal">

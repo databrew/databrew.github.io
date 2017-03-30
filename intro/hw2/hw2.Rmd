@@ -36,7 +36,7 @@ knitr::opts_chunk$set(comment = NA,
 
 This is homework assignment number 2. The assignment consists of creating an R script in this format: `Firstname_Lastname.R` (for example `Joe_Brew.R` with the code for the following problems. You must email that script to joebrew@gmail.com before 23:59 on Monday, April, 2017.
 
-Make sure to use comments (`#`) in your code indicating which could refers to which sections/numbers.
+Make sure to use comments (`#`) in your code indicating which could refers to which sections/numbers. Also, given your answers below each question by also writing comments. 
 
 If you run into any problems or have any questions, please email Joe.
 
@@ -112,6 +112,10 @@ In this section, we're going to explore weather data!
 3. WITH A GOOD INTERNET CONNECTION, run the following code to get the last 7 years of Maputo weather data:
 
 ```{r}
+# Get which folder you are working in right now
+wd <- getwd()
+print(wd)
+# Get weather data
 weather <- get_weather(station = 'FQMA', 
                        start_year = 2010,
                        end_year = 2017)
