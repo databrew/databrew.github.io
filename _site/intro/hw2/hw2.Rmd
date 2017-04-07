@@ -1,0 +1,161 @@
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(stringr)
+
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = TRUE,
+               eval = FALSE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+This is homework assignment number 2. The assignment consists of creating an R script in this format: `Firstname_Lastname.R` (for example `Joe_Brew.R` with the code for the following problems. You must email that script to joebrew@gmail.com before 23:59 on Monday, April, 2017.
+
+Make sure to use comments (`#`) in your code indicating which could refers to which sections/numbers. Also, given your answers below each question by also writing comments. 
+
+If you run into any problems or have any questions, please email Joe.
+
+## Section 1: Maps
+
+1. We're going to use the following packages: `cism`, `sp`, `databrew`. "Load" those packages.
+
+2. Create a map of Mozambique by running `plot(moz0)`. Now make that map yellow, add an interesting title, and remove the border (hint, use `border = FALSE`).
+
+3. Make a plot of Manhiça by running `plot(man3)`. Now color the map grey, make the plot have white borders, and add a title.
+
+4. Add points to the plot of Manhiça by running the following:
+
+```{r, eval = FALSE}
+census <- databrew::census
+points(census$longitude,
+       census$latitude,
+       cex = 0.2)
+```
+
+## Section 2: Filtering, variable creation, and tabulation
+
+1. Create an object called `females`. This should be all of the people in `census` who are female.
+
+2. What is the average age of all females?
+
+3. Make a histogram of females' ages. Color it blue with white borders.
+
+4. Make a new variable in the `females` dataframe called `middle_aged`. If someone is between age 40 and 60, this variable should say "middle aged", otherwise it should say "not middle aged".
+
+Hint, your code will start like this: 
+
+```{r, eval = FALSE}
+census$middle_aged <- ifelse(
+```
+
+Another hint, you will need to use the `&` symbol.
+
+5. Make a variable called `moto2`. Use `ifelse` again. If a person has a moto, the `moto2` variable should say "has moto"; otherwise, it should say "no moto".
+
+5. Make a table of the `middle_aged` variable called `tt`.
+
+6. Make a cross-table of both the `moto2` variable and the `middle_aged` variable. Make sure to do `moto2` before `middle_aged`. Call it `xt`. 
+
+7. Run a Chi-squared test on the xt table to see if there is a significant association between being middle aged and having a motorcycle among women. What is the p-value? Is it significant?
+
+8. Use `prop.table` to create an object named `pxt`, which will be proportional table of `xt`. 
+
+9. Multiply `pxt` by 100 to get percentages, and assign the result to `pxt` (ie, you are going to "over-write" `pxt`) like this:
+
+```{r, eval = FALSE}
+pxt <- pxt * 100
+```
+
+
+10. Make a barplot of `pxt`, adding the arguments `beside = TRUE` and `legend = TRUE`. Also make the plot have a title, and use the colors "purple" and "darkorange".
+
+## Section 3: Packages
+
+1. Make sure you have `tidyverse` installed on your system. You can check by running `library(tidyverse)` (you might get some warnings but you should have no errors). If you have tidyverse, great! If not, you need to run `install.packages('tidyverse')` to make sure you have it.
+
+2. Make sure you have `data.table` installed on your system. You can check by running `library(data.table)` (you might get some warnings but you should have no errors). If you have data.table, great! If not, you need to run `install.packages('data.table')` to make sure you have it.
+
+
+## Section 4: Weather data
+
+In this section, we're going to explore weather data!
+
+1. Load the `cism` and `data.table` packages.
+
+2. Read about the `get_weather` function by running `?get_weather`
+
+3. WITH A GOOD INTERNET CONNECTION, run the following code to get the last 7 years of Maputo weather data:
+
+```{r}
+# Get which folder you are working in right now
+wd <- getwd()
+print(wd)
+# Get weather data
+weather <- get_weather(station = 'FQMA', 
+                       start_year = 2010,
+                       end_year = 2017)
+```
+
+4. Use `head` to look at the top of the data.
+
+5. Use `colnames` to see the names of the columns in the data.
+
+6. Use `range` to get the first and last dates in our data.
+
+7. What was the hottest temperature in the data? (Hint: if you get `NA` as the answer, then you need to add `na.rm = TRUE` to the inside of the parentheses.)
+
+8. What was the coldest temperature in the data? (Hint: if you get `NA` as the answer, then you need to add `na.rm = TRUE` to the inside of the parentheses.)
+
+9. Make a boxplot of the average daily temperature. Make it pretty.
+
+10. Make a histogram of daily precipitation. Make it pretty.
+
+11. Make a plot showing date on the axis and the daily maximum temperature on the y axis. Add `ylim = c(0, 50)` to the plot to make sure that it goes from 0 to 50. Make the color of the points in the plot red.
+
+12. After making the above plot, run `points(weather$date, weather$temp_min)` to add points for the daily minimum temperature.
+
+13. Make a variable called `day_dif` in the `weather` data. This should be the difference in the daily maximum temperature and the daily minimum temperature.
+
+14. Make a histogram of the `day_dif` variable. Make it pretty.
+
+15. Make a variable called `good_or_bad`. Use `ifelse` and `&`. YOU decide what weather conditions make a bad day. The variable should have values which are either "bad day" or "good day". 
+
+16. Make a table called `good_or_bad_table`. This should be a table of the `good_or_bad` variable.
+
+17. Make a barplot of the `good_or_bad_table` table. Give it multiple colors and make it pretty. 
+
+18. According to your definition, what percentage of days are "good" (hint, use `prop.table`)?
+
+19. Make a variable called "month" like this:
+
+```{r, eval = FALSE}
+weather$month <- format(weather$date, '%m')
+```
+
+20. Make a cross table of `month` and `good_or_bad`. Call this cross-table `xt`. Make sure to put `month` first.
+
+21. Create an object called `pxt`. To do this, use `prop.table` to create a proportional table of `xt`. Add `2` to make the proportions by column (1 = by row, 2 = by column).
+
+```{r, eval = FALSE}
+pxt <- prop.table(xt, 2)
+```
+
+22. Multiply `pxt` by 100 to get percentages and over-write `pxt`.
+
+23. Make a barplot of pxt with a legend (hint, use `legend = TRUE`) and with the bars beside one another (hint, use `beside = TRUE`).
+
+24. Which month has the most "good" days according to your criteria? Which month has the most "bad" days? 
+
+
+
+
+Extra credit: Explain your weather criteria (ie, number 15) and why you think your conditions for a "good day" are better than other people's.
+
+Great work!

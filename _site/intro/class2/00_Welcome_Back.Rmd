@@ -1,0 +1,99 @@
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Welcome Back !
+
+These slides: 
+http://www.databrew.cc/class2
+
+## How was the homework?
+
+```{r, echo = FALSE}
+x <- -10:0
+y <- c(rep(0, 5),
+       1, 
+       0, 
+       1,
+       1, 
+       3,
+       25)
+plot(x, y, type = 'l',
+     xlab = 'Days until homework due',
+     ylab = 'Number of people asking for help')
+```
+
+## Comments on homework
+
+- Use comments
+- Send the R script
+- It's okay to have problems.
+- It's supposed to be hard!
+
+## Difficulty
+
+```{r, echo = FALSE}
+x <- 1:10
+y <- c(1:8, 4, 1)^2
+plot(x, y,
+     type = 'l',
+     xlab = 'Level of difficulty',
+     ylab = 'Amount of learning')
+points(x = 8, y = 8^2,
+       col = 'red')
+```
+
+## For next homework
+
+- Ask for help!
+- Ask early.
+- Ask often.
+- Ask by email.
+- Include error messages.
+
+
+## Review of rules
+
+- Be on time (class starts at 15:00 exactly)
+- Do your homework
+- Ask for help
+
+## Review
+
+```{r}
+library(databrew)
+frangos <- databrew::frangos
+```
+
+## Census {.build}
+
+```{r}
+library(databrew)
+library(cism)
+census <- databrew::census
+```
+
+
+## Some questions
+
+1. How many people in the data have a motorcycle.
+
+2. Make a table called `floors` with the different types of floor materials.
+
+3. Make a barplot of the `floors` table.
+
+4. Make a dataframe of only those people without floors.
+
+5. Make a map of only those people without floors.
+
+## Some more questions
+
+6. Make a map of _all_ people using `cism_map`, and color the map by the "floor_material" variable.
+
+7. Make a map of only those people without floors, and color the map by the "sex" variable.
+
+8. Make a table called `xt`. This will be a cross-table of the "moto" and "bike" variables.
+
+9. Use `chisq.test` on the `xt` table to see if their is a significant correlation between having a motorcycle and having a bike.
+
