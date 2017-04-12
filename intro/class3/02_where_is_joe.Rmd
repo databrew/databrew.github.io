@@ -1,0 +1,112 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Where is Joe {.build}
+
+We're going to analyze where Joe is, using data from google. The data is part of the `databrew` package.
+
+```{r}
+# Load package
+library(databrew)
+
+# Get data
+joe <- databrew::joe
+```
+
+## Where is Joe {.build}
+
+Let's have a look at the structure of our data.
+
+```{r, eval = TRUE}
+head(joe)
+```
+
+## Where is Joe {.build}
+
+Let's filter our data so that it only contains observations for the period from March 7-13.
+
+```{r, eval = TRUE}
+joe_filtered <- joe[joe$date >= '2017-03-07' &
+                      joe$date <= '2017-03-13',]
+```
+
+## Where is Joe {.build}
+
+Now let's use the `cism` package to plot Manhiça.
+
+```{r, eval = TRUE}
+library(cism)
+library(sp)
+library(maps)
+manhica <- man3
+plot(manhica)
+```
+
+## Where is Joe {.build}
+
+The `databrew` package has a nice function called `visualize_location`. Let's try it out
+
+```{r, eval = FALSE}
+?visualize_location
+```
+
+## Where is Joe {.build}
+
+```{r}
+visualize_location(x = joe_filtered,
+                   spdf = manhica)
+```
+
+
+
+## Where is Joe {.build}
+
+Let's also try with an interactive map
+
+```{r}
+visualize_location(x = joe_filtered,
+                   use_leaflet = TRUE)
+```
+
+## Some questions
+
+1. Create an object called mar10. This will be the rows of `joe` which were on March 10, 2017.
+
+```{r, echo = FALSE}
+mar10 <- joe[joe$date == '2017-03-10',]
+```
+
+2. Make a map using `visualize_location` for where Joe on March 10, 2017.
+
+```{r, eval = FALSE, echo = FALSE}
+visualize_location(mar10)
+```
+
+3. Make a map using `cism_map` for where Joe was on March 10, 2017.
+
+```{r, echo = FALSE, eval = FALSE}
+cism_map_interactive(lng = mar10$longitude,
+         lat = mar10$latitude)
+```
+
+4. Add a `spdf` and `popup` argument to `cism_map_interactive`.
+
+```{r, echo = FALSE, eval = FALSE}
+cism_map_interactive(lng = mar10$longitude,
+         lat = mar10$latitude,
+         spdf = man3,
+         popup = mar10$time)
+```

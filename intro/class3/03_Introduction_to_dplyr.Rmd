@@ -1,0 +1,187 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro to dplyr
+
+`dplyr` is the most useful package you will ever use.
+
+```{r}
+library(dplyr)
+```
+
+## Functions
+
+It has 7 useful functions:
+
+- `%>%`
+- `arrange`
+- `group_by`
+- `mutate`
+- `summarise`
+- `select`
+- `filter`
+
+## Some comments
+
+- A different syntax (less quotations, less dollar signs)
+- Uses dataframes, more than variables
+- Very fast
+
+## Let's get some data to use
+
+```{r}
+library(databrew)
+census <- databrew::census
+```
+
+## `%>%`
+
+This means "then".
+
+```{r, eval = FALSE}
+chicken %>%
+  kill it %>%
+  cook it %>%
+  eat it
+```
+
+## Arrange {.build}
+
+Create an object called `x`. This will be the census, arranged by age.
+
+```{r}
+x <- census %>%
+  arrange(age)
+```
+
+
+## Arrange {.build}
+
+Create an object called `x`. This will be the census, arranged by `water_source`
+
+```{r}
+x <- census %>%
+  arrange(water_source)
+```
+
+
+## Arrange {.build}
+
+We can arrange by more than one variable.
+
+Create an object called `x`. This will be the census, arranged by `floor_material`, `sex`, and `age`.
+
+
+```{r}
+x <- census %>%
+  arrange(floor_material, sex, age)
+```
+
+## Arrange {.build}
+
+Use arrange to find the age of the youngest person in the dataset.
+
+## `group_by` and `summarise` {.build}
+
+You always use `group_by` with other verbs, never by itself.
+
+Example: Create an object called x. This will contain the average age for each sex.
+
+```{r}
+x <- 
+  census %>%
+  group_by(sex) %>%
+  summarise(avg_age = mean(age))
+```
+
+## `group_by` and `summarise` {.build}
+
+Create an object called x, with the minimum, maximum, and average age of people with pigs and people without pigs. Also, create a variable using `n()` for the number of people with and without pigs.
+
+```{r}
+x <- 
+  census %>%
+  group_by(pigs) %>%
+  summarise(avg_age = mean(age),
+            min_age = min(age),
+            max_age = max(age),
+            people = n())
+```
+
+## `group_by` and `mutate` {.build}
+
+`mutate` is like `summarise`, but instead of creating a "summarical" dataset, it creates a new variable in the existing dataset.
+
+For example, we can use it to get the average age for each sex
+
+```{r}
+x <- census %>%
+  group_by(sex) %>%
+  mutate(avg_age = mean(age))
+```
+
+## `select` {.build}
+
+Useful for explicitly picking which columns you want to keep.
+
+Example: create a dataset called `x` with only the age and sex columns.
+
+```{r}
+x <- census %>%
+  select(age, sex)
+```
+
+## `select` {.build}
+
+Create a dataset called `x` with all columns except for pigs.
+
+```{r}
+x <- census %>%
+  select(-pigs)
+```
+
+## `filter` {.build}
+
+Create a dataset called `x` with only people who have pigs.
+
+```{r}
+x <- census %>%
+  filter(pigs == 'yes')
+```
+
+## `filter` {.build}
+
+Create a dataset called `x` with only people who have pigs but don't have a telephone.
+
+```{r}
+x <- census %>%
+  filter(pigs == 'yes',
+         telephone == 'no')
+```
+
+## Questions
+
+1. Create a dataset called x containing only people with cell phones.
+
+2. Arrange x by age.
+
+3. What is the 4th youngest age in x?
+
+4. Create an object called y. This will be x, grouped by whether or not people have a bike. Use `summarise` and `n()` to get the number of people who have bikes and don't have bikes.
+
+5. Create a new object called `z`. This will be the `census`, grouped by `sex` and `car`. Use `summarise` and `n()` to get the amount of people in each group and use `summarise` to get the average age of people in each group.
+
+
+

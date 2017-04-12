@@ -1,0 +1,211 @@
+# R Homework. Class 2. Laia Cirera. 10th April 2017.
+
+#SECTION 1: MAPS
+
+#Use packages: cism, sp, databrew. "Load" those packages.
+
+library(cism)
+library(sp)
+library(databrew)
+
+#Create a map of Mozambique by running plot(moz0). Now make that map yellow, add an interesting title, and remove the border (hint, use border = FALSE).
+
+plot(moz0, col='yellow', main='Mozambique', border=FALSE)
+
+
+#Make a plot of Manhiça by running plot(man3). Now color the map grey, make the plot have white borders, and add a title.
+
+plot(man3, col='grey', main='Manhiça', border='white')
+
+#Add points to the plot of Manhiça by running the following:
+  
+census <- databrew::census
+points(census$longitude, census$latitude,
+       cex = 0.2)
+
+# SECTION 2: Filtering, variable creation, and tabulation
+
+#Create an object called females. This should be all of the people in census who are female.
+
+female <- census[census$sex=='female', ]
+
+#What is the average age of all females?
+
+mean(female$age)
+
+#36,2
+
+#Make a histogram of females' ages. Color it blue with white borders.
+
+hist(female$age, col='blue', border='white')
+
+#Make a new variable in the females dataframe called middle_aged. If someone is between age 40 and 60, this variable should say "middle aged", otherwise it should say "not middle aged".
+
+female$middle_aged <- ifelse(female$age>=40 & female$age<=60, 'middle aged', 'not middle aged')
+
+#Make a variable called moto2. Use ifelse again. If a person has a moto, the moto2 variable should say "has moto"; otherwise, it should say "no moto".
+    
+female$moto2<- ifelse(female$moto=='yes', 'has moto', 'no moto')
+    
+#Make a table of the middle_aged variable called tt.
+
+tt <- table(female$middle_aged)
+    
+#Make a cross-table of both the moto2 variable and the middle_aged variable. Make sure to do moto2 before  middle_aged. Call it xt.
+
+xt <- table(female$moto2, female$middle_aged)
+    
+#Run a Chi-squared test on the xt table to see if there is a significant association between being middle aged and having a motorcycle among women. What is the p-value? Is it significant?
+
+head(xt)
+chisq.test(xt) 
+
+# X-squared = 0.092755 There is no significant association
+# p-value = 0.7607 ; interpretation: p-value not significant, we cannot reject the null hypothesis of independence (so there is no association between the variables)  
+
+
+#Use prop.table to create an object named pxt, which will be proportional table of xt.
+
+pxt <- prop.table(xt)
+    
+#Multiply pxt by 100 to get percentages, and assign the result to pxt (ie, you are going to "over-write" pxt) like this:
+      
+pxt <- pxt * 100
+
+
+#Make a barplot of pxt, adding the arguments beside = TRUE and legend = TRUE. Also make the plot have a title, and use the colors "purple" and "darkorange".
+
+barplot(pxt, beside=TRUE, legend=TRUE, main='Age distribution', col= c('purple','darkorange'))
+        
+
+# SECTION 3: Packages
+
+#Make sure you have tidyverse installed on your system. You can check by running library(tidyverse) (you might get some warnings but you should have no errors). If you have tidyverse, great! If not, you need to run  install.packages('tidyverse') to make sure you have it.
+
+install.packages("tidyverse") 
+library(tidyverse)
+
+#Make sure you have data.table installed on your system. You can check by running library(data.table) (you might get some warnings but you should have no errors). If you have data.table, great! If not, you need to run  install.packages('data.table') to make sure you have it.
+
+library(data.table)    
+
+#SECTION 4: Weather data
+
+#In this section, we're going to explore weather data!
+      
+#Load the cism and data.table packages.
+    
+library(cism)
+library(data.table)
+
+#Read about the get_weather function by running ?get_weather
+
+?get_weather
+
+#WITH A GOOD INTERNET CONNECTION, run the following code to get the last 7 years of Maputo weather data:
+# Get which folder you are working in right now
+
+wd <- getwd("C:/Users/lcirera/Documents")
+print(wd)
+
+# Get weather data
+weather <- get_weather(station = 'FQMA', 
+                           start_year = 2010,
+                           end_year = 2017)
+
+#Use head to look at the top of the data.
+head(weather)
+   
+#Use colnames to see the names of the columns in the data.
+
+colnames(weather)    
+
+#Use range to get the first and last dates in our data.
+
+range(weather$date)
+
+#What was the hottest temperature in the data? (Hint: if you get NA as the answer, then you need to add na.rm = TRUE to the inside of the parentheses.)
+max(weather$temp_max, na.rm = TRUE)
+#44
+
+#What was the coldest temperature in the data? (Hint: if you get NA as the answer, then you need to add na.rm = TRUE to the inside of the parentheses.)
+min(weather$temp_min, na.rm = TRUE)
+#7    
+
+#Make a boxplot of the average daily temperature. Make it pretty.
+
+? boxplot
+
+boxplot(y=weather$date, x=weather$temp_mean, col='green', main='Average daily temperature')
+
+#Make a histogram of daily precipitation. Make it pretty.
+
+? histogram
+
+hist(weather$precipitation, col='pink', main='Daily precipitation', xlab='Precipitation', ylab='Frequency', xlim = c(0, 50))
+    
+#Make a plot showing date on the axis and the daily maximum temperature on the y axis. Add ylim = c(0, 50) to the plot to make sure that it goes from 0 to 50. Make the color of the points in the plot red.
+
+plot(x=weather$date, y=weather$temp_max, ylim = c(0, 50), col='red', main='Daily maximum temperature', ylab='Daily maximum temperature', xlab='Date')
+    
+
+#After making the above plot, run points(weather$date, weather$temp_min) to add points for the daily minimum temperature.
+
+points(weather$date, weather$temp_min)
+  
+
+#Make a variable called day_dif in the weather data. This should be the difference in the daily maximum temperature and the daily minimum temperature.
+
+weather$day_dif <- (weather$temp_max-weather$temp_min)    
+
+#Make a histogram of the day_dif variable. Make it pretty.
+    
+hist(weather$day_dif, col='purple', main='Daily temperature difference', xlab='Daily temperature difference', ylab='Frequency')
+
+#Make a variable called good_or_bad. Use ifelse and &. YOU decide what weather conditions make a bad day. The variable should have values which are either "bad day" or "good day".
+
+weather$good_or_bad <- ifelse(weather$temp_min>20 & weather$precipitation==0, 'bad day', 'good day')
+    
+#Make a table called good_or_bad_table. This should be a table of the good_or_bad variable.
+
+table_good_bad <- table(weather$good_or_bad)
+    
+#Make a barplot of the good_or_bad_table table. Give it multiple colors and make it pretty.
+
+barplot(table_good_bad, col=c('red', 'lightgreen'), main='Days with high temperature and no precipitation')
+    
+#According to your definition, what percentage of days are "good" (hint, use prop.table)?
+
+prop.table(table_good_bad)
+
+# 59,61%
+
+#Make a variable called "month" like this:
+      
+weather$month <- format(weather$date, '%m')
+
+#Make a cross table of month and good_or_bad. Call this cross-table xt. Make sure to put month first.
+
+xt <- table(weather$month, weather$good_or_bad)
+    
+#Create an object called pxt. To do this, use prop.table to create a proportional table of xt. Add 2 to make the proportions by column (1 = by row, 2 = by column).
+    
+pxt <- prop.table(xt, 2)
+    
+#Multiply pxt by 100 to get percentages and over-write pxt.
+
+pxt <- pxt * 100
+
+    
+#Make a barplot of pxt with a legend (hint, use legend = TRUE) and with the bars beside one another (hint, use  beside = TRUE).
+
+barplot(pxt, beside=TRUE, main='Good and bad weather days', legend=TRUE)
+
+#Which month has the most "good" days according to your criteria? Which month has the most "bad" days?
+
+# january is the month with most 'bad days' and july the month with most 'good days'  
+# March is the month with most bad weather days and 
+    
+#Extra credit: Explain your weather criteria (ie, number 15) and why you think your conditions for a "good day" are better than other people's.
+
+# It's a good criteria as it follows a clear pattern both for explaining bad and good days, being the good days those with not very high temperatures and no rain, and the good ones those "fresher days" (not very high temperature and some rain)
