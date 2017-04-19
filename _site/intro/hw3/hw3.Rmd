@@ -1,0 +1,160 @@
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(stringr)
+library(cism)
+library(data.table)
+library(dplyr)
+
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = TRUE,
+               eval = FALSE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+This is homework assignment number 3. The assignment consists of creating an R script in this format: `Firstname_Lastname.R` (for example `Joe_Brew.R` with the code for the following problems. You must email that script to joebrew@gmail.com before 23:59 on Tuesday, April 25, 2017.
+
+Make sure to use comments (`#`) in your code indicating which could refers to which sections/numbers. Also, given your answers below each question by also writing comments. 
+
+If you run into any problems or have any questions, please email Joe.
+
+## Section 1: Installation
+
+We need to install some new packages (for next class). With a good internet connection, run the following.
+
+```{r, eval = FALSE}
+install.packages('ggthemes')
+install.packages('gsheet')
+```
+
+If you installed these correctly, you should be able to run the following without errors.
+
+```{r}
+library(ggthemes)
+library(gsheet)
+```
+
+## Section 2: Using `dplyr`
+
+In this section, we're going to practice using the tools from the `dplyr` package. We'll be using weather data (which we also used in homework 2).
+
+1. Run code to use the `databrew`, `cism` and `data.table` packages.
+
+2. Get weather data for Maputo from 2010 to 2016 by running the following:
+
+```{r}
+# Get weather data
+weather <- get_weather(station = 'FQMA', 
+                       start_year = 2010,
+                       end_year = 2017)
+```
+
+3. Create an object called `x`. This will be `weather`, but "arranged" by the `temp_max` variable. Hint, you'll need to use both `%>%` and `arrange`.
+
+4. Delete x by using the `rm` command.
+
+5. Create a new object called x. This will be `weather`, but it will have a new variable named `water`. Use `mutate` to create this variable. If `precipitation` is greater than 0, then `water` should say "wet day"; otherwise it should say "dry day". (Hint, you'll need to use `ifelse`)
+
+6. Create an object called `y`. This will be `x`, then grouped by `water`, then summarise by creating a new variable called `number_of_days` which contains the number of days that were wet vs. dry. (Hint, you'll need to use `n()`)
+
+7. Take a look at y. How many days were wet vs. dry?
+
+8. Create an object called `z`. This will be `y`, but then `mutate` a new variable called `percentage_of_days`. This will be the `number_of_days` divided by the `sum(number_of_days)` multiplied by 100.
+
+9. What percentage of days were wet in the dataset?
+
+10. Now, you're going to _overwrite_ `weather` with itself (`weather <- weather`), but _then_ `mutate` a new variable called `too_hot_to_sleep`. This will be "yes" if the `temp_min` is greater than 28, and otherwise it will be "no". I'll help you on this one:
+
+```{r}
+weather <- 
+  weather %>%
+  mutate(too_hot_to_sleep = ifelse(temp_min > 28,
+                                   "yes",
+                                   "no"))
+```
+
+11. Create an object called `x`. This will be `weather`, grouped by our new variable (if it was too hot to sleep or not), and then `summarise`d to create a new variable called `number_of_days` which should be a simple count of whether it was too hot to sleep or not. In the same `summarise` function, also create a variable called `rain`, which should be the average `precipitation`.
+
+```{r, echo = FALSE}
+x <- weather %>%
+  group_by(too_hot_to_sleep) %>%
+  summarise(number_of_days = n(),
+            rain = mean(precipitation))
+```
+
+12. Look at `x`. Which has more precipitation - days which were too hot to sleep or not?
+
+13. Overwrite `weather` with `weather` again, but this time using `mutate` to create three variables: `year`, `month` and `day`. I'll help you on this one again.
+
+```{r}
+weather <- 
+  weather %>%
+  mutate(year = as.numeric(format(date, '%Y')),
+         month = as.numeric(format(date, '%m')),
+         day = as.numeric(format(date, '%d')))
+```
+
+14. Create an object called `x`. This will be `weather`, grouped by `year`, and then `summarise`d to get the following variables:
+- `avgerage_temperature`: the mean of `temp_mean`
+- `hottest_temperature`: the maximum of `temp_max`
+- `lowest_temperature`: the minimum of `temp_min`
+- `number_of_days`: the number of days
+
+Whenever you use the `mean`, `max` or `min` functions, include `na.rm = TRUE` to make sure that the `NA` observations are removed. 
+
+```{r, echo = FALSE}
+x <- weather %>%
+  group_by(year) %>%
+  summarise(average_temperature = mean(temp_mean, na.rm = TRUE),
+            hottest_temperature = max(temp_max, na.rm = TRUE),
+            lowest_temperature = min(temp_min, na.rm = TRUE),
+            number_of_days = n())
+```
+
+15. Make a plot showing the year on the x axis and the hottest temperature on the y axis. 
+
+16. Overwrite `x` with itself, but use filter to keep only observations for which the year is less than 2016.
+
+17. Make a plot showing the year on the x axis and the lowest temperature on the y axis, using the filtered data (`x`).
+
+18. Create an object called `x`. This will be `weather`, then filtered to remove any days in 2017, then grouped by `month` and `day`, and then summarised to create a variable called `average_temperature` with the average temperature on that day.
+
+```{r, echo = FALSE}
+x <- weather %>%
+  filter(year < 2017) %>%
+  group_by(month, day) %>%
+  summarise(average_temperature = mean(temp_mean, na.rm = TRUE))
+```
+
+19. Overwite `x` with itself, but use `arrange` to order by `average_temperature`. 
+
+20. Look at `x`. Which day of the year has the lowest average temperature?
+
+## Section 3: Making a pretty plot
+
+21. Don't worry, all you have to do is copy and paste here. If you can run the below code (and it produces a pretty plot), this means that (a) you successfully did the homework, and (b) you have all the packages you need for next class.
+
+```{r, echo = TRUE}
+library(ggplot2)
+library(ggthemes)
+ggplot(data = x,
+       aes(x = factor(month),
+           y = average_temperature)) +
+  geom_jitter(alpha = 0.6) +
+  geom_violin(fill = 'darkorange',
+              alpha = 0.6) +
+  labs(x = 'Month',
+       y = 'Average temperature',
+       title = 'Mozambican weather',
+       subtitle = 'It is so lovely') +
+  theme_economist()
+```
+
+Great work!
