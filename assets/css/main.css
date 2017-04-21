@@ -3359,21 +3359,36 @@ h1 {
     }
 
     .close {
-        background: #606061;
-        color: #FFFFFF;
-        line-height: 30px;
+        color: #606061;
+        line-height: 50px;
         position: absolute;
         right: 12px;
         text-align: center;
+        font-size: 40px;
         top: 10px;
-        width: 30px;
+        width: 40px;
         text-decoration: none;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
         border-radius: 12px;
+        border: 1px;
     }
 
-    .close:hover { background: #328cc1; }
+    .close:hover { 
+        color: #606061;
+        line-height: 50px;
+        position: absolute;
+        right: 12px;
+        text-align: center;
+        font-size: 50px;
+        top: 10px;
+        width: 50px;
+        text-decoration: none;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        border: 1px;
+    }
 
 /*Full Modals*/
 
