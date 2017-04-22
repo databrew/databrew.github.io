@@ -142,7 +142,7 @@ x <- weather %>%
 
 17. Make a plot showing the year on the x axis and the lowest temperature on the y axis, using the filtered data (`x`).
 
-18. Create an object called `x`. This will be `weather`, then filtered to remove any days in 2017, then grouped by `month` and `day`, and then summarised to create a variable called `average_temperature` with the average temperature on that day.
+18. Create an object called `x`. This will be `weather`, then filtered to remove any days in 2017, then grouped by `month` and `day`, and then summarised to create a variable called `average_temperature` with the average temperature during that month
 
 ```{r, echo = FALSE}
 x <- weather %>%
