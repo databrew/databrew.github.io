@@ -6,6 +6,7 @@ library(dplyr)
 # Get data
 the_url <- 'https://docs.google.com/spreadsheets/d/1zz2OWpqG7TOtbEQNESj26LuYtRGfMt9Xrib6N5TMR_Y/edit?usp=sharing'
 participants <- gsheet2tbl(the_url)
+participants <- data.frame(participants)
 
 # Arrange by last name
 participants <- participants %>% arrange(Last.name)
@@ -40,21 +41,28 @@ for (i in 1:nrow(participants)){
   body <- paste0('Dear ',
                  participants$First.name[i],
                  ',\n\n',
-                 'Your grade for homework assignment 2 is ',
-                 participants$hw2[i],
+                 'Your grade for homework assignment 3 is ',
+                 participants$hw3[i],
                  ' out of 10.\n\n',
-                 participants$hw2_comments[i],
+                 participants$hw3_comments[i],
                  '\n\n',
-                 'Remember that class 3 starts tomorrow at 15:00 in the library.\n\n',
-                 ifelse(participants$hw2[i] == 0,
-                        'Doing the homework is required for class participation (because otherwise you will be behind/lost in class). So, please finish it and turn it in before class tomorrow.\n\n',
-                        ''),
+                 'Attached is your automatically generated "mid-term report".\n\n',
+                 'Remember that class 4 starts today at 15:00 in the library.\n\n',
                  'Cumpr.\n',
                  'Joe Brew\n\n',
                  'P.S. This email was automatically sent in R.')
+  
+  # Knit the mid-term report
+  report_name <- paste0(participants$First.name[i],
+                      '_',
+                      'mid_term_report.pdf')
+  rmarkdown::render('report.Rmd',
+                    output_file = report_name,
+                    params = list('email' = destinataire))
   send.mail(from = from,
+            attach.files = report_name,
             to = destinataire,
-            subject = 'R course: your grade for homework assignment number 2',
+            subject = 'R course: mid-term report and grade for homework assignment number 3',
             body = body,
             smtp = list(host.name = "smtp.gmail.com", 
                         port = 465, 
@@ -63,5 +71,6 @@ for (i in 1:nrow(participants)){
                         ssl=TRUE),
             authenticate = TRUE,
             send = TRUE)
-  Sys.sleep(1)
+  file.remove(report_name)
+  Sys.sleep(15)
 }

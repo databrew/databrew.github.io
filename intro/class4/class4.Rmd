@@ -1,0 +1,73 @@
+---
+title: "Class 4"
+author: "Centro de Investigação em Saude de Manhiça"
+date: "April 26, 2017"
+fig_height: 2.6
+fig_width: 4
+output: 
+  ioslides_presentation: 
+    logo: ../images/logo.png
+    transition: slower
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(stringr)
+library(cism)
+
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE, 
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+
+
+```{r}
+# Combine the children chunks
+file_name <-  "children.Rmd"
+directory <- getwd()
+
+rmds <- list.files(path = directory, pattern = "*.Rmd", recursive = FALSE, 
+    include.dirs = FALSE)
+rmds <- rmds[grepl("_", rmds)]
+titles <- gsub("[[:digit:]]+", "", rmds)
+titles <- gsub("_", " ", titles)
+titles <- gsub(".Rmd", "", titles)
+titles <- trimws(titles, which = "both")
+titles <- Hmisc::capitalize(titles)
+first_words <- unlist(lapply(str_split(titles, " "), function(x) {
+    x[[1]]
+}))
+question_words <- c("How", "What", "Where", "Why", "When", 
+    "Who")
+titles <- ifelse(first_words %in% question_words, paste0(titles, 
+    "?"), titles)
+chunks <- paste0("\n<br>\n<br>\n\n# ", titles, "\n\n```{r child = '", 
+    rmds, "'}\n```\n")
+file_connection <- file(file_name)
+writeLines(paste0("---\noutput: html_document\n---\n\n", 
+    chunks), file_connection)
+close(file_connection)
+```
+
+```{r child='children.Rmd', echo = FALSE}
+# Call children
+```
+
+```{r, results='hide', echo = FALSE}
+# Remove children
+file.remove('children.Rmd')
+```
+
+

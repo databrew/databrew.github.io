@@ -1,0 +1,65 @@
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Hello again
+
+```{r child = '00_Hello_again.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Today
+
+```{r child = '00_Today.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Review of dplyr
+
+```{r child = '01_review_of_dplyr.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Beautiful visualizations
+
+```{r child = '02_beautiful_visualizations.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Joins
+
+```{r child = '03_joins.Rmd'}
+```
+

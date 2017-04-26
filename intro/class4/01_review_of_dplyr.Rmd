@@ -1,0 +1,145 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Functions
+
+It has 7 useful functions:
+
+- `%>%`
+- `arrange`
+- `group_by`
+- `mutate`
+- `summarise`
+- `select`
+- `filter`
+
+## Some comments
+
+- A different syntax (less quotations, less dollar signs)
+- Uses dataframes, more than variables
+- Very fast
+
+
+## `%>%`
+
+This means "then".
+
+```{r, eval = FALSE}
+chicken %>%
+  kill it %>%
+  cook it %>%
+  eat it
+```
+
+## `arrange` {.build}
+
+## `group_by`  {.build}
+
+## `mutate` {.build}
+
+## `summarise` {.build}
+
+## `select` {.build}
+
+## `filter` {.build}
+
+## Let's practice
+
+I like animals. Let's get some data about them.
+
+```{r}
+animals <- MASS::Animals
+```
+
+## Some questions
+
+1. Use `head` to see what our data looks like.
+
+2. Create a plot with the `body` variable on the x-axis and the `brain` variable on the y-axis.
+
+3. Create a variable called `name`. This will simply be the `row.names(animals)`.
+
+4. Create an object called `animals`. This will be `animals` (over-write), but use `mutate` to divide `brain` by 1,000 in order to convert from grams to kilograms.
+
+## Questions (continued)
+
+5. Create an object called `animals`. This will be `animals` (over-write), but use `mutate` to create an object called `brain_to_body` which will be brain weight divided by body weight.
+
+6. Create an object called `animals`. This will be `animals`, but use `arrange` to order by our new variable (`brain_to_body`).
+
+7. Which animal has the greatest brain to body ratio? And the least?
+
+## Questions (continued)
+
+8. Use `mutate` to create a variable in `animals` which will be called `intelligence`. If the `brain_to_body` ratio is greater than 0.15, let's say "smart"; otherwise, let's say "stupid". Hint: use `ifelse`
+
+9. Create an object called `x`. This will be `animals`, then `group_by` the `intelligence` variable, then use `summarise` to create two new variables: (1) the number of animals, and (2) the average body size of those animals.
+
+
+## More practice
+
+Let's get some data on birth weight.
+
+```{r}
+bw <- MASS::birthwt
+```
+
+## Questions on birthweight
+
+1. Use `head` to look at our data.
+
+2. Create a histogram to show the distribution of birthweight.
+
+3. Create a plot showing the correlation between `age` (of mother) and the birth weight.
+
+4. In `bw`, use `mutate` to create a new variable called `size`. If the birth weight is greater than 2500, call it "big"; otherwise, "small".
+
+5. Create an object called `x`. This will be `bw`, then group by our `smoke` varible AND then use `summarise` to create a new variable called `average_grams` which will be the average birth weight.
+
+6. What is the effect of smoking on birth weight?
+
+
+## More practice
+
+Let's get world bank data for Mozambique.
+
+```{r}
+library(cism)
+library(dplyr)
+wb <- cism::wb
+```
+
+## Some questions
+
+1. Create an object called `phone`. This will be `wb` but `filter`ed so as to only include those rows where the `indicator_name` is "Mobile cellular subscriptions".
+
+2. Make a plot of the number of of cell phone subscriptions.
+
+3. Create an object called `mulungos`. This will be `wb` but `filter`ed so as to only include those rows where the `indicator_name` is ""International tourism, number of arrivals" AND the year is greater than 2000.
+
+4. Make a plot of the number of tourists.
+
+5. Run `sort(unique(wb$indicator_name))` to take a look at all the different data types in `wb`.
+
+6. Pick one and plot it.
+
+```{r, eval = FALSE, echo = FALSE}
+
+5. Create an object called `gdp`. This will be `wb` but `filter`ed so as to only include those rows where the `indicator_name` is ""GDP per capita (constant 2010 US$)" AND the year is greater than 2000.
+
+6. Make a plot of the GDP per capita over time.
+
+```

@@ -1,0 +1,154 @@
+---
+params:
+  email: beatriz.galatas@isglobal.org
+title: "Mid-term report"
+author: "CISM R Class"
+date: "April 26, 2017"
+output: pdf_document
+---
+
+
+```{r, echo = FALSE}
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE, 
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+```{r}
+# Get data for class
+# Libraries
+library(mailR)
+library(gsheet)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(cism)
+
+file_name <- paste0('students_data_',
+                    Sys.Date())
+if(file_name %in% dir()){
+  load(file_name)
+} else {
+  # Get data
+  the_url <- 'https://docs.google.com/spreadsheets/d/1zz2OWpqG7TOtbEQNESj26LuYtRGfMt9Xrib6N5TMR_Y/edit?usp=sharing'
+  students <- gsheet2tbl(the_url)
+  save(students,
+       file = file_name)
+}
+
+names(students) <-
+  tolower(gsub(' ', '_', names(students)))
+students <- data.frame(students)
+
+# Get overall grade
+hw_columns <- which(grepl('hw', names(students)) &
+                      !grepl('comments', names(students)))
+hw_columns <- names(students)[hw_columns]
+students$overall <- NA
+students$denom <- length(hw_columns) * 10
+for (zz in 1:nrow(students)){
+  this_persons_hw <-
+    students[zz, hw_columns]
+  students$overall[zz] <-
+    sum(this_persons_hw)
+  
+}
+
+# Get p
+students$p <- students$overall / students$denom * 100
+students$p <- round(students$p, digits = 2)
+
+# Get the person
+person <- students %>%
+  filter(email_address == params$email)
+
+# Get the  index
+person_index <- which(students$email_address == params$email)
+person_percentile <- round(percent_rank(students$p)[person_index] * 100)
+
+# Get hws
+hws <- person[,hw_columns]
+hws <- data.frame(t(hws))
+hws$number <- 1:nrow(hws)
+row.names(hws) <- NULL
+hws <- hws %>%
+  rename(grade = t.hws.)
+```
+
+\begin{center}
+\begin{LARGE}
+`r paste0(person$first_name, ' ', person$last_name)`
+\end{LARGE}
+\end{center}
+
+# Overall grade
+
+\begin{large}
+`r paste0(person$p, '%')`
+\end{large}
+
+As of `r Sys.Date()`, your overall grade is `r person$overall` out of `r person$denom`. This is equivalent to `r person$p`%.
+
+# Comparison with rest of class
+
+The below histogram shows the distribution of the grades of all `r nrow(students)` class students. The vertical red line shows the grade of `r paste0(person$first_name, ' ', person$last_name)`. This is equivalent to percentile `r round(person_percentile)`, which means that you are ahead of `r person_percentile`% of other students.
+
+```{r, fig.height = 4}
+ggplot(data = students,
+       aes(x = p)) +
+  geom_histogram(alpha = 0.6,
+                 fill = 'darkblue') +
+  theme_cism() +
+  labs(x = 'Percent',
+       y = 'Students',
+       title = 'Comparison with other students',
+       subtitle = paste0(person$first_name, ' vs. rest of class')) +
+  geom_vline(xintercept = person$p,
+             color = 'darkred')
+```
+
+# Specific HW grades
+
+```{r, fig.height = 4}
+ggplot(data = hws,
+       aes(x = number,
+           y = grade)) +
+  geom_bar(stat = 'identity',
+           alpha = 0.6,
+           fill = 'darkgreen') +
+  theme_cism() +
+  labs(x = 'Assignment number',
+       y = 'Score',
+       title = 'Homework grades',
+       subtitle = paste0(person$first_name, ' ', person$last_name)) +
+  ylim(0, 12) +
+  geom_hline(yintercept = 10, 
+             lty = 2) +
+  geom_label(aes(label = grade))
+```
+
+# Components of grade
+
+As of now, your grade is composed of the `r length(hw_columns)` homework assignments only. The _final_ grade will be composed of 6 homework assignments plus a final exam score.
+
+# How to improve your grade
+
+There are two ways to improve your grade:
+
+1. Do all future homework assignments on time.
+
+2. If you missed any homework assignments, do them now to get credit.
+
+# Details
+
+The below table shows your homework grades and comments.
+
+```{r}
+x <- person[,grepl('hw', names(person))]
+names(x) <- gsub('_', ' ', names(x))
+pander::pander(x, keep.line.breaks = TRUE, justify = 'left')
+```
