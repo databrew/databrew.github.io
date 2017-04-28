@@ -37,7 +37,6 @@ Run the following code. If you get any errors (ie, you don't have the package), 
 library(knitr)
 library(rmarkdown)
 library(gsheet)
-library(mailR)
 library(plotly)
 ```
 
