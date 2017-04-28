@@ -204,7 +204,7 @@ ggplot(data = traffic,
 
 12. Make the chart more beautiful by adding a theme, title, x label, and y label.
 
-13. Run the same code as above, but not use `facet_wrap` to create separate visualizations for each year.
+13. Run the same code as above, but use `facet_wrap` to create separate visualizations for each year.
 
 ```{r, echo = FALSE}
 ggplot(data = traffic,
