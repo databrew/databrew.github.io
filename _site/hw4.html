@@ -345,7 +345,16 @@ library(MASS)</code></pre>
 <li><p>Create a plot of <code>daily</code> with <code>day</code> on the x axis and <code>accidents</code> on the y axis. Make the <code>color</code> be a reflection of whether or not there was a <code>limit</code>. Add a layer of points.</p></li>
 <li><p>Run the same code as above, but add <code>geom_smooth()</code> to create smoothed trend lines.</p></li>
 <li><p>Make the chart beautiful.</p></li>
-<li><p>Having now examined the data visually, if you were the president of Sweden, would you have a speed limit or not? Why?</p></li>
+<li><p>Assign the code from the chart to an object named <code>g</code> like this</p></li>
+</ol>
+<pre class="r"><code>g &lt;- your_code_for_making_the_plot</code></pre>
+<ol start="19" style="list-style-type: decimal">
+<li>Now run the following:</li>
+</ol>
+<pre class="r"><code>library(plotly)
+ggplotly(g)</code></pre>
+<ol start="20" style="list-style-type: decimal">
+<li>Having now examined the data visually, if you were the president of Sweden, would you have a speed limit or not? Why?</li>
 </ol>
 </div>
 

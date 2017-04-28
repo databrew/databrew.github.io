@@ -33,7 +33,7 @@ As usual, we need to install some things before next class. **THIS WILL TAKE A L
 
 Run the following code. If you get any errors (ie, you don't have the package), install that package. 
 
-```{r, eval = FALSE}
+```{r, eval = FALSE, echo = TRUE}
 library(knitr)
 library(rmarkdown)
 library(gsheet)
@@ -93,7 +93,7 @@ I know, I know, you're sick of dplyr. But it's worth a little bit more practice.
 
 1. Run the following code to get some data about cats.
 
-```{r}
+```{r, echo = TRUE}
 library(cism)
 library(databrew)
 library(dplyr)
@@ -122,7 +122,7 @@ This data has three variables:
 
 We're going to be make charts using `ggplot2` package. So, go ahead and run:
 
-```{r}
+```{r, echo = TRUE}
 library(ggplot2)
 library(ggthemes)
 library(MASS)
@@ -130,7 +130,7 @@ library(MASS)
 
 1. Get some data on traffic accidents by running the following code.
 
-```{r}
+```{r, echo = TRUE}
 traffic <- MASS::Traffic
 ```
 
@@ -228,4 +228,17 @@ ggplot(data = daily,
 
 17. Make the chart beautiful.
 
-18. Having now examined the data visually, if you were the president of Sweden, would you have a speed limit or not? Why?
+18. Assign the code from the chart to an object named `g` like this
+
+```{r, eval = FALSE, echo = TRUE}
+g <- your_code_for_making_the_plot
+```
+
+19. Now run the following:
+
+```{r}
+library(plotly)
+ggplotly(g)
+```
+
+20. Having now examined the data visually, if you were the president of Sweden, would you have a speed limit or not? Why?
