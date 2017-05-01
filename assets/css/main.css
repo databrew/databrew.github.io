@@ -1644,6 +1644,13 @@ h1 {
         color: #ff9900;
     }
 
+    h7 {
+        font-size: 0.75em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -1831,6 +1838,16 @@ h1 {
 		}
 
 			.image.featured img {
+				display: block;
+				width: 100%;
+			}
+
+        	.image.featured.blog {
+			display: block;
+			margin: 0;
+		}
+
+			.image.featured.blog img {
 				display: block;
 				width: 100%;
 			}
@@ -2215,6 +2232,15 @@ h1 {
 				background: #7c8081 !important;
 				border-color: #7c8081 !important;
 			}
+
+        input[type="button"].tiny,
+		input[type="submit"].tiny,
+		input[type="reset"].tiny,
+		.button.tiny {
+			font-size: 0.7em;
+			min-width: 10em;
+			border: none;
+		}
 
 /* Wrapper */
 
@@ -2663,6 +2689,7 @@ h1 {
 					padding: 0;
 					border: 0;
 				}
+
 
 /* Wide */
 
