@@ -68,7 +68,7 @@ Rstudio is a set of tools to be used in accompaniment with R. Go to https://www.
 
 ## Install some packages
 
-Packages are what makes R so great. To install a package, open Rstudio and type the following code into the "Console" in the bottom right.
+Packages are what makes R so great. To install a package, open Rstudio and type the following code into the "Console" in the bottom left
 
 
 ```{r}
@@ -110,7 +110,7 @@ install.packages('dplyr')
 # etc., etc.
 ```
 
-Or, if you want to save some time, simply copy and paste the following code into R to install them all at the same time.
+Or, if you want to save some time, simply copy and paste the following code into R to install them all at the same time. Don't worry, you don't need to be able to _understand_ this code - just run it.
 
 ```{r}
 pkgs <- c('data.table',
