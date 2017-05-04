@@ -64,7 +64,7 @@ If you installed these correctly, you should be able to run the above without er
 
 You need a good internet connection. Do NOT wait until the last minute to do this.
 
-- If you have windows, go to http://tug.ctan.org/systems/win32/miktex/setup/basic-miktex-2.9.6236-x64.exe and download/install.
+- If you have windows, go to http://ftp.sun.ac.za/ftp/CTAN/systems/win32/miktex/setup/basic-miktex-2.9.6326-x64.exe and download/install.
 
 - If you have mac, download and install from this link: http://tug.org/cgi-bin/mactex-download/MacTeX.pkg
 
