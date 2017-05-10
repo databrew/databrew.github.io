@@ -1644,6 +1644,13 @@ h1 {
         color: #ff9900;
     }
 
+    h7 {
+        font-size: 0.75em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -1831,6 +1838,16 @@ h1 {
 		}
 
 			.image.featured img {
+				display: block;
+				width: 100%;
+			}
+
+        	.image.featured.blog {
+			display: block;
+			margin: 0;
+		}
+
+			.image.featured.blog img {
 				display: block;
 				width: 100%;
 			}
@@ -2216,6 +2233,15 @@ h1 {
 				border-color: #7c8081 !important;
 			}
 
+        input[type="button"].tiny,
+		input[type="submit"].tiny,
+		input[type="reset"].tiny,
+		.button.tiny {
+			font-size: 0.7em;
+			min-width: 10em;
+			border: none;
+		}
+
 /* Wrapper */
 
 	.wrapper {
@@ -2600,8 +2626,8 @@ h1 {
 
 		#main .sidebar section {
 			border-top: solid 1px rgba(124, 128, 129, 0.2);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			margin: 1.5em 0 0 0;
+			padding: 1.5em 0 0 0;
 		}
 
 			#main .sidebar section:first-child {
@@ -2618,12 +2644,12 @@ h1 {
 /* CTA */
 
 	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/toronto.jpg");
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url("images/overlay.png"), url("../../images/toronto.jpg");
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
@@ -2663,6 +2689,7 @@ h1 {
 					padding: 0;
 					border: 0;
 				}
+
 
 /* Wide */
 
@@ -2930,7 +2957,7 @@ h1 {
 
 				#main .sidebar {
 					border-top: solid 1px rgba(124, 128, 129, 0.1);
-					padding-top: 3em;
+					padding-top: 1.5em;
 				}
 
 					#main .sidebar section {
