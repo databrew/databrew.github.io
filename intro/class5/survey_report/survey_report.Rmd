@@ -1,0 +1,170 @@
+---
+title: "Survey report"
+author: "R CISM class"
+date: "May 10, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE, 
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(cism)
+library(databrew)
+survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+names(survey) <-
+  c('time',
+    'sex', 
+    'fingers',
+    'age',
+    'happiness',
+    'siblings',
+    'hand',
+    'drinks',
+    'time_sleep',
+    'time_wake',
+    'beauty',
+    'dancing',
+    'in_love',
+    'minutes_to_work',
+    'goat',
+    'mzn',
+    'money_or_sex',
+    'describe_class',
+    'describe_self',
+    'describe_dream',
+    'donkeys_or_tennis_balls',
+    'minutes_since_laugh',
+    'ther_country',
+    'joe_or_brad',
+    'tattoos',
+    'describe_strength',
+    'describe_cism',
+    'prison_for_money',
+    'where_born',
+    'seconds_teeth',
+    'joe_kilos')
+
+# Remove the fake rows
+survey <-
+  survey[6:nrow(survey),]
+
+```
+
+## Introduction
+
+This is a paper that I wrote about the survey
+
+## Research question
+
+My research focuses on three important areas:
+
+1. If money is more important than sex?
+
+2. If my students are happy.
+
+3. If students' collective perceptions reflect reality.
+
+## Methodology
+
+I made a silly survey and made my students fill it out. They were not provided with informed consent. This is not ethical.
+
+## Results
+
+### Money and sex
+
+The below chart shows the distribution of happiness among CISM R students.
+
+```{r}
+ggplot(data = survey,
+       aes(x = money_or_sex)) +
+  geom_bar(alpha = 0.6) +
+  theme_cism() +
+  labs(x = 'Money or sex',
+       y = 'People',
+       title = 'Money or sex',
+       subtitle = 'Which is more important?')
+```
+
+### Happiness
+
+```{r}
+ggplot(data = survey,
+       aes(x = happiness)) +
+  geom_density(alpha = 0.6,
+               fill = 'darkblue') +
+  theme_cism() +
+  labs(x = 'Happiness',
+       y = 'Density',
+       title = 'Happiness',
+       subtitle = 'Students of the CISM R course')
+```
+
+### Joe's weight
+
+```{r}
+ggplot(data = survey,
+       aes(x = joe_kilos)) +
+  geom_density(alpha = 0.6,
+               fill = 'darkblue') +
+  theme_cism() +
+  labs(x = 'Kilograms',
+       y = 'Density',
+       title = 'The weight of Joe',
+       subtitle = 'As perceived by students of the CISM R course')
+```
+
+## Secondary analysis: description of class
+
+
+### Silly wordcloud
+
+```{r}
+library(wordcloud2)
+library(dplyr)
+
+# Break up the descriptions of class into individual words
+words <- paste0(survey$describe_class, collapse = ' ')
+words <- unlist(strsplit(words, ' '))
+words_df <- data_frame(word = words)
+words_df <- words_df %>%
+  group_by(word) %>% 
+  summarise(freq = n()) %>%
+  data.frame
+wordcloud2(data = words_df, size = 0.2)
+```
+
+
+```{r}
+letterCloud(data = words_df, word = 'R')
+```
+
+### Sentiment analysis
+
+```{r}
+survey$sentiment <- databrew::score_sentiment(survey$describe_self)
+```
+
+```{r}
+ggplot(data = survey,
+       aes(x = sentiment)) +
+  geom_density(aes(group = sex,
+                   fill = sex),
+               alpha = 0.6) +
+  labs(x = 'Sentiment',
+       y = 'Density',
+       title = 'How do people describe themselves?',
+       subtitle = 'Low = bad; high = good')
+```

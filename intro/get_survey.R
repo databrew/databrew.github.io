@@ -11,10 +11,6 @@ participants <- data.frame(participants)
 # Arrange by last name
 participants <- participants %>% arrange(Last.name)
 
-need_to_write <- 
-  participants %>%
-  filter(grepl('No', Do.you.have.RStudio.on.your.computer.))
-
 cat(paste0(participants$First.name, 
        ' ',
        participants$Last.name, 
@@ -41,28 +37,28 @@ for (i in 1:nrow(participants)){
   body <- paste0('Dear ',
                  participants$First.name[i],
                  ',\n\n',
-                 'Your grade for homework assignment 3 is ',
-                 participants$hw3[i],
+                 'Your grade for homework assignment four is ',
+                 participants$hw4[i],
                  ' out of 10.\n\n',
-                 participants$hw3_comments[i],
+                 participants$hw4_comments[i],
                  '\n\n',
-                 'Attached is your automatically generated "mid-term report".\n\n',
-                 'Remember that class 4 starts today at 15:00 in the library.\n\n',
+                 # 'Attached is your automatically generated "mid-term report".\n\n',
+                 'Remember that class 5 starts on Wednesday (May 10) at 15:00 in the library.\n\n',
                  'Cumpr.\n',
                  'Joe Brew\n\n',
                  'P.S. This email was automatically sent in R.')
   
   # Knit the mid-term report
-  report_name <- paste0(participants$First.name[i],
-                      '_',
-                      'mid_term_report.pdf')
-  rmarkdown::render('report.Rmd',
-                    output_file = report_name,
-                    params = list('email' = destinataire))
+  # report_name <- paste0(participants$First.name[i],
+  #                     '_',
+  #                     'mid_term_report.pdf')
+  # rmarkdown::render('report.Rmd',
+  #                   output_file = report_name,
+  #                   params = list('email' = destinataire))
   send.mail(from = from,
-            attach.files = report_name,
+            # attach.files = report_name,
             to = destinataire,
-            subject = 'R course: mid-term report and grade for homework assignment number 3',
+            subject = 'HW 4 grade and class 5',
             body = body,
             smtp = list(host.name = "smtp.gmail.com", 
                         port = 465, 
@@ -71,6 +67,6 @@ for (i in 1:nrow(participants)){
                         ssl=TRUE),
             authenticate = TRUE,
             send = TRUE)
-  file.remove(report_name)
-  Sys.sleep(15)
+  # file.remove(report_name)
+  # Sys.sleep(1)
 }

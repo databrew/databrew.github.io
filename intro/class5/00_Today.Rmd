@@ -1,0 +1,121 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Agenda
+
+- Review of homework
+- Mapping with ggplot2
+- Discussion of final exam
+- Workflow
+- Reproducible research
+- Fun stuff
+- Some "data management"
+- Practice
+
+```{r, echo = FALSE}
+# - Some fun stuff (geocoding, sentiment analysis, word clouds)
+#   - sentiment = qdap::polarity or http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
+#   - wordcloud = wordcloud2
+#   - gapminder
+library(readr)
+af <- read_delim('afinn.txt', delim = '\t', col_names = FALSE)
+write_csv(af, '~/Desktop/afinn.csv')
+```
+
+## Homework review
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../images/bad.png")
+grid.raster(img)
+```
+
+## Homework review
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../images/good.png")
+grid.raster(img)
+```
+
+## Homework review
+
+```{r, eval = TRUE, echo = FALSE}
+traffic <- MASS::Traffic
+library(ggplot2)
+ggplot(data = traffic,
+       aes(x = y)) +
+  geom_density(aes(fill = limit),
+               alpha = 0.6) +
+  facet_wrap(~year) +
+  labs(x = 'Number of accidents',
+       y = 'Density')
+```
+
+## Homework review
+
+"If we compare the mean number of accidents for each day (for the 2 years), we see that  we see that the trend in the number of accidents is always higher for those days with no speed limit. In consequence, it seems that the traffic policy doesn't have any impact on the number of accidents. So the president should probably apply another policy." 
+
+"I would not have any speed limit because there is no association between speed limit and reduction of accidents."
+
+"If I were the president of Sweden I would definetely make sure there were speed limits, because, clearly there is a reduction in the number of daily accidents if there are speed limits in place."
+
+"Despite being really annoying... Yes, I would."" 
+
+## Mapping with ggplot
+
+We have previously made maps of Manhiça. 
+
+```{r}
+library(cism)
+library(sp)
+library(ggplot2)
+plot(man3)
+```
+
+## Mapping with ggplot
+
+
+Now we're going to do it with ggplot.
+
+```{r}
+ggplot(data = man3_fortified,
+       aes(x = long,
+           y = lat,
+           group = group)) +
+  geom_polygon() +
+  coord_map()
+```
+
+## Practice
+
+Make a map of Manhica using ggplot and then add points for the residents of the census.  If you're feeling fancy, make the point size and color a reflection of a numberic and categorical variable.
+
+## Installation
+
+1. Remove `databrew` and re-install it.
+
+```{r, eval = FALSE}
+remove.packages('databrew')
+devtools::install_github('databrew/databrew')
+```
+
+2. Make sure you have the following packages installed:
+- googleVis
+- gapminder
+- wordCloud2

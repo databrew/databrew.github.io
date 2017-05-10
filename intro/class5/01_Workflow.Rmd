@@ -1,0 +1,125 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Components of workflow
+
+- Get data (acquisition)
+- Modify data (cleaning)
+- Analyze data (analysis)
+- See data (visualization)
+- Describe data (paper writing)
+
+## Workflow 
+
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../images/r1.png")
+grid.raster(img)
+```
+
+## Reproducibility
+
+"Reproducibility is the ability of an entire analysis of an experiment or study to be duplicated, either by the same researcher or by someone else working independently."
+
+(Wikipedia)
+
+## How do we make our research reproducible?
+
+- Everything must be documented.
+- Everything must be automated.
+
+
+## Workflow
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../images/r2.png")
+grid.raster(img)
+```
+
+## Workflow
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../images/reproducible.png")
+grid.raster(img)
+```
+
+## Want to know more about reproducible research?
+
+Take this course (it's free)
+
+https://www.coursera.org/learn/reproducible-research
+
+## Rather than talk about it, let's do it
+
+
+
+## Survey
+
+https://goo.gl/forms/TbzlWnId64PoxNwA3
+
+## Review results
+
+## Think of a question
+
+What is a research question you would like to answer, based on the data we've just produced?
+
+```{r, echo = TRUE, eval = FALSE}
+sex, fingers, age, happiness, siblings, hand, drinks, beauty, 
+dancing, in_love, minutes_to_work, goat, mzn, money_or_sex,
+describe_class, describe_self, describe_dream, 
+donkeys_or_tennis_balls, minutes_since_laugh, ther_country, 
+joe_or_brad, tattoos, describe_strength, describe_cism, 
+prison_for_money, where_born, seconds_teeth, joe_kilos
+```
+
+## Practice
+
+1. Open a markdown file. Save it as "survey_report.Rmd".
+
+2. Make an introduction section using `#`
+
+3. Write an introduction.
+
+4. Include in your introduction the number of people who took the survey.
+
+## Practice
+
+3. Make an R chunk.
+
+4. Go to www.databrew.cc/survey.R. Copy that code
+
+5. Make an R chunk, paste the code.
+
+## Practice
+
+1. Make sections for other parts of your paper (methods, results, etc.).
+
+2. Write at least one sentence in each section.
+
+3. In the "Results" section, make a chart showing age.
+
+4. In the "Results" section, make a chart showing sex.
+
+5. In the "Results" section, make a chart addressing your research question.
+
+## Cheatsheet
+
+https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf

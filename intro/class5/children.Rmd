@@ -1,0 +1,65 @@
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Today
+
+```{r child = '00_Today.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Workflow
+
+```{r child = '01_Workflow.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Fun stuff
+
+```{r child = '03_Fun_stuff.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# GoogleVis
+
+```{r child = '04_googleVis.Rmd'}
+```
+
+---
+output: html_document
+---
+
+
+<br>
+<br>
+
+# Joins
+
+```{r child = '05_joins.Rmd'}
+```
+
