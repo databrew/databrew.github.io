@@ -1,0 +1,47 @@
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+names(survey) <-
+  c('time',
+    'sex', 
+    'fingers',
+    'age',
+    'happiness',
+    'siblings',
+    'hand',
+    'drinks',
+    'time_sleep',
+    'time_wake',
+    'beauty',
+    'dancing',
+    'in_love',
+    'minutes_to_work',
+    'goat',
+    'mzn',
+    'money_or_sex',
+    'describe_class',
+    'describe_self',
+    'describe_dream',
+    'donkeys_or_tennis_balls',
+    'minutes_since_laugh',
+    'other_country',
+    'joe_or_brad',
+    'tattoos',
+    'describe_strength',
+    'describe_cism',
+    'prison_for_money',
+    'where_born',
+    'seconds_teeth',
+    'joe_kilos')
+
+survey$fingers <- as.numeric(survey$fingers)
+survey$happiness <- as.numeric(survey$happiness)
+survey$age <- as.numeric(survey$age)
+survey$siblings <- as.numeric(survey$siblings)
+survey$minutes_to_work <- as.numeric(survey$minutes_to_work)
+survey$mzn <- as.numeric(survey$mzn)
+survey$minutes_since_laugh <- as.numeric(survey$minutes_since_laugh)
+survey$seconds_teeth <- as.numeric(survey$seconds_teeth)
+survey$joe_kilos <- as.numeric(survey$joe_kilos)
