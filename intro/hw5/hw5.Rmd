@@ -212,7 +212,7 @@ ggplot(data = survey,
 
 ## Section 2: Rmarkdown practice
 
-1. Go to databrew.cc/template.Rmd and download the file there.
+1. Go to https://raw.githubusercontent.com/databrew/databrew.github.io/master/template.Rmd, right click on the text and "save as" to download the file there.
 
 2. Save the file on your computer, but change the name of the file to `Firstname_Lastname.Rmd` (so, `Joe_Brew.Rmd`, for example).
 
