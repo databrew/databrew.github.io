@@ -6,10 +6,6 @@ fig_height: 2.6
 fig_width: 4
 output:
   html_document:
-    pandoc_args: [
-      "+RTS", "-K16000m",
-      "-RTS"
-    ]
     toc: true
     toc_float: true
     theme: united

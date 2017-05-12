@@ -1,0 +1,168 @@
+---
+title: "Does being in love affect happiness?"
+author: "Augusto Messa Jr"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+In this study we are tried to understand if there's a relationship between being in love and the level of happiness in one's life.
+
+# Methods
+
+There were `r nrow(survey)` participants in the survey. Some attention wasd irected to the sex of the subjects and to the alcohol consumption rate among the study population. No statistical test was applied on this study. We did not need a signed informed consent because everyone volunteered for Joe's class survey.
+
+
+# Results
+
+## Maps
+
+Here is a map about the places people on the survey were born.
+
+```{r}
+# First geocode longitude and latitude
+if("places_of_birth.RData" %in% dir()){
+  load("places_of_birth.RData")
+} else {
+  places_of_birth <- geocode(survey$where_born,
+                           output = 'latlon',
+                           source = 'google',
+                           messaging = TRUE)
+  save(places_of_birth,file = "places_of_birth.RData")
+}
+
+
+survey <- cbind(survey, places_of_birth)
+
+#5: Using ggplot to map the world
+world <- borders("world", colour="gray50", fill="gray50")
+
+# create a layer of borders
+ggplot() + world+
+  geom_point(data = survey,
+             aes(x= lon,
+                 y = lat,
+                 size = age, 
+                 color = sex), 
+             alpha = 0.5)+
+  theme_grey()+
+  labs(title= "Birth places in Joes class",
+       subtitle= "Where were Joes students born?",
+       x = "Longitude",
+       y = "Latitude")
+```
+
+## Sub-section 1
+
+The plot bellow shows us the distribution of ages in our study group.
+```{r}
+ggplot(data=survey,
+       aes(x=age))+
+  geom_histogram(fill= "blue",
+                 col = "gold")+
+  theme_grey()+
+  labs(title = "Joes class survey: distribution of ages",
+       subtitle = "What are the ages in Joes R class?",
+       x = "Age (years)",
+       y = "Count")
+```
+
+
+This one shows where the sex of the individuals who volunteered to take the survey for the study we conducted.
+
+```{r}
+ggplot(data = survey,
+       aes(x = sex))+
+  geom_bar(fill = "blue",
+           col = "gold")+
+  labs(title = "Joes class survey: sex distribution",
+       subtitle = "How many females and males attend to Joes class?")+
+  theme_grey()
+```
+
+
+This plot compares who drinks more between males and females in the study group, based on how many drinks did they have in the previous 7 days.
+
+```{r}
+ggplot(data = survey, aes(x= sex,
+                          y = drinks, 
+                          color = tattoos,
+                          size = age))+
+  geom_jitter()+
+  labs(title = "Alcohol consumption on the study population",
+       subtitle = "Who drinks more? Men or women?",
+       x = "Sex", 
+       y = "Number of drinks")+
+  theme_grey()
+```
+
+
+## Sub-section 2
+
+The plot bellow shows us the dynamics of happiness depending on one's status of being in love or not. We also make a comparison among the sex in our volunteers.
+
+```{r}
+ggplot(data = survey, 
+       aes(x = in_love,
+           y = happiness))+
+  geom_violin(alpha = 0.5, fill = "blue", col ="gold")+
+  geom_jitter(data = survey,
+              aes(x = in_love, y = happiness,
+                  size = age), col = "black",
+              alpha = 0.5,)+
+  theme_grey()+
+  labs(title= "Happiness in Joes class",
+       subtitle = "Are Joes Students happy people? Does being in love make any difference?",
+       x = "In Love",
+       y = "Level of Happiness")+
+  facet_wrap(~sex)
+```
+
+
+# Discussion
+
+So we can see that there are very few people who are unhappy, and that being in love doesn't change much the self perception of happiness (there are some people who are in love, but are still unhappy - some uncorresponded love maybe???). It is also clear that men tend to be happier than women. This last finding may be associated with the fact that men drinked more often than women in the previous 7 days before the survey was taken. 
+
+# Conclusion
+
+Men are happier than women, but no association between being in love and being happy was found. Some attention should be given to the fact of alcohol consumption and the possible association with being happy and the economic factor should also be studied in next endeavour on this area of study.
