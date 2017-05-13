@@ -37,26 +37,38 @@
 					<section class="wrapper style4 container">
                         <header>
                             <h7>May 11, 2017 | Xing Brew</h7>
-                            <h6><strong>Visualizing Open Government Data with R</strong></h6>
+                            <h6><strong>Visualizing (Open Government) Data Using R</strong></h6>
                         </header>	
                         <p>Open government data is a  tremendous resource that is still largely untapped. Governments collect a broad range of data in various forms and a growing number of them are making the data publicly available. Open data is of great value for governments and people by facilitating transparency and democratic control, participation, innovation, improved effectiveness and efficiency of public services, and new knowledge derived from combining and analyzing data from various sources.</p>
                         
-                        <p>Toronto, like many cities around the world, is making more and more of the data it collects available to the public. The City’s Data Catalogue includes datasets on topics including water quality, public safety, all the festival and events happening in the city, the location of long-term care homes, and places of worship. The files comes in various formats (XLS, CSV, Shapefiles, etc.) and can be accessed and downloaded very easily from toronto.ca/open.</p>
+                        <p>Toronto, like many cities around the world, is making more and more of the data it collects available to the public. The City’s Data Catalogue includes datasets on topics including water quality, public safety, all the festival and events happening in the city, the location of long-term care homes, and places of worship. The files comes in various formats (XLS, CSV, Shapefiles, etc.) and can be accessed and downloaded very easily from <a href="toronto.ca/open" target="_blank">toronto.ca/open</a>.</p>
                         
-                        <p>Although some of the data may be interesting to examine in its raw format, the information really comes to life when analyzed and/or visualized using a program like R. What’s more, we can use R to combine various datasets to create mashups to discover things and tell unique stories that the data providers would never have anticipated.</p>
+                        <p>Although some of the data may be interesting to examine in its raw format, the information really comes to life when analyzed and/or visualized using a program like R. What’s more, we can use R to combine various datasets to create mashups to gain insights and tell stories that the data providers would never have anticipated.</p>
                         
-                        <p>I was interested in seeing where all the homeless shelters are situated across the city of Toronto. I downloaded a <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=30bcb5989b985310VgnVCM1000003dd60f89RCRD" target = "_blank">dataset</a> containing the location of the shelters within the City of Toronto in the form of geometric coordinates and collected a bit more information about each shelter (address, phone number, type of individuals served, and number of beds) from the City’s <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=e29dd4b4920c0410VgnVCM10000071d60f89RCRD" target="_blank">Shelter, Support and Housing Administration website</a>, which I saved as a <a href="shelters.csv" target="_blank">CSV file.</a></p>
+                        <p>I was interested in seeing where all the homeless shelters are situated across the city of Toronto. So, I downloaded a <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=30bcb5989b985310VgnVCM1000003dd60f89RCRD" target = "_blank">dataset</a> containing the location of the shelters within the City of Toronto in the form of geometric coordinates and collected a bit more information about each shelter (address, phone number, type of individuals served, and number of beds) from the City’s <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=e29dd4b4920c0410VgnVCM10000071d60f89RCRD" target="_blank">Shelter, Support and Housing Administration website</a>, which I saved as a <a href="shelters.csv" target="_blank">CSV file.</a></p>
                         
-                        <p>Using the <a href="http://leafletjs.com" target="_blank">Leaflet</a> package in R and a simple line of code, I got a map of Toronto to which I could easily add the shelter locations from the CSV file to. I could also change the marker size to reflect the number of beds in the shelter and the colour of the markers to show the types of individuals served at each shelter. With just a few more lines of code, I added pop-ups to display a shelter’s name, phone number, and precise capacity when its marker is clicked.</p> 
+                        <p>Using the <a href="http://leafletjs.com" target="_blank">Leaflet</a> package in R and a simple line of code, I got a map of Toronto to which I could easily add the shelter locations to. I could also change the marker size to reflect the number of beds in the shelter and the colour of the markers to show the types of individuals served at each shelter. Finally, I added pop-ups to display a shelter’s name, phone number, and precise capacity when its marker is clicked.</p> 
+                        
+                        <p>Here is the end product:</p>
                         
                         <div class = "iframe">
                             <span class="image">
                             <iframe src="https://cdn.rawgit.com/xingcbrew/data_TO/master/interactive%20maps/shelter1.html" height = 500 width = 80%></iframe>
                             </span>
                         </div>
-                        
-                        <p>This is just one example of many, many different types of maps and visualizations that can be created in using open government data and R. All the data and code used to make this map can be found on my <a href="github.com/xingcbrew">GitHub page</a>.</p>
-                     
+                        <br/>
+                        <p>And here is all the code that was needed to create this map (also accessible on my Github page).</p>
+                        <div class="image">
+                            <img src="images/shelters_rscript.png">
+                        </div>
+                        <br/>
+                        <p>This is just one example of many, many different types of maps and visualizations that can be created with open government data using R. Here are some good resources about open data:</p>
+                        <ul>
+                        <li><a href="http://opendatahandbook.org/" target="_blank">Open Data Handbook: Guides, case studies and resources for government &amp; civil society on the "what, why &amp; how" of open data</a></li>
+                        <li><a href="http://www.oecd.org/gov/digital-government/open-government-data.htm" target="_blank">OECD: Open Government Data</a></li>
+                        <li><a href="http://open.canada.ca/en/open-data" target="_blank">Governmet of Canada: Open Data</a></li>
+                        <li><a href="http://data.gov" target="_blank">DATA.GOV: The home of the U.S. Government’s open data</a></li>
+                        </ul>
                     </section>    
                         
                 </article>
