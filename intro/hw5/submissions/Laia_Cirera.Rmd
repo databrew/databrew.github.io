@@ -106,7 +106,7 @@ ggplot(data=survey, aes(x=in_love, y=happiness, color=sex)) +
   geom_jitter(alpha=0.5) +
   geom_violin(alpha=0) +labs(title='Graph 5. Do men tend to relate more "being in love" to happiness than women?', x='are you in love?', y='degree of happiness') 
 ```
-
+ 
 # Discussion
 
 There exist important surveys around the world that show that "being in love" and "being happy" are tightly correlated. However, the present study doesn't show this and we observe that an important amount of students that are not in love are among the happiest. 
@@ -115,4 +115,4 @@ Moreover, We cannot test our hypothesis on whether man tend to relate more "bein
 
 # Conclusion
 
-Given that our results don't show the trends observed everywhere in the world, further research is needed in the area and additional surveys done within manhiça R students population in order to be able to explain the factors that might drive their happiness. 
+Given that our results don't show the trends observed everywhere in the world, further research is needed in the area and additional surveys done within manhi?a R students population in order to be able to explain the factors that might drive their happiness. 
