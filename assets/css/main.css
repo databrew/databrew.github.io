@@ -1642,6 +1642,7 @@ h1 {
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #ff9900;
+        margin-bottom: 0;
     }
 
     h7 {
@@ -2045,7 +2046,7 @@ h1 {
 
 	ul.default {
 		list-style: disc;
-		padding-left: 1em;
+		padding-left: 1.2em;
 	}
 
 		ul.default li {
