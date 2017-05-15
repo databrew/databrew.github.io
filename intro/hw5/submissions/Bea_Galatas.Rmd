@@ -1,0 +1,135 @@
+---
+title: "Does the number of siblings a person has affect the Happiness level" 
+author: "Bea Galatas"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library(tidyr)
+library(databrew)
+library(ggmap)
+library(wordcloud)
+library(wordcloud2) 
+library(gapminder)
+library(googleVis)
+library(ggthemes)
+library(broom)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+This study evaluated wether the number of siblings that a person has affects his/her happiness. The hypothesis is that those who have more borthers and sisters are happier than those who do not have any. 
+
+# Methods
+
+We performed a survey among the `r nrow(survey)` participants of the R class done by Joe Brew at CISM.
+
+
+# Results
+
+## Socio-demographic Characteristics 
+
+There were 13 Female and 8 Male students who took part in the survey. One participant did not identify him/herself of any gender (Figure 1)
+
+Figure 1: 
+
+```{r}
+# This is an R comment
+
+# This is some code to produce a barplot of sex 
+ggplot(data = survey,
+       aes(x = sex)) +
+  geom_bar() 
+
+```
+
+
+The mean age of participants was `r mean(survey$age)`, with a minimum age of `r min(survey$age)` and a maximum of `r max(survey$age)` (Figure 2). 
+
+Figure 2: 
+
+```{r}
+ggplot() + 
+  geom_histogram(data=survey, 
+                 aes(age), 
+                 col="Grey", 
+                 fill="black") + 
+  labs(y="Frequency", 
+       x="Age", 
+       title="Age Distribution of Study participants")
+```
+
+The study participants came mainly from Spain, USA and Mozambique (Figure 3)
+
+Figure 3: 
+
+```{r}
+  world <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
+  ggplot() + 
+    world +  
+    geom_point(data=survey, 
+               aes(x=lon, 
+                   y=lat)) + 
+    labs(title="Place of Birth of R Survey Participants", 
+         y="Latitude", 
+         x="Longitude") 
+```
+
+## Siblings Association
+
+No association was observed between the number of siblings and the reported level of happiness (Figure 4).
+
+Figure 4: 
+
+```{r}
+ggplot(data=survey, 
+       aes(x=siblings, 
+           y=happiness)) + 
+  geom_jitter() + 
+  geom_smooth()
+
+```
+
+# Discussion
+
+This analysis identified that there was no significant association between the number of siblings a person has and the happiness index he/she reports. This study has some limitations bla bla bla... 
+
+# Conclusion
+
+This study is great although my question did not make much sense.
