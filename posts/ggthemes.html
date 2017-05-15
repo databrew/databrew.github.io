@@ -37,10 +37,40 @@
 				<article id="main">
 					<section class="wrapper style4 container">
                         <header>
-                            <h7>May 15, 2017 | Ben Brew</h7>
-                            <h6><strong>ggthemes</strong></h6>
+                            <h7>May 13, 2017 | Ben Brew</h7>
+                            <h6><strong>ggplot 2 and ggthemes</strong></h6>
+                            <br/>
                         </header>	
-                        <p>Text</p>
+                        <p>Data science is one of those buzzwords with an a somewhat vague definition. It’s been described as having multiple entry points, with each path leading to the intersection of a venn diagram, connecting computer science, statistics, social science, and other disciplines.</p>
+                        <div class="image" align="center">
+                            <img src="/images/blog/ggthemes1.png">
+                        </div>
+                        <p>This will most certainly be the subject of a future blog post, but for the time being, a more workable definition of data science should be something more along the lines of “making sense of data”. And for this more concise definition, we have a ton of tools in R to do exactly that.</p>
+                        <p>I want to introduce readers to two R packages that will make visualizing data easy and beautiful.  The (1) ggplot2 library in R gives us the ability to visualize data, in an aesthetically pleasing way, in just a few lines of code, while the (2) ggthemes  library will allow us to add on a number of premade “themes” to our plot, producing publication ready plots in a matter of seconds.</p> 
+                        <p>As an example, I’ve downloaded a dataset from kaggle - a platform for predictive modelling and analytics competitions on which companies and researchers post their data and statisticians and data miners from all over the world compete to produce the best models. This particular data set is one of the most comprehensive US homicide datasets available to the public.</p>
+                        <p><strong>Homicide Dataset</strong></p>
+                        <p>Let’s take a look at murders over time, grouped by the killer’s gender. We’ll start by reading in the data and cleaning it.</p>
+                         <div class="image">
+                            <img src="/images/blog/ggthemes2.png">
+                        </div>
+                        <p>Next let’s use the dplyr package to group by the  year and perpetrators gender to get total murders for each. </p>
+                        <div class="image">
+                            <img src="/images/blog/ggthemes3.png">
+                            <img src="/images/blog/ggthemes4.png">
+                        </div>
+                        <p>Now that we have our data in the right format, we can use the ggplot2 function to create a line plot over time. </p>
+                        <div class="image">
+                            <img src="/images/blog/ggthemes5.png">
+                            <img src="/images/blog/ggthemes6.png">
+                        </div>
+                        <p>Now we have a basic skeleton for our plot. We can now use the <a href="https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html" target="_blank">ggthemes</a> package to apply a theme. There are many different themes and you can see them all in the link below. The two plots below are identical to the one above, only an extra line of code specifying which theme to use. In this case, I apply the Economist newspaper and the 538 website theme.</p>
+                        <div class="image">
+                            <img src="/images/blog/ggthemes7.png">
+                            <img src="/images/blog/ggthemes8.png">
+                            <img src="/images/blog/ggthemes9.png">
+                            <img src="/images/blog/ggthemes10.png">
+                        </div>
+                          
                      <div>
                       <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
                     </div>
