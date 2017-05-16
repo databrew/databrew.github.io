@@ -1,0 +1,172 @@
+---
+title: "Love, Sex and Money: What counts more to be happy?"
+author: "Ana Fonseca"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library (wordcloud2)
+library (ggthemes)
+library (readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+Happiness is a mental or emotional state of well-being which can be defined by, among others, positive or pleasant emotions ranging from contentment to intense joy. Happiness is partly genetically based, some studies show that 50% of a given human's happiness level is genetically determined, 10% is affected by life circumstances and situation, and a remaining 40% percent of happiness is subject to self-control (wikipedia, 2017).
+Here we want to explore the role of  money, sex and love in the equation of happiness.
+
+# Methods
+
+This study was performed in a total of `r nrow(survey)` participants from different nationalities attending the R class in CISM Mozambique taught by Joe Brew, more handsome than Brad Pitt. A  survey composed by quantitative and qualitative questions was performed by each participant.
+
+# Results
+
+## 1. Description of study participants
+
+Among all the study participants `r 10/19*100` % were girls, `r 8/19*100` % were boys and `r 1/19*100` % were aliens not from this world (figure1).The average age of the participants was `r mean(survey$age)` (figure 2). `r 8/19*100` % of the participants were poor and the 2 out of 19 had more that 4000mzn in the pocket (figure 3).  `r 10/19*100` % of participants prefer sex than money (figure 4) and `r 16/19*100` % were in love (Figure 5).
+
+```{r}
+# Figure 1. barplot of sex 
+ggplot(data = survey,
+       aes(x = sex)) +
+  geom_bar(color="dark blue", fill= "light blue", alpha=0.5)+
+ labs (title ="Figure 1. Bar plot showing the distribution of participants by sex ",
+        x= "Sex",
+        y= "Count")
+```
+
+
+```{r}
+#Figure2. Density plot of age
+ggplot(data = survey,
+       aes(x = age)) +
+  geom_density(color="dark blue", fill= "light blue", alpha=0.5) +
+  labs (title ="Figure 2. Density plot showing the distribution of participants by age ",
+        x= "Age",
+        y= "Count")
+```
+
+```{r}
+#Figure3. Histogram of MZN in the pocket
+ggplot(data = survey,
+       aes(x = mzn)) +
+  geom_histogram (color="dark blue", fill= "light blue", alpha=0.5) +
+labs (title = "Figure3. Histogram showing the amont of mzn caried by participants",
+        x= "participants",
+        y= "mzn")
+```
+
+```{r}
+# Figure 4. Barplot of money or sex
+ggplot(data = survey,
+       aes(x = money_or_sex)) +
+  geom_bar (color="dark blue", fill= "light blue", alpha=0.5) +
+labs (title = "Figure4. Bar-plot showing the preference of participants regarding money or sex",
+        x= "preference",
+        y= "count")
+```
+
+```{r}
+# Figure 5. Barplot of being in love
+ggplot(data = survey,
+       aes(x = in_love)) +
+  geom_bar (color="dark blue", fill= "light blue", alpha=0.5) +
+labs (title = "Figure4. Bar-plot showing the participants in love",
+        x= "In love",
+        y= "count")
+```
+
+## 2. Relation of hapiness with money, sex and love
+
+The happiest people were the ones caring less money in the pocket (Figure 6), not in love (Figure 7) and slightly prefer sex than money (Figure 8).  
+
+```{r}
+#Figure 6. Scatter plot of happiness and MZN
+ggplot(data = survey,
+       aes(x = mzn,
+           y = happiness)) +
+  geom_point() +
+geom_smooth(method = 'lm') +
+labs (title = "Figure 6. Scatter plot coorelating hapiness with money in the pocket",
+        x= "MZN",
+        y= "Happiness")
+
+```
+
+
+```{r}
+#Figure 7. Box-plot of happiness and being in love.
+ggplot (data=survey,
+        aes(x=in_love,
+            y=happiness)) +
+        geom_jitter(color="dark blue")+
+        geom_boxplot(color="dark blue", fill="light blue", alpha=0.5) +
+  labs (title = "Figure 7. Box-plot showing hapiness faceted by being in love or not ",
+        x= "In Love",
+        y= "Happiness")
+```
+
+ 
+```{r}
+#Figure 7. Box-plot of happiness and money or sex.
+ggplot (data=survey,
+        aes(x=money_or_sex,
+            y=happiness)) +
+        geom_jitter(color="dark blue")+
+        geom_boxplot(color="dark blue", fill="light blue", alpha=0.5) +
+  labs (title = "Figure 8. Box-plot showing hapiness faceted by money or sex ",
+        x= "Money or Sex",
+        y= "Happiness")
+```
+
+# Discussion
+
+Here we have developed a study to explore in which extent happiness is related with money, sex and being in love. `r nrow(survey)` participants (`r 10/19*100` %  girls) with an average age of `r mean(survey$age)` years were included in the study. Around half of the participants were poor (`r 8/19*100` %) and preferred to have sex than money (`r 10/19*100` %). A high percentage (`r 16/19*100` %) of the participants refer to be in love. These results indicate that people spend more time having sex than working to get money or spend too much money to have sex.
+Finally, the happiest people in this group were the ones without money, having more sex but not in love. 
+
+# Conclusion
+My conclusion is that you have to work a lot to earn enough money to spend to have the enough sex for you to be happy but please do not fall in love. However, this result cannot be extrapolated for the community because only 3 participants were not in love.
+
+
+
+

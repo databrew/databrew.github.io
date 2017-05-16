@@ -100,6 +100,12 @@ The study participants came mainly from Spain, USA and Mozambique (Figure 3)
 Figure 3: 
 
 ```{r}
+  places_of_birth <- geocode(survey$where_born,
+                             output = 'latlon',
+                             source = 'google',
+                             messaging = TRUE)
+  survey <- cbind(survey, places_of_birth)  
+
   world <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
   ggplot() + 
     world +  
@@ -118,6 +124,7 @@ No association was observed between the number of siblings and the reported leve
 Figure 4: 
 
 ```{r}
+survey$siblings <- as.numeric(survey$siblings)
 ggplot(data=survey, 
        aes(x=siblings, 
            y=happiness)) + 

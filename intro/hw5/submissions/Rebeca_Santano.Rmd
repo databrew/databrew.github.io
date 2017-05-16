@@ -1,0 +1,133 @@
+---
+title: "Are people from Mozambique happier than people from other countires?"
+author: "Rebeca Santano"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    pandoc_args:
+    - +RTS
+    - -K16000m
+    - -RTS
+    theme: sandstone
+    toc: yes
+    toc_float: yes
+fig_width: 4
+fig_height: 2.6
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library(ggthemes)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+In this paper we aim to know if people that where born in Mozambique are happier than people that were born in other countries that appear in a survey made to people working at the CISM.
+
+# Methods
+
+People were asked in the survey a series of questions regarding their feelings, origins and perceptions. The data obtained was analyzed using R.
+
+
+
+# Results
+
+## Sub-section 1
+
+The results show the association between being from Mozambique or other country and being happy.
+
+```{r}
+# This is an R comment
+
+# This is some code to produce a barplot of sex 
+ggplot(data = survey,
+       aes(x = sex)) +
+  geom_bar() +
+  theme_economist_white()
+```
+
+## Sub-section 2
+In this chart we observe that almost twice as much of people that took the survey are from Mozambique in comparison with other countries.
+```{r}
+survey <- survey %>%
+mutate (Country = ifelse(grepl("Mozambique", where_born), "Mozambique", "Other country"))
+
+ggplot()+
+  geom_bar(data= survey,
+           aes(x= Country))+
+  labs(title= "How many people are from Mozambique?",
+       x= "Country of origin",
+       y= "Number of people")+
+  theme_economist_white()
+
+```
+The following chart shows that people from Mozambique present in the survey are from a wide range of age, while people from other countries are all of them young. 
+```{r}
+ggplot()+
+  geom_density(data= survey,
+            aes(x= age, fill= Country), alpha=0.3)+
+  labs(title= "How old are the people depending on the country of origin?")+ 
+  theme_economist_white()
+```
+If we take a look at the amount of people that wish to convert someone into a goat, we see that most of the people are so angry at someone that would like to do this.
+```{r}
+ggplot()+
+  geom_bar(data= survey,
+             aes(x= goat))+
+  labs(title= "How many people would like to turn someone into a goat?",
+       x= "Wish to convert someone into a goat",
+       y= "Number of people")+
+  theme_economist_white()
+```
+Analyzing the above presented data all together, and adderessing our research question, we can conclude that people from Mozambique are happier than the rest of the people from other countries. Also, that there doesn't seem to be a clear correlation of the level of happiness with age, while people that don't wish to convert someone into a goat are all happier.
+```{r}
+ggplot()+
+  geom_jitter(data= survey, 
+             aes(x= Country,
+                 y= happiness, 
+                 size= age,
+                 color= goat))+
+  geom_violin(data= survey, 
+             aes(x= Country,
+                 y= happiness), alpha= 0.3)+
+  labs(title="Are people from Mozambique happier?",
+             y="Level of happiness")+
+  theme_economist_white()
+```
+
+# Discussion
+
+A larger amount of Mozambicans have a higher level of happiness when compared to other nationalities. The reason for this needs further investigation. It was interesting to observe the big amount of people that have thought about converting someone into a goat, which is a reflection of hate or anger. This fact correlates good with the level of happines, in a way that all the people that did not have this wish had a high level of happiness.
+
+# Conclusion
+
+Live in Mozambique and forget about goats if you wanna have a happier life, it does not matter if you are young or old. 

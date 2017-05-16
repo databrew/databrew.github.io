@@ -1,0 +1,105 @@
+---
+title: "My survey - Drinks and prison"
+author: "Viviana Mabombo"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+This survey explores the association of alcohol consumption in the last 7 days and the probability of going to prison for money (if oportunity arises).
+
+# Methods
+
+There were 19 participants in this survey, all of them had to respond to 30 questions.
+
+
+# Results
+
+## Sub-section 1
+
+Distribution by sex.
+
+```{r}
+# This is an R comment
+
+# This is some code to produce a barplot of sex 
+ggplot(data = survey,
+       aes(x = sex, fill = sex)) +
+  geom_bar() 
+```
+Number of drinks consumed in the last 7 days, diferences between gender.
+
+```{r}
+ggplot(data = survey, aes(x = drinks, color = "red", fill = "purple"))+ geom_histogram(alpha = 0.5)+ theme_classic() + facet_wrap(~sex)
+```
+
+
+
+
+
+Number of people who would go to prison for money, and relation with alcohol consumption in the last 7 days.
+
+```{r}
+survey$drinks <- as.numeric(survey$drinks)
+ggplot(data = survey, aes(x = drinks, fill = prison_for_money))+ geom_density(alpha = 0.5)
+```
+Relation between number of drinks in the last 7 days and going to prison for money. 
+```{r}
+ggplot(data = survey, aes(y = drinks, x = prison_for_money, color = prison_for_money, fill = prison_for_money))+ geom_boxplot(alpha = 0.5)+geom_point()
+```
+
+Relation between number of drinks in the last 7 days and going to prison for money, and diferences between gender.
+```{r}
+
+ggplot(data = survey, aes(y = drinks, x = prison_for_money, color = prison_for_money, fill = prison_for_money))+ geom_boxplot(alpha = 0.5)+geom_point()+facet_wrap(~sex)
+```
+
+## Sub-section 2
+
+# Discussion
+
+In the first chart, it is shown the number of participants distributed by sex (one participant could not tell in which group he/she belonged).in the second chart it is presented the number of drinks consumed in the last 7 days and the  diferences between gender.  
+chart 3 shows a disturbing protection factor of alcohol for going to prison for money, therefore more analyses were made. 
+Figure 4 and 5 show that there is a association between the number of drinks in the past 7 days and the risk of going to prison for money.
+
+# Conclusion
+Being male and drinking is a risk factor for going to prison for money. 
