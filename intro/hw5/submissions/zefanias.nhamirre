@@ -1,0 +1,37 @@
+##Re-install the "databrew" package. (We are doing this because the most recent version has the 
+#score_sentiment function for assessing the emotionality of written text.)
+
+remove.packages('databrew')
+devtools::install_github('databrew/databrew')
+library(databrew)
+
+####Prepare your workspace by loading the following packages: 
+##gsheet, dplyr, ggplot2, cism, ggmap, wordcloud2, ggthemes, readr, and databrew.
+
+library(gsheet)
+library(dplyr)
+library(ggplot2)
+library(cism)
+library(ggmap)
+library(wordcloud2)
+library(ggthemes)
+library(readr)
+library(databrew)
+
+## Use the following code to download the survey data from the survey we took in class the other day.
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+
+##3. Use table to see how many people prefer money or sex.
+table(survey$money_or_sex)
+
+##4. Use nrow to see how many people took the survey. 
+nrow(survey)
+
+##5. Make a histogram of the age of the survey participants, using ggplot.
+ggplot(survey, aes(x=age))
+geom_histogram()

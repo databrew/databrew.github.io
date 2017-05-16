@@ -1,0 +1,93 @@
+---
+title: "Guns and roses"
+author: "Augusto Nhabomba"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+self motivation and happiness at work are critical conditiones for a high quality resutls.
+
+# Methods
+
+the research used standardized questonar for to address the relavant qualities aspects of the motivatin toward cism
+
+
+# Results
+## Sub-section 1
+plot of love and happiness
+```{r}
+ggplot(data=survey,aes(happiness, fill = in_love))+geom_density()+facet_wrap(~sex)
+```
+
+plot of happiness
+```{r}
+ggplot(data=survey,aes(happiness))+geom_density()
+```
+
+
+plot of self_sentiment variable
+```{r}
+survey$self_sentiment <- score_sentiment(survey$describe_self)
+ggplot(data = survey, aes(self_sentiment))+geom_density()
+```
+
+## Sub-section 2
+
+association confidence and cism 
+
+```{r}
+survey$cism_sentiment <- score_sentiment(survey$describe_cism)
+survey$self_sentiment <- score_sentiment(survey$describe_self)
+ggplot(data = survey,
+       aes(x = age,
+           y = cism_sentiment)) +
+  geom_point()+geom_smooth(method = 'lm')
+```
+
+
+
+# Discussion
+happiness and self confidence was seen afected by age and time in year at CISM. this might be due to limited career progression oportunities. 
+
+# Conclusion
+taking together the results presented and discuss here we conclude that at cism people get less happier with time.

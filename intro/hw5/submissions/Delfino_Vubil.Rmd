@@ -1,0 +1,107 @@
+---
+title: "The Association between age and having tattoos"
+author: "Delfino Vubil"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: lumen
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+This is a research paper about the association between age and having tattoos.
+
+# Methods
+
+There were `r nrow(survey)` participants in the survey.
+
+
+# Results
+This is a graphic of age distribution in the survey
+```{r}
+
+ggplot(data=survey, aes(x=age))+geom_bar()
+```
+Here is shown the number of males and females
+```{r}
+
+ggplot(data=survey, aes(x=sex))+geom_bar()
+```
+This figure shows the prevalence of right and left handed in the survey
+```{r}
+
+ggplot(data=survey, aes(x=hand))+geom_bar()
+```
+
+## Sub-section 1
+
+We report that age is correlated with having tattoos.
+
+```{r}
+# This is an R comment
+
+# This is some code to produce a barplot of sex 
+ggplot(data = survey,
+       aes(x =age, y=tattoos)) +
+  geom_point() 
+```
+
+```{r}
+ggplot(data = survey,
+       aes(x = age)) +
+  geom_density() +
+  facet_wrap(~tattoos)
+
+ggplot(data = survey,
+       aes(x = age, fill=tattoos)) +
+  geom_density(alpha=0.2) +
+  theme_cism()
+
+```
+
+
+## Sub-section 2
+
+# Discussion
+There is a preference of tattoos in young people compared to older.  
+
+
+# Conclusion
+In summary, there is a possible correlation between age and having tattoos. Tattos were only reported in young people. 
+
