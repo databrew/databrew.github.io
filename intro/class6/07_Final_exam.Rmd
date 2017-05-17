@@ -13,13 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Final exam
 
-## Agenda
-
-- Projects
-- Bibliography
-- Publishing
-- Other resources
-- Continuing learning together
-- Survey (www.databrew.cc/evaluation)
-- Final "exam"
+www.databrew.cc/exam

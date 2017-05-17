@@ -1,0 +1,78 @@
+---
+title: "Final exam"
+author: "Joe Brew"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+bibliography: bibliography.bib
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library(knitr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in some data here
+```
+
+# Introduction
+
+Obesity is bad [@Brew2015]. So is malaria [@Nhacolo2006].
+
+# Methodology
+
+We did some analysis.
+
+# Results
+
+Here is a table.
+
+```{r}
+x <- census %>%
+  group_by(floor_material) %>% 
+  summarise(people = n())
+kable(x)
+```
+
+Here is a chart.
+
+```{r}
+ggplot(data = census,
+       aes(x = age)) +
+  geom_density(fill = 'darkorange',
+               alpha = 0.5) + 
+  theme_cism() +
+  labs(x = 'Age',
+       y = 'Density',
+       title = 'Distribution of ages')
+```
+
+# Discussion
+
+This paper is not very good yet.
+
+# References

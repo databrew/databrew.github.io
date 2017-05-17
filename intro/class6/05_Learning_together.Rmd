@@ -1,0 +1,26 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Monthly meet-up
+
+- 1 hour, first Tuesday of every month.
+- Independent of location.
+- Email joebrew@gmail.com if you want to participate / organize.
+
+## `cism` pacakge
+
+- Needs a "development team" to keep it going.
+- Great way to work on code together, and learn how to write a package.
+- Email joebrew@gmail.com if you want to participate / organize.

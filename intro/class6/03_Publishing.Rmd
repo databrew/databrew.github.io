@@ -13,13 +13,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Publishing online
 
-## Agenda
+Three choices:
 
-- Projects
-- Bibliography
-- Publishing
-- Other resources
-- Continuing learning together
-- Survey (www.databrew.cc/evaluation)
-- Final "exam"
+1. Rpubs
+2. Rstudio connect
+3. Make your own website

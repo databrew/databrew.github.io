@@ -1,0 +1,69 @@
+---
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Citations / Bibliography
+
+- One of the key components of reproducible research is that EVERYTHING GETS CODED.
+- Another key component is that EVERYTHING IS OPEN SOURCE (free).
+
+## How to do reproducible bibliography management
+
+- Use the bibtex format: `bibligraphy.bib`
+
+## What does this look like?
+
+```
+@article{Galatas2016,
+  doi = {10.1186/s12936-016-1496-y},
+  url = {https://doi.org/10.1186/s12936-016-1496-y},
+  year  = {2016},
+  month = {aug},
+  publisher = {Springer Nature},
+  volume = {15},
+  number = {1},
+  author = {Beatriz Galatas and Caterina Guinovart and Quique Bassat and John J. Aponte and L{\'{\i}}dia Nham{\'{u}}ssua and Eusebio Macete and Francisco Sa{\'{u}}te and Pedro Alonso and Pedro Aide},
+  title = {A prospective cohort study to assess the micro-epidemiology of Plasmodium falciparum clinical malaria in Ilha Josina Machel (Manhi{\c{c}}a,  Mozambique)},
+  journal = {Malaria Journal}
+}
+```
+
+## Workflow
+
+- Create a project
+- Create a bib file
+- Indicate to R that you're using a bibliography file
+
+```
+---
+title: "bib test"
+author: "Joe Brew"
+date: "May 17, 2017"
+output: html_document
+bibliography: bibliography.bib
+---
+```
+
+## Workflow
+
+- Find the doi of your article.
+- Go to http://www.doi2bib.org/
+- Get the bib code
+- Put it in your `bibliography.bib` file
+- Reference it in your paper.
+
+```
+[@bibcode]
+```
