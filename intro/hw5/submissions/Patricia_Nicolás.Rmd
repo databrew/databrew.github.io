@@ -1,0 +1,98 @@
+---
+title: "Does being in love affect happiness?"
+author: "Patricia Nicolás"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+    toc: true
+    toc_float: true
+    theme: journal
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in the data for the survey we took in class the other data
+if(!'survey.csv' %in% dir()){
+  survey <- gsheet2tbl('https://docs.google.com/spreadsheets/d/1kCpmpVqD4tzkdGgyLQGVqeZG1sJoe2FwFJIxtDRsrb0/edit?usp=sharing')
+  write_csv(survey, 'survey.csv')
+} else {
+  survey <- read_csv('survey.csv')
+}
+```
+
+# Introduction
+
+This is a research paper about a survey we took in class. It is written in Rmarkdown.
+This paper explores the association link between being in love and the level of happiness (from 0 to 10). 
+
+# Methods
+
+There were `r nrow(survey)` participants in the survey.
+To carry out this study it has been done a survey to all students of R class. In the mentioned survey were included two questions, one asking if the participants are in love or not and the other one to know the level of happiness in a scale from 0 to 10.
+
+# Results
+
+## Sub-section 1
+
+In this population of 19 people there are 16 people in love and 3 that are not. According to the happiness level there are: 4 people at level 9, 8 people at level 8, 2 people at level 7, 1 person at level 6, 3 people at level 5 and 1 person at level 3.
+```{r}
+ggplot(data = survey, aes(x=hand))+ geom_bar(fill='dark green')+ labs(title='Right-handed or Left-handed?')+ theme_cism()
+```
+
+```{r}
+ggplot(data = survey, aes(x=age))+ geom_density(fill='dark blue')+ labs(title='Age')+ theme_cism()
+```
+
+```{r}
+ggplot(data = survey, aes(x=siblings))+ geom_bar()+ labs(title='How many siblings have the students of R?')+ theme_cism()
+```
+
+```{r}
+ggplot(data = survey, aes(x=in_love, y=happiness)) + geom_jitter()+labs(title='Being in love means happiness?', x='Being in love', y='Level of happiness')+ theme_cism()
+```
+
+```{r}
+# This is an R comment
+
+# This is some code to produce a barplot of sex 
+ggplot(data = survey,
+       aes(x = sex)) +
+  geom_bar()+ theme_cism()
+```
+
+## Sub-section 2
+
+# Discussion
+
+According to the above figures, we can afirm that there is an association between being in love and the level of happiness. However we can observe some people that there are in love that are below in the scale than the people who are single.
+
+# Conclusion
+
+There is an association between being in love and the happiness level in R class students.
