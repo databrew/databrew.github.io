@@ -1,0 +1,335 @@
+---
+title: "Pregnacy specific serology to detect geographical patterns of malaria transmission in Mozambique"
+author: "Ana Fonseca"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+bibliography: bibliography.bib
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library(knitr)
+library(readxl)
+library(sp)
+library(raster)
+library(rgeos)
+library(rasterVis)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+
+# Serology Maps_ this a a way to refer to analysis performed in other R.script
+#source("SeroMip Maps_raster.R")
+
+## but since I am not having sucsses with this "source" I am going to copy all the code here:
+
+# open the data-base from imMIPPAD with coordenates
+imMIPPAD_map<- read_excel("DB_long_coordinates_april2017.xlsx")
+
+# Make a simpler dataframe name
+df <- imMIPPAD_map
+
+# Get a map of manhica
+man3 <- cism::man3
+
+# # Lets keep only those sub-districts that we like
+# the_map <- man3[man3$NAME_3 %in% c(#"Maluana",
+#                                 #"3 De Fevereiro",
+#                                 "Manhica - Sede"),] 
+
+# Make longitude and latitude NUMERIC
+df$longitude <- as.numeric(df$longitude)
+df$latitude <- as.numeric(df$latitude)
+
+# Make a spatial version of df
+df_spatial <- df
+df_spatial$x <- df_spatial$longitude
+df_spatial$y <- df_spatial$latitude
+
+# Remove those observations from df_spatial which have na x or y
+df_spatial<- df_spatial[!is.na(df_spatial$latitude) &
+                          !is.na(df_spatial$longitude),]
+
+# Remove those that are outside of manhica and maragra filtering by latitude and longitude
+df_spatial <- df_spatial %>%
+filter(latitude <= -25.375,
+       longitude >= 32.76)
+
+# make a plot of df_spatial after remove the individuals that are not from manhiça and maragra
+coordinates(df_spatial) <- ~x+y
+# plot(df_spatial)
+
+# Give df_spatial a projection
+#proj4string(df_spatial) <- proj4string(the_map)
+
+# To confirm that our projections are good, lets plot the_map with df_spatial
+#plot(the_map)
+#points(df_spatial)
+
+# KEEP ONLY THOSE POINTS IN MANHICA SEDE!!!
+mansed <- man3[man3@data$NAME_3 == "Manhica - Sede",]
+proj4string(df_spatial) <- proj4string(man3)
+x <- over(df_spatial, polygons(mansed))
+df_spatial <- df_spatial[!is.na(x),]
+
+# Use convex hull to create a border
+the_map <- gConvexHull(df_spatial)
+
+#plot(man3)
+#points(df_spatial, pch = ".", col = adjustcolor("blue", alpha.f = 0.7))
+#plot(the_map, add = TRUE, col = adjustcolor("red", alpha.f = 0.2))
+
+# Use a "buffer" to make that border go out
+the_map <- gBuffer(the_map, width = 0.02)
+#plot(the_map, add = TRUE)
+
+# SPATIAL INTERPOLATION
+
+# First we need to create a uniform grid
+# Create a gridded dataframe with values 
+# for the entire range (bbox) of magude
+df_grid <- expand.grid(lng = seq(bbox(the_map)[1,1],
+                                 bbox(the_map)[1,2],
+                                 by = 0.002), # make this smaller for better quality
+                       lat = seq(bbox(the_map)[2,1],
+                                 bbox(the_map)[2,2],
+                                 by = 0.002), # make this smaller for better quality
+                       pos_score = NA)
+df_grid$latitude <- df_grid$lat
+df_grid$longitude <- df_grid$lng
+coordinates(df_grid) <- ~longitude+latitude
+# Visualize the grid
+#plot(the_map)
+#points(df_grid$lng, df_grid$lat, pch = ".")
+
+#Make the raster map
+anamap <- function(variable, smooth_number = 2,
+                   colors = c("red", "white", "blue")){
+  # Loop through each point in our grid
+  for (i in 1:nrow(df_grid)){
+    message(i)
+    # Get distance from this grid point to every point in df_spatial
+    distances <- spDistsN1(pts = df_spatial,
+                           pt = df_grid[i,],
+                           longlat = TRUE)
+    # Define which are acceptably close (define a radius)
+    close_enough <- which(distances <= 50)
+    # Get a positivity score ( 1 means yes and 0 means no)
+    positivity <- stats::weighted.mean(x = data.frame(df_spatial@data)[,variable][close_enough],
+                                       w = (1 / distances[close_enough])^smooth_number,
+                                       na.rm = TRUE)
+    # Assign irs to the dataframe
+    df_grid$pos_score[i] <- positivity
+  }
+  
+  # Convert df_grid to raster
+  temp <- df_grid@data %>% arrange(lng, lat)
+  r <- rasterFromXYZ(temp[, c('lng', 'lat', 'pos_score')])
+  # plot(r)
+  # plot(the_map, add = TRUE)
+  
+  # Make grid smaller and then reconvert to raster
+  proj4string(df_grid) <- proj4string(the_map)
+  x <- over(df_grid, polygons(the_map))
+  df_grid_small <- df_grid[!is.na(x),]
+  # plot(df_grid_small,
+  #      col = adjustcolor('black', alpha.f = 0.2))
+  temp <- df_grid_small@data %>% arrange(lng, lat)
+  # r <- rasterFromXYZ(temp[, c('lng', 'lat', 'pos_score')])
+  cols <- colorRampPalette(
+    # c("red", "white", "blue")
+    colors
+    # brewer.pal(9, "RdYlBu")
+    )(100)
+  cols <- rev(cols)
+  image(r, 
+        col = cols,
+        # col = topo.colors(length(seq(0, 1, length = 100))),
+        # col=terrain.colors(length(seq(0, 1, length = 100))),
+        # breaks =  seq(0, 1, length = 101),
+        breaks = seq(min(values(r), na.rm = TRUE),
+                     max(values(r), na.rm = TRUE),
+                     length = 101),
+        axes = FALSE, xlab = NA, ylab = NA)
+ 
+  points(df_spatial,
+         pch = ifelse(data.frame(df_spatial@data)[,variable] == 0,
+                      1, 3),
+         col = adjustcolor("black", alpha.f = 0.5),
+         cex = 0.5)
+  plot(the_map, add = TRUE, border = adjustcolor("black", alpha.f = 0.3))
+  # contour(r, add= TRUE, col = adjustcolor("black", alpha.f = 0.5))
+  plot(man3, add = TRUE)
+  # points(df_spatial,
+  #        col = adjustcolor("black", alpha.f = 0.2),
+  #        cex = 0.2)
+  title(main = variable)
+}
+library(rasterVis)
+
+variables <- c("infeccion2",
+               "p_p8_3",
+               "comp5_8",
+               "p_p5_3",
+               "p_p1_3",
+               "p_p20_3",
+               "p_p6_3",
+               "p_p12_3",
+               "p_p37_3",
+               "p_pcsp_3",
+               "p_dbl3x_3",
+               "p_dbl6e_3",
+               "p_dbl5e_3",
+               "p_ama1_3",
+               "p_msp119_3")
+```
+
+# INTRODUCTION
+
+In recent years, there has been a decline in malaria transmission in many regions, leading to optimism that malaria elimination might be achieved in numerous countries. As transmission declines, surveillance becomes increasingly important and metrics used to estimate malaria exposure in a community need to account for dynamic changes over space and time essential to guide strategic planning, implementation and evaluation of interventions [@WHO2016]. 
+Traditionally, surveillance has been typically reliant on case reporting by health services, entomological estimates and parasitemia point prevalence. However, these metrics are difficult to apply, costly and poorly informative once transmission becomes low and the sample sizes required make them unfeasible for the purposes of routine surveillance  [@Stewart2009]. 
+In contrast, serology has recently become more attractive as an epidemiologic tool [@Drakeley2009; @Corran2007] and discovery of new antigenic targets is a research priority on the malaria elimination agenda (MalERA recent) enhanced by the improved technology for high-throughput screening [@Kerkhof2015; @Helb2015]. 
+Serology can target antenatal clinic populations since they are a convenient and easy-to-access group for real-time surveillance of infectious diseases (i.e., HIV). Moreover pregnant women are more susceptible to malaria than non-pregnant adult individuals and the prevalence of infection was shown to strongly correlate with prevalence of infection detected in children [@vanEijk2015; @Willilo2016]. 
+Malaria infected pregnant women develop antibodies against P. falciparum erythrocyte membrane protein VAR2CSA (350 kDa) that binds to Chondroitin Sulphate A (CSA) in the syncytiotrophoblasts [@Salanti2003]. Antibodies are developed in a parity depended manner (i.e., increase with exposure during successive pregnancies) [@TuikueNdam2006] and are affected by variables that influence the risk of exposure to P. falciparum such as season, proximity to the river [@Mayor2013], use of IPTp [@SerraCasas2010] or insecticide-treated nets (ITN) [@Aitken2012]. Relatively low serological diversity of VAR2CSA [@Hommel2010] and development of antibodies after single or very limited exposures to placental parasites [@Mayor2011] supports the suitability of this antigen for the serological estimation of transmission. 
+
+Overall, these characteristics led us to hypothesize that detection of anti-VAR2CSA antibodies in pregnant women, who are easily accessible through antenatal care clinics, could constitute a useful field-deployable approach for malaria surveillance. For that, IgGs were measured in plasmas from Mozambican malaria-exposed pregnant women recruited between 2011 and 2012. 
+
+
+# METHODOLOGY
+
+## Ethics statement 
+The study was approved by the Ethics Committees from the Hospital Clínic of Barcelona (Spain) and Mozambique. Written informed consent was obtained from all the participants.
+
+## Study sites and population
+The women included in this study were recruited during a clinical trial of intermittent preventive treatment during pregnancy (IPTp) between 2010-2012 (NCT00811421) in Mozambique [@Gonzlez2014a;@Gonzlez2014b]. All women included in the study received bed nets treated with long-lasting insecticide. Tissue samples from the maternal side of the placenta, as well as maternal peripheral-, placental-blood samples were collected at delivery. Blood was collected into EDTA vacutainers and centrifuged, with the plasma stored at −20ºC. More than one peripheral blood sample was collected during pregnancy from Mozambican women recruited during 2011-2012. 49 plasma samples were collected from pregnant women never exposed to P. falciparum, recruited at delivery at the Hospital Clinic in Barcelona during 2010. Clinical malaria episodes were treated according to national guidelines at the time of the study. 
+
+## Antigens
+Recombinant protein used was VAR2CSA Duffy binding-like domain DBL5Ɛ, from 3D7 strain, merozoite surface protein-1, 19-kDa, (MSP119, from 3D7 strain), all produced at ICGEB (New Delhi, India). Two VAR2CSA synthetic peptides (p5 and p8) covering conserved and semi conserved regions of the protein. Peptides were synthetized by Gl Biochem (Xangai, China) and median purity was estimated as 79% (range: 71-91%) by HPLC and mass spectrometry.
+
+## Immunological determinations
+Antibodies were measured using the xMAP TM technology and the Luminex® 100/200™ System (Luminex® Corp., Austin, Texas). Two multiplex suspension array panels were constructed to quantify IgG responses against P. falciparum recombinant protein (DBL5Ɛ and MSP119), synthetic peptides (p5 and p8) from plasma samples following a modification of the protocol as previously described by us (Fonseca el all, submited). Presence or absence of antibodies was defined by finite mixture models (FMM) for pregnancy-specific antigens (VAR2CSA peptides and recombinant domains) [@Corran2008] and by the mean plus 3 standard deviation (SD) of IgG response from Spanish pregnant women for the general malaria antigen (MSP119).
+
+## Parasitological determinations 
+Thick and thin blood films, as well as placental biopsies, were read for Plasmodium species detection according to standard, quality-controlled procedures. Blood onto filter papers were tested for the presence of P. falciparum in duplicate by means of a real-time quantitative polymerase chain-reaction (qPCR) assay targeting 18S ribosomal RNA (rRNA). Past placental infection was defined by the presence of malaria pigment (i.e., hemozoin) without parasite detection on placental histologic examination, and chronic placental infection was defined by the presence of malaria pigment in combination with the detection of parasites. P. falciparum infection during pregnancy was defined if peripheral or placental blood samples were positive by microscopy or qPCR at any time-point of collection, if P. falciparum detected by hospital passive case detection (PCD), or if histology positive (active, chronic or past). 
+
+## Definitions and statistical analysis 
+Women were classified as primigravid (first pregnancy) and multigravid (at least one previous pregnancy). Age was categorized as younger than 20 years, 20 to 24 years, or 25 years of age or older 15.
+
+Geographical heterogeneity in malaria transmission acessed by (sero)prevalences was examined using...(I dont know how to corectelly describe this methodology that we have used for the maps).
+
+Statistical analyses were performed with R.software (version 2.15.2).
+
+# RESULTS
+
+## 1.Samples description
+Antibodies were measured in samples from 239 pregnant Mozambican women recruited during 2011 and 2012, 2 blood samples were collected during pregnancy (at the end of 2nd and 3rd trimesters) and 1 at delivery (total of 696 plasmas analyzed; exception of 21 women that only 1 plasma sample was collected during pregnancy plus delivery). The mean age was `r mean(df$age)` and number of pregnacies was `r mean(df$parity)`. 116 women had latitude and longitude data available in the moment of the study.
+
+
+## 2. Serology to detect geographical patterns in Mozambique
+
+The geographical distribution of malaria prevalences and seroprevalences among Mozambican pregnant women are shown in figures 3-8. The main P. falciparum hotspot was identified in the Maragra region by a concentration of pregnant women that had experienced at least one infection during pregnancy (dark orange color, figure 3) contrasting with a very low concentration of positives (cold-spot) in the center of Manhiça village (blue color, figure 3). Seroprevalence against p5 measured at delivery show a similar geographical distribution then the prevalence of infection detected during pregnancy (figure 4). Seroprevalence against p8, p5+8 and DBL5Ɛ were able to detect the same hot- and cold-spot in Maragra and Manhiça regions, respectively (figure 5-7). A higher percentage and more homogeneous geographical distribution of seropositives against MSP119 were reported when compared with VAR2CSA antigens (figure 8).
+
+Table 1. Population description.
+How can I include numbers/percentages of infection positive, p5 positive, etc...in this table. 
+
+```{r}
+x <- df %>%
+  summarise(age = mean(age),
+            parity = mean(parity))
+kable(x)
+```
+
+Figure 1. Age distribution.
+
+```{r}
+ggplot(data = df,
+       aes(x = age)) +
+  geom_density(fill = 'darkorange',
+               alpha = 0.5) + 
+  theme_cism() +
+  labs(x = 'Age',
+       y = 'Density',
+       title = 'Distribution of ages')
+```
+
+Figure 2. Number of pregnacies
+
+```{r}
+ggplot(data = df,
+       aes(x = emb2)) +
+  geom_bar(fill = 'darkorange',
+               alpha = 0.5) + 
+  theme_cism() +
+  labs(x = 'pregnacies',
+       y = 'count',
+       title = 'Number of pregnacies')
+
+```
+
+Figure 3. Map of infeccion during pregnacy.
+
+```{r}
+anamap("infeccion2", smooth_number = 0.001, colors = c("red","orange","white","grey", "white", "light blue", "blue"))
+```
+
+Figure 4. Map of p5 seropositives at delivery
+```{r}
+anamap("p_p5_3", smooth_number = 0.001, colors = c("red","orange","white", "grey", "white", "light blue", "blue"))
+```
+
+
+Figure 5. Map of p8 seropositives at delivery
+```{r}
+anamap("p_p8_3", smooth_number = 0.001, colors = c("red","orange","white","grey", "white", "light blue", "blue") )
+```
+
+Figure 6. Map of p5+8 seropositives at delivery
+```{r}
+anamap("comp5_8", smooth_number = 0.001,  colors = c("red","orange","white", "grey", "white", "light blue", "blue") )
+```
+
+Figure 7. Map of DBL5e seropositives at delivery
+```{r}
+anamap("p_dbl5e_3", smooth_number = 0.001,  colors = c("red","orange","white", "grey", "white", "light blue", "blue") )
+```
+
+Figure 8. Map of MSP119 seropositives at delivery
+```{r}
+anamap("p_msp119_3", smooth_number = 0.001,  colors = c("red","orange","white", "light blue", "blue") )
+```
+
+# DISCUSSION
+
+Heterogeneous geographical distribution of seropositives against p5, p8 and p5+8 were reported in Mozambique showing a hot- and cold-spot in Maragra and Manhiça region, respectively. The geographical distribution of seropositives was similar to the distribution of P. falciparum positives at least once during pregnancy. Antibodies elicited by MSP119 were not able to identify these patterns in malaria transmission. The power to obtein these individual level estimates is illustrated by the ability of VAR2CSA-based serology to accurately identify individuals with recent infection.
+
+The potential to obtain more accurate estimates of P. falciparum exposure from small sample sizes and using VAR2CSA-serology by targeting pregnant women as sentinel population makes the already promising use of serology as a key malaria surveillance tool more attractive. Surveys of pregnant women in ANC can provide a rapid, cheap and sustainable platform to assemble information on malaria risk among communities. The use of ANC platforms as sentinels does however require further validation and optimization. 
+
+Finally, programmatic research is required to assess feasibility, acceptability, and cost-effectiveness and to develop approaches to integrate this pregnancy-based sero-surveillance tool into malaria control and elimination programs and link with other surveillance strategies.
+
+
+# REFERENCES
