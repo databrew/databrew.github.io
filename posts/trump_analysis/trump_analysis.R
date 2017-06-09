@@ -89,6 +89,11 @@ djt <-
                                  'Saturday',
                                  'Sunday')))
 
+# Get birth certificate tweets
+djt <-
+  djt %>%
+  mutate(bc = grepl('birth certificate', tolower(djt$text)))
+
 # Group by day of week
 x <- djt %>%
   group_by(dow) %>%
