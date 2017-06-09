@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html"><span><img class="image logo small" src="../images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../about.html">About</a></li>
+                            <li class="current"><a href="../blog.html">Blog</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+                                    <li><a href="../Rworkshops.html">R Workshops - Individuals</a></li>
+								    <li><a href="../Rbusiness.html">R Workshops - Businesses</a></li>
+								    <li><a href="../dataconsulting.html">Data Consulting</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="../contact.html" class="button special">Contact US</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<article id="main">
+					<section class="wrapper style4 container">
+                        <header>
+                            <h7>June 15, 2017 | Joe Brew</h7>
+                            <h6><strong>Analyzing Donald Trump's tweets</strong></h6>
+                            <br/>
+                        <!-- Remove <br/> and use <h3> for subtitle-->
+                        </header>	
+                        <p>Donald Trump has tweeted over 30,000 times. He occasionally deletes tweets, but thanks to the folks at trumptwitterarchive.com, what goes on the internet stays on the internet... forever!</p>
+                        
+                        <p>What follows is a brief, somewhat random exploration of the Trump tweet dataset. It relies heavily on our sentiment scoring algorithm (publicly available in the databrew package), which classifies phrases as negative (below 0), or positive (above 0) based on the words they use.</p>
+                        
+              <h2>Try to catch him on a weekend</h2>
+                    
+                    <p>Maybe Donald really needs all those weekend trips to Florida. After all, they seem to be having an effect on him. The average sentiment score (0 is neutral, above 0 is positive, below 0 is negative) is notably higher on the weekends than other days of the week.</p>
+        <!-- Image -->
+        <div class="6u 12u(narrower)">
+                <div class="image featured">
+                            <img src="trump_analysis/fig2.png">
+                        </div>
+                        </div>
+                        
+                    <h2>He used to be more...stable?</h2>
+                    
+                    <p>The average positivity-negativity of Donald Trump's tweets goes up and down, with no clear pattern over time. But if we examine negative and positive tweets separately, we see that something else is going on: Donald Trump has simply become more extreme in both directions. In other words, his praise has become more effusive, and his criticism more biting. Is this the effect of a brand new hyper-emotional political reality, or the creation of one?</p>
+        <!-- Image -->
+        <div class="6u 12u(narrower)">
+                <div class="image featured">
+                            <img src="trump_analysis/fig3.png">
+                        </div>
+                        </div>
+
+
+
+                    <h2>It's that time of the month</h2>
+                    
+                    <p>The below chart shows the weekly rolling average (orange line) of the sentiments of Donald Trump's tweets, smoothed (blue line). A lower number if more negative, whereas a higher number if more positive. Vertical grey lines are drawn every 28 days. Note the cyclical dips in sentiment at the end of each 27 day period (the notable exception being the early November election victory).</p>
+        <!-- Image -->
+        <div class="6u 12u(narrower)">
+                <div class="image featured">
+                            <img src="trump_analysis/fig1.png">
+                        </div>
+                        </div>
+                    
+                  <h2>He's actually a nice guy...</h2>
+                <p>Overall, believe it or not, Donald Trump's tweets are more positive than negative.</p>
+              
+                   <div class="6u 12u(narrower)">
+                <div class="image featured">
+                            <img src="trump_analysis/fig4.png">
+                        </div>
+                        </div>
+                        
+                <p>His nicest tweet ever? It got a score of 24. No, it wasn't about congress, his electoral victory, his wife, Vladimir Putin, or even himself. It was about Celebrity Apprentice:</p>
+                
+                <p><emph>"Good luck and best wishes to my dear friend, the wonderful and very talented Joan Rivers!  Winner of Celebrity Apprentice, amazing woman"</emph></p>
+                
+                <h2>...and he's a jerk</h2>
+        <p>Donald Trump is not known for self-restraint. But his meanest tweets aren't directed at political opponents, terrorists, or Clinton. Rather, they go to a magazine editor:</p>
+        <p><emph>"If Graydon Carter's very dumb bosses would fire him for his terrible circulation numbers at failing Vanity Fair-his bad food restaurants die"</emph></p>
+        
+        <h2>We love to hate</h2>
+        <p>It's easy to point a finger at Donald Trump for bringing more "negativity" into politics ("lock her up!" and "nasty woman" ring a bell?). But ultimately, Trump's genius (and the reason he won the election) was the fact that he gave the American people what they wanted. Take, for example, the retweet rate of his tweets. Those that are neutral or positiveget significantly fewer retweets than those which are negative or very negative.</p>
+        
+         <div class="6u 12u(narrower)">
+                <div class="image featured">
+                            <img src="trump_analysis/fig5.png">
+                        </div>
+                        </div>
+                        
+              <p></p>
+              
+      <p>What was Donald Trump's most re-tweeted tweet ever (excluding those from election day)? It came in June, 2014, was retweeted by over 20,000 people and favorited nearly 17,000 times. In retrospect, the tweet displays a stunning amount of foresight: "Are you allowed to impeach a president for gross incompetence?"</p>
+      
+      
+                              <h2>Technical note</h2>
+                        
+                        <p>We borrowed generously from the twitter-munging code made public  at https://github.com/mkearney/trumptweets. Our sentiment scoring algorithm is publicly available in the databrew package. Feel free to copy our code (http://www.databrew.cc/posts/trump_analysis/trump_analysis.R) and explore it a bit yourself.</p>
+                        
+        
+        
+
+                    <div>
+                      <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
+                    </div>    
+                    </section>    
+                        
+                </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+        <script>
+       
+        </script>
+   	</body>
+</html>
