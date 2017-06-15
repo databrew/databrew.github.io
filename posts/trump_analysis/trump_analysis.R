@@ -141,7 +141,7 @@ ggplot(data = daily %>%
   labs(x = 'Date',
        y = '(negative) Tweet sentiment score (positive)',
        title = "Are Donald Trump's emotions on a monthly cycle?",
-       subtitle = 'Vertical grey lines = 28 day intervals')
+       subtitle = 'Vertical grey lines = 27 day intervals')
 ggsave('fig1.png')
 
 
