@@ -1,0 +1,68 @@
+id,Shigella,study,study_year,case status,age group,age,gender
+300519,S. boydii,MSD,1,Cases,0-11 months,7,Girl
+302052,S. boydii,MSD,2,Cases,0-11 months,8,Boy
+302123,S. flexneri ,MSD,2,Cases,24-59 months,25,Boy
+302907,S. flexneri ,MSD,3,Cases,24-59 months,26,Boy
+303222,S. flexneri ,MSD,4,Cases,0-11 months,11,Boy
+303503,S. flexneri ,MSD,4,Cases,0-11 months,10,Boy
+310223,S. flexneri ,MSD,5,Cases,24-59 months,26,Girl
+320042,S. flexneri ,LSD,5,Controls,24-59 months,38,Boy
+320649,S. flexneri ,LSD,5,Cases,12-23 months,20,Girl
+303365,S. flexneri ,MSD,4,Cases,12-23 months,23,Boy
+302663,S. flexneri ,MSD,2,Cases,12-23 months,14,Girl
+303146,S. flexneri ,MSD,3,Cases,12-23 months,21,Boy
+303287,S. flexneri ,MSD,3,Cases,24-59 months,24,Boy
+310328,S. sonnei,MSD,5,Controls,24-59 months,41,Girl
+300020,S. flexneri ,MSD,1,Cases,12-23 months,13,Boy
+300035,S. flexneri ,MSD,1,Cases,0-11 months,4,Girl
+300225,S. flexneri ,MSD,1,Cases,24-59 months,27,Girl
+300244,S. flexneri ,MSD,1,Cases,12-23 months,13,Girl
+302672,S. flexneri ,MSD,2,Cases,12-23 months,17,Boy
+303061,S. flexneri ,MSD,3,Cases,12-23 months,23,Boy
+303226,S. flexneri ,MSD,3,Cases,12-23 months,21,Boy
+303361,S. flexneri ,MSD,4,Cases,12-23 months,22,Boy
+303475,S. flexneri ,MSD,4,Cases,12-23 months,13,Boy
+303504,S. flexneri ,MSD,4,Cases,12-23 months,23,Girl
+303650,S. flexneri ,MSD,4,Cases,12-23 months,20,Girl
+303766,S. flexneri ,MSD,4,Cases,24-59 months,38,Girl
+310045,S. flexneri ,MSD,5,Cases,24-59 months,25,Boy
+310058,S. flexneri ,MSD,5,Cases,24-59 months,29,Boy
+310179,S. flexneri ,MSD,5,Cases,24-59 months,26,Girl
+310325,S. flexneri ,MSD,5,Cases,24-59 months,40,Girl
+310332,S. flexneri ,MSD,5,Cases,24-59 months,48,Boy
+320348,S. flexneri ,LSD,5,Cases,12-23 months,18,Girl
+320495,S. flexneri ,LSD,5,Cases,12-23 months,16,Girl
+320828,S. flexneri ,LSD,5,Cases,24-59 months,24,Boy
+320914,S. flexneri ,LSD,5,Controls,24-59 months,27,Boy
+300209,S. flexneri ,MSD,1,Cases,24-59 months,55,Girl
+310036,S. flexneri ,MSD,5,Cases,24-59 months,31,Boy
+310194,S. flexneri ,MSD,5,Cases,12-23 months,22,Girl
+310254,S. flexneri ,MSD,5,Cases,24-59 months,24,Boy
+302229,S. flexneri ,MSD,2,Cases,24-59 months,29,Girl
+300730,S. flexneri ,MSD,1,Cases,24-59 months,26,Girl
+300752,S. flexneri ,MSD,1,Cases,24-59 months,31,Boy
+303291,S. flexneri ,MSD,3,Cases,24-59 months,45,Boy
+303350,S. flexneri ,MSD,4,Cases,12-23 months,20,Boy
+303540,S. flexneri ,MSD,4,Controls,0-11 months,9,Boy
+320014,S. flexneri ,LSD,5,Cases,12-23 months,20,Boy
+320634,S. flexneri ,LSD,5,Cases,12-23 months,19,Boy
+320650,S. flexneri ,LSD,5,Cases,12-23 months,22,Boy
+320661,S. flexneri ,LSD,5,Cases,12-23 months,15,Boy
+300116,S. sonnei,MSD,1,Cases,24-59 months,29,Boy
+300225,S. sonnei,MSD,1,Cases,24-59 months,27,Girl
+302755,S. sonnei,MSD,3,Cases,24-59 months,33,Girl
+302912,S. sonnei,MSD,3,Cases,12-23 months,17,Girl
+303522,S. sonnei,MSD,4,Controls,24-59 months,24,Boy
+303740,S. sonnei,MSD,4,Controls,12-23 months,16,Boy
+310141,S. sonnei,MSD,5,Cases,12-23 months,18,Boy
+310142,S. sonnei,MSD,5,Cases,12-23 months,13,Girl
+310567,S. sonnei,MSD,5,Cases,24-59 months,26,Boy
+320228,S. sonnei,LSD,5,Cases,0-11 months,9,Boy
+320255,S. sonnei,LSD,5,Controls,12-23 months,15,Girl
+320586,S. sonnei,LSD,5,Cases,24-59 months,37,Girl
+320593,S. sonnei,LSD,5,Cases,24-59 months,34,Girl
+320703,S. sonnei,LSD,5,Cases,12-23 months,22,Girl
+320900,S. flexneri ,LSD,5,Cases,24-59 months,49,Girl
+320008,S. sonnei,LSD,5,Cases,24-59 months,25,Girl
+303300,Shigella spp.,MSD,3,Controls,12-23 months,16,Boy
+320274,Shigella spp.,LSD,5,Cases,24-59 months,24,Boy

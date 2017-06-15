@@ -1,0 +1,86 @@
+---
+title: "Prevalence of Shigella species in children under 5 years with diarrhea in Manhica"
+author: "Delfino Vubil"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+fig_height: 2.6
+fig_width: 4
+bibliography: bibliography.bib
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(cism)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(gsheet)
+library(readr)
+library(knitr)
+
+# Options for this document (ie, whether to show code, errors, etc.)
+knitr::opts_chunk$set(comment = NA, 
+               echo = FALSE,
+               eval = TRUE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+
+# Read in some data here
+Shigella<- read.csv("C:/Users/dvubil/Desktop/Curso R/Shigella.csv")
+```
+
+# Introduction
+
+Shigella infections remain a global public health problem causing diarrhea in both developing and developed countries [@Liu2012]. Herein we assessed the prevalence of Shigella species among children admitted with diarrhea in Manhica District. 
+
+# Methodology
+We Assessed the prevalence of isolates of Shigella from 2007-2012 among children aged less than 5 years admitted with diarrhea in Manhica District. Children were stratified in three age group in months (0-11, 12-23 and 24-59). Additionally, community controls (children with no symptoms of diarrhea) were enrolled for each diarrheal case. Species identification was conducted at CISM laboratory.
+
+
+# Results
+
+We found `r nrow(Shigella)` Shigella isolates, 59 were isolated from children with diarrhea and 8 from controls (Fig. 1). Most of the children were from 24-59 months followed by 12-23 and 0-11 months(Fig. 2). Three different Shigella species were found, being S. flexneri, the most frequent followed by S. sonnei, two S. boydii and two isolates which species could not be identified (Fig. 3). Table 1 shows the overview of the different Shigella species according to sex.
+
+Figure 1. Number of cases of diarrhea versus controls
+
+```{r}
+ggplot(data=Shigella, aes(x=case.status, fill=gender))+geom_bar(position = "dodge")+labs(x='Case status', y='Proportions (absolute values)')
+```
+Figure 2. Distribution of ages among the study population
+```{r}
+ggplot(data=Shigella, aes(x=age.group, fill=gender))+geom_bar(position = "dodge")+labs(x='Age group', y='Proportions(absolute values)')
+```
+
+Figure 3. Prevalence of Shigella species among children with diarrhea.
+
+```{r}
+ggplot(data = Shigella,
+       aes(x = Shigella, fill = gender)) +geom_bar(position = "dodge")+labs(x='Shigella species', y='Proportions (absolute values)')
+```
+
+
+Table 1. Overview of Shigella species according to sex
+
+```{r}
+x<-Shigella%>%select(Shigella,gender) %>% group_by(Shigella, gender) %>% summarise(total = n())
+kable(x)
+
+```
+
+# Discussion
+Although a high diversity of Shigella was observed, S. flexneri was the most prevalent species. The high prevalence of S. flexneri was also reported in other developing countries [@Chang2012,@Vrints2009] which reinforce its clinical importance in causing childhood diarrhea in low income countries. 
+
+
+
+# References
