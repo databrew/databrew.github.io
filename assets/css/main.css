@@ -2660,6 +2660,25 @@ h1 {
 			margin-bottom: 2em;
 		}
 
+
+/* Portfolio */
+
+	#portfolio {
+		background-attachment: scroll;
+		background-color: #645862;
+		background-image: ;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+	}
+
+		#portfolio header {
+			margin-bottom: 2em;
+		}
+
 /* Footer */
 
 	#footer {
