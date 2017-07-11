@@ -2258,6 +2258,7 @@ h1 {
 		.wrapper.style2 {
 			background-color: #E8EEF4;
 			color: #7c8081;
+            padding: 3em;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -3270,7 +3271,7 @@ h1 {
 
 			.wrapper {
 				margin-bottom: 2.5em;
-				padding: 2.25em 1.5em;
+				padding: 2.25em 2.25em;
 			}
 
 				.wrapper.special br {
