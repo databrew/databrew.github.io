@@ -1631,14 +1631,14 @@ h1 {
     }
 
     h5 {
-        font-size: 1.6em;
+        font-size: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #328cc1;
     }
 
      h6 {
-        font-size: 1.6em;
+        font-size: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #ff9900;
@@ -2253,6 +2253,7 @@ h1 {
 		.wrapper.style1 {
 			padding: 0;
             margin-top: 5em;
+            margin-bottom: 5em;
 		}
 
 		.wrapper.style2 {
@@ -2671,11 +2672,13 @@ h1 {
 		color: #fff;
 		padding: 5em;
 		text-align: center;
+        line-height: 1.75;
 	}
 
 		#portfolio header {
 			margin-bottom: 2em;
 		}
+        
 
 /* Footer */
 
@@ -3184,6 +3187,11 @@ h1 {
 			}
 
 			h2 {
+				font-size: 1.25em;
+				letter-spacing: 0.1em;
+			}
+        
+            h6 {
 				font-size: 1.25em;
 				letter-spacing: 0.1em;
 			}
