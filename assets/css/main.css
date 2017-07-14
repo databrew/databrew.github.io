@@ -1615,7 +1615,7 @@ h1 {
     
 }
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 		letter-spacing: 0.1em;
 	}
 
@@ -2665,7 +2665,6 @@ h1 {
 	#portfolio {
 		background-attachment: scroll;
 		background-color: #645862;
-		background-image: ;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2678,8 +2677,32 @@ h1 {
 		#portfolio header {
 			margin-bottom: 2em;
 		}
-        
+    
+        #portfolio1 {
+        background-attachment: fixed;
+        background-image: url("../../images/bioinformatics.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: left;
+        line-height: 1.75;
+	}
 
+ #portfoliovaccine {
+        background-attachment: scroll;
+        background-image: url("../../images/vaccine.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #333435;
+		padding: 5em;
+		text-align: center;
+        line-height: 1.75;
+	}
+
+    
 /* Footer */
 
 	#footer {
