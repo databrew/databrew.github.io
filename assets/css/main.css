@@ -2691,14 +2691,14 @@ h1 {
 	}
 
  #portfoliovaccine {
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-image: url("../../images/vaccine.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		color: #333435;
+		color: #fff;
 		padding: 5em;
-		text-align: center;
+		text-align: left;
         line-height: 1.75;
 	}
 
@@ -2715,7 +2715,7 @@ h1 {
 	}
 
 #portfolioresearch {
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-image: url("../../images/laptops.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
