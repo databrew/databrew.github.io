@@ -1615,7 +1615,7 @@ h1 {
     
 }
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 		letter-spacing: 0.1em;
 	}
 
@@ -1631,14 +1631,14 @@ h1 {
     }
 
     h5 {
-        font-size: 1.6em;
+        font-size: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #328cc1;
     }
 
      h6 {
-        font-size: 1.6em;
+        font-size: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #ff9900;
@@ -1670,7 +1670,7 @@ h1 {
 	}
 
 	blockquote {
-		border-left: solid 0.5em rgba(124, 128, 129, 0.2);
+		border-left: solid 0.6em rgba(124, 128, 129, 0.2);
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -2246,21 +2246,20 @@ h1 {
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 		padding: 5em;
 	}
 
 		.wrapper.style1 {
 			padding: 0;
             margin-top: 5em;
+            margin-bottom: 5em;
 		}
 
 		.wrapper.style2 {
-			background-color: #328cc1;
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
-			color: #fff;
+			background-color: #E8EEF4;
+			color: #7c8081;
+            padding: 3em;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -2660,6 +2659,74 @@ h1 {
 			margin-bottom: 2em;
 		}
 
+
+/* Portfolio */
+
+	#portfolio {
+		background-attachment: scroll;
+		background-color: #645862;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+        line-height: 1.75;
+	}
+
+		#portfolio header {
+			margin-bottom: 2em;
+		}
+    
+        #portfolio1 {
+        background-attachment: fixed;
+        background-image: url("../../images/bioinformatics.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: left;
+        line-height: 1.75;
+	}
+
+ #portfoliovaccine {
+        background-attachment: fixed;
+        background-image: url("../../images/vaccine.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: left;
+        line-height: 1.75;
+	}
+
+#portfoliomoz {
+        background-attachment: fixed;
+        background-image: url("../../images/moz_houses.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+        line-height: 1.75;
+	}
+
+#portfolioresearch {
+        background-attachment: scroll;
+        background-image: url("../../images/laptops.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+        line-height: 1.75;
+	}
+
+    
 /* Footer */
 
 	#footer {
@@ -3170,6 +3237,11 @@ h1 {
 				font-size: 1.25em;
 				letter-spacing: 0.1em;
 			}
+        
+            h6 {
+				font-size: 1.25em;
+				letter-spacing: 0.1em;
+			}
 
 			h3 {
 				font-size: 1em;
@@ -3254,7 +3326,7 @@ h1 {
 
 			.wrapper {
 				margin-bottom: 2.5em;
-				padding: 2.25em 1.5em;
+				padding: 2.25em 2.25em;
 			}
 
 				.wrapper.special br {
