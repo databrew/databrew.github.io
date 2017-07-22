@@ -1672,6 +1672,7 @@ h1 {
 	blockquote {
 		border-left: solid 0.6em rgba(124, 128, 129, 0.2);
 		font-style: italic;
+        color: #545659;
 		padding: 1em 0 1em 2em;
 	}
 
@@ -1905,12 +1906,12 @@ h1 {
 			}
 
 	       .icon.circle.fa-file-text-o {
-				background: #70aecd;
+				background: #8e8e93;
 				color: #fff;
 			}
 
 				.icon.circle.fa-file-text-o:hover {
-					background: #70aecd;
+					background: #545659;
 				}
 
 			.icon.circle.fa-twitter {
@@ -1929,15 +1930,6 @@ h1 {
 
 				.icon.circle.fa-facebook:hover {
 					background: #829bc9;
-				}
-
-			.icon.circle.fa-instagram {
-				background: #8e8e93;
-				color: #fff;
-			}
-
-				.icon.circle.fa-instagram:hover {
-					background: #df7b77;
 				}
 
 			.icon.circle.fa-github {
@@ -2618,7 +2610,7 @@ h1 {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 6em 0 0 0;
 	}
 
 		#main > :last-child {
@@ -2641,6 +2633,9 @@ h1 {
 		padding-top: 5em;
 	}
 
+    body.contact #main {
+				padding-bottom: 6em;
+			}
 
 /* CTA */
 
