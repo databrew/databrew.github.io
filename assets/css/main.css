@@ -2912,9 +2912,30 @@ h1 {
 		/* CTA */
 
 			#cta {
-				background-size: 15em, 15em, auto, cover;
+				background-size: auto;
 				padding: 3em;
 			}
+        
+        /* Portfolio */
+            #portfolio {
+                padding: 2.5em;
+            }
+
+            #portfoliomoz {
+                padding: 2.5em;
+            }
+
+             #portfolio1 {
+                padding: 2.5em;
+            }
+
+            #portfoliovaccine {
+                padding: 2.5em;
+            }
+
+            #portfolioresearch {
+                padding: 2.5em;
+            }
 
 	}
 
@@ -3041,7 +3062,8 @@ h1 {
 		/* CTA */
 
 			#cta {
-				margin: 0;
+				background-size: auto;
+                margin: 0;
 			}
 
 		/* Footer */
@@ -3221,6 +3243,14 @@ h1 {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+        
+        /* Image */
+        .image.featured {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 10em;
+        }
 
 	}
 
@@ -3391,7 +3421,7 @@ h1 {
 		/* CTA */
 
 			#cta {
-				background-size: 10em, 10em, auto, cover;
+				background-size: auto;
 				padding: 3em 1.5em;
 			}
 
