@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #545659;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -1672,6 +1672,7 @@ h1 {
 	blockquote {
 		border-left: solid 0.6em rgba(124, 128, 129, 0.2);
 		font-style: italic;
+        color: #545659;
 		padding: 1em 0 1em 2em;
 	}
 
@@ -1905,12 +1906,12 @@ h1 {
 			}
 
 	       .icon.circle.fa-file-text-o {
-				background: #70aecd;
+				background: #8e8e93;
 				color: #fff;
 			}
 
 				.icon.circle.fa-file-text-o:hover {
-					background: #70aecd;
+					background: #545659;
 				}
 
 			.icon.circle.fa-twitter {
@@ -1929,15 +1930,6 @@ h1 {
 
 				.icon.circle.fa-facebook:hover {
 					background: #829bc9;
-				}
-
-			.icon.circle.fa-instagram {
-				background: #8e8e93;
-				color: #fff;
-			}
-
-				.icon.circle.fa-instagram:hover {
-					background: #df7b77;
 				}
 
 			.icon.circle.fa-github {
@@ -2123,7 +2115,7 @@ h1 {
 	}
 
 		table.default {
-			width: 100%;
+			width: 50%;
 		}
 
 			table.default tbody tr {
@@ -2132,6 +2124,7 @@ h1 {
 
 			table.default td {
 				padding: 0.5em 1em 0.5em 1em;
+                font-size: 12pt;
 			}
 
 			table.default th {
@@ -2334,6 +2327,7 @@ h1 {
 
 	#header {
 		background: #fff;
+        opacity: 0.9;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -2361,7 +2355,7 @@ h1 {
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
-		}
+            }
 
 			#header nav ul li {
 				display: inline-block;
@@ -2617,7 +2611,7 @@ h1 {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 6em 0 0 0;
 	}
 
 		#main > :last-child {
@@ -2640,6 +2634,9 @@ h1 {
 		padding-top: 5em;
 	}
 
+    body.contact #main {
+				padding-bottom: 6em;
+			}
 
 /* CTA */
 
@@ -2911,9 +2908,30 @@ h1 {
 		/* CTA */
 
 			#cta {
-				background-size: 15em, 15em, auto, cover;
+				background-size: auto;
 				padding: 3em;
 			}
+        
+        /* Portfolio */
+            #portfolio {
+                padding: 2.5em;
+            }
+
+            #portfoliomoz {
+                padding: 2.5em;
+            }
+
+             #portfolio1 {
+                padding: 2.5em;
+            }
+
+            #portfoliovaccine {
+                padding: 2.5em;
+            }
+
+            #portfolioresearch {
+                padding: 2.5em;
+            }
 
 	}
 
@@ -3040,7 +3058,8 @@ h1 {
 		/* CTA */
 
 			#cta {
-				margin: 0;
+				background-size: auto;
+                margin: 0;
 			}
 
 		/* Footer */
@@ -3220,6 +3239,14 @@ h1 {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+        
+        /* Image */
+        .image.featured {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 10em;
+        }
 
 	}
 
@@ -3390,7 +3417,7 @@ h1 {
 		/* CTA */
 
 			#cta {
-				background-size: 10em, 10em, auto, cover;
+				background-size: auto;
 				padding: 3em 1.5em;
 			}
 
@@ -3525,7 +3552,7 @@ h1 {
 
     .fullmodalDialog > div {
         position: relative;
-        margin: 10% auto;
+        margin: 8% auto;
         width: 80%;
         height: 80%;
         padding: 30px 30px 30px 30px;
