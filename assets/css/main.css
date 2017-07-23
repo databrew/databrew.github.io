@@ -2327,6 +2327,7 @@ h1 {
 
 	#header {
 		background: #fff;
+        opacity: 0.9;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -2354,7 +2355,7 @@ h1 {
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
-		}
+            }
 
 			#header nav ul li {
 				display: inline-block;
