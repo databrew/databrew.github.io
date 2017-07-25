@@ -2754,6 +2754,11 @@ h1 {
 					border: 0;
 				}
 
+/* Map */
+#mapid { 
+    height: 300px; 
+}
+
 
 /* Wide */
 

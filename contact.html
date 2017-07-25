@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link rel="stylesheet" href="./Leaflet-1.0.3/leaflet.css"/>
+        <script src="./Leaflet-1.0.3/leaflet.js"></script>
 	</head>
 	<body class="contact">
 		<div id="page-wrapper">
@@ -32,7 +34,23 @@
 						</ul>
 					</nav>
 				</header>
+            <!-- Map -->
+            <div id="mapid"></div>
+            <script>
 
+              // initialize the map
+              var map = L.map('map').setView([42.35, -71.08], 13);
+
+              // load a tile layer
+              L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+                {
+                  attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+                  maxZoom: 17,
+                  minZoom: 9
+                }).addTo(map);
+
+              </script>
+            
 
 			<!-- Main -->
 				<article id="main">
