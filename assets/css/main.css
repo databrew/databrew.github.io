@@ -2634,7 +2634,9 @@ h1 {
 	}
 
     body.contact #main {
-				padding-bottom: 6em;
+		padding-top: 1em;		
+        padding-bottom: 6em;
+        margin-top: -2em
 			}
 
 /* CTA */
@@ -2753,11 +2755,6 @@ h1 {
 					padding: 0;
 					border: 0;
 				}
-
-/* Map */
-#mapid { 
-    height: 300px; 
-}
 
 
 /* Wide */

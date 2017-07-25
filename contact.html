@@ -8,8 +8,22 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <link rel="stylesheet" href="./Leaflet-1.0.3/leaflet.css"/>
-        <script src="./Leaflet-1.0.3/leaflet.js"></script>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+        <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+            <style>
+            #map {
+                width: 100%;
+                height: 500px;
+            }
+                
+            @media screen and (max-width: 736px) {
+                #map {
+                width: 100%;
+                height: 250px;
+            }
+                }
+            </style>
 	</head>
 	<body class="contact">
 		<div id="page-wrapper">
@@ -35,26 +49,48 @@
 					</nav>
 				</header>
             <!-- Map -->
-            <div id="mapid"></div>
-            <script>
+            <div id="map"></div>
 
-              // initialize the map
-              var map = L.map('map').setView([42.35, -71.08], 13);
+                <script>
 
-              // load a tile layer
-              L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
-                {
-                  attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-                  maxZoom: 17,
-                  minZoom: 9
-                }).addTo(map);
+                    var map = L.map('map',{scrollWheelZoom:false, zoomControl: false}).setView([30, -30], 2);
+                    
+                    // listen for screen resize events i.e, when mobile screen, zoom out of map
+                    window.addEventListener('resize', function(event){
+                        // get the width of the screen after the resize event
+                        var width = document.documentElement.clientWidth;
+                        // tablets are between 768 and 922 pixels wide
+                        // phones are less than 768 pixels wide
+                        if (width < 736) {
+                            // set the zoom level to 10
+                            map.setZoom(0);
+                        }  else {
+                            // set the zoom level to 2
+                            map.setZoom(2);
+                        }
+                    });
 
-              </script>
-            
+                    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                    }).addTo(map);
+                    
+                    var databrewIcon = L.icon({
+                    iconUrl: '/images/logo_clear.png',
+
+                    iconSize:     [40, 40], // size of the icon
+                    popupAnchor:  [0, -15] // point from which the popup should open relative to the iconAnchor
+                    });
+
+                    var marker = L.marker([43.64701, -79.39425], {icon: databrewIcon}).bindPopup('Toronto Office<br>Xing: +1 647-860-4338').addTo(map);
+                    var marker = L.marker([41.3851, 2.1734], {icon: databrewIcon}).bindPopup('Barcelona Office<br> Joe: +34 666 66 80 86').addTo(map);
+                    var marker = L.marker([-25.406, 32.807], {icon: databrewIcon}).bindPopup('Mozambique').addTo(map);
+                    var marker = L.marker([52.37022, 4.89517], {icon: databrewIcon}).bindPopup('Amsterdam Office<br>Joe: +34 666 66 80 86').addTo(map);
+
+                </script>
+
 
 			<!-- Main -->
-				<article id="main">
-                    
+				<article id="main">          
                     <section class="wrapper style1 container special">
 							<header>
                                 <h5><strong>Contact Us</strong></h5>
