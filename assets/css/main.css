@@ -3265,7 +3265,12 @@ h1 {
 			}
         
             h6 {
-				font-size: 1.25em;
+				font-size: 14pt;
+				letter-spacing: 0.1em;
+			}
+        
+            h5 {
+				font-size: 14pt;
 				letter-spacing: 0.1em;
 			}
 
@@ -3276,6 +3281,7 @@ h1 {
 
 			p {
 				text-align: center;
+                font-size: 12pt;
 			}
 
 		/* Section/Article */
