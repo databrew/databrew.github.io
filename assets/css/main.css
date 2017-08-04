@@ -3269,6 +3269,7 @@ h1 {
             h6 {
 				font-size: 14pt;
 				letter-spacing: 0.1em;
+                text-align: center;
 			}
         
             h5 {
@@ -3281,6 +3282,12 @@ h1 {
 				letter-spacing: 0.025em;
 			}
 
+        
+            h7 {
+				text-align: center;
+			}
+
+        
 			p {
 				text-align: center;
                 font-size: 12pt;
@@ -3333,6 +3340,7 @@ h1 {
 			.button {
 				max-width: 20em;
 				width: 100%;
+                line-height: 2em;
 			}
 
 				input[type="button"].fit,
@@ -3341,6 +3349,26 @@ h1 {
 				.button.fit {
 					width: auto;
 				}
+        
+        .button.orange {
+			background: #ff9900;
+			border-color: #ff9900;
+			color: #fff !important;
+            margin-bottom: 3em;
+            line-height: 1.5em;
+		}
+        
+        /* Blog */ 
+        
+        #blog {
+            align-content: center;
+        }
+        
+        .image.featured.blog img {
+				display: inline-block;
+				width: 200%;
+			}
+
 
 		/* List */
 
@@ -3395,7 +3423,7 @@ h1 {
 				}
 
 					#banner .inner header h2 {
-						font-size: 1.5em;
+						font-size: 2em;
 					}
 
 					#banner .inner p {
@@ -3427,6 +3455,10 @@ h1 {
 				background-size: auto;
 				padding: 3em 1.5em;
 			}
+        
+        #cta h2 {
+            font-size: 1em;
+        }
 
 		/* Footer */
 
