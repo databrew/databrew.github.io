@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html"><span><img class="image logo small" src="../images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../about.html">About</a></li>
+                            <li class="current"><a href="../blog.html">Blog</a></li>
+                            <li class="current"><a href="../portfolio.html">Portfolio</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+                                    <li><a href="../consulting.html">Consulting</a></li>
+								    <li><a href="../workshops.html">Data Science Workshops</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="../contact.html" class="button special">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<article id="main">
+					<section class="wrapper style4 container">
+                        <header>
+                            <h7>AUGUST 5, 2017 | JOE BREW</h7>
+                            <h6><strong>The world according to Strava</strong></h6>
+                            <br/>
+                        <!-- Remove <br/> and use <h3> for subtitle-->
+                        </header>	
+					<div class="image featured">
+                            <img src="../images/blog/strava0.png" style="max-width: 1000px;">
+                    </div>
+
+					<h3><strong>Good data deserve good visualizations</strong></h3>
+
+
+                    <p><a href="https://www.strava.com/" target="_blank">Strava</a>, a social network where athletes share the data generated from their GPS-ensabled devices (watches, phones, etc.) is amazing. One can see the workouts of famous athletes like <a href="https://www.strava.com/pros/5452411" target="_blank">Killian Jornet</a>, follow their friends, and track their own fitness. But what's really cool is all the data that Strava collects. Those phones and GPS watches are recording precise data about location, speed, elevation, etc. every second all over the world, and Strava is bringing it all under one roof.
+                    </p>
+
+                    <p>Good data deserve good visualizations. So, we thought it'd be cool to visualize some Strava data using R. Here's how we did it.</p>
+
+                    <h3><strong>Get API access</strong></h3>
+
+                    <p>First things first: in order to get access to Strava data, you'll need to go through the Strava API. This means creating an account, and then setting up an "application" on the <a href="https://www.strava.com/settings/api" target="_blank">API page</a>.</p>
+
+                    <div class="image featured">
+                            <img src="../images/blog/strava1.png" style="max-width: 1000px;">
+                    </div>
+
+                    <h3><strong>Use the rStrava package</strong></h3>
+
+                    <p>Once you've got API access, you can access Strava data just about any way you'd like. We like Marcus Beck's <a href="https://github.com/fawda123/rStrava" target="_blank">rStrava package</a> for its handling of tokens, helper utilities, and overall usefulness.</p>
+
+
+                    <h3><strong>Get data</strong></h3>
+
+                    <p>We wanted <em>lots</em> of data, but didn't really care who it came from. So, we wrote some code (below) to fetch random activities, setting a timer so as to not exceed Strava's rate limits (30,000 per day). We let our code run for a few days until we got to 100,000 total activities:</p>
+
+                    <script src="https://gist.github.com/joebrew/23838dd796b761c0f97569d2fadc7ddf.js"></script>	
+
+                    <h3><strong>Munge data</strong></h3>
+
+                    <p>Before we're ready to visualize, we need to do a bit of processing. We remove suspiciously long and straight activities (apparently, some people turn on their GPS watch on airplanes), and we use polygonal overlay to get the country and nearest city of each activity. The code (below) is nothing terribly complicated, but necessary, since a few stray datapoints can really mess up a pretty map.</p>
+
+                    <script src="https://gist.github.com/joebrew/54cea457feb6fec3a1972912c76b1343.js"></script>
+
+                    <h3><strong>Visualize data</strong></h3>
+
+                    <p>Once we've retrieved and prepared our data, time for the fun - maps!</p>
+
+                    <p>First, we define a function for plotting the activities of just one country or city (doing more than that results in slow run-time and huge files):</p>
+
+                    <script src="https://gist.github.com/joebrew/bbf8d8b7a71518b5392a1fb2179b8142.js"></script>
+
+                    <p>Our visualization function, defined above, creates a leaflet map of all the activities in a country or city. Now let's run it for a few locations and see the results.</p>
+
+
+                    <div class="image featured">
+                            <img src="../images/blog/strava5.png" style="max-width: 1000px;">
+                    </div>
+
+                    <div class="image featured">
+                            <img src="../images/blog/strava6.png" style="max-width: 1000px;">
+                    </div>
+
+                    <p>Using the leaflet library, we can also produce interactive visualizations.</p>
+
+                    <iframe src="../images/blog/London__United_Kingdom.html" height = 600px width = 100%></iframe>
+
+
+
+
+                    <p>Cool, huh? Here's <a href="https://github.com/databrew/strava_vis" target="_blank">all the code</a> for the production of these maps. Enjoy!</p>
+                        
+
+                       
+                    <div>
+                      <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
+                    </div>    
+                    </section>    
+                        
+                </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+        <!-- Google analytics -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-71173507-3', 'auto');
+              ga('send', 'pageview');
+            </script>
+            <!-- End google analytics -->
+   	</body>
+</html>
