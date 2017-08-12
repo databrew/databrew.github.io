@@ -1870,6 +1870,15 @@ h1 {
                 margin-bottom: -1em;
 			}
 
+            .image.text img {
+                margin-left: 1em;
+                padding: .5em;
+                float: right;
+                position: relative;
+                max-height: 200px;
+                
+            }
+
 /* Icon */
 
 	.icon {
@@ -2270,6 +2279,8 @@ h1 {
 		.button.tiny {
 			font-size: 0.7em;
 			min-width: 10em;
+            padding: 0;
+            margin: 0;
 			border: none;
 		}
 
@@ -3283,7 +3294,6 @@ h1 {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            max-width: 10em;
         }
 
 	}
@@ -3395,6 +3405,14 @@ h1 {
             line-height: 1.5em;
 		}
         
+        .button.tiny {
+            font-size: 0.7em;
+            width: 40%;
+            padding: 0;
+            margin: 0;
+			border: none;
+		}
+        
         /* Blog */ 
         
         #blog {
@@ -3403,9 +3421,19 @@ h1 {
         
         .image.featured.blog img {
 				display: inline-block;
-				width: 200%;
+				width: 100%;
 			}
-
+        
+        /* Image */
+        .image.text img {
+            display: block;   
+            margin: auto;
+            float: none;
+            align-content: center;
+            max-height: 200px;
+                
+            }
+        
 
 		/* List */
 
