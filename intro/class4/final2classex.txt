@@ -1,5 +1,0 @@
--spatial
--stats
--data management
--practice
--fun stuff
