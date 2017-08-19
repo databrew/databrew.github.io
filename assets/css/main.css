@@ -2585,16 +2585,28 @@ h1 {
 	}
 
 	#banner {
-		background-attachment: scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/overlay.png"), url("../../images/banner2.jpeg");
-		background-position: top left, top center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		color: #fff;
-		cursor: default;
-		padding: 6em 0;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		padding: 8em 4em 6em 4em;
+		min-height: 70vh;
+		background-image: url("../../images/banner.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-top: 0;
+		position: relative;
 		text-align: center;
+		overflow: hidden;
 	}
 
 		#banner .inner {
@@ -2612,6 +2624,7 @@ h1 {
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+            z-index: 2;
 		}
 
 			#banner .inner header {
@@ -2649,6 +2662,21 @@ h1 {
 			#banner .inner footer {
 				margin: 2em 0 0 0;
 			}
+
+    #banner video {
+			-moz-transform: translateX(50%) translateY(50%);
+			-webkit-transform: translateX(50%) translateY(50%);
+			-ms-transform: translateX(50%) translateY(50%);
+			transform: translateX(50%) translateY(50%);
+			position: absolute;
+			bottom: 50%;
+			right: 50%;
+			width: auto;
+			height: auto;
+			min-width: 100%;
+			min-height: 100%;
+			overflow: hidden;
+		}
 
 
 /* Main */
@@ -2946,6 +2974,10 @@ h1 {
 
 			#banner {
 				background-size: auto, cover;
+			}
+        
+        #banner video {
+				display: none;
 			}
 
 		/* Main */
