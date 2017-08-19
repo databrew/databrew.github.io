@@ -2900,10 +2900,6 @@ h1 {
 			#banner {
 				background-attachment: scroll;
 			}
-        
-            #banner video {
-				display: none;
-			}
 
 		/* CTA */
 
@@ -2978,6 +2974,10 @@ h1 {
 
 			#banner {
 				background-size: auto, cover;
+			}
+        
+        #banner video {
+				display: none;
 			}
 
 		/* Main */

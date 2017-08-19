@@ -78,11 +78,7 @@
 
 						});
 
-				// More button.
-					$banner.find('.more')
-						.addClass('scrolly');
-
-			}
+			  }
 
 		// Scrolly.
 			$('.scrolly').scrolly();
