@@ -1904,14 +1904,14 @@ h1 {
 			border: 0;
 			border-radius: 100%;
 			display: inline-block;
-			font-size: 1.25em;
-			height: 2.25em;
+			font-size: 1em;
+			height: 2em;
 			left: 0;
-			line-height: 2.25em;
+			line-height: 2em;
 			text-align: center;
 			text-decoration: none;
 			top: 0;
-			width: 2.25em;
+			width: 2em;
 		}
 
 			.icon.circle:hover {
@@ -2292,7 +2292,7 @@ h1 {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 0 0 5em 0;
             margin-top: 5em;
             margin-bottom: 5em;
 		}
@@ -2804,7 +2804,7 @@ h1 {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #353736;
 		color: #7c8081;
 		padding: 3em 5em 3em 5em;
 		text-align: center;
