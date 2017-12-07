@@ -33,9 +33,7 @@ Here is a plot
 <div class="row">
 <div class="3u 12u(narrower)">
 </div>
-
 <div class="6u 12u(narrower)">
-
 <div class="image featured">
 
 ```{r, echo = FALSE}
@@ -48,18 +46,6 @@ barplot(1:10, col = rainbow(10))
 </div>
 </div>
 
-
-Here is another.
-
-```{r, fig.width=6, fig.height=2.5}
-hw <- HoltWinters(ldeaths)
-predicted <- predict(hw, n.ahead = 72, prediction.interval = TRUE)
-
-dygraph(predicted, main = "Predicted Lung Deaths (UK)") %>%
-  dyAxis("x", drawGrid = FALSE) %>%
-  dySeries(c("lwr", "fit", "upr"), label = "Deaths") %>%
-  dyOptions(colors = RColorBrewer::brewer.pal(3, "Set1"))
-```
 
 ## Conclusion
 
