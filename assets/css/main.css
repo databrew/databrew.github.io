@@ -1904,14 +1904,14 @@ h1 {
 			border: 0;
 			border-radius: 100%;
 			display: inline-block;
-			font-size: 1.25em;
-			height: 2.25em;
+			font-size: 1em;
+			height: 2em;
 			left: 0;
-			line-height: 2.25em;
+			line-height: 2em;
 			text-align: center;
 			text-decoration: none;
 			top: 0;
-			width: 2.25em;
+			width: 2em;
 		}
 
 			.icon.circle:hover {
@@ -2292,7 +2292,7 @@ h1 {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 0 0 5em 0;
             margin-top: 5em;
             margin-bottom: 5em;
 		}
@@ -2599,7 +2599,7 @@ h1 {
 		justify-content: center;
 		padding: 8em 4em 6em 4em;
 		min-height: 70vh;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/databrew_70s.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3326,6 +3326,7 @@ h1 {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            max-width: 300px;
         }
 
 	}

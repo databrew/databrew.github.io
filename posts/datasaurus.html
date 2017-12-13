@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html"><span><img class="image logo small" src="../images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../about.html">About</a></li>
+                            <li class="current"><a href="../blog.html">Blog</a></li>
+                            <li class="current"><a href="../portfolio.html">Portfolio</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+                                    <li><a href="../consulting.html">Consulting</a></li>
+								    <li><a href="../workshops.html">Data Science Workshops</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="../contact.html" class="button special">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<article id="main">
+					<section class="wrapper style4 container">
+                        <header>
+                            <h7>December 8, 2017 | Xing Brew</h7>
+                            <h6><strong>The Datasaurus Dozen</strong></h6>
+                            <h3>Understanding the importance of data visualization</h3>
+                
+                        </header>	
+                        <p>In an increasingly data-driven society and with the growing prominence of data science, data visualization has become an art form of its own. There are university degrees, jobs, international competitions, and conferences centered around the art of data visualization. But as researchers Justin Matejka and George Fitzmaurice creatively illustrate with the “Datasaurus Dozen”, visualizing data is more than just aesthetics.</p>
+
+                        <p>In a <a href="https://www.autodeskresearch.com/sites/default/files/SameStats-DifferentGraphs.pdf" target="_blank">paper</a> published earlier this year, Matejka and Fitzmaurice demonstrate how 12 datasets that share some of the same statisitical properties (like mean, standard deviation, and Pearson’s correlation) look completely different when plotted. Their research builds on a principle demonstrated by statistician F.J. Anscombe in 1973 in what is known as the Anscombe’s Quartet, a group of four datasets which all share the same summary statistics, yet look completely different in graphs.</p>
+                        <p><strong>Anscombe's Quartet</strong></p>
+                        <div class="image">
+                            <img src="../images/blog/anscombes.png" style="max-width: 100%;">
+                        </div>
+                        <h7>Source: Wikipedia</h7>
+                        <br/><br/>
+
+                        <p><strong>What is Datasaurus?</strong><br/>The researchers were inspired by Albert Cairo’s “Datasaurus”, an image that the data viz expert created using <a href="http://robertgrantstats.co.uk/drawmydata.html" target="_blank">DrawMyData</a> to remind people the importance of visualizing data. Cairo’s dataset looked normal when examining summary statistics, but when plotted, formed the image of a dinosaur. His message? Don't trust summary statistics.</p>
+
+
+                         <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Don&#39;t trust summary statistics. Always visualize your data first <a href="https://t.co/63RxirsTuY">https://t.co/63RxirsTuY</a> <a href="https://t.co/5j94Dw9UAf">pic.twitter.com/5j94Dw9UAf</a></p>&mdash; Alberto Cairo (@albertocairo) <a href="https://twitter.com/albertocairo/status/765167969139765250?ref_src=twsrc%5Etfw">August 15, 2016</a></blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        
+                        <p>Matejka and Fitzmaurice implemented the dataset Cairo used to create Datasaurus to form a series of 12 different shapes and patterns in which the summary statistics remain constant to two decimal places even as the points and patterns shift drastically.</p>    
+
+                        <div class="image">
+                            <img src="../images/blog/datasaurus_dozen.gif" style="max-width: 100%;">
+                        </div>
+                        <h7>Source: J. Matejka and G. Fitzmaurice (2017)</h7>
+                        <br/>
+                        <br/>
+                        <p>The researchers further illustrated the importance of visualizing data using the Simpson’s Paradox, in which a certain trend appears in several different clusters of data but disappears, or is reversed, when these groups are combined. Both datasets A and B (below) have the same overall Pearson's correlation coefficient (+0.81). However, after coercing the data towards the pattern of downward sloping lines (B), we can see that each cluster of data in has an individually negative correlation even as the correlation of the entire dataset remains positive.</p>
+                        
+                        <div class="image">
+                            <img src="../images/blog/simpsons_paradox.png" style="max-width: 100%;">
+                        </div>
+                        <h7>Source: Adapted from J. Matejka and G. Fitzmaurice (2017)</h7>
+                        <br/>
+                        <br/>
+                        <p>Matejka and Fitzmaurice’s Datasaurus Dozen demonstrates that data visualization is more than just a superfluous addition to analysis or a way to make data look pretty. Rather, visualizing data is a crucial component of analysis because of its ability to reveal surprising or hidden patterns in data that bring us closer to the truth. Their research also implies how easily data can be manipulated to show or conceal certain trends or information, and thus serves as a good reminder of why we should look beyond summary statistics when drawing conclusions about data.</p> 
+
+                        <p>In addition to being an educational message, the researchers hope that their approach for creating visually dissimilar datasets which are equal over a range of statistical properties may be a starting point for new data anonymization techniques.</p>  
+    
+                    <div>
+                      <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
+                    </div>    
+                    </section>    
+                        
+                </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+        <!-- Google analytics -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-71173507-3', 'auto');
+              ga('send', 'pageview');
+            </script>
+            <!-- End google analytics -->
+   	</body>
+</html>
