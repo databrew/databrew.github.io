@@ -2490,6 +2490,10 @@ h1 {
 					border: solid 1px;
 				}
 
+        #header.alt #logo {
+        visibility: hidden;
+        }
+
 /* Dropotron */
 
 	.dropotron {
