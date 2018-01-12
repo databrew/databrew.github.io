@@ -2294,7 +2294,7 @@ h1 {
 		.wrapper.style1 {
 			padding: 0 0 5em 0;
             margin-top: 5em;
-            margin-bottom: 5em;
+            margin-bottom: 0;
 		}
 
 		.wrapper.style2 {
@@ -2329,6 +2329,13 @@ h1 {
 			background: #fff;
 			color: inherit;
 			padding: 3em;
+		}
+
+        .wrapper.style4 #clients .image img {
+			display: inline-block;
+            max-width: 200px;
+            vertical-align: middle;
+            margin: 1.5em;
 		}
 
 /* Header */
@@ -3332,6 +3339,14 @@ h1 {
             margin-right: auto;
             max-width: 300px;
         }
+        
+        /* Clients */
+        .wrapper.style4 #clients .image img {
+			display: inline-block;
+            max-width: 200px;
+            vertical-align: middle;
+            margin: 1em;
+		}
 
 	}
 
