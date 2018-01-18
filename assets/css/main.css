@@ -2121,6 +2121,7 @@ h1 {
 				padding: 0;
 			}
 
+
 /* Table */
 
 	table {
@@ -2250,9 +2251,18 @@ h1 {
 		input[type="submit"].small,
 		input[type="reset"].small,
 		.button.small {
-			font-size: 0.7em;
+			font-size: 0.8em;
 			min-width: 14em;
-			padding: 0.5em 0;
+			padding: 0.2em 0;
+		}
+
+        input[type="button"].small:hover,
+		input[type="submit"].small:hover,
+		input[type="reset"].small:hover,
+		.button.small:hover {
+			background: #7c8081 !important;
+            border-color: #7c8081 !important;
+            color: #fff;
 		}
 
         input[type="button"].orange,
@@ -2440,7 +2450,7 @@ h1 {
 				}
 
 				#header nav ul li.submenu > a {
-					text-decoration: none;
+					text-decoration: inherit;
 				}
 
 					#header nav ul li.submenu > a:before {
@@ -2634,6 +2644,7 @@ h1 {
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
+            border: 10px solid rgba(255, 255, 255, 0.6);
 			text-align: center;
             z-index: 2;
 		}
@@ -3112,6 +3123,10 @@ h1 {
 			#banner {
 				margin: 0;
 			}
+        
+            #banner .inner {
+				border: none;
+			}
 
 		/* Wrapper */
 
@@ -3534,9 +3549,9 @@ h1 {
 			}
 
 				#banner .inner {
-					background: none;
 					display: block;
-					padding: 0 1.5em;
+					padding: 2em 1em;
+                    border: 5px solid rgba(255,255,255,0.7)
 				}
 
 					#banner .inner header h2 {
