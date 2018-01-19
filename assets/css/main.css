@@ -2341,14 +2341,16 @@
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
-			padding: 3em;
-		}
+			padding: 1.5em;
+            text-align: center;
+            align-items: center;
+}
 
         .wrapper.style4 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 1.5em;
+            margin: 2em;
 		}
 
 /* Header */
@@ -2726,8 +2728,7 @@
 		}
 
         #main p {
-            font-size: 1.2em;
-            color: #7c8081;
+            font-size: 1em;
         }
 
 			#main .sidebar section:first-child {
@@ -2917,7 +2918,7 @@
 			}
 
 				.wrapper.style4 {
-					padding: 4em;
+					padding: 2em;
 				}
 
 		/* Header */
@@ -2999,7 +3000,7 @@
 				}
 
 				.wrapper.style4 {
-					padding: 2.5em;
+                    padding: 1em;
 				}
 
 		/* Banner */
@@ -3145,7 +3146,7 @@
 			}
 
 			.wrapper.style4 {
-				padding-bottom: 3em;
+				padding-bottom: 2em;
 			}
         
             .wrapper.style2 {
@@ -3417,7 +3418,7 @@
         
 			p {
 				text-align: center;
-                font-size: .75em;
+                font-size: 12pt;
 			}
 
 		/* Section/Article */
@@ -3498,6 +3499,7 @@
         #blog {
             align-content: center;
         }
+        
         
         .image.featured.blog img {
 				display: inline-block;
