@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
 /*
 	Twenty by HTML5 UP
@@ -1589,7 +1589,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	p, ul, ol, dl, table, blockquote {
@@ -1610,12 +1610,13 @@
 			text-decoration: none;
 			border: 0;
 		}
-h1 {
-    text-transform: none;
-    
-}
+    h1 {
+        text-transform: none;
+
+    }
+
 	h2 {
-		font-size: 2em;
+        font-size: 2em;
 		letter-spacing: 0.1em;
 	}
 
@@ -2253,7 +2254,7 @@ h1 {
 		.button.small {
 			font-size: 0.8em;
 			min-width: 14em;
-			padding: 0.2em 0;
+
 		}
 
         input[type="button"].small:hover,
@@ -2262,7 +2263,7 @@ h1 {
 		.button.small:hover {
 			background: #7c8081 !important;
             border-color: #7c8081 !important;
-            color: #fff;
+            color: inherit;
 		}
 
         input[type="button"].orange,
@@ -2308,9 +2309,11 @@ h1 {
 		}
 
 		.wrapper.style2 {
-			background-color: #E8EEF4;
+            background-color: #F8F8F8;
 			color: #7c8081;
-            padding: 2.5em;
+            background-size: auto, cover;
+            padding: 3em 5em;
+            text-align: center;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -2451,6 +2454,7 @@ h1 {
 
 				#header nav ul li.submenu > a {
 					text-decoration: inherit;
+                    font-weight: 900;
 				}
 
 					#header nav ul li.submenu > a:before {
@@ -2644,7 +2648,7 @@ h1 {
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
-            border: 10px solid rgba(255, 255, 255, 0.6);
+            border: 10px solid rgba(255, 255, 255, 0.7);
 			text-align: center;
             z-index: 2;
 		}
@@ -2720,6 +2724,11 @@ h1 {
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 		}
+
+        #main p {
+            font-size: 1.2em;
+            color: #7c8081;
+        }
 
 			#main .sidebar section:first-child {
 				border-top: 0;
@@ -2945,10 +2954,11 @@ h1 {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 				letter-spacing: 0.025em;
 				line-height: 1.5em;
 			}
+        
 
 		/* Section/Article */
 
@@ -2985,7 +2995,7 @@ h1 {
 				}
 
 				.wrapper.style2 {
-					background-size: 15em;
+					background-size: 10em;
 				}
 
 				.wrapper.style4 {
@@ -3087,7 +3097,7 @@ h1 {
 			.button.small {
 				font-size: 0.8em;
 				min-width: 18em;
-				padding: 0.75em 0;
+				padding: 0 .2em;
 			}
 
 		/* List */
@@ -3354,6 +3364,10 @@ h1 {
             margin-right: auto;
             max-width: 300px;
         }
+    
+        .image.featured img#hide {
+            display: none;
+        }
         
         /* Clients */
         .wrapper.style4 #clients .image img {
@@ -3376,7 +3390,6 @@ h1 {
 			}
 
 			h2 {
-				font-size: 1.25em;
 				letter-spacing: 0.1em;
 			}
         
@@ -3404,7 +3417,7 @@ h1 {
         
 			p {
 				text-align: center;
-                font-size: 12pt;
+                font-size: .75em;
 			}
 
 		/* Section/Article */
