@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
 /*
 	Twenty by HTML5 UP
@@ -1589,7 +1589,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	p, ul, ol, dl, table, blockquote {
@@ -1610,12 +1610,13 @@
 			text-decoration: none;
 			border: 0;
 		}
-h1 {
-    text-transform: none;
-    
-}
+    h1 {
+        text-transform: none;
+
+    }
+
 	h2 {
-		font-size: 2em;
+        font-size: 2em;
 		letter-spacing: 0.1em;
 	}
 
@@ -1632,6 +1633,7 @@ h1 {
 
     h5 {
         font-size: 1.5em;
+        line-height: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #328cc1;
@@ -1640,6 +1642,7 @@ h1 {
      h6 {
         font-size: 1.5em;
         letter-spacing: 0.1em;
+        line-height: 1.5em;
         text-transform: uppercase;
         color: #ff9900;
         margin-bottom: 0;
@@ -1963,39 +1966,57 @@ h1 {
 					background: #0077b5;
 				}
 
-        .icon.circle.fa-envelope {
+        .icon.contactpage {
+            -moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			border-radius: 100%;
+			display: inline-block;
+			font-size: 2em;
+			height: 2em;
+			left: 0;
+			line-height: 2em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2em;
+        }
+
+       .icon.contactpage.fa-envelope {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-           .icon.circle.fa-mobile {
+           .icon.contactpage.fa-mobile {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-        .icon.circle.fa-facebook-square {
+            .icon.contactpage.fa-facebook-f {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-            .icon.circle.fa-twitter-square {
+            .icon.contactpage.fa-twitter{
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
@@ -2121,6 +2142,7 @@ h1 {
 				padding: 0;
 			}
 
+
 /* Table */
 
 	table {
@@ -2204,7 +2226,7 @@ h1 {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
+		font-weight: 700;
 		letter-spacing: 2px;
 		min-width: 18em;
 		padding: 0 0.75em;
@@ -2250,9 +2272,18 @@ h1 {
 		input[type="submit"].small,
 		input[type="reset"].small,
 		.button.small {
-			font-size: 0.7em;
+			font-size: 0.8em;
 			min-width: 14em;
-			padding: 0.5em 0;
+
+		}
+
+        input[type="button"].small:hover,
+		input[type="submit"].small:hover,
+		input[type="reset"].small:hover,
+		.button.small:hover {
+			background: #7c8081 !important;
+            border-color: #7c8081 !important;
+            color: inherit;
 		}
 
         input[type="button"].orange,
@@ -2260,17 +2291,18 @@ h1 {
 		input[type="reset"].orange,
 		.button.orange {
 			background: #ff9900;
-			border-color: #ff9900;
+			border-color: #fff;
 			color: #fff !important;
-            margin-bottom: 4em;
+            font-size: 1.2em;
 		}
 
 			input[type="button"].orange:hover,
 			input[type="submit"].orange:hover,
 			input[type="reset"].orange:hover,
 			.button.orange:hover {
-				background: #7c8081 !important;
-				border-color: #7c8081 !important;
+				background: #fff!important;
+				border-color: #ff9900; !important;
+                color: #ff9900 !important;
 			}
 
         input[type="button"].tiny,
@@ -2298,9 +2330,11 @@ h1 {
 		}
 
 		.wrapper.style2 {
-			background-color: #E8EEF4;
+            background-color: #F8F8F8;
 			color: #7c8081;
-            padding: 2.5em;
+            background-size: auto, cover;
+            padding: 3em 5em;
+            text-align: center;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -2328,8 +2362,8 @@ h1 {
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
-			padding: 3em;
-		}
+			padding: 2em;
+        }   
 
         .wrapper.style4 #clients .image img {
 			display: inline-block;
@@ -2440,7 +2474,8 @@ h1 {
 				}
 
 				#header nav ul li.submenu > a {
-					text-decoration: none;
+					text-decoration: inherit;
+                    font-weight: 900;
 				}
 
 					#header nav ul li.submenu > a:before {
@@ -2634,6 +2669,7 @@ h1 {
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
+            border: 10px solid rgba(255, 255, 255, 0.7);
 			text-align: center;
             z-index: 2;
 		}
@@ -2689,6 +2725,59 @@ h1 {
 			overflow: hidden;
 		}
 
+/* Banner2 */ 
+    .banner2 {
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            padding: 10em;
+            min-height: 40vh;
+            background-image: url("../../images/class_banner.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto -4em auto;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+/* Banner3 */ 
+    .banner3 {
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            padding: 10em;
+            min-height: 40vh;
+            background-image: url("../../images/banner2.jpeg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto -4em auto;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+
 
 /* Main */
 
@@ -2710,6 +2799,10 @@ h1 {
 			padding: 1.5em 0 0 0;
 		}
 
+        #main p {
+            font-size: 1em;
+        }
+
 			#main .sidebar section:first-child {
 				border-top: 0;
 				padding-top: 0;
@@ -2725,6 +2818,16 @@ h1 {
         padding-bottom: 6em;
         margin-top: -2em
 			}
+
+/* Highlight Strip */
+    #strip {
+		background-color: #ff9900;
+		color: #fff;
+		padding: 2em;
+		text-align: center;
+	}
+
+
 
 /* CTA */
 
@@ -2892,12 +2995,12 @@ h1 {
 		/* Wrapper */
 
 			.wrapper {
-				margin-bottom: 4em;
+				margin-bottom: 3em;
 				padding: 4em 3em;
 			}
 
 				.wrapper.style4 {
-					padding: 4em;
+					padding: 2em;
 				}
 
 		/* Header */
@@ -2934,10 +3037,11 @@ h1 {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 				letter-spacing: 0.025em;
 				line-height: 1.5em;
 			}
+        
 
 		/* Section/Article */
 
@@ -2974,11 +3078,11 @@ h1 {
 				}
 
 				.wrapper.style2 {
-					background-size: 15em;
+					background-size: 10em;
 				}
 
 				.wrapper.style4 {
-					padding: 2.5em;
+                    padding: 1em;
 				}
 
 		/* Banner */
@@ -3025,6 +3129,12 @@ h1 {
                 padding: 2.5em;
             }
 
+        
+        /* Contact page icons */
+
+        .icon.contactpage {
+            margin: 1em auto;
+        }
 	}
 
 /* Narrower */
@@ -3076,7 +3186,7 @@ h1 {
 			.button.small {
 				font-size: 0.8em;
 				min-width: 18em;
-				padding: 0.75em 0;
+				padding: 0 .2em;
 			}
 
 		/* List */
@@ -3112,6 +3222,10 @@ h1 {
 			#banner {
 				margin: 0;
 			}
+        
+            #banner .inner {
+				border: none;
+			}
 
 		/* Wrapper */
 
@@ -3120,7 +3234,7 @@ h1 {
 			}
 
 			.wrapper.style4 {
-				padding-bottom: 3em;
+				padding-bottom: 2em;
 			}
         
             .wrapper.style2 {
@@ -3339,6 +3453,10 @@ h1 {
             margin-right: auto;
             max-width: 300px;
         }
+    
+        .image.featured img#hide {
+            display: none;
+        }
         
         /* Clients */
         .wrapper.style4 #clients .image img {
@@ -3347,7 +3465,7 @@ h1 {
             vertical-align: middle;
             margin: 1em;
 		}
-
+        
 	}
 
 /* Mobile */
@@ -3361,7 +3479,6 @@ h1 {
 			}
 
 			h2 {
-				font-size: 1.25em;
 				letter-spacing: 0.1em;
 			}
         
@@ -3453,7 +3570,7 @@ h1 {
 			background: #ff9900;
 			border-color: #ff9900;
 			color: #fff !important;
-            margin-bottom: 3em;
+            font-size: 2em;
             line-height: 1.5em;
 		}
         
@@ -3470,6 +3587,7 @@ h1 {
         #blog {
             align-content: center;
         }
+        
         
         .image.featured.blog img {
 				display: inline-block;
@@ -3534,9 +3652,9 @@ h1 {
 			}
 
 				#banner .inner {
-					background: none;
 					display: block;
-					padding: 0 1.5em;
+					padding: 2em 1em;
+                    border: 5px solid rgba(255,255,255,0.7)
 				}
 
 					#banner .inner header h2 {
@@ -3607,6 +3725,20 @@ h1 {
 				height: 34px;
 			}
 
+        /* Contact page icons */
+
+        .icon.contactpage {
+            font-size: 1em;
+			height: 1em;
+			left: 0;
+			line-height: 1em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 1em;
+            margin: 0.5em auto;
+        }
+        
 	}
 
 
@@ -3731,3 +3863,4 @@ h1 {
         border-radius: 12px;
         border: 1px;
     }
+
