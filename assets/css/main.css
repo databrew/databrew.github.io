@@ -1633,6 +1633,7 @@
 
     h5 {
         font-size: 1.5em;
+        line-height: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #328cc1;
@@ -1641,6 +1642,7 @@
      h6 {
         font-size: 1.5em;
         letter-spacing: 0.1em;
+        line-height: 1.5em;
         text-transform: uppercase;
         color: #ff9900;
         margin-bottom: 0;
@@ -1964,39 +1966,57 @@
 					background: #0077b5;
 				}
 
-        .icon.circle.fa-envelope {
+        .icon.contactpage {
+            -moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			border-radius: 100%;
+			display: inline-block;
+			font-size: 2em;
+			height: 2em;
+			left: 0;
+			line-height: 2em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2em;
+        }
+
+       .icon.contactpage.fa-envelope {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-           .icon.circle.fa-mobile {
+           .icon.contactpage.fa-mobile {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-        .icon.circle.fa-facebook-square {
+            .icon.contactpage.fa-facebook-f {
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
-            .icon.circle.fa-twitter-square {
+            .icon.contactpage.fa-twitter{
 				background: #caccce;
 				color: #fff;
-                height: 4em;
-                line-height: 4em;
-                width: 4em;
+                height: 3em;
+                line-height: 3em;
+                width: 3em;
                 align-content: center;
 			}
 
@@ -2731,7 +2751,7 @@
             overflow: hidden;
         }
 
-/* Banner2 */ 
+/* Banner3 */ 
     .banner3 {
             -moz-align-items: center;
             -webkit-align-items: center;
@@ -2747,8 +2767,8 @@
             justify-content: center;
             padding: 10em;
             min-height: 40vh;
-            background-image: url("../../images/0.jpg");
-            background-position: bottom;
+            background-image: url("../../images/banner2.jpeg");
+            background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
             margin: 0 auto -4em auto;
@@ -3109,6 +3129,12 @@
                 padding: 2.5em;
             }
 
+        
+        /* Contact page icons */
+
+        .icon.contactpage {
+            margin: 1em auto;
+        }
 	}
 
 /* Narrower */
@@ -3439,7 +3465,7 @@
             vertical-align: middle;
             margin: 1em;
 		}
-
+        
 	}
 
 /* Mobile */
@@ -3699,6 +3725,20 @@
 				height: 34px;
 			}
 
+        /* Contact page icons */
+
+        .icon.contactpage {
+            font-size: 1em;
+			height: 1em;
+			left: 0;
+			line-height: 1em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 1em;
+            margin: 0.5em auto;
+        }
+        
 	}
 
 
@@ -3823,3 +3863,4 @@
         border-radius: 12px;
         border: 1px;
     }
+
