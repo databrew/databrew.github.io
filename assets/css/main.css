@@ -2206,7 +2206,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
+		font-weight: 700;
 		letter-spacing: 2px;
 		min-width: 18em;
 		padding: 0 0.75em;
@@ -2271,17 +2271,18 @@
 		input[type="reset"].orange,
 		.button.orange {
 			background: #ff9900;
-			border-color: #ff9900;
+			border-color: #fff;
 			color: #fff !important;
-            margin-bottom: 4em;
+            font-size: 1.2em;
 		}
 
 			input[type="button"].orange:hover,
 			input[type="submit"].orange:hover,
 			input[type="reset"].orange:hover,
 			.button.orange:hover {
-				background: #7c8081 !important;
-				border-color: #7c8081 !important;
+				background: #fff!important;
+				border-color: #ff9900; !important;
+                color: #ff9900 !important;
 			}
 
         input[type="button"].tiny,
@@ -2341,16 +2342,14 @@
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
-			padding: 1.5em;
-            text-align: center;
-            align-items: center;
-}
+			padding: 2em;
+        }   
 
         .wrapper.style4 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 2em;
+            margin: 1.5em;
 		}
 
 /* Header */
@@ -2706,6 +2705,59 @@
 			overflow: hidden;
 		}
 
+/* Banner2 */ 
+    .banner2 {
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            padding: 10em;
+            min-height: 40vh;
+            background-image: url("../../images/class_banner.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto -4em auto;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+/* Banner2 */ 
+    .banner3 {
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            padding: 10em;
+            min-height: 40vh;
+            background-image: url("../../images/0.jpg");
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto -4em auto;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+
 
 /* Main */
 
@@ -2746,6 +2798,16 @@
         padding-bottom: 6em;
         margin-top: -2em
 			}
+
+/* Highlight Strip */
+    #strip {
+		background-color: #ff9900;
+		color: #fff;
+		padding: 2em;
+		text-align: center;
+	}
+
+
 
 /* CTA */
 
@@ -2913,7 +2975,7 @@
 		/* Wrapper */
 
 			.wrapper {
-				margin-bottom: 4em;
+				margin-bottom: 3em;
 				padding: 4em 3em;
 			}
 
@@ -3482,7 +3544,7 @@
 			background: #ff9900;
 			border-color: #ff9900;
 			color: #fff !important;
-            margin-bottom: 3em;
+            font-size: 2em;
             line-height: 1.5em;
 		}
         
