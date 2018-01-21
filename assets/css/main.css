@@ -1684,6 +1684,10 @@
     font-style: italic;
     }
 
+    i {
+    font-style: italic;
+    }
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2325,7 +2329,7 @@
 
 		.wrapper.style1 {
 			padding: 0 0 5em 0;
-            margin-top: 5em;
+            margin-top: 4em;
             margin-bottom: 0;
 		}
 
@@ -3108,7 +3112,8 @@
 				padding: 3em;
 			}
         
-        /* Portfolio */
+        /* Portfolio */ 
+        
             #portfolio {
                 padding: 2.5em;
             }
@@ -3641,7 +3646,7 @@
 
 				.wrapper.style4 {
 					background-size: 10em;
-					padding: 1.5em 1.5em 3em 1.5em;
+					padding: 1.5em;
 				}
 
 		/* Banner */
