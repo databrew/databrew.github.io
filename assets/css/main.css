@@ -2906,6 +2906,19 @@
         line-height: 1.75;
 	}
 
+#portfolioifc {
+        background-attachment: fixed;
+        background-image: url("../../images/ifc.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+        line-height: 1.75;
+	}
+
+
 #portfolioresearch {
         background-attachment: scroll;
         background-image: url("../../images/laptops.jpg");
@@ -3119,6 +3132,10 @@
             }
 
             #portfoliomoz {
+                padding: 2.5em;
+            }
+        
+            #portfolioifc {
                 padding: 2.5em;
             }
 
