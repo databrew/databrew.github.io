@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="publications">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><span><img class="image logo small" src="images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+                            <li class="current"><a href="about.html">About</a></li>
+                            <li class="current"><a href="blog.html">Blog</a></li>
+                            <li class="current"><a href="portfolio.html">Portfolio</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+								    <li><a href="consulting.html">Consulting</a></li>
+								    <li><a href="workshops.html">Data Science Workshops</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="contact.html" class="button special">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+            
+			<!-- Main -->
+				<article id="main">
+                    
+            <!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+								            <section>
+												<header>
+													<h5><strong>Publications and Conference Presentations</strong></h5>
+												</header>
+                                                
+
+<div id="vida-dataset-inventory-check" class="section level1">
+<h1>VIDA dataset inventory check</h1>
+<div id="current-data-inventory" class="section level2">
+<h2>Current data inventory:</h2>
+<p>What follows is a list of all files currently in our possession, broken down by country. All filenames are original (so the context should be retrievable by searching for the filename in one’s email, since datasets were transferred by email).</p>
+<pre><code>├── Gambia __________________________________________________
+│   ├── 2012 WHO Child VA.pdf
+│   ├── 2012 WHO Neonatal VA.pdf
+│   ├── Child Form Sample Data_Gambia Site.xlsx
+│   ├── Gambia Site VA Data Dictionary_INDEPTH CRFs.xlsx
+│   ├── Neonate Form Sample Data_Gambia Site.xlsx
+│   ├── VA Child Quest_INDEPTH - Basse.pdf
+│   ├── VA Data-Gambia Site_31Oct2017
+│   │   ├── BN HDSS
+│   │   │   ├── VA_ChildForm_WHO2012.xlsx
+│   │   │   ├── VA_Child_WHO2016.xlsx
+│   │   │   ├── VA_Neonates_WHO2012.xlsx
+│   │   │   └── VA_Neonates_WHO2016.xlsx
+│   │   └── BS HDSS
+│   │       ├── VA_Child_Indepth_2008-2012.xlsx
+│   │       ├── VA_Child_WHO2012-mid 2016.xlsx
+│   │       ├── VA_Child_WHO2016.xlsx
+│   │       ├── VA_Neonates_Indepth_2008-2012.xlsx
+│   │       ├── VA_Neonates_WHO2012-mid-2016.xlsx
+│   │       └── VA_Neonates_WHO2016.xlsx
+│   ├── VA Neonate Quest_INDEPTH - Basse.pdf
+│   ├── WHO 2016_Child Form_Data Dictionary.docx
+│   └── WHO 2016_Neonate Form_Data Dictionary.docx
+├── Kenya __________________________________________________
+│   ├── 1-Verbal Autopsy  Child v8.PDF
+│   ├── 2-International Core VA Form2.4.PDF
+│   ├── 3-WHO 2007 Verbal Autopsy Form 2.5.PDF
+│   ├── 4-WHO 2012 Verbal Autopsy Form 2.pdf
+│   ├── 5-WHO 2016 VERBAL AUTOPSY FORM.pdf
+│   ├── forms.zip
+│   ├── Kenya VA DICTIONARY.xlsx
+│   ├── Kenya.zip
+│   ├── Under5_VA_Cases_all_forms.xls
+│   └── VA_data_dictionary.zip
+└── Mali __________________________________________________
+    ├── child_VA.csv
+    ├── CRF22_09JUL2008 - VRG.pdf
+    ├── CRF23_28JAN2009 - VRG.pdf
+    ├── form10.sas7bdat
+    ├── form22.sas7bdat
+    ├── form23.sas7bdat
+    └── neonatal_VA.csv</code></pre>
+</div>
+<div id="request" class="section level2">
+<h2>Request:</h2>
+<p>We would like to end up with as simple a structure as possible, eliminating from our inventory all irrelevant files, replacing “sample” files with true raw data, and standardizing the names of each dataset, location, period and format.</p>
+<p>To this end, we will map all the current data by populating the below table. The meanings of each of the fields in the table are as follows:</p>
+<ul>
+<li>Country: Self-explanatory<br />
+</li>
+<li>Year(s): Self-explanatory<br />
+</li>
+<li>Name: The colloquial name to be used when referring to this dataset<br />
+</li>
+<li>Age group: The age group of the observations in the dataset<br />
+</li>
+<li>File name: The exact file name of the dataset (only one file per row)<br />
+</li>
+<li>File location: A unique url from which the file can be downloaded (by authorized collaborators only), such as a google drive or dropbox link<br />
+</li>
+<li>File type: Whether the file in question is “Raw data” (ie, the data as stored by the site) or “Dictionary” (ie, meta-data, or supporting information to decode the raw data)<br />
+</li>
+<li>Comment: A open-text field for any relevant comments</li>
+</ul>
+<iframe width="900" height="600" src="https://docs.google.com/spreadsheets/d/1Bov7kggT7ByKnundCIfDVDWnOsU0RcYL901atx6lUjU/edit#gid=0">
+</iframe>
+<p><a href="https://docs.google.com/spreadsheets/d/1Bov7kggT7ByKnundCIfDVDWnOsU0RcYL901atx6lUjU/edit#gid=0">Click here to edit the inventory spreadsheet</a></p>
+</div>
+</div>
+
+
+                                                
+						                      </section>
+                      </div>
+                    </section>
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+						<!-- Google analytics -->
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-71173507-3', 'auto');
+			  ga('send', 'pageview');
+			</script>
+			<!-- End google analytics -->
+
+	</body>
+</html>
