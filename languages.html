@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html"><span><img class="image logo small" src="../images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../about.html">About</a></li>
+                            <li class="current"><a href="../blog.html">Blog</a></li>
+                            <li class="current"><a href="../portfolio.html">Portfolio</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+                                    <li><a href="../consulting.html">Consulting</a></li>
+								    <li><a href="../workshops.html">Data Science Workshops</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="../contact.html" class="button special">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<article id="main">
+					<section class="wrapper style4 container">
+                        <header>
+                            <h7>February 21, 2018 | Xing Brew</h7>
+                            <h6><strong>Languages</strong></h6>
+                            <br/>
+                        <!-- Remove <br/> and use <h3> for subtitle-->
+                        </header>	
+                            <p>As a result of globalization and other complex forces, many languages are becoming vulnerable to extinction or diasappearing altogether. According to the United Nations, over 40% of the estimated 6,000 languages spoken in the world today are endangered. Only a few hundred languages have genuinely been given a place in education systems and the public domain, and fewer than a hundred are used in the digital world. Sadly, as more and more languages become endangered and ultimately extinct, opportunities, traditions, memory, as well as unique ways thinking and expression are also lost.</p>
+                            
+                            <p>February 21st is the International Mother Language Day, a day that has been observed every year since 2000 to promote linguistic and cultural diversity and multilingualism.</p>
+                
+                            <p>Sometimes the best way to understand the gravity of an issue is through data visualization. Hence, I've created an interactive map of endangered and extinct languages in North America to illustrate the extent of languages which are currently threatened or already extinct. (The code used to create the map is included below)</p>
+                        
+        <!-- iframe  --> 
+                        <p><i>Click on a point to see the language and number of speakers left.</i></p>
+                        <div class = "iframe">
+                            <span class="image">
+                            <iframe src="https://rawgit.com/xingcbrew/maps101/master/endagered_lang.html" height = 500 width = 80%>></iframe>
+                            </span>
+                        </div>
+                
+                        <p><strong>UNESCO's classification system to show just how 'in trouble' the language is:</strong></p>
+                       
+                        <ul class = "default">
+                            <li><i>Vulnerable</i> - most children speak the language, but it may be restricted to certain domains (e.g., home)</li>
+                            <li><i>Definitely endangered</i> - children no longer learn the language as a 'mother tongue' in the home
+                            Severely endangered - language is spoken by grandparents and older generations; while the parent generation may understand it, they do not speak it to children or among themselves</li>
+                            <li><i>Critically endangered</i> - the youngest speakers are grandparents and older, and they speak the language partially and infrequently</li>
+                            <li><i>Extinct</i> - there are no speakers left</li>
+                        </ul>
+                    
+                    <p><strong>Creating a map of endangered/extinct languages using R/Leaflet</strong></p>
+                    <p>First, download the data from the link at the bottom of <a href="https://www.theguardian.com/news/datablog/2011/apr/15/language-extinct-endangered" target="_blank">this</a> article. Copy and paste the code below in your R script (installing any necessary packages and adjusting the working directory and file name). You can select which country/countries you would like to visualize the data for by inserting the respective country codes in line 28.</p>    
+                    <script src="https://gist.github.com/xingcbrew/327a9b6464e0f78159d5fe3eb64108f3.js"></script>  
+                        
+                    <div>
+                      <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
+                    </div>      
+                    </section>    
+                        
+                </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+        <!-- Google analytics -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-71173507-3', 'auto');
+              ga('send', 'pageview');
+            </script>
+            <!-- End google analytics -->
+   	</body>
+</html>
