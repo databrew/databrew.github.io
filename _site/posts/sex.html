@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>databrew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html"><span><img class="image logo small" src="../images/logosmall.png"/></span></a></h1>
+				        <nav id="nav">
+						<ul>
+							<li class="current"><a href="../index.html">Home</a></li>
+                            <li class="current"><a href="../about.html">About</a></li>
+                            <li class="current"><a href="../blog.html">Blog</a></li>
+                            <li class="current"><a href="../portfolio.html">Portfolio</a></li>
+				            <li class="submenu">
+                                    <a href="#">Our Services</a>
+								    <ul>
+                                    <li><a href="../consulting.html">Consulting</a></li>
+								    <li><a href="../workshops.html">Data Science Workshops</a></li>
+								    </ul> 
+								</li>  
+							<li><a href="../contact.html" class="button special">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<article id="main">
+					<section class="wrapper style4 container">
+                        <header>
+                            <h7>JULY 21, 2017 | BEN BREW</h7>
+                            <h6><strong>Sexy Data</strong></h6>
+                            <br/>
+                        <!-- Remove <br/> and use <h3> for subtitle-->
+                        </header>	
+                        <p>How much sex are we having a week? Do we get more action as we get older? How much more sex do people with a regular partner have than those without one? These are all questions that can now be answered with a little help from a little data. A new <a href="https://gssdataexplorer.norc.org/projects/26872/extracts/21864?token=4DBn9DSzhKQZ-QGTmnPj" target="_blank">survey</a> was released this year that asked respondents a few simple questions about their sex life and collected data on their age and relationship status. Though no information was collected on the gender of the respondents, this data still gives us on idea on how sex varies with age and partner status.</p>
+                        <p>Age is represented as a continuous variable in the data, but the actual frequency of sex is recorded as one of seven categories. For the purpose of this analysis I recoded the variables as follows:</p>
+											<table class="default">
+												<thead>
+													<tr>
+														<th>Survey Response</th>
+														<th>Recoded Value</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr><td>Not at all</td> <td>Never</td></tr>   
+                                                    <tr><td>1-2 times per year</td><td>Rarely</td><tr>
+                                                    <tr><td>Once a month</td><td>Rarely</td></tr>   
+												    <tr><td>2-3 times per month</td><td>Rarely</td></tr>		
+                                                    <tr><td>Weekly</td><td>Regularly</td></tr>   
+                                                    <tr><td>2-3 times per week</td><td>Regularly</td></tr>    
+                                                    <tr><td>4+ times per week</td> <td>Regularly</td></tr>        
+												</tbody>
+											</table>
+                        
+                    <p>As one might expect, we don’t have nearly as much sex as we get older. Both plots represent the percent of survey responders, at each age, that have sex regularly. Looks like we are peaking in our late 20s (~70% of them having sex quite regularly), with a steady decline as we age.</p>
+
+                    <div class="image featured">
+                            <img src="../images/blog/sex.png" style="max-width: 1000px;">
+                    </div>
+
+                    <p>Also, as you might expect, having a partner increases  your numbers quite a bit, at least until you’re older. However, there is a lot more variance among those who are not having sex with a regular partner (the sample size is much smaller at older ages), and surprisingly, the percentage of them having regular sex seems to not vary much with age.</p>    
+                        
+                    <div class="6u 12u(narrower)">
+                        <div class="image featured">
+                            <img src="../images/blog/sex1.png">
+                        </div>
+                    </div>
+                        
+                    <p>Do you want to see how you stack up compared to the respondents of the survey? Enter your age and whether or not you have a partner and see how you match up!</p>    
+                    
+                        <div class = "iframe">
+                            <iframe src="https://benmbrew.shinyapps.io/sex_survey/" style="border: black; width: 100%; height: 700px"></iframe>
+                        </div>
+                       
+                    <div>
+                      <a href="../blog.html" class="button tiny" style="float: right;"><span class="label">Back to Blogs &rarr;</span></a>  
+                    </div>    
+                    </section>    
+                        
+                </article>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/data_brew" class="icon circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/databrew.cc/" class="icon circle fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/databrew" class="icon circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                         <li><a href="https://www.linkedin.com/company-beta/16192241/" class="icon circle fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; databrew 2017</li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollgress.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+        <!-- Google analytics -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-71173507-3', 'auto');
+              ga('send', 'pageview');
+            </script>
+            <!-- End google analytics -->
+   	</body>
+</html>
