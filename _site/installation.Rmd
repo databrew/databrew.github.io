@@ -1,0 +1,138 @@
+```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
+# No scientific notation
+options(scipen=999)
+
+# Packages 
+library(databrew)
+library(stringr)
+
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+               echo = TRUE,
+               eval = FALSE,
+               warning = FALSE, 
+               message = FALSE, 
+               error = TRUE, 
+               cache = FALSE)
+```
+
+
+## Install R
+
+R is the language and environment we'll use. The first thing you'll do is download and install R.
+
+### Windows
+
+If you have Windows, go to: https://cran.r-project.org/bin/windows/base/ and click on the download link at the top of the page. Download, install, and follow the prompts on screen.
+
+### Mac
+
+If you have Mac, go to: https://cran.r-project.org/bin/macosx/ and click on the appropriate `.pkg` file for your OS. Download, install, and follow the prompts on screen.
+
+### Linux
+
+If you have Linux, run the following code from the terminal:
+
+```{eval = FALSE}
+sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
+
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+
+gpg -a --export E084DAB9 | sudo apt-key add -
+
+sudo apt-get update
+sudo apt-get install r-base r-base-dev
+```
+
+## Install RStudio
+
+Rstudio is a set of tools to be used in accompaniment with R. Go to https://www.rstudio.com/products/rstudio/download/, download, install, and follow the prompts on screen.
+
+## Install some packages
+
+Packages are what makes R so great. To install a package, open Rstudio and type the following code into the "Console" in the bottom left
+
+
+```{r}
+install.packages('packagename')
+```
+
+Did that work? Probably not, because "packagename" is not a real R package. The packages we'll be using are the following:
+
+```{r, echo = FALSE, eval = TRUE}
+pkgs <- c('data.table',
+          'devtools',
+          'extrafont',
+          'ggmap',
+          'ggthemes',
+          'gsheet',
+          'knitr',
+          'leaflet',
+          'maptools',
+          'raster',
+          'RColorBrewer',
+          'readxl',
+          'rgdal',
+          'rgeos',
+          'rmarkdown',
+          'sp',
+          'stringdist',
+          'tidyr',
+          'tidyverse',
+          'tufte')
+cat(paste0(pkgs, collapse = '\n'))
+```
+
+To install all of these, you can run `install.packages` for each package:
+
+```{r}
+install.packages('data.table')
+install.packages('devtools')
+install.packages('dplyr')
+# etc., etc.
+```
+
+Or, if you want to save some time, simply copy and paste the following code into R to install them all at the same time. Don't worry, you don't need to be able to _understand_ this code - just run it.
+
+```{r}
+pkgs <- c('data.table',
+          'devtools',
+          'extrafont',
+          'ggmap',
+          'ggthemes',
+          'gsheet',
+          'knitr',
+          'leaflet',
+          'maptools',
+          'raster',
+          'RColorBrewer',
+          'readxl',
+          'rgdal',
+          'rgeos',
+          'rmarkdown',
+          'sp',
+          'stringdist',
+          'tidyr',
+          'tidyverse',
+          'tufte')
+pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
+pkgs <- sort(pkgs)
+if(length(pkgs) == 0){
+  message('All packages already installed. No action being taken.')
+} else {
+  the_message <-
+    paste0('Installing the following packages:\n',
+           paste0('--- ', pkgs, collapse = '\n'))
+  message(the_message)
+  for (i in 1:length(pkgs)){
+    message('Installing ', pkgs[i])
+    install.packages(pkgs[i])
+  }
+}
+```
+
+All good? If you've made it to here without any problems, you should be able to run the following code and not get any errors:
+
+```{r, eval = TRUE, echo = FALSE}
+cat(paste0("library(", pkgs, ")", collapse = '\n'))
+```

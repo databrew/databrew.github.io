@@ -1,0 +1,43 @@
+```{r setup, include=FALSE}
+# Basic knitr options
+knitr::opts_chunk$set(comment = NA, 
+                      echo = FALSE, 
+                      warning = FALSE, 
+                      message = FALSE, 
+                      error = FALSE, 
+                      cache = FALSE)
+
+# Turn off scientific notation
+options(scipen = '999')
+
+# Libraries
+library(dygraphs)
+library(tidyverse)
+```
+
+## Introduction  
+
+Here is some text.
+
+Here is a plot
+
+<div class="row">
+<div class="3u 12u(narrower)">
+</div>
+<div class="6u 12u(narrower)">
+<div class="image featured">
+
+```{r, echo = FALSE}
+barplot(1:10, col = rainbow(10))
+```
+
+</div>  
+</div>
+<div class="3u 12u(narrower)">
+</div>
+</div>
+
+
+## Conclusion
+
+Here is some text. Here is a [link](http://databrew.cc).
