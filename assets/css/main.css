@@ -1617,6 +1617,7 @@
 
 	h2 {
         font-size: 2em;
+        font-weight: 400;
 		letter-spacing: 0.1em;
 	}
 
@@ -2335,7 +2336,7 @@
 
 		.wrapper.style2 {
             background-color: #F8F8F8;
-			color: #7c8081;
+			color: inherit;
             background-size: auto, cover;
             padding: 3em 5em;
             text-align: center;
@@ -2366,14 +2367,16 @@
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
-			padding: 2em;
+			padding: 1em;
+            margin-left: 0.5em;
+            text-align: center;
         }   
 
         .wrapper.style4 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 1.5em;
+            margin: 1em;
 		}
 
 /* Header */
@@ -2668,34 +2671,29 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+	        background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 3em;
-            border: 10px solid rgba(255, 255, 255, 0.7);
+			padding: 2em;
+            border: 6px solid rgba(255, 255, 255, 0.7);
 			text-align: center;
             z-index: 2;
 		}
 
 			#banner .inner header {
 			    display: inline-block; 
-				border-bottom: solid 2px;
-				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
 
 				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 3em;
+					font-size: 4em;
 					font-weight: 500;
-					letter-spacing: 0.em;
+					letter-spacing: 0.1em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: lowercase;
 				}
 
 			#banner .inner p {
@@ -2935,7 +2933,7 @@
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #505050;
 		color: #7c8081;
 		padding: 3em 5em 3em 5em;
 		text-align: center;
@@ -3017,8 +3015,9 @@
 			}
 
 				.wrapper.style4 {
-					padding: 2em;
-				}
+					padding-left: 1em;
+                    align-items: center;	
+        }
 
 		/* Header */
 
@@ -3485,7 +3484,7 @@
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 1em;
+            margin: 0.5em;
 		}
         
 	}
@@ -3662,8 +3661,8 @@
 				}
 
 				.wrapper.style4 {
-					background-size: 10em;
-					padding: 1.5em;
+					background-size: 6em;
+					padding: 1em;
 				}
 
 		/* Banner */
@@ -3675,7 +3674,7 @@
 
 				#banner .inner {
 					display: block;
-					padding: 2em 1em;
+					padding: .5em .5em;
                     border: 5px solid rgba(255,255,255,0.7)
 				}
 
@@ -3699,7 +3698,7 @@
 			}
 
 			body.index #main {
-				padding: 2.5em 0 0 0;
+				padding: 2em 0 0 0;
 			}
 
 			body.contact #main {
