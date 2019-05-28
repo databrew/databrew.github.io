@@ -2367,12 +2367,18 @@
 		.wrapper.style4 {
 			background: #fff;
 			color: inherit;
+			padding: 2em;
+        }   
+
+        .wrapper.style5 {
+			background: #fff;
+			color: inherit;
 			padding: 1em;
             margin-left: 0.5em;
             text-align: center;
         }   
 
-        .wrapper.style4 #clients .image img {
+        .wrapper.style5 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
@@ -3480,7 +3486,7 @@
         }
         
         /* Clients */
-        .wrapper.style4 #clients .image img {
+        .wrapper.style5 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
