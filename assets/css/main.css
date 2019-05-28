@@ -1927,48 +1927,48 @@
 			}
 
 	       .icon.circle.fa-file-text-o {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-file-text-o:hover {
-					background: #545659;
+					background: #fff;
 				}
 
 			.icon.circle.fa-twitter {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+					background: #fff;
 				}
 
 			.icon.circle.fa-facebook {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-facebook:hover {
-					background: #829bc9;
+					background: #fff;
 				}
 
 			.icon.circle.fa-github {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #fff;
 				}
 
 			.icon.circle.fa-linkedin {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-linkedin:hover {
-					background: #0077b5;
+					background: #fff;
 				}
 
         .icon.contactpage {
@@ -2060,7 +2060,7 @@
 			text-decoration: none;
 			top: 0;
 			width: 2em;
-            background:#7c8081; 
+            background:#C8C8C8; 
         }
 
 
