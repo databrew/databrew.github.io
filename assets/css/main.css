@@ -3225,6 +3225,12 @@
             #banner .inner {
 				border: none;
 			}
+        
+         .banner2 {
+            margin: 0 auto;
+            background-position: right;
+            background-size: cover;
+        }
     
 
 		/* Wrapper */
@@ -3267,11 +3273,28 @@
 				background-size: auto;
                 margin: 0;
 			}
-
+        
+        /* Highlight Strip */
+            #strip {
+                background-color: #ff9900;
+                color: #fff;
+                padding: 1.5em;
+                text-align: center;
+                font-size: .5em;
+                margin: -2em auto -2em auto;
+            }
+        
+        /* Video */
+        #video {
+            visibility: hidden;
+            display: none;
+        }
+            
 		/* Footer */
 
 			#footer {
 				padding: 4em 1.5em;
+                margin-top: -4em;
 			}
 
 		/* Off-Canvas Navigation */
