@@ -1617,6 +1617,7 @@
 
 	h2 {
         font-size: 2em;
+        font-weight: 400;
 		letter-spacing: 0.1em;
 	}
 
@@ -1926,48 +1927,48 @@
 			}
 
 	       .icon.circle.fa-file-text-o {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-file-text-o:hover {
-					background: #545659;
+					background: #fff;
 				}
 
 			.icon.circle.fa-twitter {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+					background: #fff;
 				}
 
 			.icon.circle.fa-facebook {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-facebook:hover {
-					background: #829bc9;
+					background: #fff;
 				}
 
 			.icon.circle.fa-github {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #fff;
 				}
 
 			.icon.circle.fa-linkedin {
-				background: #8e8e93;
-				color: #fff;
+				background: #C8C8C8;
+				color: #505050;
 			}
 
 				.icon.circle.fa-linkedin:hover {
-					background: #0077b5;
+					background: #fff;
 				}
 
         .icon.contactpage {
@@ -2059,7 +2060,7 @@
 			text-decoration: none;
 			top: 0;
 			width: 2em;
-            background:#7c8081; 
+            background:#C8C8C8; 
         }
 
 
@@ -2335,7 +2336,7 @@
 
 		.wrapper.style2 {
             background-color: #F8F8F8;
-			color: #7c8081;
+			color: inherit;
             background-size: auto, cover;
             padding: 3em 5em;
             text-align: center;
@@ -2369,11 +2370,19 @@
 			padding: 2em;
         }   
 
-        .wrapper.style4 #clients .image img {
+        .wrapper.style5 {
+			background: #fff;
+			color: inherit;
+			padding: 1em;
+            margin-left: 0.5em;
+            text-align: center;
+        }   
+
+        .wrapper.style5 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 1.5em;
+            margin: 1em;
 		}
 
 /* Header */
@@ -2668,34 +2677,29 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+	        background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 3em;
-            border: 10px solid rgba(255, 255, 255, 0.7);
+			padding: 2em;
+            border: 6px solid rgba(255, 255, 255, 0.7);
 			text-align: center;
             z-index: 2;
 		}
 
 			#banner .inner header {
 			    display: inline-block; 
-				border-bottom: solid 2px;
-				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
 
 				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 3em;
+					font-size: 4em;
 					font-weight: 500;
-					letter-spacing: 0.em;
+					letter-spacing: 0.1em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: lowercase;
 				}
 
 			#banner .inner p {
@@ -2743,45 +2747,17 @@
             -webkit-justify-content: center;
             -ms-justify-content: center;
             justify-content: center;
-            padding: 10em;
-            min-height: 40vh;
+            padding: 0;
+            min-height: 70vh;
             background-image: url("../../images/class_banner.jpg");
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            margin: 0 auto -4em auto;
+            margin: 0 auto -6em auto;
             position: relative;
             text-align: center;
             overflow: hidden;
         }
-
-/* Banner3 */ 
-    .banner3 {
-            -moz-align-items: center;
-            -webkit-align-items: center;
-            -ms-align-items: center;
-            align-items: center;
-            display: -moz-flex;
-            display: -webkit-flex;
-            display: -ms-flex;
-            display: flex;
-            -moz-justify-content: center;
-            -webkit-justify-content: center;
-            -ms-justify-content: center;
-            justify-content: center;
-            padding: 10em;
-            min-height: 40vh;
-            background-image: url("../../images/banner2.jpeg");
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0 auto -4em auto;
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-        }
-
-
 
 /* Main */
 
@@ -2935,7 +2911,7 @@
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #505050;
 		color: #7c8081;
 		padding: 3em 5em 3em 5em;
 		text-align: center;
@@ -3017,8 +2993,9 @@
 			}
 
 				.wrapper.style4 {
-					padding: 2em;
-				}
+					padding-left: 1em;
+                    align-items: center;	
+        }
 
 		/* Header */
 
@@ -3242,12 +3219,20 @@
 		/* Banner */
 
 			#banner {
-				margin: 0;
+				margin: -2em;
 			}
         
             #banner .inner {
 				border: none;
 			}
+        
+         .banner2 {
+            margin: 0 auto;
+            background-position: right;
+            background-size: cover;
+            min-height: 50vh;
+        }
+    
 
 		/* Wrapper */
 
@@ -3289,11 +3274,28 @@
 				background-size: auto;
                 margin: 0;
 			}
-
+        
+        /* Highlight Strip */
+            #strip {
+                background-color: #ff9900;
+                color: #fff;
+                padding: 1.5em;
+                text-align: center;
+                font-size: .5em;
+                margin: -2em auto -2em auto;
+            }
+        
+        /* Video */
+        #video {
+            visibility: hidden;
+            display: none;
+        }
+            
 		/* Footer */
 
 			#footer {
 				padding: 4em 1.5em;
+                margin-top: -4em;
 			}
 
 		/* Off-Canvas Navigation */
@@ -3481,11 +3483,11 @@
         }
         
         /* Clients */
-        .wrapper.style4 #clients .image img {
+        .wrapper.style5 #clients .image img {
 			display: inline-block;
             max-width: 200px;
             vertical-align: middle;
-            margin: 1em;
+            margin: 0.5em;
 		}
         
 	}
@@ -3662,8 +3664,8 @@
 				}
 
 				.wrapper.style4 {
-					background-size: 10em;
-					padding: 1.5em;
+					background-size: 6em;
+					padding: 1em;
 				}
 
 		/* Banner */
@@ -3675,7 +3677,7 @@
 
 				#banner .inner {
 					display: block;
-					padding: 2em 1em;
+					padding: .5em .5em;
                     border: 5px solid rgba(255,255,255,0.7)
 				}
 
@@ -3699,7 +3701,7 @@
 			}
 
 			body.index #main {
-				padding: 2.5em 0 0 0;
+				padding: 2em 0 0 0;
 			}
 
 			body.contact #main {
