@@ -2858,6 +2858,18 @@
         line-height: 1.75;
 	}
 
+ #portfoliobohemia {
+        background-attachment: fixed;
+        background-image: url("../../images/tanzania.jpeg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 5em;
+		text-align: left;
+        line-height: 1.75;
+	}
+
  #portfoliovaccine {
         background-attachment: fixed;
         background-image: url("../../images/vaccine.jpg");
