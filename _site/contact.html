@@ -17,7 +17,7 @@
                 width: 100%;
                 height: 500px;
             }
-                
+
             @media screen and (max-width: 736px) {
                 #map {
                 width: 100%;
@@ -43,8 +43,8 @@
 								    <ul>
 								    <li><a href="consulting.html">Consulting</a></li>
 								    <li><a href="workshops.html">Data Science Workshops</a></li>
-								    </ul> 
-								</li>  
+								    </ul>
+								</li>
 							<li><a href="contact.html" class="button special">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -55,7 +55,7 @@
                 <script>
 
                     var map = L.map('map',{scrollWheelZoom:false, zoomControl: false}).setView([30, -30], 2);
-                    
+
                     // listen for screen resize events i.e, when mobile screen, zoom out of map
                     window.addEventListener('resize', function(event){
                         // get the width of the screen after the resize event
@@ -74,7 +74,7 @@
                     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
                     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                     }).addTo(map);
-                    
+
                     var databrewIcon = L.icon({
                     iconUrl: 'images/logo_clear.png',
 
@@ -82,14 +82,13 @@
                     popupAnchor:  [0, -15] // point from which the popup should open relative to the iconAnchor
                     });
 
-                    var marker = L.marker([43.64701, -79.39425], {icon: databrewIcon}).bindPopup('Toronto Office<br>Xing: +1 647-860-4338').addTo(map);
-                    var marker = L.marker([41.3851, 2.1734], {icon: databrewIcon}).bindPopup('Barcelona Office<br> Joe: +34 666 66 80 86').addTo(map);
-                    var marker = L.marker([-25.406, 32.807], {icon: databrewIcon}).bindPopup('Manhiça, Mozambique').addTo(map);
+                    var marker = L.marker([43.64701, -79.39425], {icon: databrewIcon}).bindPopup('Canada Office<br>Xing: xing@databrew.cc').addTo(map);
+                    var marker = L.marker([29.6516, -82.3248], {icon: databrewIcon}).bindPopup('USA Office<br> Ben: ben@databrew.cc').addTo(map);
                 </script>
 
 
 			<!-- Main -->
-				<article id="main">          
+				<article id="main">
                     <section class="wrapper style1 container special">
 							<header>
                                 <h5><strong>Contact Us</strong></h5>
@@ -124,12 +123,12 @@
 									</section>
                             </div>
                         </div>
-                        </div>    
+                        </div>
                     </section>
-                    
+
                     <!-- One -->
 			<!--		<section class="wrapper style3 special container 75%">
-							
+
                         <div class="content">
                           <form action="mail.php" method="POST">
 										<div class="row 50%">
@@ -153,9 +152,9 @@
 											</div>
 										</div>
 									</form>
-                                
-								</div> 
-                            </section>     -->  
+
+								</div>
+                            </section>     -->
         </article>
 
 			<!-- Footer -->
