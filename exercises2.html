@@ -374,12 +374,27 @@ summary {
 </div>
 
 
+<div id="part-0-categorical" class="section level2">
+<h2>Part 0 (Categorical)</h2>
+<p>A. Run the following to read in some data about people</p>
+<pre class="r"><code>people &lt;- read_csv(&quot;https://raw.githubusercontent.com/databrew/databrew.github.io/master/people.csv&quot;)</code></pre>
+<p>B. Look at the “cabeça” of <code>people</code>.</p>
+<p>C. Create an object called <code>x</code>. This should be the number of people for each sex.</p>
+<p>D. Create a barchart of the number of people of each sex.</p>
+<p>E. Add a variable to <code>x</code> using <code>mutate</code>. Name this variable <code>percent</code>. Make it a percentage of the total number of people (ie, the percent that are women and the percent that are men).</p>
+<p>F. Plot the percentage of people in the dataset that are men vs. women.</p>
+<p>G. Create a new object called <code>hm</code>. This will be <code>people</code>, grouped by <code>health</code> and <code>marriage</code>. Tally (count) the number of people in each group.</p>
+<p>H. Make a barplot of the <code>hm</code> object. Put <code>marriage</code> on the x-axis. Make the <code>fill</code> reflect the <code>health</code> of the people.</p>
+<p>I. Add <code>position = 'dodge'</code> to the inside of <code>geom_bar()</code> in order to change the look of the chart a little bit.</p>
+<p>J. Pick two other categorical variables. Tally the number of people in the groups and make a chart.</p>
+</div>
 <div id="part-1" class="section level2">
 <h2>Part 1</h2>
 <ol style="list-style-type: decimal">
 <li>Load up data on health and sociodemographic factors from Switzerland.</li>
 </ol>
-<pre class="r"><code>data('swiss')
+<pre class="r"><code>library(tidyverse)
+data('swiss')
 swiss &lt;- swiss</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li><p>Look at the <code>cabeça</code> of the data. Describe it.</p></li>
