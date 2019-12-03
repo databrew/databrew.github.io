@@ -1,0 +1,1430 @@
+province,district,name,number,administrative_pst,locality,area,classification,type,level,latitude,longitude
+CABO DELGADO,CIDADE DE PEMBA,HP Pemba,148,CIDADE DE PEMBA,CIDADE DE PEMBA,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-12.9658,40.4953
+CABO DELGADO,CIDADE DE PEMBA,CS Cariaco,149,CIDADE DE PEMBA,BAIRRO CARIACO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.9631,40.5172
+CABO DELGADO,CIDADE DE PEMBA,CS Ingoname,150,CIDADE DE PEMBA,BAIRRO NATITE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.9611,40.5071
+CABO DELGADO,CIDADE DE PEMBA,CS Natite,151,CIDADE DE PEMBA,BAIRRO NATITE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.9619,40.5089
+CABO DELGADO,CIDADE DE PEMBA,CS Bairro Cimento,152,CIDADE DE PEMBA,BAIRRO NATITE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.961061,40.507145
+CABO DELGADO,CIDADE DE PEMBA,CS Eduardo Mondlane,153,CIDADE DE PEMBA,BAIRRO EDUARDO MONDLANE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.9711,40.5533
+CABO DELGADO,CIDADE DE PEMBA,CS Mahate,154,CIDADE DE PEMBA,CIDADE DE PEMBA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.0192,40.5294
+CABO DELGADO,CIDADE DE PEMBA,CS Muxara,155,CIDADE DE PEMBA,CIDADE DE PEMBA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.0597,40.525
+CABO DELGADO,CIDADE DE PEMBA,CS Paquite,156,CIDADE DE PEMBA,BAIRRO PAQUITEQUETE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.9625,40.4867
+CABO DELGADO,CIDADE DE PEMBA,PS Medico da Cadeia,157,CIDADE DE PEMBA,CIDADE DE PEMBA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-12.9642,40.4911
+CABO DELGADO,CIDADE DE PEMBA,CS Chiuba,158,CIDADE DE PEMBA,CIDADE DE PEMBA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.0225,40.5656
+CABO DELGADO,ANCUABE,CS Ancuabe,159,ANCUABE,ANCUABE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.9669,39.8572
+CABO DELGADO,ANCUABE,CS Marire,160,MESA,CAMPINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0917,39.5931
+CABO DELGADO,ANCUABE,CS Metoro,161,METORO,METORO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.105,39.8742
+CABO DELGADO,ANCUABE,CS Meza,162,MESA,MESA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0319,39.5522
+CABO DELGADO,ANCUABE,CS Minhuene,163,MESA,MINHUENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.9939,39.4675
+CABO DELGADO,ANCUABE,CS Ngewe,164,ANCUABE,GIHOTE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.8603,39.9492
+CABO DELGADO,BALAMA,CS Balama,165,BALAMA,BALAMA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3483,38.5669
+CABO DELGADO,BALAMA,CS Impiri,166,IMPIRI,SIVACA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3778,38.3703
+CABO DELGADO,BALAMA,CS Kwekwe,167,KUEKUE,JAMIRA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.5469,38.4244
+CABO DELGADO,BALAMA,CS Mavala,168,MAVALA,MPAKA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.2261,38.4806
+CABO DELGADO,BALAMA,CS Ntete,169,BALAMA,NTETE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.2733,38.6361
+CABO DELGADO,BALAMA,PS Metata,170,BALAMA,MURIPA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.4286,38.5947
+CABO DELGADO,BALAMA,CS Murripa,171,NA,NA,NA,NA,NA,NA,-13.4650053289,38.4066886543
+CABO DELGADO,CHIURE,CS Chiure,172,CHIURE,VILA DE CHIURE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3825,39.7844
+CABO DELGADO,CHIURE,CS Chiure-Velho,173,CHIURE VELHO,MICOLENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3728,39.9681
+CABO DELGADO,CHIURE,CS Bilibiza,174,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.6175,39.4264
+CABO DELGADO,CHIURE,PS Katapua,175,KATAPUA,MECULANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3975,39.4317
+CABO DELGADO,CHIURE,CS Mazeze,176,MAZEZE,MAZEZE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3594,40.193600000000004
+CABO DELGADO,CHIURE,CS Ocua,177,OCUA,OCUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.6464,39.7933
+CABO DELGADO,CHIURE,PS Nmala,178,CHIURE VELHO,MUGIPALA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.4839,39.915
+CABO DELGADO,CHIURE,CS Namogelia,179,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.56378,40.28497
+CABO DELGADO,CHIURE,PS Muege,180,MAZEZE,MUROCUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3294,40.1008
+CABO DELGADO,CHIURE,CS Nacoto,181,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.34922,39.73712
+CABO DELGADO,IBO,CS Ibo,182,IBO,VILA DE IBO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.3436,40.5847
+CABO DELGADO,IBO,CS Matemo,183,IBO,MATEMO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.2045,40.6049
+CABO DELGADO,IBO,CS Quirimba,184,QUIRRIMBA,QUIRRIMBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.403,40.574
+CABO DELGADO,MACOMIA,HD Macomia,185,MACOMIA,VILA DE MACOMIA,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-12.2461,40.1256
+CABO DELGADO,MACOMIA,CS Chai,186,CHAI,CHAI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.9311,40.1075
+CABO DELGADO,MACOMIA,CS Mucojo,187,MUCOJO,MUCOJO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.0683,40.4778
+CABO DELGADO,MACOMIA,CS Quiterajo,188,QUITERAJO,QUITERAJO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.7514,40.4314
+CABO DELGADO,MACOMIA,CS Nguida,189,MACOMIA,NGUIDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.1427,39.9719
+CABO DELGADO,MACOMIA,CS Naunde,190,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.1667,40.475
+CABO DELGADO,MACOMIA,CS Piquewe,191,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.8831,40.4711
+CABO DELGADO,MECUFI,CS Micufe,192,MEKUFI,MEKUFI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.2908,40.5556
+CABO DELGADO,MECUFI,CS Murebue,193,MURREBUE,MURREBUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.1302,40.5503
+CABO DELGADO,MECUFI,CS Natuco,194,MEKUFI,SAMBANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.4164,40.5267
+CABO DELGADO,MELUCO,CS Muaguide,195,MUAGUIDE,MITAMBO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.4589,40.0292
+CABO DELGADO,MELUCO,CS Meluco,196,MELUCO,MELUCO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.5403,39.6408
+CABO DELGADO,MELUCO,CS Minhanha,197,MELUCO,MINHANHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.2775,39.6644
+CABO DELGADO,MELUCO,CS Mbada,198,MUAGUIDE,IBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.3964,40.1075
+CABO DELGADO,MELUCO,CS Ravia (Expansao),199,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.5833,39.3333
+CABO DELGADO,MOCIMBOA DA PRAIA,HR Mocimboa Praia,200,MOCIMBOA DA PRAIA,VILA DE MOCIMBOA DA PRAIA,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-11.3494,40.3586
+CABO DELGADO,MOCIMBOA DA PRAIA,CS Quelimane,201,MOCIMBOA DA PRAIA,QUELIMANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.2308,40.2728
+CABO DELGADO,MOCIMBOA DA PRAIA,CS Mbau,202,MBAU,MBAU SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.6269,40.1778
+CABO DELGADO,MOCIMBOA DA PRAIA,CS Diaca,203,DIACA,DIACA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.5358,39.9367
+CABO DELGADO,MOCIMBOA DA PRAIA,CS Mangoma,204,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.4,40.2333
+CABO DELGADO,MONTEPUEZ,HR Montepuez,205,CIDADE DE MONTEPUEZ,CIDADE DE MONTEPUEZ,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-13.1272,38.9986
+CABO DELGADO,MONTEPUEZ,CS Montepuez,206,CIDADE DE MONTEPUEZ,CIDADE DE MONTEPUEZ,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.1281,38.9989
+CABO DELGADO,MONTEPUEZ,CS Mirate,207,MIRATE,MIRATE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.9681,38.8011
+CABO DELGADO,MONTEPUEZ,PS Linde,208,MAPUPULO,MASSINGIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.304,38.9211
+CABO DELGADO,MONTEPUEZ,PS Nairoto,209,NAIROTO,NAIROTO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.5511,39.0019
+CABO DELGADO,MONTEPUEZ,CS Namanhumbire,210,NAMANHUMBIR,NAMANHUMBIR SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0367,39.2811
+CABO DELGADO,MONTEPUEZ,CS Namueto,211,CIDADE DE MONTEPUEZ,CIDADE DE MONTEPUEZ,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.1311,39.0356
+CABO DELGADO,MONTEPUEZ,CS Nropa,212,MAPUPULO,MAPUPULO SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.1886,38.7431
+CABO DELGADO,MONTEPUEZ,CS Napupulo,213,MAPUPULO,MAPUPULO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.2233,38.8808
+CABO DELGADO,MONTEPUEZ,CS Urbano de Nihula,214,NA,NA,NA,NA,NA,NA,-13.1166667,39
+CABO DELGADO,MUEDA,HR Mueda,215,MUEDA,VILA DE MUEDA,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-11.6628,39.5536
+CABO DELGADO,MUEDA,CS Chilinde,216,NGAPA,NATSENGE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.2958,39.4422
+CABO DELGADO,MUEDA,CS Mpeme,217,MUEDA,MPEME,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.6003,39.6842
+CABO DELGADO,MUEDA,CS Chapa,218,CHAPA,CHAPA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.8225,39.4167
+CABO DELGADO,MUEDA,CS Namatil,219,NGAPA,NATSENGE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.1153,39.4739
+CABO DELGADO,MUEDA,CS Negomano,220,NEGOMANO,NEGOMANO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.4253,38.4897
+CABO DELGADO,MUEDA,CS Ngapa,221,NGAPA,NGAPA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.3058,39.3103
+CABO DELGADO,MUEDA,CS Imbuo,222,IMBUO,IMBUO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.53,39.7186
+CABO DELGADO,MUIDUMBE,CS Muidumbe,223,MUIDUMBE,MUIDUMBE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.8236,39.8122
+CABO DELGADO,MUIDUMBE,CS Chitunda,224,CHITUNDA,CHITUNDA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.7053,39.9856
+CABO DELGADO,MUIDUMBE,CS Miangalewa,NA,NA,NA,NA,NA,NA,NA,-11.83495983,39.836519271
+CABO DELGADO,MUIDUMBE,CS Muatide,225,MUIDUMBE,MUATIDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.76,39.8053
+CABO DELGADO,MUIDUMBE,CS Miteda,226,MITEDA,MITEDA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.7614,39.7356
+CABO DELGADO,MUIDUMBE,PS Nguri,227,CHITUNDA,MIENGUELIUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-11.8131,40.1075
+CABO DELGADO,MUIDUMBE,CS Namacande,228,MUIDUMBE,NAMACANDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.7794,39.9006
+CABO DELGADO,NAMUNO,CS Namuno,229,NAMUNO,MILIPONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.6186,38.8161
+CABO DELGADO,NAMUNO,PS Hucula,230,HUCULA,MAVO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.83,39.1228
+CABO DELGADO,NAMUNO,CS Machoca,231,MACHOCA,PHONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.9653,38.8056
+CABO DELGADO,NAMUNO,CS Meloco,232,MELOCO,MELOCO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.4744,39.1742
+CABO DELGADO,NAMUNO,CS Nanrapa,233,NAMUNO,MILIPONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.6881,38.7753
+CABO DELGADO,NAMUNO,CS Ncumpe,234,NCUMPE,NCUMPE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.7094,38.6006
+CABO DELGADO,NAMUNO,CS Papai,235,PAPAI,PAPAI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.0364,38.6767
+CABO DELGADO,NANGADE,CS Nangade,236,NANGADE,NANGADE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.0614,39.6697
+CABO DELGADO,NANGADE,CS Ntamba,237,MTAMBA,NAMBEDO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.4267,39.7414
+CABO DELGADO,NANGADE,CS Ntoli,238,NANGADE,ITANDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.3864,39.595
+CABO DELGADO,NANGADE,CS Nkonga,239,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.3,39.9125
+CABO DELGADO,NANGADE,CS Muhia (Expansao,240,NA,NA,NA,NA,NA,NA,NA,NA
+CABO DELGADO,PALMA,CS Palma,241,PALMA,PALMA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-10.7808,40.4731
+CABO DELGADO,PALMA,CS Mute,242,OLUMBI,MUTE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-10.965,40.3558
+CABO DELGADO,PALMA,CS Olumbe,243,OLUMBI,OLUMBI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-10.9903,40.4792
+CABO DELGADO,PALMA,PS Maganja,244,PALMA,MUTE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-10.8569,40.5894
+CABO DELGADO,PALMA,CS Pundanhar,245,PUNDANHAR,NHICA DO ROVUMA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-10.8908,40.0575
+CABO DELGADO,PALMA,CS Quionga,246,QUIONGA,QUIRINDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-10.5928,40.5078
+CABO DELGADO,PEMBA-METUGE,CS Pemba Metuge,247,METUGE,METUGE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.9961,40.4186
+CABO DELGADO,PEMBA-METUGE,CS Mieze,248,MIEZE,MIEZE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.1075,40.4539
+CABO DELGADO,PEMBA-METUGE,PS Nacuta,249,METUGE,NACUTA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.9503,40.3197
+CABO DELGADO,PEMBA-METUGE,CS Nanlia,250,METUGE,NANLIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0592,40.2849
+CABO DELGADO,PEMBA-METUGE,CS Ntessa (Expansao),251,NA,NA,NA,NA,NA,NA,-12.979,40.394
+CABO DELGADO,QUISSANGA,CS Quissanga,252,QUISSANGA,QUISSANGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.4322,40.4833
+CABO DELGADO,QUISSANGA,CS Cagembe,253,QUISSANGA,CAGEMBE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.38,40.2642
+CABO DELGADO,QUISSANGA,CS Mahate,254,BILIBIZA,BILIBIZA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.5236,40.2553
+CABO DELGADO,QUISSANGA,PS Namaluco,255,QUISSANGA,NAMALUCO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.3442,40.3139
+CABO DELGADO,QUISSANGA,CS Bilibiza,256,BILIBIZA,BILIBIZA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.5639,40.2853
+CABO DELGADO,QUISSANGA,CS Tororo,257,BILIBIZA,TORORO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.5958,40.1522
+CABO DELGADO,QUISSANGA,CS Nacoba (Expansao),258,NA,NA,NA,NA,NA,NA,-12.4357419,40.4961776
+GAZA,CIDADE DE XAI-XAI,HP Xai-Xai,1161,CIDADE DE XAI XAI,CIDADE DE XAI XAI,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-25.0683,33.6583
+GAZA,CIDADE DE XAI-XAI,CS Ngoabi,1162,CIDADE DE XAI XAI,INHAMISSA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.0469,33.6917
+GAZA,CIDADE DE XAI-XAI,CS Xai-Xai,1163,CIDADE DE XAI XAI,CIDADE DE XAI XAI,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.053226,33.643997
+GAZA,CIDADE DE XAI-XAI,CS Patrice Lumumba,1164,CIDADE DE XAI XAI,TAVENE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.0819,33.6664
+GAZA,CIDADE DE XAI-XAI,CS Praia,1165,CIDADE DE XAI XAI,DA PRAIA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.1156,33.7294
+GAZA,CIDADE DE XAI-XAI,PS Marien Nguabi B,1166,CIDADE DE XAI XAI,INHAMISSA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.0597,33.7089
+GAZA,CIDADE DE XAI-XAI,PS Berach,1167,NA,NA,NA,NA,NA,NA,NA,NA
+GAZA,CIDADE DE XAI-XAI,PS Unidade Especial,1168,NA,NA,NA,NA,NA,NA,NA,NA
+GAZA,BILENE,CS Macia,1169,CHISSANO,CHISSANO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0297,33.3628
+GAZA,BILENE,CS Praia do Bilene,1170,PRAIA DE BILENE,VILA DA PRAIA DE BILENE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2817,33.2519
+GAZA,BILENE,CS Mamonho,1171,MESSANO,MANONHO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.9533,33.0644
+GAZA,BILENE,PS Chissano,1172,CHISSANO,CHISSANO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.9333,33.3628
+GAZA,BILENE,CS Incaia,1173,NA,NA,NA,NA,NA,NA,-25.0264891699,33.1749291792
+GAZA,BILENE,CS Licilo,1174,CHISSANO,LICILO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8608,33.4117
+GAZA,BILENE,CS Mazivila,1175,MAZIVILA,MAZIVILA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8711,33.12
+GAZA,BILENE,CS Messano,1176,MESSANO,MESSANO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0092,32.9847
+GAZA,BILENE,PS Olombe,1177,MAZIVILA,OLOMBE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.8606,33.2836
+GAZA,BILENE,CS Tlhuane,1178,MACUANE,TUANE ORIENTAL,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0811,33.2578
+GAZA,BILENE,CS Mangol,1179,MACUENE,CHICHANGO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.1219,33.0894
+GAZA,CHIBUTO,HR Chibuto,1180,CIDADE DE CHIBUTO,CIDADE DE CHIBUTO,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-24.6894,33.5328
+GAZA,CHIBUTO,CS Cidade Chibuto,1181,CIDADE DE CHIBUTO,CIDADE DE CHIBUTO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.6906,33.5406
+GAZA,CHIBUTO,CS Alto Changane,1182,ALTO CHANGANE,ALTO CHANGANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.3097,33.63
+GAZA,CHIBUTO,CS Chipadja,1183,GODIGE,CHIPADJA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5731,33.7569
+GAZA,CHIBUTO,CS Malehice,1184,MALEHICE,MALEHICE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7522,33.67
+GAZA,CHIBUTO,CS Muxaxane,1185,MALEHICE,MUXAXANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7042,33.7042
+GAZA,CHIBUTO,CS Maivene,1186,MALEHICE,MAIVENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.68,33.7872
+GAZA,CHIBUTO,CS Chaimite,1187,CHAIMITE,CHAIMITE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Desconhecido,-24.6625,33.3458
+GAZA,CHIBUTO,CS Chimundo,1188,CIDADE DE DE CHIBUTO,CHIKHAKHATE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7017,33.5739
+GAZA,CHIBUTO,CS Nhavaquene,1189,MALEHICE,MBAMBANE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.8175,33.7662
+GAZA,CHIBUTO,CS Changanine,1190,CHANGANINE,CHANGANINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.1128,33.7797
+GAZA,CHIBUTO,CS Maqueze,1191,ALTO CHANGANE,MAQUEZE,RURAL,Centro de Saude,Centro de Saude Rural,Desconhecido,-24.2889,33.5661
+GAZA,CHIBUTO,CS Muboi,1192,GODIDE,GODIDE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Desconhecido,-24.5281,33.675
+GAZA,CHICUALACUALA,PS Chidulo,1193,MAPAI,CHIDULO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.2653,32.5283
+GAZA,CHICUALACUALA,PS Mahatlane,1194,VILA EDUARDO MONDLANE,CHITANGA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-21.9694,32.1147
+GAZA,CHICUALACUALA,CS Mapai,1195,MAPAI,16 DE JUNHO,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-22.7322,32.0608
+GAZA,CHICUALACUALA,PS Mapai-Ngala,1196,MAPAI,MAPAI RIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.8467,31.9656
+GAZA,CHICUALACUALA,CS Mepaze,1197,MAPAI,MPUZI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.0672,32.2219
+GAZA,CHICUALACUALA,PS Pafuri,1198,PAFURI,MBUZI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.4572,31.33
+GAZA,CHICUALACUALA,CS Litlatla,1199,VILA EDUARDO MONDLANE,VILA EDUARDO MONDLANE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.2031,31.6383
+GAZA,CHICUALACUALA,PS Ndombe,1200,MAPAI,MAPAI RIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.6869,31.8442
+GAZA,CHICUALACUALA,CS Chicualacuala,1201,VILA EDUARDO MONDLANE,VILA EDUARDO MONDLANE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.0775,31.6783
+GAZA,CHICUALACUALA,PS Mafacitela,1202,MAPAI,MAFACITELA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.5461,32.4631
+GAZA,CHIGUBO,CS Chigubo,1203,CHIGUBO,ZINHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.8322,33.5433
+GAZA,CHIGUBO,CS Zinhane,1204,CHIGUBO,ZINHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.355,33.0761
+GAZA,CHIGUBO,CS Ndindiza,1205,NDINDIZA,NHAVANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.4575,33.4253
+GAZA,CHIGUBO,CS Machaila,1206,CHIGUBO,MACHAILA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.2547,32.9147
+GAZA,CHIGUBO,CS Saúte,1207,NDINDIZA,NHANALE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.5167,33.5067
+GAZA,CHIGUBO,CS de Cubo,1208,NA,NA,NA,NA,NA,NA,-22.9124568394,33.2492405643
+GAZA,CHIGUBO,CS Nhanale,1209,NA,NA,NA,NA,NA,NA,-23.5167,33.5067
+GAZA,CHOKWE,HR Chokwe,1210,CIDADE DE CHOKWE,CIDADE DE CHOKWE,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-24.527439,33.005138
+GAZA,CHOKWE,CS Barragem ,1211,NA,NA,NA,NA,NA,NA,-24.4286,32.8425
+GAZA,CHOKWE,CS Cidade Chokwe,1212,CIDADE DE CHOKWE,CIDADE DE CHOKWE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.5668,32.9186
+GAZA,CHOKWE,CS Nhangunho,1213,LIONDE,CONHANE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.739167,33.126111
+GAZA,CHOKWE,PS Muianga,1214,XILEMBENE,XILEMBENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.6369,33.1778
+GAZA,CHOKWE,PS Mapapa,1215,LIONDE,CONHANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.7392,33.1261
+GAZA,CHOKWE,PS Wachicoluane,1216,LIONDE,CONHANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.6794,33.0183
+GAZA,CHOKWE,PS  Ntcawene,1217,LIONDE,MALAU,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.7536,32.8836
+GAZA,CHOKWE,CS Machua,1218,MACARETANE,MAXINHO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.17,32.6411
+GAZA,CHOKWE,PS  Cumba,1219,MACARETANE,MATUBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.5394,32.7508
+GAZA,CHOKWE,CS Chaluquane,1220,XILEMBENE,CHIDUACHINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7128,33.3736
+GAZA,CHOKWE,CS Hokwe,1221,XILEMBENE,VILA DE XILEMBENE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7069,33.18
+GAZA,CHOKWE,CS Conhane,1222,LIONDE,CONHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6681,33.0953
+GAZA,CHOKWE,PS Chiguidela,1223,XILEMBENE,XILEMBENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.6768,33.3257
+GAZA,CHOKWE,CS Xilembene,1224,XILEMBENE,VILA DE XILEMBENE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6881,33.2586
+GAZA,CHOKWE,CS lionde,1225,LIONDE,LIONDE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5858,33.0639
+GAZA,CHOKWE,CS Massavasse,1226,LIONDE,CONHANE,RURAL,Centro de Saude,Centro de saude Urbano,Nivel Primario,-24.6228,33.1103
+GAZA,CHOKWE,CS Manjangue,1227,MACARETANE,MACARETANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4286,32.8425
+GAZA,CHOKWE,PS Malhazine,1228,XILEMBENE,XILEMBENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.7417,33.2942
+GAZA,GUIJA,CS Guija,1229,CANICADO,VILA DE CANICADO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4992,33.0144
+GAZA,GUIJA,PS Nhalazi,1230,NALAZI,NALAZE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.0498,33.3274
+GAZA,GUIJA,PS Chibabel,1231,CHIVONGOENE,CHIBABEL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.5875,33.2331
+GAZA,GUIJA,PS Chimbembe,1232,NALAZI,CHIVONGUINE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.3667,33.2028
+GAZA,GUIJA,PS Chinhacanine,1233,MUBANGOENE,MUBANGUENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.3628,32.9033
+GAZA,GUIJA,PS Chivonguene,1234,CHIVONGOENE,CHIVONGUENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.5115,33.1033
+GAZA,GUIJA,PS Mpelane,1235,MUBANGOENE,MPELANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.2375,32.8375
+GAZA,GUIJA,PS Sifo (Mubanguene),1236,CHIVONGOENE,CHIBABEL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.5919,33.1628
+GAZA,MABALANE,PS de Macarale,1237,NA,NA,NA,NA,NA,NA,-23.3847,32.3756
+GAZA,MABALANE,CS Mabalane,1238,MABALANE,MABALANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8508,32.6228
+GAZA,MABALANE,CS Combomune,1239,COMBOMUNE,COMBOMUNE ESTACAO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.4281,32.5547
+GAZA,MABALANE,PS Mabomo,1240,NTLAVENE,CHIPSWANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.6972,32.5214
+GAZA,MABALANE,CS Macarale,1241,NA,NA,NA,NA,NA,NA,NA,NA
+GAZA,MABALANE,PS Nhimbawin B,1242,NTLAVENE,NTLAVENE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.8392,32.5297
+GAZA,MABALANE,CS  Tsocate,1243,MABALANE,TSOCATE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0714,32.6439
+GAZA,MABALANE,PS  Pfukwe,1244,MABALANE,TSOCATE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.1422,32.7256
+GAZA,MABALANE,PS  Macarale,1245,COMBOMUNE,COMBOMUNE RIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.3847,32.3756
+GAZA,MANDLAKAZE,HR Mandlakazi,1246,MANDLAKAZE,VILA DE MANDLAKAZE,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-24.7122,33.8861
+GAZA,MANDLAKAZE,CS Chidenguele,1247,CHIDENGUELE,CHIDENGUELE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.9206,34.1911
+GAZA,MANDLAKAZE,CS Dengoine,1248,CHIDENGUELE,DENGOINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8597,34.4117
+GAZA,MANDLAKAZE,CS Betula,1249,CHIDENGUELE,BETULE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7961,34.1875
+GAZA,MANDLAKAZE,PS  Mussavelene,1250,CHIDENGUELE,DENGOINE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.8881,34.315
+GAZA,MANDLAKAZE,CS Banguene,1251,XHALALA,MUSSENGUE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.6339,33.8375
+GAZA,MANDLAKAZE,CS Chibondzane,1252,CHIBONZANE,CHIBONZANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6722,34.0692
+GAZA,MANDLAKAZE,CS Macuacua,1253,MACUACUA,MACUACUA SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.4889,33.9569
+GAZA,MANDLAKAZE,CS Macupulane,1254,NGUZENE,NGUZENE SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.8072,33.9817
+GAZA,MANDLAKAZE,CS Mangunze,1255,NGUZENE,MANGUNZE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8719,33.8717
+GAZA,MANDLAKAZE,CS Manhique,1256,CHIBONZANE,PONJUANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5947,34.3961
+GAZA,MANDLAKAZE,CS Mazamane,1257,MANDLAKAZE,VILA DE MANDLACAZE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.7133,33.8838
+GAZA,MANDLAKAZE,CS Cucuine,1258,NGUZENE,NGUZENE SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.8831,33.9781
+GAZA,MANDLAKAZE,CS Matsinhane,1259,MAZUCANE,CUMBANE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.7547,34.0256
+GAZA,MANDLAKAZE,CS Mausse,1260,MANDLAKAZE,MAPANDANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6756,33.9258
+GAZA,MANDLAKAZE,CS Lanranjeiras,1261,XHALALA,CHALALA SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.5753,33.9153
+GAZA,MANDLAKAZE,CS Tavane,1262,CHIBONZANE,MACHULANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5869,34.0697
+GAZA,MANDLAKAZE,CS Mandlakazi,1263,MANDLAKAZE,VILA DE MANDLAKAZE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7122,33.8861
+GAZA,MANDLAKAZE,CS Chicavane,1264,MAZUCANE,CHICAVANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8011,33.8158
+GAZA,MANDLAKAZE,CS Incadine,1265,NGUZENE,CHICUANGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.9108,34.0406
+GAZA,MANDLAKAZE,CS Macasselane,1266,MAZUCANE,MAPANDANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6858,33.9664
+GAZA,MASSANGENA,CS Massangena,1267,MASSANGENA,MBOCODA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.5839,32.9375
+GAZA,MASSANGENA,PS  Mucambe,1268,MAVUE,MUCAMBENE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-21.55,32.8117
+GAZA,MASSANGENA,CS Mavue,1269,MAVUE,MAVUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.3599,32.4284
+GAZA,MASSINGIR,CS Massingir,1270,MASSINGIR,TIHOVENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.9186,32.1625
+GAZA,MASSINGIR,PS Zulu,1271,ZULO,ZULO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.0314,32.4344
+GAZA,MASSINGIR,PS Chibotane,1272,MAVODZE,CHIBOTANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.8564,32.2242
+GAZA,MASSINGIR,PS Cubo,1273,MASSINGIR,TIHOVENE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.9192,32.0303
+GAZA,MASSINGIR,PS Machamba,1274,MAVODZE,MACHAMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.5619,31.92
+GAZA,MASSINGIR,PS Mavodze,1275,MAVODZE,MAVODZE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.8122,32.0439
+GAZA,MASSINGIR,PS Mucatine,1276,ZULO,MUCATINE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.1675,32.4961
+GAZA,MASSINGIR,PS Macaringue,1277,ZULO,MUCATINE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.1233,32.5931
+GAZA,XAI-XAI DISTRITO,HR Chicumbane,1278,CHICUMBANE,CHICUMBANE SEDE,RURAL,Hospital Rural,Hospital Rural,Nivel Secondario,-24.9944,33.5506
+GAZA,XAI-XAI DISTRITO,PS  Banhine,1279,CHONGOENE,BANHINE,RURAL,Posto de Saude,Posto de saude,Nivel Primario,-24.8706,33.8306
+GAZA,XAI-XAI DISTRITO,CS Chilaulene,1280,ZONGOENE,CHILAULENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.1272,33.555
+GAZA,XAI-XAI DISTRITO,CS Chipenhe,1281,CHICUMBANE,NUVUNGUENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.9425,33.4456
+GAZA,XAI-XAI DISTRITO,CS Chongone,1282,CHONGOENE,CHONGOENE SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.008374,33.789932
+GAZA,XAI-XAI DISTRITO,PS Nhacutse,1283,CHONGOENE,NHACUTSE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.8922,33.7306
+GAZA,XAI-XAI DISTRITO,CS Julius Nyerere,1284,CHICUMBANE,MUZINGANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8747,33.5089
+GAZA,XAI-XAI DISTRITO,CS Maciene,1285,CHONGOENE,MACIENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.066667,33.858333
+GAZA,XAI-XAI DISTRITO,CS Siaia,1286,CHONGOENE,SIAIA,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.964,33.7834
+GAZA,XAI-XAI DISTRITO,CS Zongoene,1287,ZONGOENE,ZONGOENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.1525,33.4853
+GAZA,XAI-XAI DISTRITO,CS Vladimir Lenine,1288,CHICUMBANE,CHICUMBANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0314,33.485
+GAZA,XAI-XAI DISTRITO,PS  Nhamavila,1289,CHONGOENE,NHAMAVILA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.9942,33.9328
+GAZA,XAI-XAI DISTRITO,PS Bungane,1290,CHONGOENE,NHACUTSE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.8544,33.6919
+GAZA,XAI-XAI DISTRITO,PS  Zimilene,1291,ZONGOENE,CHILAULENE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-25.135,33.5864
+GAZA,XAI-XAI DISTRITO,PS Ndambine 2000,1292,CIDADE DE XAI XAI,NA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.0269,33.7081
+INHAMBANE,CIDADE DE INHAMBANE,HP Inhambane,1038,Cidade de Inhambane,Bairro Chemane,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-23.8792,35.4325
+INHAMBANE,CIDADE DE INHAMBANE,CS Urbano (Balane),1039,NA,NA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.9006,35.3975
+INHAMBANE,CIDADE DE INHAMBANE,CS Guiua,1040,Cidade de Inhambane,Bairro Balane 1,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.865173,35.382816
+INHAMBANE,CIDADE DE INHAMBANE,CS Conguiana,1041,Cidade de Inhambane,Bairro Conguiana,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8011,35.5128
+INHAMBANE,CIDADE DE INHAMBANE,PS Cruzamento,1042,Cidade de Inhambane,Bairro Josina Machel,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-23.8447,35.5019
+INHAMBANE,CIDADE DE INHAMBANE,CS Ilha,1043,Cidade de Inhambane,Bairro Chalambe 2,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8734,35.3882
+INHAMBANE,CIDADE DE INHAMBANE,CS Muelé,1044,Cidade de Inhambane,Bairro Muele 1,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-23.9006,35.3975
+INHAMBANE,CIDADE DE INHAMBANE,CS Salela,1045,Cidade de Inhambane,Bairro Salele,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8858,35.4703
+INHAMBANE,CIDADE DE INHAMBANE,CS Macucune,1046,Cidade de Inhambane,Bairro Mucucune,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8506,35.3967
+INHAMBANE,FUNHALOURO,CS Funhalouro,1047,Funhalouro - sede,Mucuhine,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.0914,34.3806
+INHAMBANE,FUNHALOURO,CS Mavume,1048,Funhalouro - sede,Mavume,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.4256,34.4981
+INHAMBANE,FUNHALOURO,CS Tome,1049,Tome,Tome - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-22.5419,34.2117
+INHAMBANE,FUNHALOURO,CS Manhiça,1050,Funhalouro - sede,Manhica,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.1253,34.6394
+INHAMBANE,FUNHALOURO,CS Tsenane,1051,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.8083,34.0125
+INHAMBANE,GOVURO,CS  Doane,1052,Nova Mambone,Govuro - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.0069,34.9678
+INHAMBANE,GOVURO,CS  Pande,1053,Nova Mambone,Pande,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.3681,34.8647
+INHAMBANE,GOVURO,CS Save,1054,Save,Machacame,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.1492,34.568600000000004
+INHAMBANE,GOVURO,CS Nova Mabone,1055,Nova Mambone,Vila de Nova Mambone,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-20.9906,35.0229
+INHAMBANE,GOVURO,CS  Jofane,1056,Save,Jofane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.3344,34.2825
+INHAMBANE,GOVURO,CS  Malovane,1057,Nova Mambone,Govuro - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.1897,34.8467
+INHAMBANE,GOVURO,CS  Luido,1058,Save,Luido,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.4106,34.6436
+INHAMBANE,HOMOINE,CS Inhamagua,1059,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8444,35.1958
+INHAMBANE,HOMOINE,CS  Homoine,1060,Homoine - sede,Vila de Homoine - sede,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8814,35.1528
+INHAMBANE,HOMOINE,CS  Chinjinguir,1061,Homoine - sede,Chinjinguir,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.9225,35.1619
+INHAMBANE,HOMOINE,CS  Mafuane,1062,Homoine - sede,Golo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0122,35.1633
+INHAMBANE,HOMOINE,CS  Maiaice,1063,Homoine - sede,Mubecua,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0436,35.0886
+INHAMBANE,HOMOINE,CS  Maganda,1064,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8944,35.1247
+INHAMBANE,HOMOINE,CS  Marrengo,1065,Homoine - sede,Chinjinguir,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.9072,35.1939
+INHAMBANE,HOMOINE,CS  Quengue,1066,Pembe,Nhaulane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8522,34.9311
+INHAMBANE,HOMOINE,PS  Benhane,1067,Pembe,Pembe - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.7025,35.0594
+INHAMBANE,HOMOINE,PS Madumo,1068,Homoine - sede,Mubecua,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.0989,35.0133
+INHAMBANE,HOMOINE,CS  Pembe,1069,Pembe,Pembe - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.7392,34.9769
+INHAMBANE,HOMOINE,CS  Maxamal,1070,Pembe,Nhaulane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.9119,35.0317
+INHAMBANE,HOMOINE,PS  Inhamussua,1071,Homoine - sede,Inhamussua,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-23.8817,35.2292
+INHAMBANE,INHARRIME,PS Mafassane,1072,NA,NA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.3625,35.1833
+INHAMBANE,INHARRIME,CS Sihane,1073,NA,NA,NA,NA,NA,NA,NA,NA
+INHAMBANE,INHARRIME,CS  de Nhapadiane,1074,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4333,34.625
+INHAMBANE,INHARRIME,CS  Chacane,1075,Inharrime - sede,Chacane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.3228,34.915
+INHAMBANE,INHARRIME,CS  Chongola,1076,Inharrime - sede,Dongane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4022,35.1344
+INHAMBANE,INHARRIME,PS  Inhamachafo,1077,Inharrime - sede,Inharrime - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.4614,34.9828
+INHAMBANE,INHARRIME,CS  Inharrime,1078,Inharrime - sede,Vila de Inharrime,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4761,35.0175
+INHAMBANE,INHARRIME,CS  Mejoote,1079,Mocumbí,Nhapodiane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4933,34.6478
+INHAMBANE,INHARRIME,CS  Mocumbi,1080,Mocumbí,Mahalamba,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5333,34.7736
+INHAMBANE,INHARRIME,CS  Coguno,1081,Mocumbí,Nhapodiane,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.3914,34.5503
+INHAMBANE,INHASSORO,CS  Inhassoro,1082,Inhassoro - sede,Vila de Inhassoro,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.5392,35.1886
+INHAMBANE,INHASSORO,CS  Macovane,1083,Inhassoro - sede,Maimelane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.4892,35.0556
+INHAMBANE,INHASSORO,CS  Bazaruto,1084,Bazaruto,Bazaruto - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-21.6642,35.4389
+INHAMBANE,INHASSORO,CS  Mangungumete,1085,Inhassoro - sede,Maimelane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.7175,35.0947
+INHAMBANE,INHASSORO,CS Cometela,1086,NA,NA,NA,NA,NA,NA,-21.849492,34.479429
+INHAMBANE,JANGAMO,CS Ligogo,1087,NA,NA,NA,NA,NA,NA,-24.106899,35.317181
+INHAMBANE,JANGAMO,CS  Cumbana,1088,Cumbana,Cumbana - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.1447,35.2175
+INHAMBANE,JANGAMO,CS  Jangamo,1089,Jangamo - sede,Jangamo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.1108,35.3172
+INHAMBANE,JANGAMO,PS  Mutamba,1090,Jangamo - sede,Jangamo - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.0517,35.3222
+INHAMBANE,JANGAMO,CS  Ravene,1091,Jangamo - sede,Ligogo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.2653,35.2372
+INHAMBANE,JANGAMO,CS  Nhancoja,1092,Cumbana,Bambela,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.3025,35.1139
+INHAMBANE,JANGAMO,CS Massavane,1093,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0417,35.4583
+INHAMBANE,MABOTE,CS Paptane,1094,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.3917,33.8417
+INHAMBANE,MABOTE,CS  Mabote,1095,Mabote - sede,Mabote - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.0239,34.1442
+INHAMBANE,MABOTE,CS  Mussengue,1096,Zinave,Mussengue,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.8944,34.1875
+INHAMBANE,MABOTE,CS  Zimane,1097,Zimane,Zimane - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.1389,33.5361
+INHAMBANE,MABOTE,CS  Tanguane,1098,Zinave,Tanguane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.6842,33.5044
+INHAMBANE,MABOTE,CS  Maculuva,1099,Zinave,Maculuva,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.7417,33.8797
+INHAMBANE,MASSINGA,CS  Massinga,1100,Massinga - sede,Vila de Massinga,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.3336,35.3797
+INHAMBANE,MASSINGA,CS  Nhanchengue,1101,Chicomo,Malamba,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.8556,35.1806
+INHAMBANE,MASSINGA,CS  Balata,1102,Chicomo,Chicomo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.4356,34.6528
+INHAMBANE,MASSINGA,CS  Cangela,1103,Massinga - sede,Rovene,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.4294,35.3375
+INHAMBANE,MASSINGA,CS  Magonha,1104,Massinga - sede,Rovene,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.2869,35.4294
+INHAMBANE,MASSINGA,CS  Muvamba,1105,Chicomo,Malamba,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.8739,35.3019
+INHAMBANE,MASSINGA,CS  Rio das Pedras,1106,Massinga - sede,Guma,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.1947,35.3819
+INHAMBANE,MASSINGA,CS  Morie,1107,Chicomo,Malamba,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.9461,35.4461
+INHAMBANE,MASSINGA,CS  Inhaloi,1108,Massinga - sede,Guma,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.1003,35.2531
+INHAMBANE,MASSINGA,CS  Chicomo,1109,Chicomo,Chicomo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.7664,35.0203
+INHAMBANE,MASSINGA,CS Chituane,1110,NA,NA,NA,NA,NA,NA,NA,NA
+INHAMBANE,MASSINGA,CS Muchungo,1111,NA,NA,NA,NA,NA,NA,NA,NA
+INHAMBANE,MASSINGA,HD Massinga ,1112,NA,NA,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-23.3336,35.3797
+INHAMBANE,CIDADE DE MAXIXE,HR Chicuque,1113,Cidade de Maxixe,Bairro Rumbana,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-23.8178,35.3483
+INHAMBANE,CIDADE DE MAXIXE,CS Cidade Maxixe,1114,Cidade de Maxixe,Bairro Chambone,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.8617,35.3433
+INHAMBANE,CIDADE DE MAXIXE,CS Agostinho Neto,1115,Cidade de Maxixe,Bairro Agostinho Neto,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-24.0322,35.2606
+INHAMBANE,CIDADE DE MAXIXE,CS Dambo,1116,Cidade de Maxixe,Bairro Dambo,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0044,35.2861
+INHAMBANE,CIDADE DE MAXIXE,PS Teles,1117,Cidade de Maxixe,Bairro Nhabanda,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-23.7614,35.3183
+INHAMBANE,CIDADE DE MAXIXE,CS Tinga-Tinga,1118,Cidade de Maxixe,Bairro Tinga Tinga,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-23.7169,35.3619
+INHAMBANE,CIDADE DE MAXIXE,CS Bembe,1119,Cidade de Maxixe,Bairro Bembe,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-23.8661,35.2858
+INHAMBANE,CIDADE DE MAXIXE,CS Chicuque,1120,Cidade de Maxixe,Bairro Rumbana,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-23.8178,35.3483
+INHAMBANE,CIDADE DE MAXIXE,CS Mabil,1121,Cidade de Maxixe,Bairro Mabil,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-23.9353,35.2986
+INHAMBANE,CIDADE DE MAXIXE,CS Cuguana,1122,NA,NA,NA,NA,NA,NA,-23.872959,35.34388
+INHAMBANE,CIDADE DE MAXIXE,CS Macuamene,1123,NA,NA,NA,NA,NA,NA,-23.872958,35.343881
+INHAMBANE,CIDADE DE MAXIXE,CS Manhala,1124,NA,NA,NA,NA,NA,NA,-23.872958,35.34388
+INHAMBANE,MORRUMBENE,CS  Gotiti,1125,Mocoduene,Gotite,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.4394,35.2333
+INHAMBANE,MORRUMBENE,CS  Cambine,1126,Morrombene - sede,Cambine,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.6189,35.2489
+INHAMBANE,MORRUMBENE,CS  Magumbo,1127,Morrumbene - sede,Morrumbene - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.6731,35.4033
+INHAMBANE,MORRUMBENE,CS  Mahangue,1128,Morrumbene - sede,Morrumbene - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.7881,35.2686
+INHAMBANE,MORRUMBENE,CS Sitila,1129,Mocoduene,Sitila,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.1722,35.0583
+INHAMBANE,MORRUMBENE,CS  Murrumbene,1130,Morrumbene - sede,Vila de Morrumbene,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.6561,35.3428
+INHAMBANE,MORRUMBENE,CS Maivene,1131,Morrumbene - sede,Malaia,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.5539,35.3406
+INHAMBANE,MORRUMBENE,CS Matacalane,1132,Mocoduene,Mocoduene,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.7281,35.1886
+INHAMBANE,MORRUMBENE,CS  Mucoduene,1133,Mocoduene,Mocoduene - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.6594,35.1617
+INHAMBANE,MORRUMBENE,CS Barrane,1134,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.2833,35.1083
+INHAMBANE,PANDA,CS Inhassume,1135,Panda - sede,Panda - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.2083,34.8625
+INHAMBANE,PANDA,CS Massalane,1136,Panda - sede,Massalane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0281,34.8772
+INHAMBANE,PANDA,CS Mawaiela,1137,Mawaela,Mawaela - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.3575,34.1131
+INHAMBANE,PANDA,CS Djodjo,1138,Urrene,Djodjo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-23.7875,34.7256
+INHAMBANE,PANDA,CS Panda,1139,Panda - sede,Panda - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.0664,34.7289
+INHAMBANE,VILANKULO,HR Vilankulos,1140,Vilankulo - sede,Vila de Vilankulo,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-21.9844,35.3211
+INHAMBANE,VILANKULO,CS Belane,1141,Mapinhane,Belane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.6578,35.2583
+INHAMBANE,VILANKULO,CS Mapinhane,1142,Mapinhane,Mapinhane - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.2522,35.1119
+INHAMBANE,VILANKULO,CS Pambara,1143,Vilankulo - sede,Vilankulo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.9861,35.1619
+INHAMBANE,VILANKULO,CS Machanissa,1144,Mapinhane,Belane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.6275,35.1633
+INHAMBANE,VILANKULO,CS Vilankulos,1145,Vilankulo - sede,Vila de Vilankulo,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.9928,35.3197
+INHAMBANE,VILANKULO,CS Muabsa,1146,Mapinhane,Muabsa,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.2269,34.785
+INHAMBANE,VILANKULO,CS Quewene,1147,Vilankulo - sede,Kewene,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-22.3106,35.4267
+INHAMBANE,VILANKULO,CS Chibuene,1148,NA,NA,NA,NA,NA,NA,-22.3016554958,35.1264030005
+INHAMBANE,VILANKULO,CS Macunhe,1149,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.85,35.2333
+INHAMBANE,ZAVALA,CS Banguza,1150,Zandamela,Zandamela - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7953,34.5728
+INHAMBANE,ZAVALA,CS Guilundo,1151,Zandamela,Maculuva,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5283,34.4189
+INHAMBANE,ZAVALA,CS Cala,1152,Quissico,Muane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.59,35.0164
+INHAMBANE,ZAVALA,CS Maundene,1153,Zandamela,Zandamela - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7156,34.4322
+INHAMBANE,ZAVALA,CS Zandamela,1154,Zandamela,Zandamela - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7627,34.3502
+INHAMBANE,ZAVALA,CS Quissico,1155,Quissico,Vila de Quissico,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.715,34.7478
+INHAMBANE,ZAVALA,PS Chipole,1156,Quissico,Muane,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-24.5825,34.8036
+INHAMBANE,ZAVALA,CS Mavila,1157,Zandamela,Zandamela - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.6319,34.5722
+INHAMBANE,ZAVALA,CS  Maculuva,1158,Zandamela,Maculuva,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5283,34.4189
+INHAMBANE,ZAVALA,CS Muane,1159,Quissico,Muane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5975,34.9211
+INHAMBANE,ZAVALA,CS Chibembe (Canda),1160,Quissico,Muane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5889,34.8486
+MANICA,CIDADE DE CHIMOIO,HP Chimoio,787,Cidade de Chimoio,Localidade Urbana 2,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-19.1094,33.4778
+MANICA,CIDADE DE CHIMOIO,CS Eduardo Mondlane,788,Cidade de Chimoio,Localidade Urbana 2,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.1111,33.4764
+MANICA,CIDADE DE CHIMOIO,CS 1 Maio,789,Cidade de Chimoio,Localidade Urbana 1,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.1144,33.4583
+MANICA,CIDADE DE CHIMOIO,CS Nhamaonha,790,Cidade de Chimoio,Localidade Urbana 3,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.1236,33.4994
+MANICA,CIDADE DE CHIMOIO,CS Chissui,791,Cidade de Chimoio,Localidade Urbana 1,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.1431,33.4478
+MANICA,CIDADE DE CHIMOIO,7 de Abril,792,Cidade de Chimoio,NA,NA,NA,NA,NA,NA,NA
+MANICA,BARUE,HR Catandica,793,Catandica,Vila de Catandica,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-18.0539,33.1708
+MANICA,BARUE,CS Cruzamento Macossa,794,Nhapassa,Nhapassa - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7167,33.2564
+MANICA,BARUE,CS Cagore,795,Catandica,Inhazónia,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.1167,33.3561
+MANICA,BARUE,CS Honde,796,Catandica,Chuala,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.3247,33.2022
+MANICA,BARUE,CS Inhazonia,797,Catandica,Inhazónia,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9478,33.1942
+MANICA,BARUE,CS Nhapassa,798,Nhapassa,Nhapassa - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7978,33.2189
+MANICA,BARUE,CS Nhassacara,799,Nhapassa,Nhassacara,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6033,33.2536
+MANICA,BARUE,CS Phanze,800,Catandica,Chuala,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.3303,33.1156
+MANICA,BARUE,CS Serra Choa,801,Catandica,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.99114,33.01558
+MANICA,BARUE,CS Barauro,802,Choa,Nhauroa,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.8375,33.0667
+MANICA,BARUE,CS Catandica,803,Catandica,Vila de Catandica,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.0547,33.1711
+MANICA,BARUE,CS Chuala,804,Catandica,Chuala,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4072,33.2397
+MANICA,BARUE,CS Mussianharo,805,Catandica,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.33196,33.2975
+MANICA,GONDOLA,HD Gondola,806,Gondola - sede,Vila de Gondola,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-19.0772,33.6417
+MANICA,GONDOLA,CS Chipindaumwe,807,Amatongas,Pindanganga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.0522,33.7853
+MANICA,GONDOLA,CS Amatongas,808,Amatongas,Amatongas - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.1,33.81
+MANICA,GONDOLA,CS IAC,809,Matsinho,Chimera,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.0725,33.3636
+MANICA,GONDOLA,CS Inchope,810,Inchope,Inchope - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2028,33.9258
+MANICA,GONDOLA,CS Macate,811,Macate,Macate - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.4153,33.5131
+MANICA,GONDOLA,CS Marera,812,Macate,Marera,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2675,33.4803
+MANICA,GONDOLA,CS Matsinho,813,Matsinho,Matsinho - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9994,33.3875
+MANICA,GONDOLA,CS Muda Serracao,814,Inchope,Muda Serraç?o,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.3283,33.8336
+MANICA,GONDOLA,CS Zembe Centro,815,Zembe,Zembe - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2644,33.3878
+MANICA,GONDOLA,CS Chinete,816,NA,NA,NA,NA,NA,NA,NA,NA
+MANICA,GONDOLA,CS Mutocoma,817,NA,NA,NA,NA,NA,NA,NA,NA
+MANICA,GONDOLA,CS Josina Machel,818,NA,NA,NA,NA,NA,NA,NA,NA
+MANICA,GURO,CS Bunga,819,Guro - sede,Bunga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8567,33.2903
+MANICA,GURO,CS Chivuli,820,Mungari,Chivuli,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.0472,33.6922
+MANICA,GURO,CS Guro,821,Guro - sede,Guro - sede (Sanga),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.42,33.3494
+MANICA,GURO,CS Mandie,822,Mandie,Demaufe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4811,33.5611
+MANICA,GURO,CS Mungari,823,Mungari,Chivuli,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.166326,33.553936
+MANICA,GURO,CS Nhamassonge,824,Nhamassonge,Nhamassonge - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7897,33.5419
+MANICA,GURO,PS Nhansana,825,Guro - sede,Guro - sede (Sanga),RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.4875,33.3639
+MANICA,GURO,CS Tchetcha,826,Guro - sede,Bunga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1247,33.2903
+MANICA,GURO,CS Thanda,827,Nhamassonge,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.71135,33.34326
+MANICA,MACHAZE,CS Bassane,828,Machaze - sede Chitobe,Machaze - sede Chitobe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.9544,33.2725
+MANICA,MACHAZE,CS Chipopopo,829,Machaze - sede Chitobe,Chipopopo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.0261,33.5356
+MANICA,MACHAZE,CS Chipudji,830,Machaze - sede Chitobe,Chipudje,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.6703,33.5333
+MANICA,MACHAZE,CS Chitobe,831,Machaze - sede Chitobe,Machaze - sede Chitobe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.8244,33.3697
+MANICA,MACHAZE,CS Mazwissanga,832,Save,Mazwissanga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.3703,32.6278
+MANICA,MACHAZE,CS Save,833,Save,Urima,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.3181,33.2828
+MANICA,MACHAZE,CS Sambassoca,834,Save,Sambassoca,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.4492,33.0839
+MANICA,MACHAZE,CS Mavende,835,Save,Mavende,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.2906,33.4597
+MANICA,MACHAZE,CS Thimbi-Thimbi,836,Save,Sambassoca,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.4581,32.9136
+MANICA,MACOSSA,CS Macossa,837,Macossa - sede,Macossa - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9,33.9392
+MANICA,MACOSSA,CS Massangazi,838,Macossa - sede,Mussangaze,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7086,33.9717
+MANICA,MACOSSA,CS Nhamagua,839,Nhamagua,Nhamagua - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.8408,33.455
+MANICA,MACOSSA,CS Nguawala,840,Nguavala,Nguavala - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4578,33.6069
+MANICA,MANICA,HD Manica,841,Manica - sede,Cidade de Manica,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-18.9406,32.8753
+MANICA,MANICA,CS Chicamba,842,Messica,Bandula,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.1547,33.1472
+MANICA,MANICA,CS Chigodole,843,Messica,Chinhambuzi,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.0314,32.9167
+MANICA,MANICA,CS Chinhambuzi,844,Messica,Chinhambuzi,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.999444,33.3875
+MANICA,MANICA,PS Chitunga,845,Mavonde,Chitunga,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.8161,33.0386
+MANICA,MANICA,CS Jecua,846,Machipanda,Muzongo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9753,32.8256
+MANICA,MANICA,CS Machipanda,847,Mchipanda,Vila de Machipanda,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9956,32.7267
+MANICA,MANICA,CS Mavonde,848,Mavonde,Mavonde - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6244,33.0392
+MANICA,MANICA,CS Messica,849,Messica,Vila de Messica,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9864,33.0811
+MANICA,MANICA,CS Mundonguara,850,Machipanda,Maridza,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9294,32.7978
+MANICA,MANICA,PS Munene,851,Machipanda,Muzongo,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.9636,32.7725
+MANICA,MANICA,CS Muvumira,852,Machipanda,Maridza,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9006,32.7586
+MANICA,MANICA,CS Nhamaxoto,853,Machipanda,Maridza,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.8633,32.8261
+MANICA,MANICA,CS Nhalonga,854,Machipanda,Maridza,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.8622,32.7597
+MANICA,MANICA,CS Pungue Sul,855,Vanduzi,Pungue - sul,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.5561,33.2789
+MANICA,MANICA,PS Guindingui,856,Messica,Chinhambuzi,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.1089,32.9281
+MANICA,MANICA,CS Vanduzi,857,Vanduzi,Vanduzi - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9531,33.2647
+MANICA,MANICA,CS Zonue Tabaco,858,Messica,Nhaucaca,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.1014,32.9958
+MANICA,MOSSURIZE,HD Espungabera,859,Espungabera,Espungabera - sede,RURAL,Hospital Distrital,Hospital Distrital,Nivel Secondario,-20.4528,32.7722
+MANICA,MOSSURIZE,CS Chiurairue,860,Chiurairue,Chiurairue - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.5778,32.7733
+MANICA,MOSSURIZE,CS Dacata,861,Dacata,Dacata - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.3197,32.9939
+MANICA,MOSSURIZE,CS Mude,862,Chiurairue,Chiurairue - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.5672,32.6817
+MANICA,MOSSURIZE,CS Mupengo,863,Dacata,Dacata - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2478,32.9108
+MANICA,MOSSURIZE,CS Makuu,864,Chiurairue,Chicuecuete,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-20.7344,32.5594
+MANICA,MOSSURIZE,CS Gunhe,865,Dacata,Mave,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2281,33.3294
+MANICA,MOSSURIZE,CS Chaiva,866,NA,NA,NA,NA,NA,NA,NA,NA
+MANICA,MOSSURIZE,CS Garagua,867,NA,NA,NA,NA,NA,NA,NA,NA
+MANICA,SUSSUNDENGA,CS Sussundenga,868,Sussundenga,Sussundenga - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.4097,33.2939
+MANICA,SUSSUNDENGA,CS Munhinga,869,Sussundenga,Munhinga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.4892,33.2856
+MANICA,SUSSUNDENGA,CS Nhambamba,870,Sussundenga,Matica,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.3136,33.2483
+MANICA,SUSSUNDENGA,CS Rotanda,871,Rotanda,Rotanda - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5444,32.8947
+MANICA,SUSSUNDENGA,CS Dombe,872,Dombe,Mabaia,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.9758,33.3981
+MANICA,SUSSUNDENGA,CS Mavuzi,873,Sussundenga,Nhaurombe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5458,33.5089
+MANICA,SUSSUNDENGA,CS Mupandeia,874,Muoha,Mupandeia,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.3139,32.9444
+MANICA,SUSSUNDENGA,CS Matarara,875,NA,NA,NA,NA,NA,NA,-19.6716753192,33.2642886269
+MANICA,SUSSUNDENGA,CS Bunga,876,NA,NA,NA,NA,NA,NA,-19.6716753068,33.2642886391
+MANICA,TAMBARA,CS Buzua,877,Bazua,Bazua - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2508,34.1786
+MANICA,TAMBARA,CS Nhacafula,878,Nhacafula,Nhacafula - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8706,34.0761
+MANICA,TAMBARA,CS Tambara,879,Nhacolo,Nhacolo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7247,34.2453
+MANICA,TAMBARA,CS Sabeta,880,Nhacolo,Sabeta,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8219,34.4475
+MANICA,TAMBARA,CS Nhacalapho,881,Nhacafula,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.95159,33.95745
+MANICA,TAMBARA,CS Campange,882,Nhacolo,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7242,34.21106
+MAPUTO CIDADE,CHAMANCULO,HC Maputo,1381,CIDADE DE MAPUTO,BAIRRO POLANA CIMENTO B,URBANA,Hospital Central,Hospital Central,Nivel Quaternario,-25.9673,32.5899
+MAPUTO CIDADE,CHAMANCULO,HC Pediatria,1382,NA,NA,NA,NA,NA,NA,-25.9673,32.589901
+MAPUTO CIDADE,CHAMANCULO,Hospital Militar,1383,NA,NA,NA,NA,NA,NA,-25.968,32.591
+MAPUTO CIDADE,CHAMANCULO,Centro para Criança,1384,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,CHAMANCULO,HG Chamanculo,1385,CIDADE DE MAPUTO,BAIRRO CHAMANCULO B,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-25.9511,32.5556
+MAPUTO CIDADE,CHAMANCULO,CS Alto-Mae,1386,CIDADE DE MAPUTO,BAIRRO ALTO MAE A,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9606,32.57
+MAPUTO CIDADE,CHAMANCULO,CS Maxaquene,1387,CIDADE DE MAPUTO,BAIRRO POLANA CIMENTO B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9739,32.5833
+MAPUTO CIDADE,CHAMANCULO,PS  N. 14,1388,CIDADE DE MAPUTO,BAIRRO XIPAMANINE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9464,32.5625
+MAPUTO CIDADE,CHAMANCULO,CS Porto,1389,CIDADE DE MAPUTO,POLANA CIMENTO A,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9771,32.5874
+MAPUTO CIDADE,CHAMANCULO,CS Xipamanine,1390,CIDADE DE MAPUTO,BAIRRO AEROPORTO B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9378,32.5664
+MAPUTO CIDADE,CHAMANCULO,CS N° 2 Tribunal,1391,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,CHAMANCULO,CS de Chamanculo,1392,CIDADE DE MAPUTO,BAIRRO CHAMANCULO B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9511,32.5556
+MAPUTO CIDADE,CHAMANCULO,CS de Benfica,1393,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,CHAMANCULO,CS Alto-Mae (CRAM),1394,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,MAVALANE,HG Mavalane,1395,CIDADE DE MAPUTO,BAIRRO MAVALANE A,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-25.9317,32.5858
+MAPUTO CIDADE,MAVALANE,CS 1 Junho,1396,CIDADE DE MAPUTO,BAIRRO FERROVIARIO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9144,32.6097
+MAPUTO CIDADE,MAVALANE,CS 1 Maio,1397,CIDADE DE MAPUTO,BAIRRO MAXAQUENE C,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9483,32.59
+MAPUTO CIDADE,MAVALANE,CS Inhaca,1398,CIDADE DE MAPUTO,Bairro Ridzuane,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0031,32.9203
+MAPUTO CIDADE,MAVALANE,CS Malhangalene,1399,CIDADE DE MAPUTO,BAIRRO DE MALHANGALENE B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9511,32.5822
+MAPUTO CIDADE,MAVALANE,CS Polana,1400,CIDADE DE MAPUTO,BAIRRO SOMMERSHIELD,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9628,32.5944
+MAPUTO CIDADE,MAVALANE,CS Albazine,1401,CIDADE DE MAPUTO,BAIRRO ALBAZINE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.8422,32.6414
+MAPUTO CIDADE,MAVALANE,CS Romao,1402,CIDADE DE MAPUTO,BAIRRO DAS MAHOTAS,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8719,32.6303
+MAPUTO CIDADE,MAVALANE,PS Hulene,1403,CIDADE DE MAPUTO,BAIRRO HULENE A,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9147,32.5961
+MAPUTO CIDADE,MAVALANE,PS dos Pescadores,1404,CIDADE DE MAPUTO,BAIRRO COSTA DO SOL,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9061,32.6561
+MAPUTO CIDADE,MAVALANE,PS Chiango,1405,CIDADE DE MAPUTO,BAIRRO ALBAZINE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.8603,32.6703
+MAPUTO CIDADE,MAVALANE,CS Polana Canico,1406,CIDADE DE MAPUTO,BAIRRO POLANA CANICO B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.935,32.605
+MAPUTO CIDADE,MAVALANE,PS Muchina,1407,CIDADE DE MAPUTO,BAIRRO NHAQUENE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-26.0569,32.9125
+MAPUTO CIDADE,MAVALANE,CS Mavalane,1408,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,CHAMANCULO,PS N. 2,1409,CIDADE DE MAPUTO,Central - C,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9742,32.5753
+MAPUTO CIDADE,JOSE MACAMO,HG Jose Macamo,1410,CIDADE DE MAPUTO,BAIRRO MALANGA,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-25.9478,32.545
+MAPUTO CIDADE,JOSE MACAMO,Influene Pediatria,1411,CIDADE DE MAPUTO,BAIRRO MALANGA,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-25.9478,32.545
+MAPUTO CIDADE,JOSE MACAMO,CS Jose Macamo,1412,CIDADE DE MAPUTO,BAIRRO MALANGA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9467,32.5436
+MAPUTO CIDADE,JOSE MACAMO,CS Bagamoio,1413,CIDADE DE MAPUTO,BAIRRO DE BAGAMOYO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8975,32.5706
+MAPUTO CIDADE,JOSE MACAMO,Hospital Psiquiatrico do Infulene,1414,CIDADE DE MAPUTO,BAIRRO DE ZIMPETO,URBANA,Hospital Psiquiatrico,Hospital Psiquiatrico,Nivel Quaternario,-25.8594,32.5664
+MAPUTO CIDADE,JOSE MACAMO,CS Catembe,1415,CIDADE DE MAPUTO,Bairro Inguide,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0231,32.5789
+MAPUTO CIDADE,JOSE MACAMO,PS Magoanine Tendas,1416,CIDADE DE MAPUTO,BAIRRO MAGOANINE C,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.8461,32.5972
+MAPUTO CIDADE,JOSE MACAMO,PS Inhagoia A,1417,CIDADE DE MAPUTO,BAIRRO INHAGOIA A,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9164,32.5594
+MAPUTO CIDADE,JOSE MACAMO,PS Incassane,1418,CIDADE DE MAPUTO,BAIRRO INCASSANE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9961,32.5308
+MAPUTO CIDADE,JOSE MACAMO,CS Magoanine,1419,CIDADE DE MAPUTO,Bairro Magoanine - A,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8742,32.5986
+MAPUTO CIDADE,JOSE MACAMO,CS Zimpeto,1420,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,JOSE MACAMO,Benfica - Centro da Criança,1421,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,JOSE MACAMO,CS Mutsécua,1422,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO CIDADE,JOSE MACAMO,Hospital Geral de Infulene,1423,CIDADE DE MAPUTO,Bairro Zimpeto,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8608,32.5664
+MAPUTO PROVINCIA,CIDADE DA MATOLA,HG Machava,1293,INFULENE,ACORDOS DE LUSAKA,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-25.9142,32.5328
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Matola II,1294,CIDADE DA MATOLA,MATOLA B,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9394,32.4553
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Machava II,1295,MACHAVA,MACHAVA SEDE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9108,32.4927
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Matola-Gare,1296,MACHAVA,MATOLA GARE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.8267,32.4525
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Ndlavela,1297,INFULENE,NDLAVELA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8875,32.5341
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Matola I,1298,CIDADE DA MATOLA,MATOLA A,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9642,32.4553
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Fasol,1299,CIDADE DA MATOLA,MATOLA A,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9389,32.4944
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Liberdade,1300,CIDADE DA MATOLA,LIBERDADE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9103,32.4597
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Boquisso,1301,INFULENE,BOQUISSO B,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.7389,32.5392
+MAPUTO PROVINCIA,CIDADE DA MATOLA,PS T3,1302,INFULENE,T3,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.8983,32.5391
+MAPUTO PROVINCIA,CIDADE DA MATOLA,PS Km 25,1303,MACHAVA,MATOLA GARE,URBANA,Centro de Saude,Centro de Saude Urbana,Nivel Primario,-25.7908,32.4366
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Kongolote,1304,INFULENE,KHONGOLOTE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.8405,32.5419
+MAPUTO PROVINCIA,CIDADE DA MATOLA,PS Unidade A,1305,MACHAVA,INFULENE A,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-25.9106,32.5175
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Machava I,1306,MATOLA RIO,MATOLA RIO,RURAL,Centro de Saude,Centro de Saude Rural,Desconhecido,-25.956125,32.43288
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Machava-Bedene,1307,CIDADE DA MATOLA,LIBERDADE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-25.9187,32.4682
+MAPUTO PROVINCIA,CIDADE DA MATOLA,CS Matola II (CSE),1308,NA,NA,NA,NA,NA,NA,-25.9394,32.4553
+MAPUTO PROVINCIA,CIDADE DA MATOLA,HG Machava (CSE),1309,NA,NA,NA,NA,NA,NA,-25.9142,32.5328
+MAPUTO PROVINCIA,CIDADE DA MATOLA,Hospital de Dia da Policia,1310,NA,NA,NA,NA,NA,NA,-25.8359907172,32.4947700968
+MAPUTO PROVINCIA,BOANE,CS Boane,1311,BOANE,VILA DE BOANE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0489,32.3253
+MAPUTO PROVINCIA,BOANE,CS Campoane,1312,BOANE,GUEGUEGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0131,32.4186
+MAPUTO PROVINCIA,BOANE,CS Mahubo,1313,BOANE,EDUARDO MONDLANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.1589,32.3461
+MAPUTO PROVINCIA,BOANE,CS Massaca,1314,BOANE,EDUARDO MONDLANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0644,32.2861
+MAPUTO PROVINCIA,BOANE,CS Beleluane,1315,MATOLA RIO,MATOLA RIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.9189,32.3941
+MAPUTO PROVINCIA,BOANE,PS Radio Marconi,1316,BOANE,GUEGUEGUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-26.0003,32.2922
+MAPUTO PROVINCIA,BOANE,PS Matola-Rio,1317,MATOLA RIO,MATOLA RIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-25.96,32.4173
+MAPUTO PROVINCIA,BOANE,PS Pequenos Libombos,1318,BOANE,EDUARDO MONDLANE,RURAL,Centro de Saude,Centro de Saude Rural,Desconhecido,-26.0883,32.2592
+MAPUTO PROVINCIA,BOANE,PS Casa do Gaiato,1319,BOANE,EDUARDO MONDLANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-26.0756,32.2767
+MAPUTO PROVINCIA,BOANE,PS Umbeluzi,1320,BOANE,GUEGUEGUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-26.0636,32.3734
+MAPUTO PROVINCIA,BOANE,CS Picoco,1321,BOANE,GUEGUEGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0086,32.3366
+MAPUTO PROVINCIA,BOANE,CS Mulotana,1322,MATOLA RIO,MATOLA RIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.8408,32.3636
+MAPUTO PROVINCIA,MAGUDE,CS Magude,1323,MAGUDE,VILA DE MAGUDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0289,32.6497
+MAPUTO PROVINCIA,MAGUDE,CS Mutaze,1324,MOTAZE,MOTAZE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.7994,32.8589
+MAPUTO PROVINCIA,MAGUDE,CS Panjane,1325,PANJANE,PANJANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.9008,32.3494
+MAPUTO PROVINCIA,MAGUDE,CS Mahel,1326,NA,NA,NA,NA,NA,NA,-24.7021924647,32.4385455703
+MAPUTO PROVINCIA,MAGUDE,CS Mapulanguene,1327,MAPULANGUENE,MAPULANGUENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.4914,32.0878
+MAPUTO PROVINCIA,MAGUDE,CS Chicutso,1328,MAHELE,CHICUTSO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.5692,32.6619
+MAPUTO PROVINCIA,MAGUDE,CS Moine,1329,MAGUDE,MOINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-24.8864,32.5286
+MAPUTO PROVINCIA,MANHICA,HR Xinavane,1330,XINAVANE,VILA DE XINAVANE,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-25.0456,32.8053
+MAPUTO PROVINCIA,MANHICA,CS Maragra,1331,MANHICA SEDE,MACIANA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.4561,32.7753
+MAPUTO PROVINCIA,MANHICA,CS Manhica,1332,MANHICA SEDE,MANHICA SEDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.4092,32.8081
+MAPUTO PROVINCIA,MANHICA,CS Malavela,1333,PALMEIRA (3 DE FEVEREIRO),MWAMATIBYANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.3092,32.8331
+MAPUTO PROVINCIA,MANHICA,CS Maluana,1334,MALUANA,MALUANA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.4961,32.6525
+MAPUTO PROVINCIA,MANHICA,CS Calanga,1335,CALANGA,CHECUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.3539,32.9336
+MAPUTO PROVINCIA,MANHICA,CS Munguine,1336,MALUANA,MUNGUINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.5106,32.7264
+MAPUTO PROVINCIA,MANHICA,CS Taninga,1337,PALMEIRA (3 DE FEVEREIRO),TANINGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.1792,32.8522
+MAPUTO PROVINCIA,MANHICA,CS Mwamatibjana,1338,PALMEIRA (3 DE FEVEREIRO),MWAMATIBYANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2622,32.8647
+MAPUTO PROVINCIA,MANHICA,CS Ilha Josina Machel,1339,ILHA JOSINA MACHEL,MAGUIGUANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0936,32.9175
+MAPUTO PROVINCIA,MANHICA,CS 3 Fevereiro,1340,PALMEIRA (3 DE FEVEREIRO),3 DE FEVEREIRO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.1572,32.8006
+MAPUTO PROVINCIA,MANHICA,CS Mirona,1341,PALMEIRA (3 DE FEVEREIRO),3 DE FEVEREIRO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2247,32.6644
+MAPUTO PROVINCIA,MANHICA,CS Chibucutso,1342,MANHICA SEDE,MANHICA SEDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2872,32.7406
+MAPUTO PROVINCIA,MANHICA,CS Xinavane,1343,XINAVANE,VILA DE XINAVANE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.0456,32.8053
+MAPUTO PROVINCIA,MANHICA,CS Munhague,1344,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO PROVINCIA,MARRACUENE,CS Marracuene,1345,MARRACUENE,VILA DE MARRACUENE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.7297,32.6733
+MAPUTO PROVINCIA,MARRACUENE,CS Matalane,1346,MARRACUENE,NHONGONHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.6642,32.6428
+MAPUTO PROVINCIA,MARRACUENE,CS Machubo,1347,MACHUBO,MACANZA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.5644,32.7994
+MAPUTO PROVINCIA,MARRACUENE,CS Momemo,NA,NA,NA,NA,NA,NA,NA,-25.6607369028,32.7108798904
+MAPUTO PROVINCIA,MARRACUENE,CS Madre Ma Clara,1348,MARRACUENE,MICHAFUTENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.7439,32.6264
+MAPUTO PROVINCIA,MARRACUENE,CS Eduardo Mondlane,1349,MARRACUENE,NHONGONHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.6619,32.6725
+MAPUTO PROVINCIA,MARRACUENE,CS Ricatla,1350,MARRACUENE,MICHAFUTENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.7847,32.6339
+MAPUTO PROVINCIA,MATUTUINE,CS Matutuine,1351,BELA VISTA,VILA DE BELA VISTA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.3427,32.675
+MAPUTO PROVINCIA,MATUTUINE,CS Catuane,1352,CATUANE,PAZIMANE (CATUANE SEDE),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.84,32.2852
+MAPUTO PROVINCIA,MATUTUINE,CS Mabilibili,1353,BELA VISTA,MISSEVENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.3684,32.6189
+MAPUTO PROVINCIA,MATUTUINE,CS Machangulo,1354,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO PROVINCIA,MATUTUINE,CS Ponta Douro,1355,ZITUNDO,ZITUNDO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.8372,32.8839
+MAPUTO PROVINCIA,MATUTUINE,CS Salamanga,1356,BELA VISTA,SALAMANGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.4745,32.6511
+MAPUTO PROVINCIA,MATUTUINE,CS Zitundo,1357,ZITUNDO,ZITUNDO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.7508,32.8267
+MAPUTO PROVINCIA,MATUTUINE,CS Hindane,1358,BELA VISTA,MISSEVENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.3281,32.4158
+MAPUTO PROVINCIA,MATUTUINE,CS Gueveza,1359,NA,NA,NA,NA,NA,NA,-26.5261365607,32.5625487799
+MAPUTO PROVINCIA,MATUTUINE,CS Msime,1360,CATEMBE MSIME,MSIME,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.0855,32.6245
+MAPUTO PROVINCIA,MATUTUINE,CS Mungazine,1361,NA,NA,NA,NA,NA,NA,-26.5261365434,32.5625487798
+MAPUTO PROVINCIA,MATUTUINE,CS Ndelane,1362,MACHANGULO,NDELANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.2156,32.8858
+MAPUTO PROVINCIA,MATUTUINE,CS Santa Maria,1363,NA,NA,NA,NA,NA,NA,-26.5261365277,32.5625487764
+MAPUTO PROVINCIA,MATUTUINE,PS Manhangane,1364,CATUANE,MANHANGANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-26.672,32.1823
+MAPUTO PROVINCIA,MOAMBA,CS Moamba,1365,MOAMBA,VILA DE MOAMBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.5986,32.245
+MAPUTO PROVINCIA,MOAMBA,CS Ressano Garcia,1366,RESSANO GARCIA,VILA DE RESSANO GARCIA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.4442,31.9897
+MAPUTO PROVINCIA,MOAMBA,CS Corrumane,1367,SABIE,SABIE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2392,32.1375
+MAPUTO PROVINCIA,MOAMBA,CS Sabie,1368,SABIE,SABIE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.3217,32.2553
+MAPUTO PROVINCIA,MOAMBA,CS Tenga,1369,PESSENE,PESSENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.7511,32.395
+MAPUTO PROVINCIA,MOAMBA,CS Pessene,1370,PESSENE,PESSENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.6961,32.345
+MAPUTO PROVINCIA,MOAMBA,CS Mahulane,1371,PESSENE,MAHULANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.6456,32.4967
+MAPUTO PROVINCIA,MOAMBA,CS Chinhanguanine,1372,SABIE,MALENGANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.2847,32.5117
+MAPUTO PROVINCIA,MOAMBA,PS Chanculo,1373,NA,NA,NA,NA,NA,NA,NA,NA
+MAPUTO PROVINCIA,NAMAACHA,CS Namaacha,1374,NAMAACHA,VILA DE NAMAACHA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-25.9911,32.0133
+MAPUTO PROVINCIA,NAMAACHA,CS Changalane,1375,CHANGALANE,CHANGALANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.2958,32.1877
+MAPUTO PROVINCIA,NAMAACHA,CS Goba,1376,CHANGALANE,GOBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.2014,32.1389
+MAPUTO PROVINCIA,NAMAACHA,PS Kulula,1377,NAMAACHA,MAFUIANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-25.8647,32.2864
+MAPUTO PROVINCIA,NAMAACHA,CS Mahelane,1378,CHANGALANE,MAHELANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.1941,32.2175
+MAPUTO PROVINCIA,NAMAACHA,CS Mafuiane,1379,NAMAACHA,MAFUIANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.04,32.2575
+MAPUTO PROVINCIA,NAMAACHA,CS Didinawane,1380,CHANGALANE,CHANGALANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-26.4333,32.243
+NAMPULA,CIDADE DE NAMPULA,HC Nampula,259,URBANO CENTRAL,BAIRRO LIMOEIROS,URBANA,Hospital Central,Hospital Central,Nivel Quaternario,-15.1231,39.2619
+NAMPULA,CIDADE DE NAMPULA,Hospital Psiquiatrico Nampula,260,NATIKIRE,BAIRRO NATIKIRE,URBANA,Hospital Psiquiatrico,Hospital Psiquiatrico,Nivel Quaternario,-15.1117,39.2281
+NAMPULA,CIDADE DE NAMPULA,CS 25 Setembro,261,MUATALA,BAIRRO MUTAUANHA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-15.1114,39.2536
+NAMPULA,CIDADE DE NAMPULA,HG Marrere,262,NATIKIRE,BAIRRO MARERE,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-15.1194,39.1894
+NAMPULA,CIDADE DE NAMPULA,CS 1 Maio,263,URBANO CENTRAL,BAIRRO 1 DE MAIO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-15.1142,39.2681
+NAMPULA,CIDADE DE NAMPULA,PS Napipine,264,NAPIPINE,BAIRRO NAPIPINE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.1078,39.2581
+NAMPULA,CIDADE DE NAMPULA,PS Muhala,265,MUHALA,BAIRRO MUHALA SEDE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.1205,39.2642
+NAMPULA,CIDADE DE NAMPULA,PS Namutequeliua,266,MUHALA,BAIRRO MUHALA SEDE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.1186,39.2789
+NAMPULA,CIDADE DE NAMPULA,PS Namicopo,267,NAMICOPO,BAIRRO NAMICOPO SEDE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.1106,39.2728
+NAMPULA,CIDADE DE NAMPULA,PS OTM,268,URBANO CENTRAL,BAIRRO 1 DE MAIO,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.1153,39.2619
+NAMPULA,CIDADE DE NAMPULA,PS Texmoque,269,CIDADE DE NAMPULA,CIDADE DE NAMPULA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.0961,39.2572
+NAMPULA,CIDADE DE NAMPULA,CS Mental,270,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,CIDADE DE NAMPULA,CS  Mutavarex,271,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,CIDADE DE NAMPULA,Hospital Militar,272,NA,NA,NA,NA,NA,NA,-15.1032634406,39.2625494787
+NAMPULA,ANGOCHE,HR Angoche,273,CIDADE DE ANGOCHE,PARAPATO,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-16.2294,39.9078
+NAMPULA,ANGOCHE,CS Inguri,274,CIDADE DE ANGOCHE,INGURI,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.2189,39.8992
+NAMPULA,ANGOCHE,CS Namaponda,275,NAMAPONDA,NAMAPONDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9011,39.8644
+NAMPULA,ANGOCHE,CS Namitoria,276,BOILA,BOILA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0592,39.7275
+NAMPULA,ANGOCHE,CS Natiri,277,BOILA,NAPRUMA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0919,39.6606
+NAMPULA,ANGOCHE,CS Aube,278,AUBE,AUBE SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.3658,39.75
+NAMPULA,ANGOCHE,PS Mepapata,279,NAMAPONDA,MEPAPATA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.8703,39.7428
+NAMPULA,ANGOCHE,PS Merrerre,280,BOILA,NAPRUMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.1831,39.6406
+NAMPULA,ANGOCHE,PS Nacopa,281,BOILA,BOILA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.9953,39.7375
+NAMPULA,ANGOCHE,PS Napruma,282,BOILA,NAPRUMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.075,39.6186
+NAMPULA,MONGICUAL,CS Liupo,283,AUBE,CATAMOIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.3993,39.8768
+NAMPULA,ANGOCHE,CS Sangage,284,CIDADE DE ANGOCHE,SANGAGE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0325,40.1022
+NAMPULA,ANGOCHE,PS Macatane,285,CIDADE DE ANGOCHE,CEREMA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-16.1914,39.9286
+NAMPULA,ANGOCHE,CS Catamoio,286,AUBE,CATAMOIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.3208,39.8364
+NAMPULA,ANGOCHE,PS Catamoio,287,AUBE,CATAMOIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.3597,39.8056
+NAMPULA,ANGOCHE,CS Mirrepe,288,AUBE,AUBE SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.2506,39.6525
+NAMPULA,ANGOCHE,PS Quelelene,289,AUBE,CATAMOIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.3442,39.92
+NAMPULA,ANGOCHE,CS Gelo,290,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,ERATI,HR Namapa,291,NAMAPA,VILA DE NAMAPA,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-13.7163,39.8226
+NAMPULA,ERATI,HD Alua,292,ALUA,ALUA SEDE,RURAL,Hospital Distrital,Hospital Distrital,Nivel Secondario,-13.9356,39.9251
+NAMPULA,ERATI,CS Mirrote,293,NAMIROA,MUANONA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.8452,39.5437
+NAMPULA,ERATI,CS Namiroa,294,NAMIROA,NAMIROA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.0637,39.4516
+NAMPULA,ERATI,PS Nantoge,295,NAMIROA,MUANONA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.9815,39.2316
+NAMPULA,ERATI,PS Machel,296,ALUA,SAMORA MACHEL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.0091,39.6695
+NAMPULA,ERATI,CS Odinepa,297,NAMAPA,ODINEPA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.6004,40.0273
+NAMPULA,ERATI,CS Kutua,298,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,ERATI,CS Tubruto (25 de Junho),299,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,ILHA DE MOCAMBIQUE,CS Ilha Moçambique,300,LUMBO,LUMBO SEDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0351,40.687
+NAMPULA,ILHA DE MOCAMBIQUE,CS Lumbo,301,LUMBO,LUMBO SEDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0214,40.6703
+NAMPULA,ILHA DE MOCAMBIQUE,PS Ampapa,302,LUMBO,AMPARA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.0151,40.6502
+NAMPULA,ILHA DE MOCAMBIQUE,PS Muchelia,303,LUMBO,AMPARA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-15.0875,40.5769
+NAMPULA,LALAUA,CS Lalaua,304,METI,METI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3764,37.7708
+NAMPULA,LALAUA,PS Lurio,305,LALAUA,LURIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.1775,38.5994
+NAMPULA,LALAUA,CS Meti,306,NA,NA,NA,NA,NA,NA,-14.4374392978,38.1263463164
+NAMPULA,LALAUA,PS Naquessa,307,METI,NAQUESSE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.7167,37.835
+NAMPULA,LALAUA,CS Muesseleque,308,LALAUA,LALAUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.225,38.3219
+NAMPULA,LALAUA,PS S/N,309,METI,METI SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5103,37.805
+NAMPULA,MALEMA,CS Malema,310,MALEMA,VILA DE MALEMA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9578,37.4069
+NAMPULA,MALEMA,CS Mutuali,311,MUTUALI,VILA DE MUTUALI,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.85,37.0042
+NAMPULA,MALEMA,PS Chuhulo,312,CHIHULO,CHIHULO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.6817,37.4592
+NAMPULA,MALEMA,PS Cunvare,313,MALEMA,NIOCE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.8925,37.7706
+NAMPULA,MALEMA,PS Muralelo,314,MALEMA,MURRALELO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.0286,37.5142
+NAMPULA,MALEMA,PS Murripa,315,MALEMA,NIOCE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.8855,37.7723
+NAMPULA,MALEMA,PS Nataleia,316,MALEMA,NATALEIA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.8698,37.4997
+NAMPULA,MALEMA,CS Nacata,317,MUTUALI,NACATA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9375,37.1767
+NAMPULA,MECONTA,CS Namialo,318,NAMIALO,VILA DE NAMIALO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9289,40.0019
+NAMPULA,MECONTA,CS Meconta,319,MECONTA,VILA DE MECONTA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9889,39.8458
+NAMPULA,MECONTA,CS Corrane,320,CORRANE,CORRANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4694,39.6273
+NAMPULA,MECONTA,PS Teterrene,321,MECONTA,MECONTA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9692,39.8853
+NAMPULA,MECONTA,CS Nacavala,322,7 DE ABRIL,7 DE ABRIL (NACAVALA),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0083,39.6809
+NAMPULA,MECONTA,CS Japir,323,CORRANE,MECUA 2 (JAPIR),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4878,39.4728
+NAMPULA,MECONTA,CS Mecua,324,CORRANE,MECUA 1,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4997,39.3339
+NAMPULA,MECUBURI,CS Mecuburi,325,MECUBURI,MECUBURI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6586,38.888
+NAMPULA,MECUBURI,PS Milhana,326,MILHANA,MILHANA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.1667,39.1711
+NAMPULA,MECUBURI,CS Namina I,327,NAMINA,NAMINA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9394,38.6897
+NAMPULA,MECUBURI,PS Momane,328,MECUBURI,MOMANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5989,38.7952
+NAMPULA,MECUBURI,CS Muite,329,MUITE,MUITE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.025,39.0306
+NAMPULA,MECUBURI,CS Napai,330,MUITE,NAPAI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1723,38.74
+NAMPULA,MECUBURI,PS Popue,331,MECUBURI,NATALA-POPUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5211,38.8958
+NAMPULA,MECUBURI,PS Issipe,332,MECUBURI,ISSIPE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3709,38.8067
+NAMPULA,MECUBURI,CS Malite,333,MILHANA,MALITE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.2352,39.2703
+NAMPULA,MECUBURI,CS Mualua,334,MECUBURI,MECUBURI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6414,39.105
+NAMPULA,MECUBURI,CS Nahipa,335,MECUBURI,NAHIPA-MARRIRIUME,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8164,38.9658
+NAMPULA,MECUBURI,CS Ratane,336,MUITE,RATANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.2414,39.0044
+NAMPULA,MECUBURI,PS Namina II,337,NAMINA,NAMINA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.927,38.6633
+NAMPULA,MEMBA,CS Memba-Sede,338,MEMBA,MEMBA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1796,40.5249
+NAMPULA,MEMBA,CS Chipene,339,CHIPENE,CHIPENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.7669,40.2958
+NAMPULA,MEMBA,CS Namahaca,340,MEMBA,TROPENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3513,40.4417
+NAMPULA,MEMBA,PS do Lurio,341,LURIO,LURIO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.5383,40.5034
+NAMPULA,MEMBA,PS Mazua,342,MAZUE,MAZUE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.0194,40.3456
+NAMPULA,MEMBA,PS Napila,343,MEMBA,7 DE ABRIL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3266,40.5282
+NAMPULA,MEMBA,PS Simuco,344,MAZUE,SIMUCO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.9286,40.5963
+NAMPULA,MEMBA,PS Cava,345,MEMBA,CAVA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.1814,40.2759
+NAMPULA,MEMBA,CS Geba,346,MEMBA,NIACA GEBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3336,40.6219
+NAMPULA,MEMBA,CS Caleia,347,MEMBA,CAVA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1336,40.1489
+NAMPULA,MEMBA,CS Baixo Pinda,348,MEMBA,NIACA GEBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.2118,40.7085
+NAMPULA,MEMBA,CS Pavala,349,NA,NA,NA,NA,NA,NA,-13.9669740252,40.394044346
+NAMPULA,MONGICUAL,CS Namige,350,NAMIGE,NAMIGE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5686,40.4089
+NAMPULA,MONGICUAL,CS Quinga,351,QUINGA,QUINGA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.825,40.2256
+NAMPULA,MONGICUAL,CS Quixaxe,352,QUIXAXE,QUIXAXE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.2872,40.1139
+NAMPULA,MONGICUAL,CS Nakakana,353,QUINGA,NACACANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7533,39.9905
+NAMPULA,MONGICUAL,CS Mepeone,354,QUIXAXE,MEPEONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3003,39.8703
+NAMPULA,MONGICUAL,CS Perequexo,355,QUIXAXE,QUIXAXE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1597,40.198
+NAMPULA,MONGICUAL,CS Xa Selemane,356,NAMIGE,NAMIGE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5478,40.4161
+NAMPULA,MONGICUAL,CS Xa Momade,357,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,MOGOVOLAS,CS Namitil,358,NAMITIL,VILA DE NAMITIL,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7089,39.3378
+NAMPULA,MOGOVOLAS,CS Calipo,359,CALIPO,CALIPO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6239,39.1019
+NAMPULA,MOGOVOLAS,CS Iuluti,360,ILUTI,ILUTE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8352,38.9725
+NAMPULA,MOGOVOLAS,CS Muatua,361,MUATUA,MUATUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7195,39.693600000000004
+NAMPULA,MOGOVOLAS,CS Nanhupo Rio,362,NANHUPO,NANHUPO RIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9647,39.5117
+NAMPULA,MOGOVOLAS,PS Mecutamala,363,NAMITIL,NAMITIL SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.6711,39.46
+NAMPULA,MOGOVOLAS,CS Murrirrima,364,ILUTI,MUCHUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8833,39.0714
+NAMPULA,MOMA,HD Moma,365,MOMA,VILA DE MOMA,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-16.7625,39.2228
+NAMPULA,MOMA,CS Chacaua,366,CHALALA,CHALAUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0914,39.1581
+NAMPULA,MOMA,CS Briganha,367,MOMA,MPACO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7111,39.3189
+NAMPULA,MOMA,CS Guarneia,368,LARDE,LARDE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4802,39.7174
+NAMPULA,MOMA,CS Larde,369,LARDE,LARDE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4781,39.715
+NAMPULA,MOMA,CS Mucoroge,370,MOMA,MIRRUPI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8686,39.1372
+NAMPULA,MOMA,PS Metil,371,MOMA,JACOMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.4072,39.0364
+NAMPULA,MOMA,PS Nambilane,372,MUCUALI,MUCUALI SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.4139,39.4278
+NAMPULA,MOMA,CS Pilivili,373,MOMA,PILIVILE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6392,39.4961
+NAMPULA,MOMA,PS Savara,374,MOMA,JACOMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.5639,39.0775
+NAMPULA,MOMA,PS Uala,375,MOMA,NAICOLE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.4256,39.2197
+NAMPULA,MOMA,CS Mecane,376,MOMA,MPACO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6039,39.2506
+NAMPULA,MOMA,CS Micane,377,NA,NA,NA,NA,NA,NA,-16.6039,39.2506
+NAMPULA,MOMA,CS Mavuco,378,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,MOMA,CS Marrupanama,379,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,MONAPO,HR Monapo,380,ITOCULO,ITOCULO SEDE,RURAL,Hospital Rural,Hospital Rural,Nivel Secondario,-14.9097,40.3333
+NAMPULA,MONAPO,CS Monapo,381,MONAPO,MONAPO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9206,40.2986
+NAMPULA,MONAPO,CS Carapira,382,MONAPO,MONAPO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9153,40.2286
+NAMPULA,MONAPO,CS Natete,383,NETIA,NETIA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7402,39.9178
+NAMPULA,MONAPO,CS Ituculo,384,ITOCULO,ITOCULO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7186,40.3341
+NAMPULA,MONAPO,CS Muatuca,385,NETIA,MUATUCA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6658,39.8441
+NAMPULA,MONAPO,CS Netia,386,NETIA,NETIA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7467,39.9767
+NAMPULA,MONAPO,PS Chihiri,387,ITOCULO,ITOCULO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5547,40.3005
+NAMPULA,MONAPO,PS Jagaia 1,388,MONAPO,MONAPO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9884,40.187
+NAMPULA,MONAPO,CS Mecuco,389,NETIA,NACULUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.727,40.0703
+NAMPULA,MONAPO,PS Meserepane,390,MONAPO,CANACUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9745,40.0964
+NAMPULA,MONAPO,PS Metocheria,391,MONAPO,CANACUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.8558,40.0853
+NAMPULA,MONAPO,CS Ramiane,392,ITOCULO,ITOCULO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8075,40.2811
+NAMPULA,MONAPO,PS Prisional,393,ITOCULO,ITOCULO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.7179,40.335
+NAMPULA,MONAPO,CS Mucujua,394,NA,NA,NA,NA,NA,NA,-14.9169444,40.3022222
+NAMPULA,MONAPO,CS Napala,395,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,MOSSURIL,CS Mussuril,396,MOSSURIL,VILA DE MOSSURIL (CHOCAS MAR),URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9525,40.6656
+NAMPULA,MOSSURIL,CS Nacuxa,397,MATIBANE,NACUCHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7756,40.7295
+NAMPULA,MOSSURIL,PS Cabaceira Grande,398,MOSSURIL,VILA DE MOSSURIL (CHOCAS MAR),URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.9906,40.7395
+NAMPULA,MOSSURIL,CS Chocas-Mar,399,MOSSURIL,VILA DE MOSSURIL (CHOCAS MAR),RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-14.9525,40.74
+NAMPULA,MOSSURIL,CS Lunga,400,LUNGA,LUNGA SEDE (AMPITA),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1881,40.52
+NAMPULA,MOSSURIL,CS Matibane,401,MATIBANE,MATIBANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8633,40.7675
+NAMPULA,MOSSURIL,PS Namige,402,MOSSURIL,NAMITATARI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.7859,40.5809
+NAMPULA,MOSSURIL,CS Cabeceira Pequena,403,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,MOSSURIL,CS Muaualo,404,LUNGA,VIDA NOVA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1923,40.3597
+NAMPULA,MUECATE,CS Muecate,405,MUECATE,MUECATE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8725,39.6378
+NAMPULA,MUECATE,CS Imala,406,IMALA,IMALA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5775,39.5761
+NAMPULA,MUECATE,PS Namahia,407,IMALA,GRACIO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5803,39.378
+NAMPULA,MUECATE,PS Chinamane,408,IMALA,MUARIUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5818,39.7408
+NAMPULA,MUECATE,CS Muculuone,409,MUCULOENE,MUCULOENE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9423,39.4154
+NAMPULA,MUECATE,CS Napala,410,MUECATE,NAPALA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7657,39.7885
+NAMPULA,MUECATE,CS Gracio,411,IMALA,GRACIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.4319,39.3945
+NAMPULA,MUECATE,CS Kavula,412,MUCULOENE,KAVULA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9049,39.3235
+NAMPULA,MUECATE,CS Chereque,413,IMALA,GRACIO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3749,39.4147
+NAMPULA,MURRUPULA,CS Murrupula,414,MURRUPULA,VILA DE MURRUPULA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.458285,38.677307
+NAMPULA,MURRUPULA,CS Nihessine,415,NIHESSIUE,NIHESSIUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6011,38.7352
+NAMPULA,MURRUPULA,PS Chinga,416,CHINGA,CHINGA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2042,38.6911
+NAMPULA,MURRUPULA,PS Umuatho,417,MURRUPULA,MURRUPULA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.4209,38.7919
+NAMPULA,MURRUPULA,CS Kazuzu,418,MURRUPULA,KAZUZU,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3455,38.8911
+NAMPULA,MURRUPULA,CS Tiponha,419,MURRUPULA,NAMITOTELANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5866,38.5748
+NAMPULA,CIDADE DE NACALA-PORTO,HG Nacala Porto,420,MAIAIA/MUTIVA,BAIRRO RIBAWE,URBANA,Hospital Geral,Hospital Geral,Nivel Secondario,-14.5353,40.6939
+NAMPULA,CIDADE DE NACALA-PORTO,CS Nacala Porto,421,NA,NA,NA,NA,NA,NA,-14.5353,40.6939
+NAMPULA,CIDADE DE NACALA-PORTO,PS Mathapue,422,MAIAIA/MUTIVA,BAIRRO MATHAPUE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.5586,40.7
+NAMPULA,CIDADE DE NACALA-PORTO,CS Quissimajulo,423,MAIAIA/MUTIVA,BAIRRO QUISSIMAJULO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5225,40.7867
+NAMPULA,CIDADE DE NACALA-PORTO,CS Murrupelane,424,MUANONA,BAIRRO MURRUPULENE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6611,40.68
+NAMPULA,CIDADE DE NACALA-PORTO,PS Naherenque,425,MAIAIA/MUTIVA,BAIRRO NAHERENGUE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.4731,40.7006
+NAMPULA,CIDADE DE NACALA-PORTO,PS Muzuane,426,MAIAIA/MUTIVA,BAIRRO MUZUANE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.5106,40.6817
+NAMPULA,CIDADE DE NACALA-PORTO,PS dos CFM,427,MAIAIA/MUTIVA,BAIRRO TRIANGULO,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.5514,40.6722
+NAMPULA,CIDADE DE NACALA-PORTO,CS Mahelene,428,MAIAIA/MUTIVA,BAIRRO MAIAIA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5408,40.6716
+NAMPULA,CIDADE DE NACALA-PORTO,CS Cimentos,429,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,CIDADE DE NACALA-PORTO,PS Cife,430,MAIAIA/MUTIVA,BAIRRO NAUAIA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.4922,40.7067
+NAMPULA,CIDADE DE NACALA-PORTO,CS C.A.M.I.N.A,431,NA,NA,NA,NA,NA,NA,NA,NA
+NAMPULA,CIDADE DE NACALA-PORTO,CS Akumi,432,NA,NA,NA,NA,Centro de Saúde Rural,Nivel Primario,-14.5353,40.6939
+NAMPULA,NACALA-A-VELHA,CS Nacala-a-Velha,433,NACALA-VELHA,VILA DE NACALA-VELHA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.551109,40.621632
+NAMPULA,NACALA-A-VELHA,CS Mueria,434,NACALA-VELHA,NACALA-VELHA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5834,40.5027
+NAMPULA,NACALA-A-VELHA,CS Barragem,435,NACALA-VELHA,NACALA-VELHA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7275,40.5369
+NAMPULA,NACALA-A-VELHA,PS das Salinas,436,NACALA-VELHA,NACALA-VELHA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.6114,40.6094
+NAMPULA,NACALA-A-VELHA,CS Namalala,437,NACALA-VELHA,NACALA-VELHA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.4686,40.6219
+NAMPULA,NACALA-A-VELHA,CS Covo Ger-Ger,438,COVO,COVO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.4572,40.3719
+NAMPULA,NACAROA,CS Nacaroa,439,NACAROA,NACAROA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3695,39.9231
+NAMPULA,NACAROA,CS Nachere,440,INTETE,NACHERE/INTETE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3907,40.079
+NAMPULA,NACAROA,PS Saua-Saua,441,SAUA-SAUA,SAUA-SAUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3093,39.6523
+NAMPULA,NACAROA,CS Nahage,442,NACAROA,NACAROA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.4218,39.9247
+NAMPULA,NACAROA,CS Muchico,443,SAUA-SAUA,MUCHICO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3002,39.7509
+NAMPULA,NAMPULA-RAPALE,CS Repale,444,RAPALE,RAPALE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0142,39.1289
+NAMPULA,NAMPULA-RAPALE,CS Anchilo,445,ANCHILO,ANCHILO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0994,39.4244
+NAMPULA,NAMPULA-RAPALE,CS Namaita,446,NAMAITA,NAMAITA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.2744,39.0411
+NAMPULA,NAMPULA-RAPALE,PS Caramaja,447,RAPALE,CARANJA-NAPONE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.1383,39.0358
+NAMPULA,NAMPULA-RAPALE,PS Mutivaze,448,MUTIVASSE,MUTIVASSE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9972,38.9519
+NAMPULA,NAMPULA-RAPALE,PS Mutolo,449,NAMAITA,NAMICONHA-MUTOLO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.375,39.0344
+NAMPULA,NAMPULA-RAPALE,PS Nahaloco,450,ANCHILO,ANCHILO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.1736,39.4631
+NAMPULA,NAMPULA-RAPALE,PS Namachilo,451,ANCHILO,NAMACHILO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.3367,39.34
+NAMPULA,NAMPULA-RAPALE,PS Namiconha,452,ANCHILO,NAMIGONHA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2036,39.3881
+NAMPULA,NAMPULA-RAPALE,PS Nampaco-Muezia,453,ANCHILO,ANCHILO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.0692,39.4975
+NAMPULA,NAMPULA-RAPALE,PS Namucaua,454,NAMAITA,NICOLOMUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.3297,39.1519
+NAMPULA,NAMPULA-RAPALE,PS Natoa,455,NAMAITA,NICOLOMUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2286,39.1183
+NAMPULA,NAMPULA-RAPALE,CS Maratane,456,ANCHILO,NAPURI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.2544,39.2483
+NAMPULA,NAMPULA-RAPALE,PS Saua-Saua,457,ANCHILO,SAUA-SAUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9997,39.345
+NAMPULA,NAMPULA-RAPALE,PS Mocova,458,MUTIVASSE,NACUCA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.975,38.8156
+NAMPULA,NAMPULA-RAPALE,PS Muleheia,459,NAMAITA,POENE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2306,38.9742
+NAMPULA,RIBAUE,HR Ribaue,460,RIBAUE,VILA DE RIBAUE,RURAL,Hospital Rural,Hospital Rural,Nivel Secondario,-14.9464,38.3209
+NAMPULA,RIBAUE,CS Iapala-Monapo,461,IAPALA,NORE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9828,38.0714
+NAMPULA,RIBAUE,PS Chica,462,RIBAUE,CHICA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.0033,38.5103
+NAMPULA,RIBAUE,CS Iapala-Estacao,463,IAPALA,VILA DE IAPALA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0289,38.0477
+NAMPULA,RIBAUE,PS Mecuasse,464,RIBAUE,MECUASSE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.7947,38.3706
+NAMPULA,RIBAUE,CS Namiconha,465,RIBAUE,NAMICONHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0411,38.3389
+NAMPULA,RIBAUE,PS Riane,466,IAPALA,RIANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.0036,37.7633
+NAMPULA,RIBAUE,PS Escola Basica Agrari,467,RIBAUE,VILA DE RIBAUE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.993,38.2695
+NAMPULA,RIBAUE,CS Cunle,468,CUNLE,CUNLE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1011,38.23
+NIASSA,CIDADE DE LICHINGA,HP Lichinga,1,CIDADE DE LICHINGA,URBANO 2,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-13.3108,35.2511
+NIASSA,CIDADE DE LICHINGA,CS Cidade Lichinga,2,CIDADE DE LICHINGA,URBANO 1,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.3059,35.2468
+NIASSA,CIDADE DE LICHINGA,CS Massenger,3,NA,NA,URBANA,NA,NA,NA,-13.261026,35.22498
+NIASSA,CIDADE DE LICHINGA,CS Chiuaula,4,CIDADE DE LICHINGA,URBANO 2,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-13.3213,35.2518
+NIASSA,CIDADE DE LICHINGA,PS Assumane,5,CIDADE DE LICHINGA,URBANO 3,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-13.2516,35.2593
+NIASSA,CIDADE DE LICHINGA,PS Lulimile,6,CIDADE DE LICHINGA,URBANO 4,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-13.3446,35.2504
+NIASSA,CIDADE DE LICHINGA,PS Chiulugo,7,CIDADE DE LICHINGA,URBANO 1,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-13.2817,35.3028
+NIASSA,CIDADE DE LICHINGA,CS Mitava,8,NA,NA,NA,NA,NA,NA,-13.330554,35.305682
+NIASSA,CIDADE DE LICHINGA,PS Sambula,9,CIDADE DE LICHINGA,URBANO 3,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-13.2489,35.1684
+NIASSA,CIDADE DE LICHINGA,PS Namacula,10,CIDADE DE LICHINGA,URBANO 1,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-13.2901,35.248
+NIASSA,CUAMBA,HR Cuamba,11,CIDADE DE CUAMBA,BAIRRO CENTRAL,RURAL,Hospital Rural,Hospital Rural,Nivel Secondario,-14.8022,36.5344
+NIASSA,CUAMBA,CS Etatara,12,ETATARA,ETATARA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0964,36.6125
+NIASSA,CUAMBA,PS Malapa,13,ETARARA,MALAPA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9831,36.6164
+NIASSA,CUAMBA,PS Mepica,14,LURIO,MITUCUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.6206,36.3478
+NIASSA,CUAMBA,CS Mitucue,15,LURIO,MITUCUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7292,36.6267
+NIASSA,CUAMBA,PS Mucuapa,16,CIDADE DE CUAMBA,BAIRRO MUCUAPA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.8011,36.5989
+NIASSA,CUAMBA,CS Muetetere,17,LURIO,MUETETERE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6931,36.9644
+NIASSA,CUAMBA,PS Namicova,18,CIDADE DE CUAMBA,BAIRRO MINAS,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.8097,36.4944
+NIASSA,CUAMBA,PS Titi Mane,19,ETATARA,ETATARA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9153,36.3661
+NIASSA,CUAMBA,PS Napacala,20,LURIO,MITUCUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5444,36.6058
+NIASSA,CUAMBA,CS Cuamba,21,CIDADE DE CUAMBA,BAIRRO 1 CENTRAL,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8014,36.5331
+NIASSA,CUAMBA,PS Lurio,22,LURIO,LURIO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.7947,36.8536
+NIASSA,CUAMBA,PS Mujaua,23,CIDADE DE CUAMBA,BAIRRO MUJAUA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-14.7803,36.5317
+NIASSA,CUAMBA,CS Muana-Munepa,24,ETATARA,ETATARA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.2428,36.5022
+NIASSA,CUAMBA,PS Matias,25,CIDADE DE CUAMBA,BAIRRO MATIAS,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.8972,36.5289
+NIASSA,CUAMBA,PS Macawe-2,26,LURIO,MITUCUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.735,36.435
+NIASSA,CUAMBA,PS Meripo,27,LURIO,MITUCUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.6511,36.5689
+NIASSA,LAGO,PS Meluluca,28,METANGULA/LUNHO,MELULUCA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.886,34.7723
+NIASSA,LAGO,CS Messumba,29,METANGULA/LUNHO,LUNHO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.613,34.7912
+NIASSA,LAGO,CS Metangula,30,METANGULA/LUNHO,VILA DE METANGULA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.6947,34.8088
+NIASSA,LAGO,PS Ngofi,31,COBUE,NGOFI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.0129,34.9016
+NIASSA,LAGO,PS Ngôo,32,COBUE,COBUE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.4239,34.7164
+NIASSA,LAGO,PS Wikihi,33,COBUE,CHIWINDI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-11.6156,34.9613
+NIASSA,LAGO,PS Lupilichi,34,COBUE,LUPILICHI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-11.7569,35.2074
+NIASSA,LAGO,PS Bandeze,35,MANIAMBA,MBANDEZE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.9039,35.0496
+NIASSA,LAGO,PS Cobue,36,COBUE,COBUE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.1402,34.761
+NIASSA,LAGO,PS Maniamba,37,MANIAMBA,MANIAMBA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.7596,34.9764
+NIASSA,LAGO,PS Mechumua,38,METANGULA/LUNHO,VILA DE METANGULA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-12.6113,34.8329
+NIASSA,LAGO,PS Liziunga,39,MANIAMBA,MBANDEZE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0238,34.9547
+NIASSA,LICHINGA-DISTRITO,PS Chala,40,LIONE,CHALA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.6332,35.033
+NIASSA,LICHINGA-DISTRITO,CS Chimbonila,41,CHIMBONILA,MUSSA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.3543,35.4206
+NIASSA,LICHINGA-DISTRITO,PS Cholue,42,CHIMBONILA,CHOLUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.5462,35.4476
+NIASSA,LICHINGA-DISTRITO,PS Lione,43,LIONE,LIONE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.615,35.2566
+NIASSA,LICHINGA-DISTRITO,PS Luiza,44,CHIMBONILA,MALICA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.1918,35.3146
+NIASSA,LICHINGA-DISTRITO,PS Malica,45,CHIMBONILA,MALICA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.1857,35.1944
+NIASSA,LICHINGA-DISTRITO,PS Matama,46,CHIMBONILA,MUSSA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.2742,35.3641
+NIASSA,LICHINGA-DISTRITO,PS Meponda,47,MEPONDA,MEPONDA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.421551,34.87259
+NIASSA,LICHINGA-DISTRITO,PS Mussa,48,CHIMBONILA,MUSSA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.2917,35.4792
+NIASSA,LICHINGA-DISTRITO,PS Namuanica,49,CHIMBONILA,MACHOMANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3323,35.5105
+NIASSA,LICHINGA-DISTRITO,PS Colongo,50,CHIMBONILA,MUSSA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3426,35.3686
+NIASSA,LICHINGA-DISTRITO,PS Machomane,51,CHIMBONILA,MACHOMANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3138,35.5326
+NIASSA,LICHINGA-DISTRITO,PS Majiga,52,CHIMBONILA,MALICA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.1818,35.1871
+NIASSA,LICHINGA-DISTRITO,PS Machemba,53,LIONE,LIONE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.4745,35.2806
+NIASSA,LICHINGA-DISTRITO,PS Mbetazingone,54,MEPONDA,MEPONDA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.2889,35.0499
+NIASSA,MAJUNE,PS Luambala,55,MALANGA,MALANGA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.4261,36.1988
+NIASSA,MAJUNE,CS T2-Malanga,56,MALANGA,MALANGA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.4753,36.1213
+NIASSA,MAJUNE,PS Nairrubi,57,NAIRRUBI,NAIRRUBI SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.6208,36.0062
+NIASSA,MAJUNE,PS Mecualo,58,MALANGA,MECUINHA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3583,36.0572
+NIASSA,MAJUNE,PS Muaquia,59,MUAQUIA,MUAQUIA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3498,36.7427
+NIASSA,MAJUNE,PS Lugenda,60,MALANGA,MALAMGA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.4737,36.3038
+NIASSA,MAJUNE,PS Lizombe,61,MALANGA,MECUINHA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.8474,36.0649
+NIASSA,MAJUNE,PS Riate,62,MUAQUIA,RIATE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.5042,36.4389
+NIASSA,MANDIMBA,CS Mandimba,63,MANDIMBA,VILA DE MANDIMBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3536,35.6486
+NIASSA,MANDIMBA,PS Lipusia,64,MANDIMBA,MELULUCA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3175,35.8589
+NIASSA,MANDIMBA,PS Lissiete,65,MANDIMBA,MANDIMBA SEDE/LISSIETE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.2475,35.625
+NIASSA,MANDIMBA,PS Meloloca,66,MANDIMBA,MELULUCA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3764,35.8919
+NIASSA,MANDIMBA,PS Mepapa,67,MANDIMBA,MANDIMBA SEDE/LISSIETE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3694,35.7208
+NIASSA,MANDIMBA,PS Mississi,68,MITANDE,MISSISSI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.3194,36.2331
+NIASSA,MANDIMBA,CS Mitande,69,MITANDE,MITADE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1269,35.9372
+NIASSA,MANDIMBA,PS Ntembo,70,MANDIMBA,LUELELE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.1453,35.4811
+NIASSA,MANDIMBA,CS Lussangasse,71,NA,NA,NA,NA,NA,NA,-14.35309,35.641491
+NIASSA,MARRUPA,CS Marrupa,72,MARRUPA,VILA DE MARRUPA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.1978,37.4989
+NIASSA,MARRUPA,PS Marrangira,73,MARANGIRA,MARANGIRA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.8836,37.689
+NIASSA,MARRUPA,PS Mutaparata,74,MARANGIRA,MARANGIRA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.916667,37.916667
+NIASSA,MARRUPA,PS Nungo,75,NUNGO,NUNGO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.3966,37.7379
+NIASSA,MARRUPA,CS Nanlicha,76,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,MARRUPA,CS Mucuaiaia,77,MARRUPA,PRINGELANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0906,37.5982
+NIASSA,MARRUPA,PS Cumela,78,MARANGIRA,MARANGIRA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.7406,37.7212
+NIASSA,MARRUPA,PS Messenguesse,79,MARRUPA,MESSENGUESSE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.364,37.1577
+NIASSA,MARRUPA,CS Yaranga,80,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,MAUA,CS Maiaca (Lugela),81,MAIACA,MAIACA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3103,37.5625
+NIASSA,MAUA,CS Maua,82,MAUA,MAUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.8681,37.16
+NIASSA,MAUA,CS Muapula,83,MAUA,MAUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.8771,37.1609
+NIASSA,MAUA,PS Mugoma,84,MAUA,MUGOMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.6697,37.3367
+NIASSA,MAUA,CS Muhoco,85,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,MAUA,PS Muhumba,86,MAUA,MUGOMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.78,37.1744
+NIASSA,MAUA,PS Queta,87,MAIACA,MAIACA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.1597,37.4464
+NIASSA,MAVAGO,CS T2 Mavago,88,MAVAGO,MAVAGO SEDE,RURAL,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-12.5673,36.2638
+NIASSA,MAVAGO,PS Nkalapa,89,MAVAGO,NKALAPA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.48,36.0606
+NIASSA,MAVAGO,PS Msawize,90,MSAWIZE,MSAWIZE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.5667,36.5378
+NIASSA,MAVAGO,PS Milepa,91,MAVAGO,NKALAPA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.3705,36.1173
+NIASSA,MECANHELAS,PS Chissaua,92,INSACA,CHISSAWA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.3247,35.9019
+NIASSA,MECANHELAS,PS Chiuta,93,CHIUTA,CHIUTA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.6508,35.9372
+NIASSA,MECANHELAS,PS Entre-Lagos,94,INSACA,ENTRE LAGOS,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9881,35.8917
+NIASSA,MECANHELAS,PS Mecomera,95,INSACA,INSACA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2686,36.0014
+NIASSA,MECANHELAS,CS Mecanhelas,96,INSACA,VILA DE INSACA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1947,35.87
+NIASSA,MECANHELAS,PS Sale,97,INSACA,INTARIA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2867,36.3508
+NIASSA,MECANHELAS,CS Chamba,98,INSACA,INTARIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3269,36.1317
+NIASSA,MECANHELAS,PS Caronga,99,CHIUTA,CARONGA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9519,36.1639
+NIASSA,MECANHELAS,PS Nanhumba,100,INSACA,INSACA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.105,35.9575
+NIASSA,MECANHELAS,PS Candulo,101,INSACA,INSACA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.2897,35.9478
+NIASSA,MECANHELAS,PS Muhuruni,102,INSACA,CHISSAWA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.4433,35.9856
+NIASSA,MECANHELAS,CS Kumulike,103,INSACA,INSACA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0303,36.0267
+NIASSA,MECULA,CS Gomba,104,MECULA,NAULALA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-11.3392,38.3067
+NIASSA,MECULA,CS Lugenda,105,MECULA,LUGENDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.4586,37.6614
+NIASSA,MECULA,CS Mbamba,106,MECULA,MBAMBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.1964,38.015
+NIASSA,MECULA,CS Mecula,107,MECULA,MECULA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.1164,37.6658
+NIASSA,MECULA,PS Naulala-2,108,MECULA,NAULALA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-11.7928,38.0303
+NIASSA,MECULA,PS Matondovela,109,MATONDOVELA,MATONDOVELA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.0736,37.0164
+NIASSA,MECULA,PS Ntimbo,110,MECULA,MECULA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.2775,37.6611
+NIASSA,MECULA,CS Mucoria,111,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,METARICA,PS Muemela,112,NACUMUA,MUEMELA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.4628,36.895
+NIASSA,METARICA,CS Mecunica,113,METARICA,MECUNICA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3933,36.7344
+NIASSA,METARICA,CS  Metarica,114,METARICA,MECUNICA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3322,36.7967
+NIASSA,METARICA,CS Namicunde,115,METARICA,NAMBUARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.2181,36.9206
+NIASSA,METARICA,CS Nacumua,116,NACUMUA,NACUMUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3625,37.2564
+NIASSA,METARICA,CS Mepuera,117,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,MUEMBE,PS Chiconono,118,CHICONONO,LIGOGOLO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.8905,35.7476
+NIASSA,MUEMBE,PS Lutuezi,119,MUEMBE,MUEMBE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0897,35.6445
+NIASSA,MUEMBE,CS Muembe,120,MUEMBE,MUEMBE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.0854,35.6419
+NIASSA,MUEMBE,PS Nzizi,121,MUEMBE,NZIZE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0054,35.5508
+NIASSA,MUEMBE,PS Chiuanjota,122,CHICONONO,LIGOGOLO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.949,35.7464
+NIASSA,N'GAUMA,PS Chissimbir,123,MASSANGULO,CHISSIMBIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.0247,35.3656
+NIASSA,N'GAUMA,PS Itepela,124,ITEPELE,ITEPELE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.7772,35.5294
+NIASSA,N'GAUMA,PS Lupalane,125,ITEPELE,ITEPELE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.7489,35.6169
+NIASSA,N'GAUMA,CS Massangulo,126,MASSANGULO,CHISSIMBIR,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.9008,35.4378
+NIASSA,N'GAUMA,PS Ngauma,127,MASSANGULO,CHISSIMBIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.8492,35.2892
+NIASSA,N'GAUMA,PS Luelele,128,MASSANGULO,CHISSIMBIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.0947,35.4711
+NIASSA,N'GAUMA,PS Chiguadja,129,MASSANGULO,CHISSIMBIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.7631,35.3108
+NIASSA,NIPEPE,PS Manlia,130,NIPEPE,NIPEPE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.7906,37.9356
+NIASSA,NIPEPE,CS Nipepe,131,NIPEPE,NIPEPE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.0311,37.8533
+NIASSA,NIPEPE,PS Napalavi,132,NIPEPE,NIPEPE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.9714,37.8933
+NIASSA,NIPEPE,CS Cheia-Cheia,133,MUIPITE,CHEIA MUIPITE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1333,38.3081
+NIASSA,NIPEPE,CS Moluco,134,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,NIPEPE,CS Muipite,135,MUIPITE,CHEIA MUIPITE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-13.9931,38.2222
+NIASSA,NIPEPE,CS  Metarica-Lurio,136,NA,NA,NA,NA,NA,NA,NA,NA
+NIASSA,SANGA,CS 7 Setembro,137,UNANGO,VILA DE UNANGO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.9451,35.4264
+NIASSA,SANGA,PS Licole,138,LUSSEMBESSE,NSAUCA/CAJAMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.1279,35.1758
+NIASSA,SANGA,CS Macaloge,139,MACALOGE,MACALOGE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-12.4889,35.4248
+NIASSA,SANGA,PS 2 Congresso (MADJEDJE),140,MACALOGE,MACALOGE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.5939,35.2705
+NIASSA,SANGA,PS Matchedje,141,MATCHEDJE,MATCHEDJE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-11.6345,35.6281
+NIASSA,SANGA,PS Malemia,142,LUSSEMBESSE,NSAUCA/CAJAMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0116,35.1869
+NIASSA,SANGA,PS Maumbica,143,MACALOGE,MACALOGE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.356,35.3809
+NIASSA,SANGA,PS Mbemba,144,LUSSEMBESSE,NSAUCA/CAJAMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0793,35.2075
+NIASSA,SANGA,PS Nansenhenje,145,LUSSEMBESSE,LUCHIMUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-13.0403,35.2933
+NIASSA,SANGA,PS Unango Velho,146,UNANGO,UNANGO SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.8777,35.4115
+NIASSA,SANGA,PS Chitula,147,LUSSEMBESSE,NSAUCA/CAJAMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-12.978,35.1524
+SOFALA,CIDADE DA BEIRA,HC Beira,883,URBANO 1,BAIRRO MACUTI,URBANA,Hospital Central,Hospital Central,Nivel Quaternario,-19.849183333333333,34.87501666666667
+SOFALA,CIDADE DA BEIRA,CS Manga Loforte,884,URBANO 3,NA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.774978,34.884465
+SOFALA,CIDADE DA BEIRA,CS Marocanhe,885,URBANO 4,NA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.7849,34.9338
+SOFALA,CIDADE DA BEIRA,CS Munhava,886,URBANO 2,BAIRRO DA MUNHAVA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.81275,34.86423333333333
+SOFALA,CIDADE DA BEIRA,CS Manga Nhaconjo,887,URBANO 3,BAIRRO INHACONJO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.767783333333334,34.86955
+SOFALA,CIDADE DA BEIRA,CS Chingussura,888,URBANO 3,BAIRRO CHINGUSSURA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.74695,34.86066666666667
+SOFALA,CIDADE DA BEIRA,CS Ponta-Gea,889,URBANO 4,BAIRRO MUAVE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.8406,34.843783333333334
+SOFALA,CIDADE DA BEIRA,CS Ceramica,890,URBANO 1,CIDADE DA BEIRA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.707316666666667,34.73383333333334
+SOFALA,CIDADE DA BEIRA,PS Chamba,891,URBANO 3,BAIRRO CHINGUSSURA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-19.7461,34.8472
+SOFALA,CIDADE DA BEIRA,CS Chota,892,URBANO 2,BAIRRO MARAZA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.815366666666666,34.88223333333333
+SOFALA,CIDADE DA BEIRA,CS Urbano Macurungo,893,URBANO 2,BAIRRO CHOTA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.835983333333335,34.8844
+SOFALA,CIDADE DA BEIRA,CS Manga Mascarenha,894,URBANO 4,BAIRRO MANGA MASCARENHA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.801633333333335,34.89106666666667
+SOFALA,CIDADE DA BEIRA,PS Matadouro,895,URBANO 3,BAIRRO MATADOURO,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-19.736761,34.843926
+SOFALA,CIDADE DA BEIRA,CS Nhangau,896,URBANO 5,BAIRRO NHANGAU,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.71615,35.00901666666667
+SOFALA,DONDO,CS Sengo,897,NA,NA,NA,NA,NA,NA,-19.480992,35.092639
+SOFALA,CIDADE DA BEIRA,Hospital Militar,898,NA,NA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.831436,34.865406
+SOFALA,CIDADE DA BEIRA,CS São Lucas,899,NA,NA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.846697,34.867128
+SOFALA,BUZI,HR Buzi,900,BUZI,VILA DE BUZI,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-19.8828,34.5928
+SOFALA,BUZI,CS Bandua,901,BUZI,BANDUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.9644,34.4183
+SOFALA,BUZI,CS Ampara,902,NOVA SOFALA,AMPARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.3586,34.6342
+SOFALA,BUZI,CS Nhamichindo,903,BUZI,GRUDJA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.7886,34.1844
+SOFALA,BUZI,CS S. Antonio Barada,904,NOVA SOFALA,NOVA SOFALA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.0415,34.7396
+SOFALA,BUZI,CS Bura,905,NOVA SOFALA,NOVA SOFALA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.0253,34.7178
+SOFALA,BUZI,CS Chissiguana,906,ESTAQUINHA,CHISSINGUANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2047,34.1567
+SOFALA,BUZI,CS Estaquinha,907,ESTAQUINHA,ESTAQUINA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.9769,34.1397
+SOFALA,BUZI,PS Nova Sofala,908,NOVA SOFALA,NOVA SOFALA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-20.1551,34.7319
+SOFALA,BUZI,PS do Rio Buzi,909,BUZI,VILA DE BUZI,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-19.8847,34.5844
+SOFALA,BUZI,CS Grudja,910,NOVA SOFALA,GRUDJA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2653,34.6692
+SOFALA,BUZI,CS Guara-guara,911,BUZI,BUZI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.8689,34.4689
+SOFALA,BUZI,CS Danga,912,ESTAQUINHA,ESTAQUINA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.1497,34.1497
+SOFALA,BUZI,PS Matxemedje,913,ESTAQUINHA,ESTAQUINA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.9503,34.0631
+SOFALA,BUZI,PS Chiqueque-2,914,ESTAQUINHA,CHISSINGUANA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-20.1612,34.0346
+SOFALA,BUZI,CS Inhaveninga,915,NOVA SOFALA,AMPARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2653,34.6692
+SOFALA,CAIA,CS Licoma,916,NA,NA,NA,NA,NA,NA,-17.7834512852,35.0078860697
+SOFALA,CAIA,CS Caia,917,CAIA,VILA DE CAIA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.8356,35.3431
+SOFALA,CAIA,CS Murrema,918,SENA,SENA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.5836,35.0819
+SOFALA,CAIA,CS Muraca,919,MURRACA,MURACA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7236,35.256100000000004
+SOFALA,CAIA,PS Ntopa,920,CAIA,NDORO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.7911,35.025
+SOFALA,CAIA,CS Muraca-Deve,921,MURRACA,MURACA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6658,35.1608
+SOFALA,CAIA,CS Ndoro,922,CAIA,NDORO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.125,34.9481
+SOFALA,CAIA,CS Sena,923,SENA,SENA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4517,35.0381
+SOFALA,CAIA,CS Kapasseni,924,SENA,SENA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6328,35.0503
+SOFALA,CAIA,PS Sombreiro,925,CAIA,VILA DE CAIA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-17.8669,35.3117
+SOFALA,CAIA,PS Chipuazo,926,CAIA,CAIA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.8503,35.3986
+SOFALA,CAIA,PS Chipende,927,CAIA,CAIA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.7828,35.2469
+SOFALA,CAIA,PS Phaza,928,CAIA,CAIA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.8419,35.2386
+SOFALA,CAIA,PS Nhamatanda,929,CAIA,NDORO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.8703,34.9069
+SOFALA,CAIA,CS Nhambalo,930,CAIA,CAIA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7867,35.2806
+SOFALA,CAIA,PS Randinho,931,MURRACA,MURACA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.6844,35.0389
+SOFALA,CAIA,CS Chatala,932,MURRACA,MURACA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6686,34.9422
+SOFALA,CHEMBA,CS Mulima,933,MULIMA,MULIMA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.3333,34.6167
+SOFALA,CHEMBA,CS Chiramba,934,CHIRAMBA,CHIRAMBA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.890128,34.656268
+SOFALA,CHEMBA,CS 3 Fevereiro,935,CHEMBA,3 DE FEVEREIRO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2333,34.9167
+SOFALA,CHEMBA,CS Catulene,936,CHIRAMBA,CATULENE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1667,34.4167
+SOFALA,CHEMBA,CS Chemba,937,CHEMBA,CHEMBA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.15,34.8833
+SOFALA,CHEMBA,CS Goe,938,MULIMA,GOE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4167,34.7333
+SOFALA,CHEMBA,CS Senhambuzua,939,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,CHEMBA,CS Cado,940,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,CHERINGOMA,CS Inhaminga,941,INHAMINGA,VILA DE INHAMINGA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4167,35.0167
+SOFALA,CHERINGOMA,CS Pungue,942,INHAMITANGA,INHAMITANGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9667,35.1333
+SOFALA,CHERINGOMA,PS Nhataca,943,INHAMINGA,JOSINA MACHEL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2,34.9667
+SOFALA,CHERINGOMA,CS Chite,944,INHAMINGA,JOSINA MACHEL,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.3167,34.8667
+SOFALA,CHERINGOMA,CS Mazamba,945,INHAMINGA,MAZAMBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4833,34.7667
+SOFALA,CHERINGOMA,CS Maciamboza,946,INHAMINGA,MACIAMBOZA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6542,35.1083
+SOFALA,CHERINGOMA,PS Inhamitanga,947,INHAMITANGA,INHAMITANGA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2167,35.15
+SOFALA,CHIBABAVA,HR Muxungue,948,MUXUNGUE,PANJA-MUXUNGUE,RURAL,Hospital Rural,Hospital Rural,Nivel Secondario,-20.3902,33.935
+SOFALA,CHIBABAVA,CS Chibabava-Sede,949,CHIBABAVA,CHIBABAVA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.2897,33.6572
+SOFALA,CHIBABAVA,PS Esperanca,950,MUXUNGUE,PANJA-MUXUNGUE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-20.5428,34.0022
+SOFALA,CHIBABAVA,CS Nhango,951,MUXUNGUE,PANJA-MUXUNGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.1911,33.9075
+SOFALA,CHIBABAVA,CS Hoode,952,MUXUNGUE,HODE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.4979,33.6165
+SOFALA,CHIBABAVA,CS Muligue,953,MUXUNGUE,HODE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.4767,33.7017
+SOFALA,CHIBABAVA,CS Panja,954,MUXUNGUE,PANJA-MUXUNGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.3203,34.0558
+SOFALA,CHIBABAVA,CS Tronga,955,GOONDA,TRONGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.1161,33.7822
+SOFALA,CHIBABAVA,CS Revue,956,GOONDA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.773133333333334,33.83875
+SOFALA,CHIBABAVA,CS Muxeve,957,MUXUNGUE,MUXEVE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.5761,33.8806
+SOFALA,CHIBABAVA,CS Mangunde,958,GOONDA,TRONGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.195,33.7042
+SOFALA,CHIBABAVA,CS Goonda,959,GOONDA,HAMAMBA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.837647,34.009962
+SOFALA,CHIBABAVA,CS Chinhica,960,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,DONDO,CS Dondo,961,CIDADE DE DONDO,BAIRRO CENTRAL,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-19.6186,34.7467
+SOFALA,DONDO,CS Mafambisse,962,MAFAMBISSE,MAFAMBISSE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5436,34.6258
+SOFALA,DONDO,CS Samora Machel,963,CIDADE DE DONDO,BAIRRO NHAMAIBWE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5847,34.7178
+SOFALA,DONDO,CS Chamacondo,964,SAVANE,CHINAMACONDO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5872,35.1214
+SOFALA,DONDO,CS Chibuabuabua,965,MAFAMBISSE,MUTUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.365,34.5742
+SOFALA,DONDO,CS Savane,966,SAVANE,SAVANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.3911,34.7119
+SOFALA,DONDO,PS Nhamainga,967,CIDADE DE DONDO,BAIRRO NHAMAINGA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-19.6506,34.7658
+SOFALA,DONDO,CS Mutua,968,MAFAMBISSE,MUTUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5031,34.5933
+SOFALA,DONDO,CS Macharote,969,CIDADE DE DONDO,BAIRRO SAMORA MACHEL,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.63,34.7172
+SOFALA,DONDO,PS Lusalite,970,CIDADE DE DONDO,BAIRRO MAFARINHA,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-19.6319,34.76
+SOFALA,DONDO,CS Canhandula,971,CIDADE DE DONDO,BAIRRO CANHANDULO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.6869,34.7604
+SOFALA,DONDO,CS Bloco 9,972,MAFAMBISSE,MAFAMBISSE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5694,34.6403
+SOFALA,GORONGOSA,CS Sede Gorongosa,973,GORONGOSA,VILA DE GORONGOSA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6931,34.0728
+SOFALA,GORONGOSA,CS Piro,974,VANDUZI,CASA BANANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.3611,34.3944
+SOFALA,GORONGOSA,CS Muera,975,NHAMADZE,CANDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.2703,34.0536
+SOFALA,GORONGOSA,CS Tsiquire,976,GORONGOSA,GORONGOSA SEDE-TAMBARARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6831,34.1372
+SOFALA,GORONGOSA,CS Nhamissongora,977,GORONGOSA,GORONGOSA SEDE-TAMBARARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.75,34.0964
+SOFALA,GORONGOSA,CS Canda,978,NHAMADZE,CANDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4783,33.9783
+SOFALA,GORONGOSA,PS Dombe,979,NHAMADZE,CANDA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.3578,33.9994
+SOFALA,GORONGOSA,CS Vunduzi,980,VANDUZI,VANDUZI (CAVALO),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4858,34.2167
+SOFALA,GORONGOSA,CS Pungue,981,GORONGOSA,PUNGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9845,34.1028
+SOFALA,GORONGOSA,CS Mucoduzi,982,GORONGOSA,GORONGOSA SEDE-TAMBARARA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.5989,34.1375
+SOFALA,GORONGOSA,PS Chitengo,983,GORONGOSA,GORONGOSA SEDE-TAMBARARA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.9906,34.3544
+SOFALA,GORONGOSA,CS Casa Banana,984,VANDUZI,CASA BANANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.4969,34.4172
+SOFALA,GORONGOSA,PS Nhataca,985,GORONGOSA,GORONGOSA SEDE-TAMBARARA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.5881,34.0839
+SOFALA,GORONGOSA,PS Tazaronda,986,VANDUZI,VANDUZI (CAVALO),RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.5475,34.1769
+SOFALA,GORONGOSA,CS Cudzu,987,NHAMADZE,NHAMADZE SEDE (CUDZO),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6153,33.8786
+SOFALA,MACHANGA,CS Javane,988,NA,NA,NA,NA,NA,NA,-20.9127129354,34.5218324306
+SOFALA,MACHANGA,CS Beia Peia,989,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,MACHANGA,CS Maropanhe,990,DIVINHE,DIVINHE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.8219,34.8528
+SOFALA,MACHANGA,CS Inharingue,991,CHILOANE,INHARINGUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.7411,34.9264
+SOFALA,MACHANGA,CS Machanga,992,MACHANGA,MACHANGA SEDE (MAVINGA),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.975,35.005
+SOFALA,MACHANGA,CS Divinhe,993,DIVINHE,DIVINHE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.7011,34.7933
+SOFALA,MACHANGA,CS Chinhuque,994,MACHANGA,MACHANGA SEDE (MAVINGA),RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-21.0133,34.8975
+SOFALA,MACHANGA,CS Buene,995,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,MACHANGA,CS Chiloane,996,CHILOANE,CHILOANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-20.6314,34.9039
+SOFALA,MACHANGA,CS Nhamachire,997,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,MARINGUE,PS Subue,998,SUBWE,SOBWE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.1175,34.4567
+SOFALA,MARINGUE,CS Senga-Senga,999,CANXIXE,SENGA SENGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.3197,34.2894
+SOFALA,MARINGUE,CS Nhamacala,1000,SUBWE,SUBWE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.2003,34.5967
+SOFALA,MARINGUE,CS Maringue,1001,MARINGUE,MARINGUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9661,34.4144
+SOFALA,MARINGUE,CS Canxixe,1002,CANXIXE,CANXIXE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.5839,34.315
+SOFALA,MARINGUE,CS Gumbalassai,1003,MARINGUE,GUMBALASSAI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6997,34.5844
+SOFALA,MARROMEU,HR Marromeu,1004,MARROMEU,VILA DE MARROMEU,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-18.2989,35.9544
+SOFALA,MARROMEU,CS Nensa,1005,CHUPANGA,NENSA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.1928,35.74
+SOFALA,MARROMEU,CS Salone Primária,1006,MARROMEU,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.42575,35.91645
+SOFALA,MARROMEU,CS Chupanga,1007,CHUPANGA,CHUPANGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.0461,35.6133
+SOFALA,MARROMEU,CS Marromeu,1008,MARROMEU,VILA DE MARROMEU,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.2989,35.9544
+SOFALA,MARROMEU,PS Bauaze,1009,MARROMEU,MARROMEU SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2894,35.7611
+SOFALA,MARROMEU,CS Chueza,1010,MARROMEU,MARROMEU SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.443333,35.790278
+SOFALA,MARROMEU,CS Malingapasse,1011,MALINGAPASSE,MALINGAPASSE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.6752,36.1046
+SOFALA,MUANZA,CS Sanguze-Muana,1012,NA,NA,NA,NA,NA,NA,NA,NA
+SOFALA,MUANZA,CS Muanza Baixo,1013,MUANZA,MUANZA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.8214,34.7464
+SOFALA,MUANZA,CS Muanza,1014,MUANZA,MUANZA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.9069,34.7956
+SOFALA,MUANZA,PS Nhansato,1015,GALINHA,NHANSATO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.265116666666668,34.889716666666665
+SOFALA,MUANZA,CS Galinha,1016,GALINHA,GALINHA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2372,35.0436
+SOFALA,MUANZA,PS Nsituculo,1017,GALINHA,CHINAPAMIMBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.0261,35.1097
+SOFALA,NHAMATANDA,HR Nhamatanda,1018,NHAMATANDA,VILA DE NHAMATANDA,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-19.2713,34.2043
+SOFALA,NHAMATANDA,PS Mbimbire,1019,NHAMATANDA,MACOROCOCHO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.5394,34.0575
+SOFALA,NHAMATANDA,CS Metuchira,1020,NHAMATANDA,METUCHIRA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.1681,34.2044
+SOFALA,NHAMATANDA,CS Lamego,1021,TICA,LAMEGO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.3356,34.3242
+SOFALA,NHAMATANDA,PS Jasse,1022,NHAMATANDA,SILUVO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.2244,34.0033
+SOFALA,NHAMATANDA,CS Jasse,1023,NHAMATANDA,SILUVO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2931,33.99
+SOFALA,NHAMATANDA,PS Muda,1024,TICA,TICA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.3908,34.4119
+SOFALA,NHAMATANDA,PS Nhampoca,1025,TICA,NHAMPOCA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.2422,34.4728
+SOFALA,NHAMATANDA,CS Nharichonga,1026,NHAMATANDA,SILUVO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2522,34.1289
+SOFALA,NHAMATANDA,CS Siluvo,1027,NHAMATANDA,SILUVO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2461,34.0356
+SOFALA,NHAMATANDA,CS Mecuzi,1028,NHAMATANDA,SILUVO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.35,34.0633
+SOFALA,NHAMATANDA,CS Marorococho,1029,NHAMATANDA,MACOROCOCHO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5717,33.9739
+SOFALA,NHAMATANDA,CS Sede-Nhamatanda,1030,NHAMATANDA,VILA DE NHAMATANDA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.2667,34.2
+SOFALA,NHAMATANDA,PS Pedreira,1031,NHAMATANDA,SILUVO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.2522,34.0583
+SOFALA,NHAMATANDA,CS Tica,1032,TICA,TICA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.4072,34.4381
+SOFALA,NHAMATANDA,CS Cheadea,1033,TICA,CHEADEA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.5928,34.2729
+SOFALA,NHAMATANDA,PS John Segredo,1034,TICA,TICA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.3631,34.3581
+SOFALA,NHAMATANDA,PS Metuchira Ermoc,1035,NHAMATANDA,MATENGA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-19.1364,34.0394
+SOFALA,NHAMATANDA,CS Chiro-1,1036,NHAMATANDA,MATENGA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.0603,34.1031
+SOFALA,NHAMATANDA,CS Vinho,1037,NHAMATANDA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-19.00213,34.20685
+TETE,CIDADE DE TETE,HP Tete,682,CIDADE DE TETE,Bairro Josina Machel,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-16.1525,33.5839
+TETE,CIDADE DE TETE,CS N. 4,683,CIDADE DE TETE,Bairro Mateus S. Muthemba,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.1586,33.5656
+TETE,CIDADE DE TETE,CS Boroma,684,Kachembe (Marara),Boroma,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.051,33.4345
+TETE,CIDADE DE TETE,CS N. 1,685,CIDADE DE TETE,Bairro Filipe Samuel Magaia,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.1477,33.5786
+TETE,CIDADE DE TETE,CS N. 2,686,CIDADE DE TETE,Bairro Chingodze,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.143,33.6086
+TETE,CIDADE DE TETE,CS N. 3,687,CIDADE DE TETE,Bairro Francisco Manyanga,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.1717,33.5933
+TETE,CIDADE DE TETE,CS Degue,688,CIDADE DE TETE,Bairro Degue,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1298,33.4955
+TETE,CIDADE DE TETE,CS Mpadue,689,CIDADE DE TETE,Bairro Samora Machel,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.2022,33.5994
+TETE,CIDADE DE TETE,CS Mufa-Boroma,690,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,CIDADE DE TETE,PS SOS,691,CIDADE DE TETE,Bairro Chingodze,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-16.14,33.6111
+TETE,ANGONIA,HR Ulongue,692,Ulongue,Vila de Ulongue,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-14.7231,34.3631
+TETE,ANGONIA,CS Ulongue,693,Ulongue,Vila de Ulongue,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7203,34.3608
+TETE,ANGONIA,CS Domue,694,Domue,Domue - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5306,34.0855
+TETE,ANGONIA,CS Chiwala,695,Ulongue,Chimuala,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.7714,34.2792
+TETE,TSANGANO,CS Fonte Boa,696,Ntengo-wa-Mbalane,Ntengo-wa-Mbalane - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8495,34.5278
+TETE,ANGONIA,CS Lifidzi,697,Ulongue,Mangane,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5547,34.2386
+TETE,ANGONIA,CS Mpenha,698,Ulongue,Mawonekera,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5933,34.4231
+TETE,ANGONIA,PS Cese,699,Domue,Seze,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.4922,34.1617
+TETE,ANGONIA,PS Vila Velha,700,Ulongue,Mangane,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.5739,34.3058
+TETE,ANGONIA,CS Mpandula,701,Domue,Mpandula,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6083,33.8561
+TETE,ANGONIA,CS Catondo,702,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,CAHORA-BASSA,HR Songo,703,Songo,Vila de Songo,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-15.599,32.7674
+TETE,CAHORA-BASSA,CS Chinhanda,704,Chitima,Chintholo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7116,32.6834
+TETE,CAHORA-BASSA,CS Chitima,705,Chitima,Chitima - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7396,32.7691
+TETE,CAHORA-BASSA,CS Chirodzi Ponte,706,Chitima,Chibagadigo,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.85,32.966667
+TETE,CAHORA-BASSA,CS Nhacapiriri,707,Chitima,Nhacapiriri,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7002,32.5477
+TETE,CAHORA-BASSA,CS Songo,708,Songo,Vila de Songo,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5987,32.7675
+TETE,CAHORA-BASSA,CS Maroeira,709,Songo,Songo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6613,32.8099
+TETE,CAHORA-BASSA,CS Chintholo,710,Chintholo,Chintholo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.097,32.4745
+TETE,CAHORA-BASSA,PS Chipalapala,711,Chitima,Nhabando,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.6807,32.3985
+TETE,CHANGARA,CS Cachembe,712,Kachembe (Marara),Kachembe - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9687,33.1591
+TETE,CHANGARA,CS Changara,713,Luenha,Luenha - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8363,33.2774
+TETE,CHANGARA,CS Chioco,714,Chipembere (Chioco),Chipembere - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4174,32.8263
+TETE,CHANGARA,CS Chipembere,715,Chipembere (Chioco),Chipembere - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4617,33.0924
+TETE,CHANGARA,CS Dzunga,716,Luenha,Dzunga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.96,32.9193
+TETE,CHANGARA,PS Goba,717,Chipembere (Chioco),Chipembere - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.3929,33.3082
+TETE,CHANGARA,CS Mazoe,718,Chipembere (Chioco),Mazoe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.5476,33.3786
+TETE,CHANGARA,PS Nachinanga,719,Chipembere (Chioco),Ntemangau,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.7043,33.0626
+TETE,CHANGARA,CS Ntemangau,720,Luenha,Nteemangau,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6118,33.1935
+TETE,CHANGARA,CS Marara Centro,721,Kachembe (Marara),Cachembe - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0047,33.2313
+TETE,CHANGARA,CS Missawa,722,Chipembere (Chioco),Mazoe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.3516,33.4563
+TETE,CHANGARA,CS Phalamabue,723,Chipembere (Chioco),Nchenga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4204,33.599
+TETE,CHANGARA,PS Matambo,724,Kachembe (Marara),Mufa - Conde,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.2542,33.4433
+TETE,CHANGARA,PS Mufa,725,Kachembe (Marara),Mufa - Conde,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.0888,33.4131
+TETE,CHIFUNDE,CS Chifunde-Sede,726,Chifunde,Chifunde - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8803,32.8361
+TETE,CHIFUNDE,CS Luia,727,Chifunde,Camwenge,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1333,32.8964
+TETE,CHIFUNDE,CS Ndzadzo,728,Nsadzu,Nsadzu - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.3372,32.3553
+TETE,CHIFUNDE,CS Thequesse,729,Nsadzu,Angombe,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6175,32.4902
+TETE,CHIFUNDE,CS Vila Mualadzi,730,Mualadze,Mualadze - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.1619,32.985
+TETE,CHIFUNDE,CS Nkantha,731,Mualadze,Mualadze - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.0897,33.0952
+TETE,CHIFUNDE,CS Khamande,732,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,CHIUTA,CS Kazula,733,Kazula,Kazula - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3833,33.6286
+TETE,CHIUTA,CS Kaunda,734,Manje,Kaunda,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6544,33.3664
+TETE,CHIUTA,CS Manje,735,Manje,Manje - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3789,33.2014
+TETE,CHIUTA,CS Mavudzi Ponte,736,Manje,Kaunda,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8064,33.4698
+TETE,MACANGA,CS Chidzilomondo,737,Chidzolomondo,Chidzolomondo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0228,33.3955
+TETE,MACANGA,CS Furancungo (Macanga),738,Furancungo,Furancungo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9033,33.6119
+TETE,MACANGA,CS Namadende,739,Furancungo,Namandende,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.6239,33.5542
+TETE,MACANGA,CS Miwanga,740,Furancungo,Furancungo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0789,33.6798
+TETE,MACANGA,PS Nchoncho,741,Furancungo,Kassupe,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9416,33.9259
+TETE,MAGOE,PS Cazindira,742,Mphende,Cazindira,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.7723,31.6468
+TETE,MAGOE,CS Chinthopo,743,Chinthopo,Chinthopo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.853,30.5877
+TETE,MAGOE,PS Chitete,744,Chinthopo,Chitete,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.9975,30.5645
+TETE,MAGOE,CS Daque,745,Mphende,Daque,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8439,32.1414
+TETE,MAGOE,CS Magoe,746,Mphende,Mphende - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8061,31.7511
+TETE,MAGOE,CS Mucumbura,747,Mukumbura,Mukumbura - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1922,31.689
+TETE,MAGOE,CS Mussenguezi,748,Chinthopo,Mussenguezi,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9328,31.0943
+TETE,MARAVIA,PS Chiputo,749,Chiputo,Chiputo - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9847,32.2833
+TETE,MARAVIA,CS Fingoe,750,Fingoe,Fingoe - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1603,31.8922
+TETE,MARAVIA,CS Maloera,751,Malowera,Malowera - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.5761,31.7397
+TETE,MARAVIA,PS Unkanha (Piripiri),752,Malowera,Nhankanha,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9525,31.41
+TETE,MARAVIA,CS Kassuende,753,Malowera,Kassuende,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.4092,32.0142
+TETE,MARAVIA,CS Chipera,754,Chipera,Chipera - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.48,32.4897
+TETE,MOATIZE,CS Zobue,755,Zobue,Zobue - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6016,34.3359
+TETE,MOATIZE,CS Mameme II,756,Kambulatsitsi,Kambulatsitsi - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9099,34.0834
+TETE,MOATIZE,CS Moatize,757,Moatize,Vila de Moatize,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1245,33.746
+TETE,MOATIZE,CS Benga,758,Moatize,Benga,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1914,33.6309
+TETE,MOATIZE,CS Combulatsitsi,759,Kambulatsitsi,Kambulatsitsi - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9853,34.192
+TETE,MOATIZE,PS Capirizange,760,Zobue,Capirizange,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.8072,34.25
+TETE,MOATIZE,CS Khanga,761,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,MOATIZE,CS CFM,762,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,MOATIZE,CS Nkondedzi,763,Zobue,Nkondedzi,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5314,34.3107
+TETE,MOATIZE,CS Necungas,764,Kambulatsitsi,Necungas,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1726,34.2632
+TETE,MOATIZE,CS Samoa,765,Zobue,Samoa,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7717,34.1247
+TETE,MOATIZE,CS Cateme,766,NA,NA,NA,NA,NA,NA,NA,NA
+TETE,MUTARARA,HR Mutarara,767,Nhamayabue,Vila de Nhamayabue,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-17.4514,35.0788
+TETE,MUTARARA,CS Mutarara,768,Nhamayabue,Vila de Nhamayabue,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4508,35.0785
+TETE,MUTARARA,CS Traquino,769,Inhangoma,Canhungue,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4749,35.2158
+TETE,MUTARARA,PS Ancuazi,770,Doa,Ancuazi,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.7844,34.5543
+TETE,MUTARARA,CS Chare,771,Charre,Charre - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.3473,35.138
+TETE,MUTARARA,CS Doa,772,Doa,Doa - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6439,34.6812
+TETE,MUTARARA,CS Inhangoma,773,Inhangoma,Inhangoma - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4878,35.2442
+TETE,MUTARARA,CS Jardim,774,Inhangoma,Canamua - Jardim,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6352,35.2121
+TETE,MUTARARA,PS Mutarara-Velha,775,Nhamayabue,Nhamayabue - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.3939,35.0534
+TETE,MUTARARA,CS Sinjal,776,Nhamayabue,Nhamayabue - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1833,35.0667
+TETE,MUTARARA,CS Vila Nova Fronteira,777,Charre,Vila Nova,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1369,35.1932
+TETE,TSANGANO,PS Kalipale,778,Ntengo-wa-Mbalane,Ntengo-wa-Mbalane - sede,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-14.9019,34.5698
+TETE,TSANGANO,CS Ntengo Mbalahe,779,Ntengo-wa-Mbalane,Ntengo-wa-Mbalane - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.8489,34.5245
+TETE,TSANGANO,CS Tsangano,780,Tsangano,Tsangano - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1611,34.5611
+TETE,TSANGANO,CS Makonje Tsangano,781,Tsangano,Magonje,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.315,34.4189
+TETE,TSANGANO,CS Chivano,782,Ntengo-wa-Mbalane,Chivano,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-14.9869,34.3322
+TETE,ZUMBO,CS Muze,783,Muze,Mazamba,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.0075,31.0028
+TETE,ZUMBO,CS Zambue,784,Zambue - sede,Zambue - Sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1139,30.8022
+TETE,ZUMBO,CS Zumbo,785,Zumbo - sede,Zumbo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.6147,30.4394
+TETE,ZUMBO,CS Tongue,786,Zumbo - sede,Zumbo - sede,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3792,30.7317
+ZAMBEZIA,CIDADE DE QUELIMANE,HP Quelimane,469,URBANO 1,BAIRRO LIBERDADE,URBANA,Hospital Provincial,Hospital Provincial,Nivel Terciario,-17.8822,36.8872
+ZAMBEZIA,CIDADE DE QUELIMANE,CS 17 Setembro,470,URBANO 4,BAIRRO BRANDAO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8617,36.8955
+ZAMBEZIA,CIDADE DE QUELIMANE,CS 24 Julho,471,URBANO 1,BAIRRO 24 DE JULHO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8753,36.881100000000004
+ZAMBEZIA,CIDADE DE QUELIMANE,CS Coalane,472,URBANO 3,BAIRRO COALANE I,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8611,36.9081
+ZAMBEZIA,CIDADE DE QUELIMANE,CS 4 Dezembro,473,URBANO 1,BAIRRO LIBERDADE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8803,36.8916
+ZAMBEZIA,CIDADE DE QUELIMANE,PS Cadeia Civil,474,URBANO 1,BAIRRO LIBERDADE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-17.8786,36.8883
+ZAMBEZIA,CIDADE DE QUELIMANE,CS Namuinho,475,URBANO 3,BAIRRO NAMUINHO,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8192,36.9466
+ZAMBEZIA,CIDADE DE QUELIMANE,PS Sangariveira,476,URBANO 2,BAIRRO 7 DE ABRIL,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-17.8675,36.9239
+ZAMBEZIA,CIDADE DE QUELIMANE,PS Zalala Mar,477,URBANO 3,BAIRRO 1 DE MAIO A,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-17.876179,36.88829
+ZAMBEZIA,CIDADE DE QUELIMANE,CS  Chabeco,478,NA,NA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.865732908249,36.887551546097
+ZAMBEZIA,CIDADE DE QUELIMANE,CS Micajune,479,URBANO 4,BAIRRO MICAJUNE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8469,36.9006
+ZAMBEZIA,CIDADE DE QUELIMANE,CS Icidua,480,URBANO 2,BAIRRO ICIDUA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-17.8878,36.9156
+ZAMBEZIA,CIDADE DE QUELIMANE,CS 17 Setembro - SNS,481,NA,NA,NA,NA,NA,NA,-17.8617,36.8955
+ZAMBEZIA,ALTO MOLOCUE,HR Alto Molocue,482,ALTO MOLOCUE,VILA DE ALTO MOLOCUE,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-15.6306,37.6836
+ZAMBEZIA,ALTO MOLOCUE,CS Alto Molocue,483,ALTO MOLOCUE,VILA DE ALTO MOLOCUE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-15.6306,37.6836
+ZAMBEZIA,ALTO MOLOCUE,PS Caiaia,484,ALTO MOLOCUE,CAIAIA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.565,37.7905
+ZAMBEZIA,ALTO MOLOCUE,CS Chapala,485,ALTO MOLOCUE,CHAPALA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8631,37.6377
+ZAMBEZIA,ALTO MOLOCUE,CS Moiua,486,NAUELA,MOHIUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.2847,37.44
+ZAMBEZIA,ALTO MOLOCUE,CS Mutala,487,ALTO MOLOCUE,MUTALA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9181,37.8525
+ZAMBEZIA,ALTO MOLOCUE,CS Nauela,488,NAUELA,NAUELA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4339,37.4433
+ZAMBEZIA,ALTO MOLOCUE,CS Nivava,489,ALTO MOLOCUE,NIVAVA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.67,37.5731
+ZAMBEZIA,ALTO MOLOCUE,CS Mugema,490,NAUELA,NAUELA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.398,37.6047
+ZAMBEZIA,ALTO MOLOCUE,CS Ecole,491,ALTO MOLOCUE,ECOLE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3861,37.7678
+ZAMBEZIA,ALTO MOLOCUE,CS Cololo,492,NAUELA,COLOLO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5678,37.3592
+ZAMBEZIA,ALTO MOLOCUE,CS Novanana,493,ALTO MOLOCUE,NOVANANA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7639,37.7556
+ZAMBEZIA,ALTO MOLOCUE,CS Nacuaca,494,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.8048737,37.90995061
+ZAMBEZIA,ALTO MOLOCUE,PS Nimala,495,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,ALTO MOLOCUE,CS Malua,496,ALTO MOLOCUE,ALTO MOLOCUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7069,37.6417
+ZAMBEZIA,ALTO MOLOCUE,CS Bonifacio Gruveta,497,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.644198656082,37.679468393326
+ZAMBEZIA,CHINDE,PS Arijuane,498,MICAUNE,ARIJUANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.3519,36.6783
+ZAMBEZIA,CHINDE,CS Chinde,499,CHINDE,VILA DE CHINDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.5833,36.4644
+ZAMBEZIA,CHINDE,CS Luabo,500,LUABO,VILA DE LUABO,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.405,36.1081
+ZAMBEZIA,CHINDE,PS Madal,501,MICAUNE,MAGAZA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2683,36.65
+ZAMBEZIA,CHINDE,PS Matilde,502,CHINDE,MATILDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.6656,36.2425
+ZAMBEZIA,CHINDE,CS Micaune,503,MICAUNE,MICAUNE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.3678,36.5683
+ZAMBEZIA,CHINDE,PS Mitange,504,MICAUNE,MITANGE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2942,36.7136
+ZAMBEZIA,CHINDE,PS Pambane,505,CHINDE,PAMBANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.7094,36.355
+ZAMBEZIA,CHINDE,PS Bento,506,LUABO,SAMORA MACHEL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.5178,36.1472
+ZAMBEZIA,CHINDE,PS Marcacao,507,LUABO,NZAMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.2239,36.0792
+ZAMBEZIA,CHINDE,PS do Centro Educacional,508,CHINDE,VILA DE CHINDE,URBANA,Posto de Saude,Posto de Saude,Nivel Primario,-18.6114,36.4314
+ZAMBEZIA,GILE,CS Alto Ligonha,509,ALTO LIGONHA,ALTO LIGONHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5119,38.2572
+ZAMBEZIA,GILE,CS Gile,510,GILE,GILE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.1464,38.3725
+ZAMBEZIA,GILE,CS Moneia,511,GILE,MONEIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.96268952,38.44124258
+ZAMBEZIA,GILE,CS Muiane,512,ALTO LIGONHA,ALTO LIGONHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5126,38.2574
+ZAMBEZIA,GILE,CS Uape,513,GILE,UAPE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.132,38.0975
+ZAMBEZIA,GILE,PS Namuaca,514,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,GILE,CS Kayane,515,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.273418068886,37.92336165905
+ZAMBEZIA,GILE,CS Mamala,516,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,GILE,CS Pury,517,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.980408191681,38.331985473633
+ZAMBEZIA,GILE,CS Mutequela,518,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,GURUE,HR Gurue,519,CIDADE DE GURUE,GURUE (CIDADE),URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-15.4625,36.9836
+ZAMBEZIA,GURUE,CS Gurue,520,CIDADE DE GURUE,GURUE (CIDADE),URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-15.4628,36.9828
+ZAMBEZIA,GURUE,CS Lioma,521,LIOMA,LIOMA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.172,36.805
+ZAMBEZIA,GURUE,CS Mepuagiua,522,MEPUAGIUA,MEPUAGIUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.54,37.193
+ZAMBEZIA,GURUE,CS Ruace,523,LIOMA,TETETE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.1989,36.7025
+ZAMBEZIA,GURUE,CS Serra,524,LIOMA,TETETE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.315,36.6589
+ZAMBEZIA,GURUE,CS Tetete,525,LIOMA,TETETE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.3864,36.5264
+ZAMBEZIA,GURUE,CS UP 10,526,MEPUAGIUA,MEPUAGIUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.488,37.1402
+ZAMBEZIA,GURUE,CS UP4,527,CIDADE DE GORUE,GURUE (CIDADE),URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4564,36.9556
+ZAMBEZIA,GURUE,CS Muagiua,528,CIDADE DE GURUE,MUAQIUA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5403,36.8841
+ZAMBEZIA,GURUE,CS Invinha,529,CIDADE DE GURUE,INVINHA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.5567,37.0553
+ZAMBEZIA,GURUE,CS Macuarro,530,MEPUAGIUA,NICOROPALE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7714,37.0844
+ZAMBEZIA,ILE,HD Ile,531,ILE,ILE SEDE,RURAL,Hospital Distrital,Hospital Distrital,Nivel Secondario,-16.0378,37.1683
+ZAMBEZIA,ILE,CS Chiraco,532,MULEVALA,CHIRACO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.3586,37.767
+ZAMBEZIA,ILE,CS Phalane,533,ILE,PALANE/VIERIVA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9902,37.3572
+ZAMBEZIA,ILE,CS Mugulama,534,ILE,MUGULAMA/HATXUE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0361,37.5239
+ZAMBEZIA,ILE,CS Mulevala,535,MULEVALA,NAMIGONHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4341,37.5889
+ZAMBEZIA,ILE,CS Muliquela,536,ILE,ILE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.9544,37.1209
+ZAMBEZIA,ILE,PS Tebo,537,ILE,NAMPEVO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.2811,37.3214
+ZAMBEZIA,ILE,PS Nipiode,538,ILE,NIPIODE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.1416,37.3833
+ZAMBEZIA,ILE,CS Socone,539,SOCONE,SOCONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7844,37.1633
+ZAMBEZIA,ILE,CS Jajo,540,MULEVALA,RUJE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.2692,37.5161
+ZAMBEZIA,ILE,CS Massira,541,ILE,NIPIODE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0936,37.3366
+ZAMBEZIA,ILE,CS Curuane,542,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.841153264046,37.322852611542
+ZAMBEZIA,ILE,CS Ualasse,543,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.76215148,37.28464723
+ZAMBEZIA,INHASSUNGE,CS Chirimane,544,INHASSUNGE (MUCUPIA),CHIRIMANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.0781,36.8961
+ZAMBEZIA,INHASSUNGE,CS Gonhane,545,GONHANE,GONHANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.1114,36.7581
+ZAMBEZIA,INHASSUNGE,CS Inhassunge,546,INHASSUNGE (MUCUPIA),MUCUPIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.01,36.8108
+ZAMBEZIA,INHASSUNGE,PS Matulune,547,GONHANE,GONHANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.0858,36.7286
+ZAMBEZIA,INHASSUNGE,PS Olinda,548,INHASSUNGE (MUCUPIA),CHIRIMANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.0764,36.9278
+ZAMBEZIA,INHASSUNGE,CS Bingagira,549,INHASSUNGE (MUCUPIA),BINGANGIRA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-18.0292,36.7361
+ZAMBEZIA,INHASSUNGE,CS Palane-Mucula,550,INHASSUNGE (MUCUPIA),MUCUPIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9767,36.8578
+ZAMBEZIA,LUGELA,CS Lugela,551,LUGELA,LUGELA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4256,36.7433
+ZAMBEZIA,LUGELA,CS Munhamade,552,MUNHAMADE,MUNHAMADE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.5927,36.9723
+ZAMBEZIA,LUGELA,CS Namagoa,553,MUNHAMADE,ALTO LUGELA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7503,36.943
+ZAMBEZIA,LUGELA,CS Erurune,554,MUNHAMADE,MULIDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.3944,36.9803
+ZAMBEZIA,LUGELA,PS Limbue,555,TACUANE,MABU,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.3633,36.3789
+ZAMBEZIA,LUGELA,PS Muabanama,556,MUABANAMA,MUABANAMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.0167,36.4866
+ZAMBEZIA,LUGELA,CS Mungulune,557,MUNHAMADE,TENEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.2186,36.9364
+ZAMBEZIA,LUGELA,PS Nigau,558,MUNHAMADE,CUBA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.5525,36.8617
+ZAMBEZIA,LUGELA,PS Puthine,559,LUGELA,PHUTINE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.3511,36.8533
+ZAMBEZIA,LUGELA,CS Tacuane,560,TACUANE,TACUANE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.367,36.5153
+ZAMBEZIA,LUGELA,PS Mucubi,561,MUNHAMADE,TENEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.2178,37.0011
+ZAMBEZIA,MAGANJA DA COSTA,HD Maganja Costa,562,MAGANJA DA COSTA,VILA DE MAGANJA DA COSTA,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-17.3094,37.5089
+ZAMBEZIA,MAGANJA DA COSTA,PS Bajone,563,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.20386028,37.95662105
+ZAMBEZIA,MAGANJA DA COSTA,PS Mabala,564,MAGANJA DA COSTA,CABUIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.5206,37.5514
+ZAMBEZIA,MAGANJA DA COSTA,PS Matacurro,565,NANTE,MUOLOA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.5877,37.4817
+ZAMBEZIA,MAGANJA DA COSTA,CS Mocubela,566,MOCUBELA,MUCUBELA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8972,37.8972
+ZAMBEZIA,MAGANJA DA COSTA,CS Nanti,567,NANTE,NANTE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4383,37.2855
+ZAMBEZIA,MAGANJA DA COSTA,CS Tapata,568,BAJONE,NACUDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2636,37.8936
+ZAMBEZIA,MAGANJA DA COSTA,PS Cariua,569,NA,NA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.244442105293,37.200340032578
+ZAMBEZIA,MAGANJA DA COSTA,CS Maneia,570,MOCUBELA,MANEIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.767,37.5958
+ZAMBEZIA,MAGANJA DA COSTA,PS Vila-Valdez,571,NANTE,NOMIUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.6092,37.3972
+ZAMBEZIA,MAGANJA DA COSTA,PS Alto Mutola,572,NANTE,ALTO MUTOLA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.33,37.1997
+ZAMBEZIA,MAGANJA DA COSTA,PS Gurai,573,BAJONE,NACUDA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.3092,37.9742
+ZAMBEZIA,MAGANJA DA COSTA,PS Ilha Idugo,574,BAJONE,NACUDA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.3083,38.0589
+ZAMBEZIA,MAGANJA DA COSTA,PS Mugaua,575,MAGANJA DA COSTA,CABUIR,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.4295,37.5695
+ZAMBEZIA,MAGANJA DA COSTA,PS Missal,576,BAJONE,MISSAL,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.2306,37.7764
+ZAMBEZIA,MAGANJA DA COSTA,CS Mapira,577,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.091202139854,37.185829281807
+ZAMBEZIA,MAGANJA DA COSTA,CS Moneia,578,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.41258979,37.25415587
+ZAMBEZIA,MAGANJA DA COSTA,CS Muzo,579,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,MAGANJA DA COSTA,PS Zambezi,580,BAJONE,NACUDA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.2036,37.9564
+ZAMBEZIA,MILANGE,HR Milange,581,MILANGE,VILA DE MILANGE,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-16.0981,35.7814
+ZAMBEZIA,MILANGE,CS Milange,582,MILANGE,VILA DE MILANGE,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.0986,35.7692
+ZAMBEZIA,MILANGE,CS Carico,583,MILANGE,CHITANBO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0564,36.0289
+ZAMBEZIA,MILANGE,PS Cazimbe,584,MOLUMBO,DUALO-NANGOMA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.4875,35.8875
+ZAMBEZIA,MILANGE,PS Coromana,585,MOLUMBO,CORROMANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.7759,36.0164
+ZAMBEZIA,MILANGE,CS Majaua,586,MAJAUA,MAJAUA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.2173,35.4795
+ZAMBEZIA,MILANGE,CS Molumbo,587,MOLUMBO,MOLUMBO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.4869,36.2714
+ZAMBEZIA,MILANGE,CS Tengua,588,MILANGE,TENGUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.2103,35.7997
+ZAMBEZIA,MILANGE,PS Vulalo,589,MILANGE,VULALO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.2175,35.6259
+ZAMBEZIA,MILANGE,CS Liciro,590,MILANGE,LICIRO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4491,36.0464
+ZAMBEZIA,MILANGE,CS Mongue,591,MONGUE,MONGUE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.4386,35.4997
+ZAMBEZIA,MILANGE,PS Dachudua,592,MAJAUA,DACHUDUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.1684,35.4533
+ZAMBEZIA,MILANGE,PS Nambuzi,593,NA,NA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.32016361,35.67201734
+ZAMBEZIA,MILANGE,CS Sabeliua,594,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.468205451965,35.815853476524
+ZAMBEZIA,MILANGE,CS Nantuto,595,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.708534121513,36.514177322388
+ZAMBEZIA,MILANGE,CS Dulanha,596,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.313007473946,35.63139796257
+ZAMBEZIA,MOCUBA,HR Mocuba,597,CIDADE DE MOCUBA,MUNICIPIO DE MUCUBA,URBANA,Hospital Rural,Hospital Rural,Nivel Secondario,-16.8406,36.9875
+ZAMBEZIA,MOCUBA,CS Mocuba,598,CIDADE DE MOCUBA,MUNICIPIO DE MUCUBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8389,36.9799
+ZAMBEZIA,MOCUBA,CS Mocuba Sisal,599,CIDADE DE MOCUBA,MUCUBA SEDE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8806,37.0097
+ZAMBEZIA,MOCUBA,CS Mugeba,600,MUGEBA,MUGEBA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.5173,37.1673
+ZAMBEZIA,MOCUBA,CS Muaquiua,601,MUGEBA,MUAQUIUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6922,37.3714
+ZAMBEZIA,MOCUBA,CS Caiave,602,CIDADE DE MOCUBA,MUNHIBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.0025,36.7706
+ZAMBEZIA,MOCUBA,CS Padre Usera,603,CIDADE DE MOCUBA,MUNICIPIO DE MUCUBA,URBANA,Centro de Saude,Centro de Saude Urbana,Nivel Primario,-16.8394,36.9847
+ZAMBEZIA,MOCUBA,PS Muloe,604,MUGEBA,MUGEBA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.6877,37.2375
+ZAMBEZIA,MOCUBA,CS Intome,605,MUGEBA,MUAQUIUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.5575,37.2925
+ZAMBEZIA,MOCUBA,CS Alto-Benfica,606,NAMANJAVIRA,ALTO BENFICA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.6447,36.3211
+ZAMBEZIA,MOCUBA,CS Posto Agricola,607,CIDADE DE MOCUBA,MUNICIPIO DE MUCUBA,URBANA,Centro de Saude,Centro de Saude Urbano,Nivel Primario,-16.8031,37.006100000000004
+ZAMBEZIA,MOCUBA,CS Namanjavira,608,NAMANJAVIRA,NAMANJAVIRA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8003,36.5792
+ZAMBEZIA,MOCUBA,CS Munhiba,609,CIDADE DE MOCUBA,MUNHIBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1466,36.9372
+ZAMBEZIA,MOCUBA,CS Nhaluanda,610,CIDADE DE MOCUBA,MUNHIBA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1195,36.9706
+ZAMBEZIA,MOPEIA,PS Chimuara,611,MOPEIA,CHIMUARA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.7847,35.4058
+ZAMBEZIA,MOPEIA,PS Gulamo,612,MOPEIA,CHIMUARA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.6905,35.6661
+ZAMBEZIA,MOPEIA,PS Lua-Lua,613,CAMPO,LUA-LUA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.5278,36.2964
+ZAMBEZIA,MOPEIA,CS Mopeia,614,MPOEIA,MOPEIA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9795,35.7128
+ZAMBEZIA,MOPEIA,PS Chimbazo,615,LUABO,25 DE SETEMBRO,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-18.1213,35.8813
+ZAMBEZIA,MOPEIA,CS do Campo,616,CAMPO,CAMPO SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7636,36.3234
+ZAMBEZIA,MOPEIA,CS Noere,617,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.695278525352,35.355967283249
+ZAMBEZIA,MOPEIA,CS 8 de Marco,618,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.920777201653,35.692493319511
+ZAMBEZIA,MOPEIA,CS de Catal,619,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.738800048828,36.536128520966
+ZAMBEZIA,MORRUMBALA,CS Morrumbala,620,MORRUMBALA,VILA DE MORRUMBALA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.3278,35.577
+ZAMBEZIA,MORRUMBALA,CS Boroma,621,MORRUMBALA,BOROMA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4156,35.6111
+ZAMBEZIA,MORRUMBALA,PS Cumbapo,622,MORRUMBALA,MORRUMBALA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.2571,35.6241
+ZAMBEZIA,MORRUMBALA,CS Derre,623,DERRE,DERRE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.9681,36.1181
+ZAMBEZIA,MORRUMBALA,PS Guerissa,624,DERRE,GUERISSA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.3181,35.9553
+ZAMBEZIA,MORRUMBALA,CS Megaza,625,MEGAZA,MEGAZA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1416,35.3217
+ZAMBEZIA,MORRUMBALA,CS Mepinha,626,MORRUMBALA,MEPINHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2047,35.7803
+ZAMBEZIA,MORRUMBALA,CS Pinda,627,MEGAZA,PINDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.3592,35.3542
+ZAMBEZIA,MORRUMBALA,CS Sabe,628,MORRUMBALA,SABE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6161,35.5234
+ZAMBEZIA,MORRUMBALA,PS Chire,629,CHIRE,CHIRE SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-16.6933,35.3497
+ZAMBEZIA,MORRUMBALA,PS Djasse,630,MORRUMBALA,MEPINHA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.2411,35.8405
+ZAMBEZIA,MORRUMBALA,HD  Morrumbala,631,NA,NA,URBANA,Hospital Distrital,Hospital Distrital,Nivel Secondario,-17.327424287796,35.576739907265
+ZAMBEZIA,MORRUMBALA,CS Fabrica,632,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,MORRUMBALA,CS Mecaula,633,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.492396235466,35.347491502762
+ZAMBEZIA,MORRUMBALA,CS Muandiua,634,MORRUMBALA,MUANDIUA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.0931,35.7224
+ZAMBEZIA,MORRUMBALA,CS Muerra,635,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.534002661705,35.624670982361
+ZAMBEZIA,MORRUMBALA,CS Machindo,636,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.206907272339,36.279323101044
+ZAMBEZIA,NAMACURRA,CS Namacurra,637,NAMACURRA,VILA DE NAMACURRA,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4944,37.0265
+ZAMBEZIA,NAMACURRA,PS Furquia,638,MACUZE,FURQUIA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.4823,37.1997
+ZAMBEZIA,NAMACURRA,CS Macuze,639,MACUZE,MACUZE SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7153,37.1925
+ZAMBEZIA,NAMACURRA,PS Maleia,640,NAMACURRA,MALEI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.2281,37.0247
+ZAMBEZIA,NAMACURRA,CS Mexixine,641,MACUZE,MEXIXINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6355,37.1217
+ZAMBEZIA,NAMACURRA,PS Naciaia,642,NAMACURRA,MALEI,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.3189,37.052
+ZAMBEZIA,NAMACURRA,CS Mbawa,643,MACUZE,MBAWA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.64,37.2717
+ZAMBEZIA,NAMACURRA,CS Muiebele,644,NAMACURRA,MUIEBELE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.4094,37.1192
+ZAMBEZIA,NAMACURRA,PS Mutange,645,NAMACURRA,MUTANGE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.5594,36.9377
+ZAMBEZIA,NAMACURRA,CS Muceliua,646,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.71064221859,37.250057458878
+ZAMBEZIA,NAMACURRA,CS Mugubia,647,NAMACURRA,PIDA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.5753,37.1589
+ZAMBEZIA,NAMARROI,CS Regone,648,REGONE,REGONE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.7491,36.7891
+ZAMBEZIA,NAMARROI,CS Namarroi,649,NAMARROI,NAMARROI SEDE,RURAL,Centro de Saude,Posto de Saude,Nivel Primario,-15.9539,36.8658
+ZAMBEZIA,NAMARROI,CS Mutepua,650,NAMARROI,LIPALI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0725,36.9926
+ZAMBEZIA,NAMARROI,PS Marea,651,NAMARROI,MAREA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.9748,37.0439
+ZAMBEZIA,NAMARROI,CS Lipale,652,NAMARROI,LIPALI,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.0883,36.9592
+ZAMBEZIA,NAMARROI,PS Mutatala,653,REGONE,MUTATALA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-15.8717,37.0223
+ZAMBEZIA,NAMARROI,CS Mudine,654,NAMARROI,MUDINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.11528,37.0789
+ZAMBEZIA,NAMARROI,CS Rumala,655,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-15.631029009819,36.730819344521
+ZAMBEZIA,NICOADALA,CS Ilalane,656,NICOADALA,NAMACATA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7847,36.8106
+ZAMBEZIA,NICOADALA,CS Inhangulue,657,MAQUIVAL,MADAL,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.9358,36.9433
+ZAMBEZIA,NICOADALA,CS Ionge,658,MAQUIVAL,IONGE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7003,37.1131
+ZAMBEZIA,NICOADALA,CS Licuar,659,NICOADALA,MUNHONHA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.5811,36.6958
+ZAMBEZIA,NICOADALA,CS Maquival-Rio,660,MAQUIVAL,NANGOELA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7311,37.0756
+ZAMBEZIA,NICOADALA,CS Maquival Sede,661,MAQUIVAL,MAQUIVAL SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7786,37.0586
+ZAMBEZIA,NICOADALA,PS Marrongane,662,MAQUIVAL,MARRONGANE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.7022,37.0097
+ZAMBEZIA,NICOADALA,CS Namacata,663,NICOADALA,NAMACATA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7855,36.9067
+ZAMBEZIA,NICOADALA,CS Nicoadala,664,NICOADALA,NICOADALA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.6031,36.8195
+ZAMBEZIA,NICOADALA,CS Varela,665,MAQUIVAL,MAQUIVAL SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.7786,37.0586
+ZAMBEZIA,NICOADALA,PS Quinta Girassol,666,NICOADALA,NICOADALA SEDE,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.5142,36.8427
+ZAMBEZIA,NICOADALA,CS Amorro ,667,NA,NA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.57478833,36.61448121
+ZAMBEZIA,NICOADALA,PS Domela,668,NA,NA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.74697542,36.92799389
+ZAMBEZIA,PEBANE,CS Pebane-Sede,669,PEBANE,VILA DE PEBANE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2745,38.1781
+ZAMBEZIA,PEBANE,PS Pscutal,670,PEBANE,IMPACA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.0298,38.067
+ZAMBEZIA,PEBANE,PS Magiga,671,PEBANE,MAGIGA,RURAL,Posto de Saude,Posto de Saude,Nivel Primario,-17.1173,38.1303
+ZAMBEZIA,PEBANE,CS Malema,672,MULELA (MUALAMA),MALEMA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8248,38.5036
+ZAMBEZIA,PEBANE,CS Mulela,673,MULELA (MUALAMA),MULELA SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8944,38.2916
+ZAMBEZIA,PEBANE,CS Muligode,674,MULELA (MUALAMA),MUCOCORO,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.9927,38.4814
+ZAMBEZIA,PEBANE,CS Naburi,675,NABURI,NABURI SEDE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.7889,38.8723
+ZAMBEZIA,PEBANE,CS 7 Abril,676,PEBANE,VILA DE PEBANE,URBANA,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.2667,38.1433
+ZAMBEZIA,PEBANE,CS Impaca,677,PEBANE,IMPACA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.9673,38.0494
+ZAMBEZIA,PEBANE,CS Tomea,678,NABURI,TOMEIA,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-16.8942,39.0668
+ZAMBEZIA,PEBANE,CS Txalalane,679,NA,NA,NA,NA,NA,NA,NA,NA
+ZAMBEZIA,PEBANE,CS Pele-Pele,680,PEBANE,NICADINE,RURAL,Centro de Saude,Centro de Saude Rural,Nivel Primario,-17.1519,38.2792
+ZAMBEZIA,PEBANE,CS Alto Maganha,681,NA,NA,NA,NA,NA,NA,-17.1173,38.1303
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
