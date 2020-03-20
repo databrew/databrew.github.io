@@ -1871,7 +1871,7 @@
                 margin-top: -1em;
 			}
         .image.logo.small {
-				height:50px; !important
+				height: 50px; !important
                 position:relative;
                 padding-top: .2em;
                 margin-top: -1em;
@@ -1886,6 +1886,12 @@
                 max-height: 200px;
 
             }
+
+
+        .image.right {
+				float: right;
+                
+			}
 
 /* Icon */
 
@@ -3269,6 +3275,13 @@
             background-size: cover;
             min-height: 50vh;
         }
+        
+        .hcwbanner {
+            margin: 0 auto;
+            background-position: right;
+            background-size: cover;
+            min-height: 30vh;
+        }
 
 
 		/* Wrapper */
@@ -3325,8 +3338,16 @@
 
         /* Video */
         #video {
-            visibility: hidden;
-            display: none;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 3em;
+        }
+        
+         #video iframe {     
+            min-width: 100%; 
+            min-height: 40vh;
+            width: auto;
+            height: auto;
         }
 
 		/* Footer */
@@ -3613,6 +3634,13 @@
             width: 50%;
         }
         
+         .image.right {
+            display: inline-block;
+            width: 100%;
+            margin: 1em auto;
+			}
+
+        
 		/* Icon */
 
 			.icon.circle {
@@ -3718,7 +3746,9 @@
 		/* Banner */
 
 			#banner {
-				display: none;
+				position: relative;
+                min-height: 20vh;
+                
 			}
 
 				#banner .inner {
