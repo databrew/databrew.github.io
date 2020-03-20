@@ -2759,6 +2759,30 @@
             overflow: hidden;
         }
 
+/* HCW Tracking banner */
+    .hcwbanner {
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            padding: 0;
+            min-height: 40vh;
+            background-image: url("../../images/traccarmap.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto -6em auto;
+            position: relative;
+        }
+
 /* Main */
 
 	#main {
@@ -3066,7 +3090,7 @@
 			}
 
 			footer.major {
-				padding-top: 1.5em;
+                padding-top: 1.5em;
 			}
 
 		/* Wrapper */
@@ -3260,6 +3284,7 @@
             .wrapper.style2 {
 				text-align: center;
 			}
+        
 
 		/* Main */
 
@@ -3579,6 +3604,15 @@
 				padding-top: 0;
 			}
 
+        /* Image */
+        
+        .image.featured.blog {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
 		/* Icon */
 
 			.icon.circle {
@@ -3684,8 +3718,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: auto, cover;
-				padding: 6em 0;
+				display: none;
 			}
 
 				#banner .inner {
@@ -3705,6 +3738,10 @@
 					#banner .inner br {
 						display: none;
 					}
+        
+        #banner footer {
+            display: none
+        }
 
 		/* Main */
 
@@ -3731,11 +3768,20 @@
         #cta h2 {
             font-size: 1em;
         }
+        
+        /* Clients */
+        .wrapper.style5 #clients .image img {
+			display: inline-block;
+            max-width: 130px;
+            vertical-align: middle;
+            margin: 0.5em;
+		}
 
 		/* Footer */
 
 			#footer {
 				padding: 3em 1.5em;
+                margin-top: 0.5em;
 			}
 
 				#footer .copyright li {
@@ -3765,7 +3811,7 @@
         /* Contact page icons */
 
         .icon.contactpage {
-            font-size: 1em;
+            font-size: 1.2em;
 			height: 1em;
 			left: 0;
 			line-height: 1em;
