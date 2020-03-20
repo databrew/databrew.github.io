@@ -3946,3 +3946,26 @@
         border-radius: 12px;
         border: 1px;
     }
+
+
+/* List */
+
+#hcw ul {
+    list-style: circle;
+    margin-left: 2em;
+}
+
+#hcw ol {
+    list-style: decimal;
+    margin-left: 2em;
+}
+
+#hcw_tab ul {
+    list-style: square;
+    margin-left: 3em;
+}
+
+#hcw_tab ol {
+    list-style: decimal;
+    margin-left: 2em;
+}
