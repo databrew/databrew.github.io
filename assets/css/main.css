@@ -3269,6 +3269,13 @@
             background-size: cover;
             min-height: 50vh;
         }
+        
+        .hcwbanner {
+            margin: 0 auto;
+            background-position: right;
+            background-size: cover;
+            min-height: 30vh;
+        }
 
 
 		/* Wrapper */
