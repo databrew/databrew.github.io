@@ -1871,7 +1871,7 @@
                 margin-top: -1em;
 			}
         .image.logo.small {
-				height:50px; !important
+				height: 50px; !important
                 position:relative;
                 padding-top: .2em;
                 margin-top: -1em;
@@ -1886,6 +1886,12 @@
                 max-height: 200px;
 
             }
+
+
+        .image.right {
+				float: right;
+                
+			}
 
 /* Icon */
 
@@ -3627,6 +3633,13 @@
             margin-right: auto;
             width: 50%;
         }
+        
+         .image.right {
+            display: inline-block;
+            width: 100%;
+            margin: 1em auto;
+			}
+
         
 		/* Icon */
 
