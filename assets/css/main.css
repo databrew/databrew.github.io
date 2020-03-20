@@ -3332,8 +3332,16 @@
 
         /* Video */
         #video {
-            visibility: hidden;
-            display: none;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 3em;
+        }
+        
+         #video iframe {     
+            min-width: 100%; 
+            min-height: 40vh;
+            width: auto;
+            height: auto;
         }
 
 		/* Footer */
@@ -3725,7 +3733,9 @@
 		/* Banner */
 
 			#banner {
-				display: none;
+				position: relative;
+                min-height: 20vh;
+                
 			}
 
 				#banner .inner {
