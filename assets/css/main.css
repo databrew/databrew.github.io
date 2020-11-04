@@ -2380,15 +2380,21 @@
 			background: #fff;
 			color: inherit;
 			padding: 1em;
-            margin-left: 4em;
+            margin-left: 1em;
+            padding-bottom: 6em;
             text-align: center;
         }
 
         .wrapper.style5 #clients .image img {
 			display: inline-block;
-            max-width: 200px;
+            max-width: 150px;
             vertical-align: middle;
             margin: 1em;
+            filter:grayscale(100%);
+		}
+
+        .wrapper.style5 #clients .image img:hover {
+            filter:grayscale(0%);
 		}
 
    .wrapper.style6 {
@@ -2405,7 +2411,6 @@
 .wrapper.style6 h3 {
         font-size: 2.5em;
         font-weight: 600;
-		letter-spacing: 0.1em;
         color: rgb(187,187,187);
         }
 
@@ -3559,6 +3564,7 @@
         }
 
         /* Clients */
+
         .wrapper.style5 #clients .image img {
 			display: inline-block;
             max-width: 200px;
