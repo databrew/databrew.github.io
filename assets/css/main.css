@@ -2788,6 +2788,14 @@
                     max-width: 3rem;
                   }
                 }
+            
+            #banner .image {
+                position: absolute;
+                max-height: 200px;
+                display: block;
+                opacity: 0.2;
+                top: 0;
+            }
         
 
   /*  #banner video {
