@@ -3025,13 +3025,16 @@
 	#footer {
 		background: rgb(54,54,54);
 		color: #7c8081;
-		padding: 3em 5em 3em 5em;
-		text-align: center;
+		padding: 6em 5em 6em 5em;
+		text-align: left;
 	}
 
 		#footer .copyright {
 			font-size: 0.8em;
 			line-height: 1em;
+            text-align: center;
+            position: inherit;
+            padding-top: 8em;
 		}
 
 			#footer .copyright a {
@@ -3050,6 +3053,19 @@
 					padding: 0;
 					border: 0;
 				}
+
+            #footer h5 {
+                text-transform: lowercase;
+                color: #fff;
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+
+            #footer h6 {
+                font-size: 1em;
+                font-weight: 400;
+                padding-bottom: .75em;
+            }
 
 
 /* Wide */
