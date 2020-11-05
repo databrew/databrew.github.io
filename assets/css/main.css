@@ -1581,7 +1581,6 @@
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #328cc1;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -2407,6 +2406,21 @@
 			padding: 2em;
         }
 
+        .wrapper.style4 h2 {
+            text-align: left;
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 0.3em;
+            }
+        
+        .wrapper.style4 hr {
+            border-top: 6px solid;
+            color: rgb(54,54,54);
+            max-width: 100px;
+            margin-top: 0;
+            margin-left: 0;
+            }
+
         .wrapper.style5 {
 			background: #fff;
 			color: inherit;
@@ -2489,8 +2503,8 @@
 	}
 
 	#header {
-		background: #fff;
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+		background: rgba(255,255,255,0.9);
+	/*	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); line under the nav bar*/ 
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
@@ -3045,6 +3059,12 @@
             padding-top: 8em;
 		}
 
+            #footer .list a {
+				font-size: 0.8em;
+                color: #fff;
+                font-weight: 400;
+			}
+
 			#footer .copyright a {
 				color: inherit;
 			}
@@ -3131,7 +3151,8 @@
 				.wrapper.style4 {
 					padding-left: 1em;
                     align-items: center;
-        }
+            }
+            
 
 		/* Header */
 
