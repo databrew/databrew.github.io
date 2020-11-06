@@ -2386,12 +2386,22 @@
 				.wrapper.style2 .button.special:hover {
 					border-color: inherit !important;
 					color: #fff !important;
-				}
-
+}       
+            
             #blurbs {
                 text-align: left;
                 padding-right: 4em;
             }
+
+        
+         .wrapper.style2 hr {
+            border-top: 6px solid;
+            color: rgba(54,54,54,0.9);
+            max-width: 120px;
+            margin-top: -1.5em;
+            margin-left: 0;
+            }
+        
 
 		.wrapper.style3 {
 			background: #fff;
@@ -2415,11 +2425,22 @@
         
         .wrapper.style4 hr {
             border-top: 6px solid;
-            color: rgb(54,54,54);
+            color: rgba(54,54,54,0.9);
             max-width: 100px;
             margin-top: 0;
             margin-left: 0;
             }
+
+        
+        .wrapper.style4 #about {
+            text-align: left;
+            padding-right: 14em;
+        }
+
+        .wrapper.style4 #about p {
+            font-size: 1.2em;
+            font-weight: 400;
+        }
 
         .wrapper.style5 {
 			background: #fff;
@@ -2933,7 +2954,7 @@
 		}
 
         #main p {
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
 			#main .sidebar section:first-child {
@@ -2954,12 +2975,22 @@
 
 /* Highlight Strip */
     #strip {
-		background-color: #ff9900;
+		background-color: rgb(54,54,54);
 		color: #fff;
 		padding: 2em;
-		text-align: center;
 	}
 
+     #strip h3 {
+		font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+	}
+
+    #strip p {
+		font-size: 1em;
+        font-weight: 300;
+        text-align: left;
+	}
 
 
 /* CTA */
