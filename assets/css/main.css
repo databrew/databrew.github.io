@@ -1,5 +1,8 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 
 /*
 	Twenty by HTML5 UP
@@ -1579,8 +1582,9 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #328cc1;
-		text-decoration: none;
+		color: inherit;
+        text-decoration: none;
+        font-weight: 500;
 	}
 
 		a:hover {
@@ -1637,7 +1641,7 @@
         line-height: 1.5em;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: #328cc1;
+        color: rgb(54,54,54);
     }
 
      h6 {
@@ -1887,11 +1891,11 @@
 
             }
 
-
         .image.right {
 				float: right;
                 
 			}
+
 
 /* Icon */
 
@@ -2380,7 +2384,7 @@
 			.wrapper.style2 .button.special {
 				background: #fff;
 				border-color: #fff;
-				color: #328cc1 !important;
+				color: rgb(54,54,54) !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -2438,6 +2442,13 @@
         }
 
         .wrapper.style4 #about p {
+            font-size: 1.2em;
+            font-weight: 400;
+        }
+
+        
+
+    .wrapper.style4 #portfolio p {
             font-size: 1.2em;
             font-weight: 400;
         }
@@ -2524,7 +2535,7 @@
 	}
 
 	#header {
-		background: rgba(255,255,255,0.9);
+		background: rgb(255,255,255);
 	/*	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); line under the nav bar*/ 
 		color: inherit;
 		cursor: default;
@@ -2660,7 +2671,7 @@
 		.dropotron.level-0 {
 			font-size: 0.7em;
 			font-weight: 400;
-			margin-top: 1.5em;
+			margin-top: 0;
 		}
 
 			.dropotron.level-0:before {
@@ -2689,7 +2700,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #328cc1;
+				background: rgba(54,54,54,.8);
 				color: #fff;
 			}
 
@@ -2968,10 +2979,9 @@
 	}
 
     body.contact #main {
-		padding-top: 1em;
         padding-bottom: 6em;
-        margin-top: -2em
 			}
+
 
 /* Highlight Strip */
     #strip {
@@ -3016,7 +3026,58 @@
 		}
 
 
-/* Portfolio */
+/* Team */
+
+        #team img {
+            border-radius: 50%;
+            margin-top: 2em;
+        }
+        
+        #team h2{
+            margin-top: 2em;
+        }
+        
+            #team .row header {
+            margin-top: -3em;
+            margin-bottom: .8em;
+            text-align: center;
+            }
+
+         #team .row h6{
+            font-family: 'Rock Salt', cursive;
+            font-size: 1.5em;
+            letter-spacing: 0.025em;
+            font-weight: 500;
+                
+        }
+
+        #team p {
+            font-size: 1em;
+        }
+
+        #team .icons {
+            text-align: center;
+            margin-bottom: 3em;
+        }
+
+        #team .icons h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: rgb(54,54,54);
+            letter-spacing: 0.025em;
+        }
+
+
+
+/* Portfolio */  
+
+     #projects {
+       text-align: left;
+}
+
+    .wrapper.style1 .image img {
+        filter: grayscale(100%)
+}
 
 	#portfolio {
 		background-attachment: scroll;
@@ -3122,7 +3183,8 @@
 			line-height: 1em;
             text-align: center;
             position: inherit;
-            padding-top: 8em;
+            padding-top: 4em;
+            margin-bottom: -3em;
 		}
 
             #footer .list a {
@@ -3510,6 +3572,23 @@
 				padding-top: 4.5em;
 			}
         
+        /* Team */
+        
+        #team .row header {
+            margin-top: -3em;
+            margin-bottom: .8em;
+            text-align: left;
+            }
+
+         #team .row h6{
+            font-size: 1em;  
+             text-align: left;
+        }
+
+        #team .icons {
+            text-align: left;
+            margin-bottom: 3em;
+        }
             
 
 
