@@ -1603,7 +1603,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.7em;
 		margin-bottom: 1em;
 		text-transform: none;
 	}
@@ -1621,7 +1621,7 @@
 	h2 {
         font-size: 2em;
         font-weight: 400;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.025em;
 	}
 
 	h3 {
@@ -2446,7 +2446,11 @@
             font-weight: 400;
         }
 
-        
+        .wrapper.style4 #projects p {
+            font-size: 1.2em;
+            font-weight: 400;
+        }
+
 
     .wrapper.style4 #portfolio p {
             font-size: 1.2em;
@@ -2656,6 +2660,7 @@
         visibility: hidden;
         }
 
+
 /* Dropotron */
 
 	.dropotron {
@@ -2842,11 +2847,11 @@
                 opacity: 0.2;
                 top: 0;
 
-                -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-                -moz-animation: fadein 6s; /* Firefox < 16 */
-                -ms-animation: fadein 6s; /* Internet Explorer */
-                -o-animation: fadein 6s; /* Opera < 12.1 */
-                animation: fadein 6s;
+                -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+                -moz-animation: fadein 5s; /* Firefox < 16 */
+                -ms-animation: fadein 5s; /* Internet Explorer */
+                -o-animation: fadein 5s; /* Opera < 12.1 */
+                animation: fadein 5s;
             }
 
             @keyframes fadein {
@@ -3550,6 +3555,16 @@
 				text-align: center;
 			}
         
+            .wrapper.style4 #about {
+            text-align: left;
+            padding-right: 6em;
+        }
+
+        .wrapper.style4 #about p {
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
             
 
 		/* Main */
@@ -3731,7 +3746,7 @@
 				z-index: 10002;
 				background: rgb(54,54,54);
 				color: #fff;
-				font-size: 1em;
+				font-size: 0.8em;
 				letter-spacing: 0.075em;
 				text-transform: uppercase;
 				padding: 0.25em 0.75em 1em 0.75em;
@@ -3865,12 +3880,15 @@
 				text-align: center;
                 font-size: 12pt;
 			}
+        
+            
 
 		/* Section/Article */
 
 			header {
 				text-align: center;
 			}
+        
 
 				header.major {
 					padding-bottom: 0;
@@ -3894,6 +3912,7 @@
 				header p {
 					text-align: center;
 				}
+        
 
 			footer.major {
 				padding-top: 0;
@@ -3974,8 +3993,9 @@
             float: none;
             align-content: center;
             max-height: 200px;
-
             }
+        
+        
 
 
 		/* List */
@@ -4011,11 +4031,33 @@
 					background-size: 10em;
 					padding: 2.25em 1.5em;
 				}
+        
+                 .wrapper.style2 hr {
+                    border-top: 5px solid;
+                    color: rgba(54,54,54,0.9);
+                    margin-left: auto;
+                    margin-right:auto;
+                }
+        
 
 				.wrapper.style4 {
 					background-size: 6em;
 					padding: 1em;
 				}
+        
+                .wrapper.style4 h2{
+					text-align: center;
+                    font-size: 2em;
+				}
+            
+                .wrapper.style4 hr {
+                    visibility: hidden;
+                }
+        
+                .wrapper.style4 #about {
+                    padding-right: 0;
+                }
+
 
 		/* Banner */
 
@@ -4037,6 +4079,7 @@
 
 					#banner .inner p {
 						text-align: center;
+                        font-size: 1em;
 					}
 
 					#banner .inner br {
@@ -4054,6 +4097,7 @@
 				padding: 3.5em 0 2.5em 0;
 			}
 
+        
 			body.index #main {
 				padding: 2em 0 0 0;
 			}
@@ -4086,6 +4130,11 @@
 			#footer {
 				padding: 3em 1.5em;
                 margin-top: 0.5em;
+			}
+        
+        
+            #footer .row {
+				text-align: center;
 			}
 
 				#footer .copyright li {
