@@ -1893,8 +1893,13 @@
 
         .image.right {
 				float: right;
-                
 			}
+
+        #workshop img {
+            float: right;
+            max-height: 400px;
+            padding-left: 2em;
+        }
 
 
 /* Icon */
@@ -3408,6 +3413,13 @@
 				background-size: auto;
 				padding: 3em;
 			}
+        
+        /* Workshop*/
+        
+         #workshop img {
+            max-height: 200px;
+            padding-left: 1em;
+        }
 
         /* Portfolio */
 
@@ -3606,7 +3618,15 @@
         }
             
 
+        /* Workshop image */
+        
+        #workshop img {
+            float: right;
+            max-height: 300px;
+            padding-left: 1em;
+        }
 
+        
 		/* CTA */
 
 			#cta {
@@ -3997,6 +4017,16 @@
         
         
 
+         /* Workshops */
+        
+        #workshops p {
+            text-align: left;
+        }
+        #workshop img {
+            float: right;
+            max-height: 150px;
+            padding-left: 1em;
+        }
 
 		/* List */
 
