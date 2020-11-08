@@ -2997,13 +2997,15 @@
     #strip {
 		background-color: rgb(54,54,54);
 		color: #fff;
-		padding: 2em;
+        padding-top: 3em;
+		padding-left: 7em;
 	}
 
      #strip h3 {
 		font-size: 1.5em;
         font-weight: 600;
-        text-align: center;
+        text-align: left;
+        padding-top: 3em;
 	}
 
     #strip p {
@@ -3012,6 +3014,31 @@
         text-align: left;
 	}
 
+
+/* Tech we use */
+
+ 
+    
+        #tech {
+            padding: 4em 2em;
+            align-items: center;
+        }
+        #tech h5 {
+            font-weight: 400;
+            font-size: 1em;
+            padding-bottom: 1em;
+        }
+
+        #tech_logos {
+            display: inline-block;
+            vertical-align: middle;
+            align-content: center;
+        }
+           #tech .image img {
+            height: 50px;
+            margin: 0 2em;
+            filter:grayscale(100%);
+		}
 
 /* CTA */
 
@@ -3636,12 +3663,11 @@
 
         /* Highlight Strip */
             #strip {
-                background-color: #ff9900;
-                color: #fff;
-                padding: 1.5em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
                 text-align: center;
-                font-size: .5em;
-                margin: -2em auto -2em auto;
+                font-size: .9em;
+                padding-top: 1em;
             }
 
         /* Video */
@@ -4145,6 +4171,22 @@
 
         #cta h2 {
             font-size: 1em;
+        }
+        
+        
+        /* Tech we use */
+
+        #tech {
+            padding: 3em 2em;
+            margin-top: -1em;
+        }
+
+        #tech_logos {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #tech .image img {
+            height: 40px;
         }
         
         /* Clients */
