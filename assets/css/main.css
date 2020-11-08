@@ -2462,6 +2462,14 @@
             font-weight: 400;
         }
 
+     .wrapper.style4 #workshops {
+            padding-bottom: 4em;
+        }
+
+        .wrapper.style4 #consulting {
+            padding-bottom: 4em;
+        }
+
         .wrapper.style5 {
 			background: #fff;
 			color: inherit;
@@ -3017,8 +3025,6 @@
 
 /* Tech we use */
 
- 
-    
         #tech {
             padding: 4em 2em;
             align-items: center;
@@ -3035,7 +3041,7 @@
             align-content: center;
         }
            #tech .image img {
-            height: 50px;
+            height: 42px;
             margin: 0 2em;
             filter:grayscale(100%);
 		}
@@ -3080,13 +3086,29 @@
             text-align: center;
             }
 
-         #team .row h6{
+         #team .row #joe h6 {
             font-family: 'Rock Salt', cursive;
             font-size: 1.5em;
             letter-spacing: 0.025em;
             font-weight: 500;
                 
         }
+            #team .row #ben h6 {
+                font-family: 'Mansalva', cursive;
+                text-transform: capitalize;
+                font-size: 2.2em; 
+                margin-bottom: -.3em;
+            }
+    
+            #team .row #xing h6 {
+                font-family: 'Covered By Your Grace', cursive; 
+                text-transform: capitalize;
+                letter-spacing: 0.025em;
+                font-size: 3em; 
+                margin-top: -1.5em;
+                margin-bottom: -.3em;
+            }
+                   
 
         #team p {
             font-size: 1em;
@@ -3095,6 +3117,7 @@
         #team .icons {
             text-align: center;
             margin-bottom: 3em;
+            padding-bottom: 4em;
         }
 
         #team .icons h2 {
@@ -3627,21 +3650,56 @@
 			}
         
         /* Team */
+       
+        #team .row {
+            margin-left: .1em;
+        }
         
         #team .row header {
             margin-top: -3em;
             margin-bottom: .8em;
             text-align: left;
             }
+        
+        #team .row img {
+           max-height: 60%;
+            max-width: 60%;
+        }
 
          #team .row h6{
             font-size: 1em;  
              text-align: left;
         }
+        
+         #team .row #joe h6 {
+            font-family: 'Rock Salt', cursive;
+            font-size: 1em;
+            letter-spacing: 0.025em;
+            font-weight: 500;
+            padding-top: 2em;
+                
+        }
+            #team .row #ben h6 {
+                font-family: 'Mansalva', cursive;
+                text-transform: capitalize;
+                font-size: 1.5em; 
+                margin-bottom: -.3em;
+                padding-top: 1.1em;
+            }
+    
+            #team .row #xing h6 {
+                font-family: 'Covered By Your Grace', cursive; 
+                text-transform: capitalize;
+                font-size: 1.5em; 
+                margin-bottom: -.3em;
+                padding-top: 1.1em;
+            }
+                   
 
         #team .icons {
             text-align: left;
             margin-bottom: 3em;
+            padding-bottom: 2em;
         }
             
 
@@ -4177,16 +4235,12 @@
         /* Tech we use */
 
         #tech {
-            padding: 3em 2em;
+            padding: 3em auto;
             margin-top: -1em;
         }
 
-        #tech_logos {
-            display: inline-block;
-            vertical-align: middle;
-        }
         #tech .image img {
-            height: 40px;
+            height: 30px;
         }
         
         /* Clients */
