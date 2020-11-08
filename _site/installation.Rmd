@@ -1,3 +1,21 @@
+---
+title: "Installing R, RStudio, and useful packages"
+author: "Getting your computer ready for serious data analysis"
+date: "databrew"
+fig_height: 2.6
+fig_width: 4
+output:
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K16000m",
+      "-RTS"
+    ]
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE, comment = NA, error= FALSE, cache = F}
 # No scientific notation
 options(scipen=999)
