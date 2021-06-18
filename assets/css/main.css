@@ -2161,7 +2161,7 @@
 			ul.buttons.vertical li:first-child {
 				padding: 0;
                 transition: all 0.5s;
-                position: relative;	
+                position: relative;
 			}
 
 
@@ -2357,7 +2357,7 @@
         .button.scrolly:hover {
             color: #fff;
             background: rgba(54,54,54,.8);
-        }   
+        }
 
 
 
@@ -2395,14 +2395,14 @@
 				.wrapper.style2 .button.special:hover {
 					border-color: inherit !important;
 					color: #fff !important;
-}       
-            
+}
+
             #blurbs {
                 text-align: left;
                 padding-right: 4em;
             }
 
-        
+
          .wrapper.style2 hr {
             border-top: 6px solid;
             color: rgba(54,54,54,0.9);
@@ -2410,7 +2410,7 @@
             margin-top: -1.5em;
             margin-left: 0;
             }
-        
+
 
 		.wrapper.style3 {
 			background: #fff;
@@ -2431,7 +2431,7 @@
             font-weight: 600;
             margin-bottom: 0.3em;
             }
-        
+
         .wrapper.style4 hr {
             border-top: 6px solid;
             color: rgba(54,54,54,0.9);
@@ -2440,7 +2440,7 @@
             margin-left: 0;
             }
 
-        
+
         .wrapper.style4 #about {
             text-align: left;
             padding-right: 14em;
@@ -2553,7 +2553,7 @@
 
 	#header {
 		background: rgb(255,255,255);
-	/*	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); line under the nav bar*/ 
+	/*	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); line under the nav bar*/
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
@@ -2852,7 +2852,7 @@
                     max-width: 3rem;
                   }
                 }
-            
+
             #banner .image {
                 position: absolute;
                 max-height: 200px;
@@ -2895,7 +2895,7 @@
                 from { opacity: 0; }
                 to   { opacity: .2; }
             }
-        
+
 
   /*  #banner video {
 			-moz-transform: translateX(50%) translateY(50%);
@@ -3075,40 +3075,27 @@
             border-radius: 50%;
             margin-top: 2em;
         }
-        
+
         #team h2{
             margin-top: 2em;
         }
-        
+
             #team .row header {
             margin-top: -3em;
             margin-bottom: .8em;
             text-align: center;
             }
 
-         #team .row #joe h6 {
-            font-family: 'Rock Salt', cursive;
-            font-size: 1.5em;
-            letter-spacing: 0.025em;
-            font-weight: 500;
-                
-        }
-            #team .row #ben h6 {
-                font-family: 'Mansalva', cursive;
-                text-transform: capitalize;
-                font-size: 2.2em; 
-                margin-bottom: -.3em;
-            }
-    
-            #team .row #xing h6 {
-                font-family: 'Covered By Your Grace', cursive; 
+
+            #team .row h6 {
+                font-family: 'Covered By Your Grace', cursive;
                 text-transform: capitalize;
                 letter-spacing: 0.025em;
-                font-size: 3em; 
+                font-size: 3em;
                 margin-top: -1.5em;
                 margin-bottom: -.3em;
             }
-                   
+
 
         #team p {
             font-size: 1em;
@@ -3129,7 +3116,7 @@
 
 
 
-/* Portfolio */  
+/* Portfolio */
 
      #projects {
        text-align: left;
@@ -3340,7 +3327,7 @@
 					padding-left: 1em;
                     align-items: center;
             }
-            
+
 
 		/* Header */
 
@@ -3419,12 +3406,12 @@
 				.wrapper.style2 {
 					background-size: 10em;
 				}
-        
+
                 #blurbs {
                 padding-right: 2em;
                 margin-right: -3em;
                 margin-left: 1em;
-                    
+
                     }
 
                 .wrapper.style6  {
@@ -3442,14 +3429,14 @@
 			#banner {
 				background-size: auto, cover;
 			}
-        
+
             #banner .inner header h2 {
 					font-size: 4em;
 					font-weight: 600;
 					margin: 0;
 					position: relative;
 				}
-        
+
 
 		/* Main */
 
@@ -3463,9 +3450,9 @@
 				background-size: auto;
 				padding: 3em;
 			}
-        
+
         /* Workshop*/
-        
+
          #workshop img {
             max-height: 200px;
             padding-left: 1em;
@@ -3601,7 +3588,7 @@
             background-size: cover;
             min-height: 50vh;
         }
-        
+
 
 		/* Wrapper */
 
@@ -3616,7 +3603,7 @@
             .wrapper.style2 {
 				text-align: center;
 			}
-        
+
             .wrapper.style4 #about {
             text-align: left;
             padding-right: 6em;
@@ -3626,8 +3613,8 @@
             font-size: 1em;
             font-weight: 400;
         }
-        
-            
+
+
 
 		/* Main */
 
@@ -3648,70 +3635,54 @@
 			body.index #main {
 				padding-top: 4.5em;
 			}
-        
+
         /* Team */
-       
+
         #team .row {
             margin-left: .1em;
         }
-        
+
         #team .row header {
             margin-top: -3em;
             margin-bottom: .8em;
             text-align: left;
             }
-        
+
         #team .row img {
            max-height: 60%;
             max-width: 60%;
         }
 
          #team .row h6{
-            font-size: 1em;  
+            font-size: 1em;
              text-align: left;
         }
-        
-         #team .row #joe h6 {
-            font-family: 'Rock Salt', cursive;
-            font-size: 1em;
-            letter-spacing: 0.025em;
-            font-weight: 500;
-            padding-top: 2em;
-                
-        }
-            #team .row #ben h6 {
-                font-family: 'Mansalva', cursive;
+
+            #team .row h6 {
+                font-family: 'Covered By Your Grace', cursive;
                 text-transform: capitalize;
-                font-size: 1.5em; 
+                font-size: 1.5em;
                 margin-bottom: -.3em;
                 padding-top: 1.1em;
             }
-    
-            #team .row #xing h6 {
-                font-family: 'Covered By Your Grace', cursive; 
-                text-transform: capitalize;
-                font-size: 1.5em; 
-                margin-bottom: -.3em;
-                padding-top: 1.1em;
-            }
-                   
+
 
         #team .icons {
             text-align: left;
             margin-bottom: 3em;
             padding-bottom: 2em;
         }
-            
+
 
         /* Workshop image */
-        
+
         #workshop img {
             float: right;
             max-height: 300px;
             padding-left: 1em;
         }
 
-        
+
 		/* CTA */
 
 			#cta {
@@ -3734,9 +3705,9 @@
             overflow: hidden;
             margin-bottom: 3em;
         }
-        
-         #video iframe {     
-            min-width: 100%; 
+
+         #video iframe {
+            min-width: 100%;
             min-height: 40vh;
             width: auto;
             height: auto;
@@ -3984,15 +3955,15 @@
 				text-align: center;
                 font-size: 12pt;
 			}
-        
-            
+
+
 
 		/* Section/Article */
 
 			header {
 				text-align: center;
 			}
-        
+
 
 				header.major {
 					padding-bottom: 0;
@@ -4016,28 +3987,28 @@
 				header p {
 					text-align: center;
 				}
-        
+
 
 			footer.major {
 				padding-top: 0;
 			}
 
         /* Image */
-        
+
         .image.featured.blog {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
         }
-        
+
          .image.right {
             display: inline-block;
             width: 100%;
             margin: 1em auto;
 			}
 
-        
+
 		/* Icon */
 
 			.icon.circle {
@@ -4098,11 +4069,11 @@
             align-content: center;
             max-height: 200px;
             }
-        
-        
+
+
 
          /* Workshops */
-        
+
         #workshops p {
             text-align: left;
         }
@@ -4145,29 +4116,29 @@
 					background-size: 10em;
 					padding: 2.25em 1.5em;
 				}
-        
+
                  .wrapper.style2 hr {
                     border-top: 5px solid;
                     color: rgba(54,54,54,0.9);
                     margin-left: auto;
                     margin-right:auto;
                 }
-        
+
 
 				.wrapper.style4 {
 					background-size: 6em;
 					padding: 1em;
 				}
-        
+
                 .wrapper.style4 h2{
 					text-align: center;
                     font-size: 2em;
 				}
-            
+
                 .wrapper.style4 hr {
                     visibility: hidden;
                 }
-        
+
                 .wrapper.style4 #about {
                     padding-right: 0;
                 }
@@ -4178,7 +4149,7 @@
 			#banner {
 				position: relative;
                 min-height: 20vh;
-                
+
 			}
 
 				#banner .inner {
@@ -4199,7 +4170,7 @@
 					#banner .inner br {
 						display: none;
 					}
-        
+
         #banner footer {
             display: none
         }
@@ -4211,7 +4182,7 @@
 				padding: 3.5em 0 2.5em 0;
 			}
 
-        
+
 			body.index #main {
 				padding: 2em 0 0 0;
 			}
@@ -4230,8 +4201,8 @@
         #cta h2 {
             font-size: 1em;
         }
-        
-        
+
+
         /* Tech we use */
 
         #tech {
@@ -4242,7 +4213,7 @@
         #tech .image img {
             height: 30px;
         }
-        
+
         /* Clients */
         .wrapper.style5 #clients .image img {
 			display: inline-block;
@@ -4257,8 +4228,8 @@
 				padding: 3em 1.5em;
                 margin-top: 0.5em;
 			}
-        
-        
+
+
             #footer .row {
 				text-align: center;
 			}
