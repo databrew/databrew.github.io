@@ -3072,7 +3072,7 @@
 /* Team */
 
         #team img {
-            border-radius: 50%;
+						border-radius: 50%;
             margin-top: 2em;
         }
 
@@ -3081,7 +3081,7 @@
         }
 
             #team .row header {
-            margin-top: -1em;
+            margin-top: -2.5em;
             margin-bottom: .8em;
             text-align: center;
             }
