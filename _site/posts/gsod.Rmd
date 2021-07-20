@@ -1,14 +1,3 @@
----
-title: "Utilities for quickly accessing daily weather data from over 9,000 stations"
-subtitle: "Introducing databrew's gsod package"
-author: "Joe Brew"
-date: "December 8, 2017"
-output:
-  html_document:
-    highlight: kate
-    template: post_template.html
----
-
 ```{r setup, include=FALSE}
 # Basic knitr options
 knitr::opts_chunk$set(comment = NA, 
