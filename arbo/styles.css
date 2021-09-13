@@ -1,0 +1,119 @@
+blockquote {
+  font-style: italic
+}
+
+.blue-sub-nav {
+  background-color: #048eca;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.blue-sub-nav > li {
+  width: 100%;
+  text-align: center;
+}
+
+.blue-sub-nav li a {
+  color: #ffffff;
+    display: block;
+  font-size: 1.6rem;
+  padding: 1.5rem 1.6rem;
+  text-decoration: none;
+  transition: all, 0.1s;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.blue-sub-nav li a:hover {
+  background-color: #0484bb;
+  color: #ffffff;
+} 
+
+#WHO_logo {
+  width: 15%;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+/* White navbar */
+* {padding: 0; margin: 0;}
+
+.flex-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.logo {
+  margin: 0 0 0 .45em;
+}
+
+.logo a, .navigation a {
+  text-decoration: none;
+  letter-spacing: .15rem;
+}
+
+.navigation  {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.navigation a {
+  display: block;
+  padding: 1em;
+  padding-left: 2rem;
+  color: #048eca;
+  font-size: 1.6rem;
+}
+
+.navigation a:hover {
+    color: #1589d1cf;
+}
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .logo {
+  margin: 0;
+}
+  
+  .navigation  {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+
+/* ****** ****** */
+@media all and (max-width: 600px) {
+ 
+  .logo {
+    margin: .25em 0;
+    align-self: left; /* align the logo to the left side of 'flex-container' */
+}
+  
+  .navigation {
+    flex-direction: column;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
