@@ -29,7 +29,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 	<div class="flex-container">
 	  <h1 class = 'logo'>
@@ -39,12 +39,265 @@
 	  </ul>
 	</div>
 	
-	<ul class="blue-sub-nav"> 
-	  <li><a href="index.html">Global Data</a></li>
-	  <li><a href="region.html">Regional Data</a></li>
-	  <li><a href="country.html">Country Level Data</a></li>
+<!--	<ul class="blue-sub-nav top-level-menu"> 
+	  <li>
+	    <a href="index.html">Global Data</a>
+        <ul class="second-level-menu">
+            <li><a href="index.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="index.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="index.html#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="index.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="index.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="index.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="index.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+        </ul>
+	  </li>
+	  <li>
+	    <a href="region.html">Regional Data</a>
+	    <ul class="second-level-menu">
+            <li><a href="region.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="region.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="region.html#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="region.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="region.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="region.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="region.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity?</a></li>
+                </ul>
+            </li>
+            <li><a href="region.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="region.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+      </ul>
+	  </li>
+	  <li>
+	    <a href="country.html">Country Level Data</a>
+	    <ul class="second-level-menu">
+            <li><a href="country.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="country.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="country.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="country.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="country.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="country.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity?</a></li>
+                </ul>
+            </li>
+            <li><a href="country.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="country.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+      </ul>
+	  </li>
 	  <li><a href="about.html">About</a></li>
 	</ul>
+	
+	-->
+	
+
+    <ul id="navbar" class="blue-sub-nav">
+      <li id = "whiteLogoPosition" >
+        <img id="white_WHO_logo" src = "img/WHO_LOGO_white.png">
+      </li>
+      <li id = "Global-Li-area">
+        <a role="button" data-toggle="collapse" href="#global-navigation" aria-expanded="false" aria-controls="global-navigation">Global Arbovirus Data</a>
+      </li>
+      <li id = "Regional-Li-area">
+        <a role="button" data-toggle="collapse" href="#regional-navigation" aria-expanded="false" aria-controls="regional-navigation">Regional Arbovirus Data</a>
+      </li>
+      <li id = "Country-Li-area">
+        <a role="button" data-toggle="collapse" href="#country-navigation" aria-expanded="false" aria-controls="country-navigation">Country Level Arbovirus Data</a>
+      </li>
+      <li>
+        <a role="button" data-toggle="collapse" href="about.html">About</a>
+      </li>
+    </ul>
+
+
+ <!--Global NAV-->
+  <div id="global-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index.html">Surveillance capacity indicators</a></h4></li>
+            <li><a href="index_RAD.html">Reportable arbovirus diseases</a></li>
+            <li><a href="index_HAC.html">History of any arbovirus circulation since 2000</a></li>
+            <li><a href="index_CSHVA.html">Conducting surveillance on humans, vectors, and animals</a></li>
+            <li><a href="index_TSPC.html">Training of surveillance personnel and clinicians</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_lab.html">Laboratory diagnostic indicators</a></h4></li>
+            <li><a href="index_lab_TONS.html">Testing in outbreak vs. non-outbreak settings</a></li>
+            <li><a href="index_lab_LTA.html">Laboratory tests available</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_response.html">Response capacity indicators</a></h4></li>
+            <li><a href="index_response_SCPA.html">Surveillance and control plans available</a></li>
+            <li><a href="index_response_VCME.html">Vector control method employed</a></li>
+            <li><a href="index_response_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="index_response_CPE.html">Contingency plan exists</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_epidemiological.html">Epidemiological risk data</a></h4></li>
+            <li><a href="index_epidemiological_VPLR.html">Vectors present and level of risk</a></li>
+            <li><a href="index_epidemiological_AACD.html">All arboviruses, 2015-2020 (cases and deaths)</a></li>
+            <li><a href="index_epidemiological_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="index_epidemiological_MRYD.html">Most recent year data</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Global NAV-->
+  
+  
+  <!--Regional NAV-->
+  <div id="regional-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region.html">Surveillance capacity indicators</a></h4></li>
+            <li><a href="region_RAD.html">Reportable arbovirus diseases</a></li>
+            <li><a href="region_HAC.html">History of any arbovirus circulation since 2000</a></li>
+            <li><a href="region_CSHVA.html">Conducting surveillance on humans, vectors, and animals</a></li>
+            <li><a href="region_TSPC.html">Training of surveillance personnel and clinicians</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_lab.html">Laboratory diagnostic indicators</a></h4></li>
+            <li><a href="region_lab_TONS.html">Testing in outbreak vs. non-outbreak settings</a></li>
+            <li><a href="region_lab_LTA.html">Laboratory tests available</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_response.html">Response capacity indicators</a></h4></li>
+            <li><a href="region_response_SCPA.html">Surveillance and control plans available</a></li>
+            <li><a href="region_response_VCME.html">Vector control method employed</a></li>
+            <li><a href="region_response_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="region_response_CPE.html">Contingency plan exists</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_epidemiological.html">Epidemiological risk data</a></h4></li>
+            <li><a href="region_epidemiological_VPLR.html">Vectors present and level of risk</a></li>
+            <li><a href="region_epidemiological_AACD.html">All arboviruses, 2015-2020 (cases and deaths)</a></li>
+            <li><a href="region_epidemiological_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="region_epidemiological_MRYD.html">Most recent year data</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Regional NAV-->
+  
+  
+    <!--Country NAV-->
+  <div id="country-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_africa.html">Africa</a></h4></li>
+            <li><a href="country_africa_list.html">List</a></li>
+            <li><a href="country_africa_countries.html">Countries</a></li>
+            <li><a href="country_africa_here.html">Here</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_americas.html">Americas</a></h4></li>
+            <li><a href="country_americas_list.html">List</a></li>
+            <li><a href="country_americas_countries.html">Countries</a></li>
+            <li><a href="country_americas_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_south_east_asia.html">South-East Asia</a></h4></li>
+            <li><a href="country_south_east_asia_list.html">List</a></li>
+            <li><a href="country_south_east_asia_countries.html">Countries</a></li>
+            <li><a href="country_south_east_asia_here.html">Here</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_europe.html">Europe</a></h4></li>
+            <li><a href="country_europe_list.html">List</a></li>
+            <li><a href="country_europe_countries.html">Countries</a></li>
+            <li><a href="country_europe_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_eastern_mediterranean.html">Eastern Mediterranean</a></h4></li>
+            <li><a href="country_eastern_mediterranean_list.html">List</a></li>
+            <li><a href="country_eastern_mediterranean_countries.html">Countries</a></li>
+            <li><a href="country_eastern_mediterranean_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_western_pacific.html">Western Pacific</a></h4></li>
+            <li><a href="country_western_pacific_list.html">List</a></li>
+            <li><a href="country_western_pacific_countries.html">Countries</a></li>
+            <li><a href="country_western_pacific_here.html">Here</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Country NAV-->
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -183,6 +436,17 @@ pre code {
 
 
 <p>More about this website.</p>
+<pre class="r"><code>library(leaflet)
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+## ✔ tibble  3.1.4     ✔ dplyr   1.0.7
+## ✔ tidyr   1.1.3     ✔ stringr 1.4.0
+## ✔ readr   2.0.1     ✔ forcats 0.5.1</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(RColorBrewer)</code></pre>
 
 <p>Copyright &copy; 2021 Databrew, CC. All rights reserved.</p>
 

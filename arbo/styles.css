@@ -8,6 +8,7 @@ blockquote {
   justify-content: space-between;
   list-style-type: none;
   padding: 0px;
+  margin-bottom: 0px;
 }
 
 .blue-sub-nav > li {
@@ -30,15 +31,51 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .blue-sub-nav li a:hover {
-  background-color: #0484bb;
+  background-color: #d86422;
   color: #ffffff;
 } 
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky ~ #global-navigation, .sticky ~ #regional-navigation, .sticky ~ #country-navigation {
+    position: fixed !important;
+    top: 53px;
+}
+
+
+.activeMenuState {
+  background: #21313b;
+}
+
+.white_logo_appear{
+  width: 60% !important;
+}
+
+#whiteLogoPosition {
+  width: 0%;
+}
+
+#white_WHO_logo {
+  height: 53px;
+  padding: 5px;
+}
 
 #WHO_logo {
   width: 15%;
   padding-top: 5px;
   padding-bottom: 3px;
 }
+
+.main-container {
+  padding-top: 60px;
+}
+
+
 
 /* White navbar */
 * {padding: 0; margin: 0;}
@@ -75,6 +112,164 @@ a:link, a:visited, a:hover, a:active {
 
 .navigation a:hover {
     color: #1589d1cf;
+}
+
+
+#global-navigation{
+  background: #21313b;
+  color:#fff;
+  position: absolute;
+  width: 100%;
+  /*top:50px;*/
+  
+}
+
+#global-navigation a{
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#global-navigation a:hover,
+#global-navigation a:active{
+  text-decoration: none;
+}
+
+#global-navigation ul{
+  margin:40px 0;
+  padding:0;
+  list-style-type:none;
+  text-align: center;
+}
+
+#global-navigation li{
+  padding: 10px 0;
+}
+
+
+/* Regional */
+#regional-navigation {
+  background: #21313b;
+  color:#fff;
+  position: absolute;
+  width: 100%;
+  /*top:50px;*/
+  
+}
+
+#regional-navigation a{
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#regional-navigation a:hover,
+#regional-navigation a:active{
+  text-decoration: none;
+}
+
+#regional-navigation ul{
+  margin:40px 0;
+  padding:0;
+  list-style-type:none;
+  text-align: center;
+}
+
+#regional-navigation li{
+  padding: 10px 0;
+}
+
+
+/* Country */
+#country-navigation {
+  background: #21313b;
+  color:#fff;
+  position: absolute;
+  width: 100%;
+  /*top:50px;*/
+  
+}
+
+#country-navigation a{
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#country-navigation a:hover,
+#country-navigation a:active{
+  text-decoration: none;
+}
+
+#country-navigation ul{
+  margin:40px 0;
+  padding:0;
+  list-style-type:none;
+  text-align: center;
+}
+
+#country-navigation li{
+  padding: 10px 0;
+}
+
+.submenu-text-formating > li{
+  text-align: left;
+  padding: 10px !important;
+}
+
+.submenu-text-formating > li:hover {
+    background: #d86422;
+}
+
+#TOC > ul > li > a {
+    color: #ff7700 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: medium;
+    transition: all 0.7s ease;
+}
+
+
+#TOC > ul > li > a:hover {
+    color: #e26b02!important;
+    font-size: 17px;
+}
+
+#TOC > ul > li {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+#TOC > ul > li > ul > li {
+    list-style-type: '-';
+    list-style-position: inside;
+}
+
+#TOC > ul > li > ul > li > a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: small;
+    margin-left: 15px;
+    transition: all 0.7s ease;
+}
+
+#TOC > ul > li > ul > li > a:hover {
+    color: #068fcad1;
+}
+
+#TOC > ul > li > ul > li > ul > li > a {
+    color: #3a3939;
+    font-weight: 300;
+    margin-left: 35px;
+    font-size: smaller;
+    text-transform: uppercase;
+    transition: all 0.7s ease;
+}
+
+#TOC > ul > li > ul > li > ul > li > a:hover {
+    color: #068fca;
+}
+
+#TOC > ul > li > ul > li > ul > li {
+    list-style-type: none;
 }
 
 /* *********** media queries *********** */
@@ -117,3 +312,92 @@ a:link, a:visited, a:hover, a:active {
     border-bottom: none;
   }
 }
+
+
+/* Dropdown menu */
+
+.top-level-menu > li:nth-child(3) > .second-level-menu > li > .third-level-menu {
+  left: -120% !important;
+  right: 0 !important;
+}
+
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -120%;
+    width: 120%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    /* height: 30px; */
+    background: #068fca;
+}
+.third-level-menu > li:hover { background: #0784bb; }
+
+.second-level-menu
+{
+    position: absolute;
+    /* top: 30px; */
+    left: 0;
+    /* width: 150px; */
+    list-style: none;
+    /* padding: 0; */
+    /* margin: 0; */
+    display: none;
+    width: 100%;
+    text-align: justify;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    /* height: 30px; */
+    background: #068fca;
+}
+.second-level-menu > li:hover { background: #0484bb; }
+
+.top-level-menu
+{
+    /* list-style: none; */
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    /* height: 30px; */
+    /* width: 150px; */
+    /* background: #999999; */
+}
+.top-level-menu > li:hover { background: #0484bb; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    /* line-height: 30px;* /
+}
+.top-level-menu a:hover { color: #000000; }
+
