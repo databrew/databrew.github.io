@@ -39,12 +39,14 @@ a:link, a:visited, a:hover, a:active {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 99999;
 }
 
 
 .sticky ~ #global-navigation, .sticky ~ #regional-navigation, .sticky ~ #country-navigation {
     position: fixed !important;
     top: 53px;
+    
 }
 
 
@@ -121,6 +123,7 @@ a:link, a:visited, a:hover, a:active {
   position: absolute;
   width: 100%;
   /*top:50px;*/
+  z-index: 99999;
   
 }
 
@@ -153,7 +156,7 @@ a:link, a:visited, a:hover, a:active {
   position: absolute;
   width: 100%;
   /*top:50px;*/
-  
+  z-index: 99999;
 }
 
 #regional-navigation a{
@@ -185,7 +188,7 @@ a:link, a:visited, a:hover, a:active {
   position: absolute;
   width: 100%;
   /*top:50px;*/
-  
+  z-index: 99999;
 }
 
 #country-navigation a{
