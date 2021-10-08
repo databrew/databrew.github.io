@@ -3042,7 +3042,7 @@
         }
            #tech .image img {
             height: 42px;
-            margin: 0 2em;
+            margin: 0 auto;
             filter:grayscale(100%);
 		}
 
