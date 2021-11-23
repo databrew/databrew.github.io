@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Regional surveillance capacity indicators</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+	<div class="flex-container">
+	  <h1 class = 'logo'>
+	    <img id = 'WHO_logo' src = 'img/WHO_Logo.png'>
+	  </h1>
+	  <ul class = 'navigation'>
+	  </ul>
+	</div>
+	
+<!--	<ul class="blue-sub-nav top-level-menu"> 
+	  <li>
+	    <a href="index.html">Global Data</a>
+        <ul class="second-level-menu">
+            <li><a href="index.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="index.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="index.html#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="index.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="index.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="index.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="index.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="index.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+        </ul>
+	  </li>
+	  <li>
+	    <a href="region.html">Regional Data</a>
+	    <ul class="second-level-menu">
+            <li><a href="region.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="region.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="region.html#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="region.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="region.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="region.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="region.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="region.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity?</a></li>
+                </ul>
+            </li>
+            <li><a href="region.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="region.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+      </ul>
+	  </li>
+	  <li>
+	    <a href="country.html">Country Level Data</a>
+	    <ul class="second-level-menu">
+            <li><a href="country.html#surveillance-capacity-indicators">Surveillance capacity indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="country.html#reportable-arboviral-diseases">Reportable arboviral diseases</a></li>
+                    <li><a href="#history-of-any-arbovirus-circulation-since-2000">History of arbovirus circulation since 2000</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-humans">Conducting surveillance on humans</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-vectors">Conducting surveillance on vectors</a></li>
+                    <li><a href="country.html#conducting-surveillance-on-animals">Conducting surveillance on animals</a></li>
+                </ul>
+            </li>
+            <li><a href="country.html#laboratory-diagnostic-indicators">Laboratory diagnostic indicators</a>
+                <ul class="third-level-menu">
+                    <li><a href="country.html#testing-in-outbreak-vs-non-outbreak-settings">Testing in outbreak vs non-outbreak settings</a></li>
+                    <li><a href="country.html#laboratory-tests-available">Laboratory tests available</a></li>
+                    <li><a href="country.html#serotyping-and-sequencing-capacity">Serotyping and sequencing capacity?</a></li>
+                </ul>
+            </li>
+            <li><a href="country.html#response-capacity-indicators">Response capacity indicators</a></li>
+            <li><a href="country.html#epidemiological-risk-data">Epidemiological risk data</a></li>
+      </ul>
+	  </li>
+	  <li><a href="about.html">About</a></li>
+	</ul>
+	
+	-->
+	
+
+    <ul id="navbar" class="blue-sub-nav">
+      <li id = "whiteLogoPosition" >
+        <img id="white_WHO_logo" src = "img/WHO_LOGO_white.png">
+      </li>
+      <li id = "Global-Li-area">
+        <a role="button" data-toggle="collapse" href="#global-navigation" aria-expanded="false" aria-controls="global-navigation">Global Arbovirus Data</a>
+      </li>
+      <li id = "Regional-Li-area">
+        <a role="button" data-toggle="collapse" href="#regional-navigation" aria-expanded="false" aria-controls="regional-navigation">Regional Arbovirus Data</a>
+      </li>
+      <li id = "Country-Li-area">
+        <a role="button" data-toggle="collapse" href="#country-navigation" aria-expanded="false" aria-controls="country-navigation">Country Level Arbovirus Data</a>
+      </li>
+      <li>
+        <a role="button" data-toggle="collapse" href="about.html">About</a>
+      </li>
+    </ul>
+
+
+ <!--Global NAV-->
+  <div id="global-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index.html">Surveillance capacity indicators</a></h4></li>
+            <li><a href="index_RAD.html">Reportable arbovirus diseases</a></li>
+            <li><a href="index_HAC.html">History of any arbovirus circulation since 2000</a></li>
+            <li><a href="index_CSHVA.html">Conducting surveillance on humans, vectors, and animals</a></li>
+            <li><a href="index_TSPC.html">Training of surveillance personnel and clinicians</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_lab.html">Laboratory diagnostic indicators</a></h4></li>
+            <li><a href="index_lab_TONS.html">Testing in outbreak vs. non-outbreak settings</a></li>
+            <li><a href="index_lab_LTA.html">Laboratory tests available</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_response.html">Response capacity indicators</a></h4></li>
+            <li><a href="index_response_SCPA.html">Surveillance and control plans available</a></li>
+            <li><a href="index_response_VCME.html">Vector control method employed</a></li>
+            <li><a href="index_response_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="index_response_CPE.html">Contingency plan exists</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="index_epidemiological.html">Epidemiological risk data</a></h4></li>
+            <li><a href="index_epidemiological_VPLR.html">Vectors present and level of risk</a></li>
+            <li><a href="index_epidemiological_AACD.html">All arboviruses, 2015-2020 (cases and deaths)</a></li>
+            <li><a href="index_epidemiological_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="index_epidemiological_MRYD.html">Most recent year data</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Global NAV-->
+  
+  
+  <!--Regional NAV-->
+  <div id="regional-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region.html">Surveillance capacity indicators</a></h4></li>
+            <li><a href="region_RAD.html">Reportable arbovirus diseases</a></li>
+            <li><a href="region_HAC.html">History of any arbovirus circulation since 2000</a></li>
+            <li><a href="region_CSHVA.html">Conducting surveillance on humans, vectors, and animals</a></li>
+            <li><a href="region_TSPC.html">Training of surveillance personnel and clinicians</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3 text-left">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_lab.html">Laboratory diagnostic indicators</a></h4></li>
+            <li><a href="region_lab_TONS.html">Testing in outbreak vs. non-outbreak settings</a></li>
+            <li><a href="region_lab_LTA.html">Laboratory tests available</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_response.html">Response capacity indicators</a></h4></li>
+            <li><a href="region_response_SCPA.html">Surveillance and control plans available</a></li>
+            <li><a href="region_response_VCME.html">Vector control method employed</a></li>
+            <li><a href="region_response_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="region_response_CPE.html">Contingency plan exists</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-3 text-center">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="region_epidemiological.html">Epidemiological risk data</a></h4></li>
+            <li><a href="region_epidemiological_VPLR.html">Vectors present and level of risk</a></li>
+            <li><a href="region_epidemiological_AACD.html">All arboviruses, 2015-2020 (cases and deaths)</a></li>
+            <li><a href="region_epidemiological_SRCE.html">Surveillance and response committee exists</a></li>
+            <li><a href="region_epidemiological_MRYD.html">Most recent year data</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Regional NAV-->
+  
+  
+    <!--Country NAV-->
+  <div id="country-navigation" class="collapse main-nav-toggle container-sub-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_africa.html">Africa</a></h4></li>
+            <li><a href="country_africa_list.html">List</a></li>
+            <li><a href="country_africa_countries.html">Countries</a></li>
+            <li><a href="country_africa_here.html">Here</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_americas.html">Americas</a></h4></li>
+            <li><a href="country_americas_list.html">List</a></li>
+            <li><a href="country_americas_countries.html">Countries</a></li>
+            <li><a href="country_americas_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_south_east_asia.html">South-East Asia</a></h4></li>
+            <li><a href="country_south_east_asia_list.html">List</a></li>
+            <li><a href="country_south_east_asia_countries.html">Countries</a></li>
+            <li><a href="country_south_east_asia_here.html">Here</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_europe.html">Europe</a></h4></li>
+            <li><a href="country_europe_list.html">List</a></li>
+            <li><a href="country_europe_countries.html">Countries</a></li>
+            <li><a href="country_europe_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_eastern_mediterranean.html">Eastern Mediterranean</a></h4></li>
+            <li><a href="country_eastern_mediterranean_list.html">List</a></li>
+            <li><a href="country_eastern_mediterranean_countries.html">Countries</a></li>
+            <li><a href="country_eastern_mediterranean_here.html">Here</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-2">
+          <ul class="submenu-text-formating">
+            <li><h4><a href="country_western_pacific.html">Western Pacific</a></h4></li>
+            <li><a href="country_western_pacific_list.html">List</a></li>
+            <li><a href="country_western_pacific_countries.html">Countries</a></li>
+            <li><a href="country_western_pacific_here.html">Here</a></li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--END Country NAV-->
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Regional surveillance capacity indicators</h1>
+
+</div>
+
+
+<script type="text/javascript">
+element = document.getElementById('WHO_logo');
+console.log(element)
+
+$('#WHO_logo').click(function(e){
+    console.log("Exists!")
+});
+
+
+window.onscroll = function() { scrollFunction() };
+
+var navbar = document.getElementById("navbar");
+var logoWhiteElement = document.getElementById("whiteLogoPosition")
+var sticky = navbar.offsetTop;
+
+function scrollFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    logoWhiteElement.classList.add("white_logo_appear");
+  } else {
+    navbar.classList.remove("sticky");
+    logoWhiteElement.classList.remove("white_logo_appear");
+  }
+}
+
+$(document).on('click', function (e){
+    /* Global data  */
+    var global_menu_opened = $('#global-navigation').hasClass('in');
+    if(!$(e.target).closest('#global-navigation').length &&
+        !$(e.target).is('#global-navigation') &&
+        global_menu_opened === true){
+            $('#global-navigation').collapse('toggle');
+            $( "#Global-Li-area" ).removeClass("activeMenuState");
+    }
+    
+    if ($('#global-navigation').attr('aria-expanded') === "false") {
+      $( "#Global-Li-area" ).removeClass("activeMenuState");
+    }
+    if ($('#global-navigation').attr('aria-expanded') === "true") {
+      $( "#Global-Li-area" ).addClass("activeMenuState");
+    }
+
+     /* Regional data  */
+    var regional_menu_opened = $('#regional-navigation').hasClass('in');
+    if(!$(e.target).closest('#regional-navigation').length &&
+        !$(e.target).is('#regional-navigation') &&
+        regional_menu_opened === true){
+            $('#regional-navigation').collapse('toggle');
+            $( "#Regional-Li-area" ).removeClass("activeMenuState");
+    }
+    
+    if ($('#regional-navigation').attr('aria-expanded') === "false") {
+      $( "#Regional-Li-area" ).removeClass("activeMenuState");
+    }
+    if ($('#regional-navigation').attr('aria-expanded') === "true") {
+      $( "#Regional-Li-area" ).addClass("activeMenuState");
+    }
+     
+     
+     /* Country data  */
+    var country_menu_opened = $('#country-navigation').hasClass('in');
+    if(!$(e.target).closest('#country-navigation').length &&
+        !$(e.target).is('#country-navigation') &&
+        country_menu_opened === true){
+            $('#country-navigation').collapse('toggle');
+            $( "#Country-Li-area" ).removeClass("activeMenuState");
+    }
+    
+    if ($('#country-navigation').attr('aria-expanded') === "false") {
+      $( "#Country-Li-area" ).removeClass("activeMenuState");
+    }
+    if ($('#country-navigation').attr('aria-expanded') === "true") {
+      $( "#Country-Li-area" ).addClass("activeMenuState");
+    }
+
+
+});
+
+</script>
+<div id="conducting-surveillance-on-humans" class="section level2">
+<h2>Conducting surveillance on humans</h2>
+<div id="in-the-last-2-years-did-your-country-conduct-national-epidemiological-surveillance-for-human-cases-of-arboviral-disease-question-12" class="section level4">
+<h4>In the last 2 years, did your country conduct national epidemiological surveillance for human cases of arboviral disease? (Question 12)</h4>
+<template id="5d40262c-5469-4cd2-b046-356bca57c13e"><style>
+.tabwid table{
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-spacing: 0;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-70e509ec{border-collapse:collapse;}.cl-70dea282{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-70deb196{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-70deb1b4{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-70dee1de{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee1fc{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee210{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee21a{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee22e{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee238{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee242{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee24c{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee256{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee260{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee26a{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee274{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee27e{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee288{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee292{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee29c{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee2a6{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee2b0{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee2c4{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70dee2ce{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-70e509ec'><thead><tr style="overflow-wrap:break-word;"><td class="cl-70dee2ce"><p class="cl-70deb196"><span class="cl-70dea282">Region</span></p></td><td class="cl-70dee2b0"><p class="cl-70deb1b4"><span class="cl-70dea282">Yes</span></p></td><td class="cl-70dee2c4"><p class="cl-70deb1b4"><span class="cl-70dea282">No</span></p></td><td class="cl-70dee29c"><p class="cl-70deb1b4"><span class="cl-70dea282">I don't know</span></p></td><td class="cl-70dee2a6"><p class="cl-70deb1b4"><span class="cl-70dea282">Unanswered</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-70dee1fc"><p class="cl-70deb196"><span class="cl-70dea282">EMRO</span></p></td><td class="cl-70dee22e"><p class="cl-70deb1b4"><span class="cl-70dea282">3</span></p></td><td class="cl-70dee210"><p class="cl-70deb1b4"><span class="cl-70dea282">7</span></p></td><td class="cl-70dee1de"><p class="cl-70deb1b4"><span class="cl-70dea282">1</span></p></td><td class="cl-70dee21a"><p class="cl-70deb1b4"><span class="cl-70dea282">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70dee1fc"><p class="cl-70deb196"><span class="cl-70dea282">EURO</span></p></td><td class="cl-70dee22e"><p class="cl-70deb1b4"><span class="cl-70dea282">19</span></p></td><td class="cl-70dee210"><p class="cl-70deb1b4"><span class="cl-70dea282">3</span></p></td><td class="cl-70dee1de"><p class="cl-70deb1b4"><span class="cl-70dea282">0</span></p></td><td class="cl-70dee21a"><p class="cl-70deb1b4"><span class="cl-70dea282">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70dee1fc"><p class="cl-70deb196"><span class="cl-70dea282">SEARO</span></p></td><td class="cl-70dee22e"><p class="cl-70deb1b4"><span class="cl-70dea282">4</span></p></td><td class="cl-70dee210"><p class="cl-70deb1b4"><span class="cl-70dea282">2</span></p></td><td class="cl-70dee1de"><p class="cl-70deb1b4"><span class="cl-70dea282">2</span></p></td><td class="cl-70dee21a"><p class="cl-70deb1b4"><span class="cl-70dea282">0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70dee256"><p class="cl-70deb196"><span class="cl-70dea282">WPRO</span></p></td><td class="cl-70dee260"><p class="cl-70deb1b4"><span class="cl-70dea282">7</span></p></td><td class="cl-70dee24c"><p class="cl-70deb1b4"><span class="cl-70dea282">4</span></p></td><td class="cl-70dee238"><p class="cl-70deb1b4"><span class="cl-70dea282">1</span></p></td><td class="cl-70dee242"><p class="cl-70deb1b4"><span class="cl-70dea282">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70dee288"><p class="cl-70deb196"><span class="cl-70dea282">Total</span></p></td><td class="cl-70dee292"><p class="cl-70deb1b4"><span class="cl-70dea282">33</span></p></td><td class="cl-70dee26a"><p class="cl-70deb1b4"><span class="cl-70dea282">16</span></p></td><td class="cl-70dee274"><p class="cl-70deb1b4"><span class="cl-70dea282">4</span></p></td><td class="cl-70dee27e"><p class="cl-70deb1b4"><span class="cl-70dea282">4</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="72b26a31-3fc0-4a0d-8952-360d6e32ed2f"></div>
+<script>
+var dest = document.getElementById("72b26a31-3fc0-4a0d-8952-360d6e32ed2f");
+var template = document.getElementById("5d40262c-5469-4cd2-b046-356bca57c13e");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+</div>
+</div>
+<div id="conducting-surveillance-on-vectors" class="section level2">
+<h2>Conducting surveillance on vectors</h2>
+<div id="for-the-last-2-years-did-your-country-conduct-entomologic-surveillance-for-arboviral-infections-in-mosquito-vectors-question-28" class="section level4">
+<h4>For the last 2 years, did your country conduct entomologic surveillance for arboviral infections in mosquito vectors? (Question 28)</h4>
+<template id="acbdea09-6e17-45ac-9197-83238a0ecefe"><style>
+.tabwid table{
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-spacing: 0;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-7102c306{border-collapse:collapse;}.cl-70fd4aca{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-70fd5998{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-70fd59b6{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-70fd892c{width:82.6pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8940{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8954{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8968{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8972{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd897c{width:82.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8986{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8990{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd899a{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89a4{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89ae{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89b8{width:82.6pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89c2{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89cc{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89e0{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89ea{width:82.6pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89f4{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd89fe{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8a08{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-70fd8a12{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-7102c306'><thead><tr style="overflow-wrap:break-word;"><td class="cl-70fd8a12"><p class="cl-70fd5998"><span class="cl-70fd4aca">Region</span></p></td><td class="cl-70fd89fe"><p class="cl-70fd59b6"><span class="cl-70fd4aca">Yes</span></p></td><td class="cl-70fd8a08"><p class="cl-70fd59b6"><span class="cl-70fd4aca">No</span></p></td><td class="cl-70fd89ea"><p class="cl-70fd59b6"><span class="cl-70fd4aca">Don't know</span></p></td><td class="cl-70fd89f4"><p class="cl-70fd59b6"><span class="cl-70fd4aca">Unanswered</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-70fd8940"><p class="cl-70fd5998"><span class="cl-70fd4aca">EMRO</span></p></td><td class="cl-70fd8972"><p class="cl-70fd59b6"><span class="cl-70fd4aca">1</span></p></td><td class="cl-70fd8954"><p class="cl-70fd59b6"><span class="cl-70fd4aca">6</span></p></td><td class="cl-70fd892c"><p class="cl-70fd59b6"><span class="cl-70fd4aca">1</span></p></td><td class="cl-70fd8968"><p class="cl-70fd59b6"><span class="cl-70fd4aca">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70fd8940"><p class="cl-70fd5998"><span class="cl-70fd4aca">EURO</span></p></td><td class="cl-70fd8972"><p class="cl-70fd59b6"><span class="cl-70fd4aca">9</span></p></td><td class="cl-70fd8954"><p class="cl-70fd59b6"><span class="cl-70fd4aca">10</span></p></td><td class="cl-70fd892c"><p class="cl-70fd59b6"><span class="cl-70fd4aca">0</span></p></td><td class="cl-70fd8968"><p class="cl-70fd59b6"><span class="cl-70fd4aca">5</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70fd8940"><p class="cl-70fd5998"><span class="cl-70fd4aca">SEARO</span></p></td><td class="cl-70fd8972"><p class="cl-70fd59b6"><span class="cl-70fd4aca">3</span></p></td><td class="cl-70fd8954"><p class="cl-70fd59b6"><span class="cl-70fd4aca">3</span></p></td><td class="cl-70fd892c"><p class="cl-70fd59b6"><span class="cl-70fd4aca">0</span></p></td><td class="cl-70fd8968"><p class="cl-70fd59b6"><span class="cl-70fd4aca">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70fd899a"><p class="cl-70fd5998"><span class="cl-70fd4aca">WPRO</span></p></td><td class="cl-70fd89a4"><p class="cl-70fd59b6"><span class="cl-70fd4aca">5</span></p></td><td class="cl-70fd8990"><p class="cl-70fd59b6"><span class="cl-70fd4aca">2</span></p></td><td class="cl-70fd897c"><p class="cl-70fd59b6"><span class="cl-70fd4aca">2</span></p></td><td class="cl-70fd8986"><p class="cl-70fd59b6"><span class="cl-70fd4aca">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-70fd89cc"><p class="cl-70fd5998"><span class="cl-70fd4aca">Total</span></p></td><td class="cl-70fd89e0"><p class="cl-70fd59b6"><span class="cl-70fd4aca">18</span></p></td><td class="cl-70fd89ae"><p class="cl-70fd59b6"><span class="cl-70fd4aca">21</span></p></td><td class="cl-70fd89b8"><p class="cl-70fd59b6"><span class="cl-70fd4aca">3</span></p></td><td class="cl-70fd89c2"><p class="cl-70fd59b6"><span class="cl-70fd4aca">15</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="0e85ba9b-a1d5-42a8-8f4d-aacd845248ed"></div>
+<script>
+var dest = document.getElementById("0e85ba9b-a1d5-42a8-8f4d-aacd845248ed");
+var template = document.getElementById("acbdea09-6e17-45ac-9197-83238a0ecefe");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+</div>
+</div>
+<div id="conducting-surveillance-on-animals" class="section level2">
+<h2>Conducting surveillance on animals</h2>
+<div id="during-the-last-2-years-did-your-country-conduct-national-epidemiological-surveillance-for-arboviral-disease-in-animals-e.g.-epizootic-surveillance-for-yellow-fever-in-endemic-areas-question-41" class="section level4">
+<h4>During the last 2 years, did your country conduct national epidemiological surveillance for arboviral disease in animals (e.g., epizootic surveillance for yellow fever in endemic areas)? (Question 41)</h4>
+<template id="2a54701b-e06a-4f9c-bdf6-ad387785105e"><style>
+.tabwid table{
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-spacing: 0;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-711f5ee4{border-collapse:collapse;}.cl-7119de1a{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-7119ee00{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-7119ee14{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-711a1f6a{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1f88{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1f92{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1f9c{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fa6{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fb0{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fc4{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fce{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fd8{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fe2{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1fec{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a1ff6{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a2000{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a200a{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a2014{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a201e{width:87.9pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a2028{width:89pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a2032{width:39.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a203c{width:35.5pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-711a2046{width:58.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-711f5ee4'><thead><tr style="overflow-wrap:break-word;"><td class="cl-711a2046"><p class="cl-7119ee00"><span class="cl-7119de1a">Region</span></p></td><td class="cl-711a2032"><p class="cl-7119ee14"><span class="cl-7119de1a">Yes</span></p></td><td class="cl-711a203c"><p class="cl-7119ee14"><span class="cl-7119de1a">No</span></p></td><td class="cl-711a201e"><p class="cl-7119ee14"><span class="cl-7119de1a">I don't know</span></p></td><td class="cl-711a2028"><p class="cl-7119ee14"><span class="cl-7119de1a">Unanswered</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-711a1f88"><p class="cl-7119ee00"><span class="cl-7119de1a">EMRO</span></p></td><td class="cl-711a1fa6"><p class="cl-7119ee14"><span class="cl-7119de1a">1</span></p></td><td class="cl-711a1f92"><p class="cl-7119ee14"><span class="cl-7119de1a">6</span></p></td><td class="cl-711a1f6a"><p class="cl-7119ee14"><span class="cl-7119de1a">1</span></p></td><td class="cl-711a1f9c"><p class="cl-7119ee14"><span class="cl-7119de1a">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-711a1f88"><p class="cl-7119ee00"><span class="cl-7119de1a">EURO</span></p></td><td class="cl-711a1fa6"><p class="cl-7119ee14"><span class="cl-7119de1a">9</span></p></td><td class="cl-711a1f92"><p class="cl-7119ee14"><span class="cl-7119de1a">8</span></p></td><td class="cl-711a1f6a"><p class="cl-7119ee14"><span class="cl-7119de1a">3</span></p></td><td class="cl-711a1f9c"><p class="cl-7119ee14"><span class="cl-7119de1a">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-711a1f88"><p class="cl-7119ee00"><span class="cl-7119de1a">SEARO</span></p></td><td class="cl-711a1fa6"><p class="cl-7119ee14"><span class="cl-7119de1a">0</span></p></td><td class="cl-711a1f92"><p class="cl-7119ee14"><span class="cl-7119de1a">2</span></p></td><td class="cl-711a1f6a"><p class="cl-7119ee14"><span class="cl-7119de1a">4</span></p></td><td class="cl-711a1f9c"><p class="cl-7119ee14"><span class="cl-7119de1a">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-711a1fd8"><p class="cl-7119ee00"><span class="cl-7119de1a">WPRO</span></p></td><td class="cl-711a1fe2"><p class="cl-7119ee14"><span class="cl-7119de1a">0</span></p></td><td class="cl-711a1fce"><p class="cl-7119ee14"><span class="cl-7119de1a">5</span></p></td><td class="cl-711a1fb0"><p class="cl-7119ee14"><span class="cl-7119de1a">4</span></p></td><td class="cl-711a1fc4"><p class="cl-7119ee14"><span class="cl-7119de1a">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-711a200a"><p class="cl-7119ee00"><span class="cl-7119de1a">Total</span></p></td><td class="cl-711a2014"><p class="cl-7119ee14"><span class="cl-7119de1a">10</span></p></td><td class="cl-711a1fec"><p class="cl-7119ee14"><span class="cl-7119de1a">21</span></p></td><td class="cl-711a1ff6"><p class="cl-7119ee14"><span class="cl-7119de1a">12</span></p></td><td class="cl-711a2000"><p class="cl-7119ee14"><span class="cl-7119de1a">14</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="ddb09c79-951e-4ce4-a038-89998686bfdc"></div>
+<script>
+var dest = document.getElementById("ddb09c79-951e-4ce4-a038-89998686bfdc");
+var template = document.getElementById("2a54701b-e06a-4f9c-bdf6-ad387785105e");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+</div>
+</div>
+
+<p>Copyright &copy; 2021 Databrew, CC. All rights reserved.</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
