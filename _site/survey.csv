@@ -1,0 +1,16 @@
+timestamp,sex,age,happiness,children,shoe_size,height,weight,intelligence,money,phone
+2021-11-25T10:57:22Z,Female,41,9,0,39,168,70,Above average,0,iPhone
+2021-11-25T10:57:26Z,Male,39,9,1,41,165,68,Above average,0,iPhone
+2021-11-25T10:57:30Z,Male,32,8,0,44,183,75,Average,7,iPhone
+2021-11-25T10:57:34Z,Male,27,8,0,43,181,90,Average,0.2,iPhone
+2021-11-25T10:57:36Z,Female,34,9,0,37,160,56,Above average,0,Android
+2021-11-25T10:58:01Z,Female,26,9,0,38,162,57,Above average,0,Android
+2021-11-25T10:58:10Z,Male,42,8,1,43,183,70,Above average,4.1,iPhone
+2021-11-25T10:58:19Z,Female,30,7,0,38,171,60,Average,0,iPhone
+2021-11-25T10:58:41Z,Female,31,8,0,36,153,48,Average,50,Android
+2021-11-25T10:58:51Z,Female,25,8,0,36,156,56,Average,10,Android
+2021-11-25T10:58:55Z,Male,44,8,3,43,180,75,Average,150,iPhone
+2021-11-25T10:59:02Z,Male,44,7,2,44,180,79,Above average,70,Android
+2021-11-25T10:59:10Z,Male,28,10,0,43,179,73,Average,2,iPhone
+2021-11-25T10:59:35Z,Female,26,7,0,38,170,53,Average,0,iPhone
+2021-11-25T11:01:41Z,Female,34,7,0.5,38,160,53,Average,7,Android
