@@ -14,3 +14,5 @@ timestamp,sex,age,happiness,children,shoe_size,height,weight,intelligence,money,
 2021-11-25T10:59:10Z,Male,28,10,0,43,179,73,Average,2,iPhone
 2021-11-25T10:59:35Z,Female,26,7,0,38,170,53,Average,0,iPhone
 2021-11-25T11:01:41Z,Female,34,7,0.5,38,160,53,Average,7,Android
+2021-11-25T11:07:06Z,Female,28,9,0,38,161,56,Average,0,Android
+2021-11-25T11:14:16Z,Male,36,4,3,43,183,75,Above average,150,Android
