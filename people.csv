@@ -1,892 +1,892 @@
-id,survived,class,name,sex,age,gbp
-1,0,3,"Braund, Mr. Owen Harris",male,22,7.25
-2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,71.2833
-3,1,3,"Heikkinen, Miss. Laina",female,26,7.925
-4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,53.1
-5,0,3,"Allen, Mr. William Henry",male,35,8.05
-6,0,3,"Moran, Mr. James",male,,8.4583
-7,0,1,"McCarthy, Mr. Timothy J",male,54,51.8625
-8,0,3,"Palsson, Master. Gosta Leonard",male,2,21.075
-9,1,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,11.1333
-10,1,2,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,30.0708
-11,1,3,"Sandstrom, Miss. Marguerite Rut",female,4,16.7
-12,1,1,"Bonnell, Miss. Elizabeth",female,58,26.55
-13,0,3,"Saundercock, Mr. William Henry",male,20,8.05
-14,0,3,"Andersson, Mr. Anders Johan",male,39,31.275
-15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,7.8542
-16,1,2,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,16
-17,0,3,"Rice, Master. Eugene",male,2,29.125
-18,1,2,"Williams, Mr. Charles Eugene",male,,13
-19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,18
-20,1,3,"Masselmani, Mrs. Fatima",female,,7.225
-21,0,2,"Fynney, Mr. Joseph J",male,35,26
-22,1,2,"Beesley, Mr. Lawrence",male,34,13
-23,1,3,"McGowan, Miss. Anna ""Annie""",female,15,8.0292
-24,1,1,"Sloper, Mr. William Thompson",male,28,35.5
-25,0,3,"Palsson, Miss. Torborg Danira",female,8,21.075
-26,1,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,31.3875
-27,0,3,"Emir, Mr. Farred Chehab",male,,7.225
-28,0,1,"Fortune, Mr. Charles Alexander",male,19,263
-29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",female,,7.8792
-30,0,3,"Todoroff, Mr. Lalio",male,,7.8958
-31,0,1,"Uruchurtu, Don. Manuel E",male,40,27.7208
-32,1,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,146.5208
-33,1,3,"Glynn, Miss. Mary Agatha",female,,7.75
-34,0,2,"Wheadon, Mr. Edward H",male,66,10.5
-35,0,1,"Meyer, Mr. Edgar Joseph",male,28,82.1708
-36,0,1,"Holverson, Mr. Alexander Oskar",male,42,52
-37,1,3,"Mamee, Mr. Hanna",male,,7.2292
-38,0,3,"Cann, Mr. Ernest Charles",male,21,8.05
-39,0,3,"Vander Planke, Miss. Augusta Maria",female,18,18
-40,1,3,"Nicola-Yarred, Miss. Jamila",female,14,11.2417
-41,0,3,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,9.475
-42,0,2,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,21
-43,0,3,"Kraeff, Mr. Theodor",male,,7.8958
-44,1,2,"Laroche, Miss. Simonne Marie Anne Andree",female,3,41.5792
-45,1,3,"Devaney, Miss. Margaret Delia",female,19,7.8792
-46,0,3,"Rogers, Mr. William John",male,,8.05
-47,0,3,"Lennon, Mr. Denis",male,,15.5
-48,1,3,"O'Driscoll, Miss. Bridget",female,,7.75
-49,0,3,"Samaan, Mr. Youssef",male,,21.6792
-50,0,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,17.8
-51,0,3,"Panula, Master. Juha Niilo",male,7,39.6875
-52,0,3,"Nosworthy, Mr. Richard Cater",male,21,7.8
-53,1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,76.7292
-54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,26
-55,0,1,"Ostby, Mr. Engelhart Cornelius",male,65,61.9792
-56,1,1,"Woolner, Mr. Hugh",male,,35.5
-57,1,2,"Rugg, Miss. Emily",female,21,10.5
-58,0,3,"Novel, Mr. Mansouer",male,28.5,7.2292
-59,1,2,"West, Miss. Constance Mirium",female,5,27.75
-60,0,3,"Goodwin, Master. William Frederick",male,11,46.9
-61,0,3,"Sirayanian, Mr. Orsen",male,22,7.2292
-62,1,1,"Icard, Miss. Amelie",female,38,80
-63,0,1,"Harris, Mr. Henry Birkhardt",male,45,83.475
-64,0,3,"Skoog, Master. Harald",male,4,27.9
-65,0,1,"Stewart, Mr. Albert A",male,,27.7208
-66,1,3,"Moubarek, Master. Gerios",male,,15.2458
-67,1,2,"Nye, Mrs. (Elizabeth Ramell)",female,29,10.5
-68,0,3,"Crease, Mr. Ernest James",male,19,8.1583
-69,1,3,"Andersson, Miss. Erna Alexandra",female,17,7.925
-70,0,3,"Kink, Mr. Vincenz",male,26,8.6625
-71,0,2,"Jenkin, Mr. Stephen Curnow",male,32,10.5
-72,0,3,"Goodwin, Miss. Lillian Amy",female,16,46.9
-73,0,2,"Hood, Mr. Ambrose Jr",male,21,73.5
-74,0,3,"Chronopoulos, Mr. Apostolos",male,26,14.4542
-75,1,3,"Bing, Mr. Lee",male,32,56.4958
-76,0,3,"Moen, Mr. Sigurd Hansen",male,25,7.65
-77,0,3,"Staneff, Mr. Ivan",male,,7.8958
-78,0,3,"Moutal, Mr. Rahamin Haim",male,,8.05
-79,1,2,"Caldwell, Master. Alden Gates",male,0.83,29
-80,1,3,"Dowdell, Miss. Elizabeth",female,30,12.475
-81,0,3,"Waelens, Mr. Achille",male,22,9
-82,1,3,"Sheerlinck, Mr. Jan Baptist",male,29,9.5
-83,1,3,"McDermott, Miss. Brigdet Delia",female,,7.7875
-84,0,1,"Carrau, Mr. Francisco M",male,28,47.1
-85,1,2,"Ilett, Miss. Bertha",female,17,10.5
-86,1,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,15.85
-87,0,3,"Ford, Mr. William Neal",male,16,34.375
-88,0,3,"Slocovski, Mr. Selman Francis",male,,8.05
-89,1,1,"Fortune, Miss. Mabel Helen",female,23,263
-90,0,3,"Celotti, Mr. Francesco",male,24,8.05
-91,0,3,"Christmann, Mr. Emil",male,29,8.05
-92,0,3,"Andreasson, Mr. Paul Edvin",male,20,7.8542
-93,0,1,"Chaffee, Mr. Herbert Fuller",male,46,61.175
-94,0,3,"Dean, Mr. Bertram Frank",male,26,20.575
-95,0,3,"Coxon, Mr. Daniel",male,59,7.25
-96,0,3,"Shorney, Mr. Charles Joseph",male,,8.05
-97,0,1,"Goldschmidt, Mr. George B",male,71,34.6542
-98,1,1,"Greenfield, Mr. William Bertram",male,23,63.3583
-99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",female,34,23
-100,0,2,"Kantor, Mr. Sinai",male,34,26
-101,0,3,"Petranec, Miss. Matilda",female,28,7.8958
-102,0,3,"Petroff, Mr. Pastcho (""Pentcho"")",male,,7.8958
-103,0,1,"White, Mr. Richard Frasar",male,21,77.2875
-104,0,3,"Johansson, Mr. Gustaf Joel",male,33,8.6542
-105,0,3,"Gustafsson, Mr. Anders Vilhelm",male,37,7.925
-106,0,3,"Mionoff, Mr. Stoytcho",male,28,7.8958
-107,1,3,"Salkjelsvik, Miss. Anna Kristine",female,21,7.65
-108,1,3,"Moss, Mr. Albert Johan",male,,7.775
-109,0,3,"Rekic, Mr. Tido",male,38,7.8958
-110,1,3,"Moran, Miss. Bertha",female,,24.15
-111,0,1,"Porter, Mr. Walter Chamberlain",male,47,52
-112,0,3,"Zabour, Miss. Hileni",female,14.5,14.4542
-113,0,3,"Barton, Mr. David John",male,22,8.05
-114,0,3,"Jussila, Miss. Katriina",female,20,9.825
-115,0,3,"Attalah, Miss. Malake",female,17,14.4583
-116,0,3,"Pekoniemi, Mr. Edvard",male,21,7.925
-117,0,3,"Connors, Mr. Patrick",male,70.5,7.75
-118,0,2,"Turpin, Mr. William John Robert",male,29,21
-119,0,1,"Baxter, Mr. Quigg Edmond",male,24,247.5208
-120,0,3,"Andersson, Miss. Ellis Anna Maria",female,2,31.275
-121,0,2,"Hickman, Mr. Stanley George",male,21,73.5
-122,0,3,"Moore, Mr. Leonard Charles",male,,8.05
-123,0,2,"Nasser, Mr. Nicholas",male,32.5,30.0708
-124,1,2,"Webber, Miss. Susan",female,32.5,13
-125,0,1,"White, Mr. Percival Wayland",male,54,77.2875
-126,1,3,"Nicola-Yarred, Master. Elias",male,12,11.2417
-127,0,3,"McMahon, Mr. Martin",male,,7.75
-128,1,3,"Madsen, Mr. Fridtjof Arne",male,24,7.1417
-129,1,3,"Peter, Miss. Anna",female,,22.3583
-130,0,3,"Ekstrom, Mr. Johan",male,45,6.975
-131,0,3,"Drazenoic, Mr. Jozef",male,33,7.8958
-132,0,3,"Coelho, Mr. Domingos Fernandeo",male,20,7.05
-133,0,3,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,14.5
-134,1,2,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,26
-135,0,2,"Sobey, Mr. Samuel James Hayden",male,25,13
-136,0,2,"Richard, Mr. Emile",male,23,15.0458
-137,1,1,"Newsom, Miss. Helen Monypeny",female,19,26.2833
-138,0,1,"Futrelle, Mr. Jacques Heath",male,37,53.1
-139,0,3,"Osen, Mr. Olaf Elon",male,16,9.2167
-140,0,1,"Giglio, Mr. Victor",male,24,79.2
-141,0,3,"Boulos, Mrs. Joseph (Sultana)",female,,15.2458
-142,1,3,"Nysten, Miss. Anna Sofia",female,22,7.75
-143,1,3,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,15.85
-144,0,3,"Burke, Mr. Jeremiah",male,19,6.75
-145,0,2,"Andrew, Mr. Edgardo Samuel",male,18,11.5
-146,0,2,"Nicholls, Mr. Joseph Charles",male,19,36.75
-147,1,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,7.7958
-148,0,3,"Ford, Miss. Robina Maggie ""Ruby""",female,9,34.375
-149,0,2,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,26
-150,0,2,"Byles, Rev. Thomas Roussel Davids",male,42,13
-151,0,2,"Bateman, Rev. Robert James",male,51,12.525
-152,1,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,66.6
-153,0,3,"Meo, Mr. Alfonzo",male,55.5,8.05
-154,0,3,"van Billiard, Mr. Austin Blyler",male,40.5,14.5
-155,0,3,"Olsen, Mr. Ole Martin",male,,7.3125
-156,0,1,"Williams, Mr. Charles Duane",male,51,61.3792
-157,1,3,"Gilnagh, Miss. Katherine ""Katie""",female,16,7.7333
-158,0,3,"Corn, Mr. Harry",male,30,8.05
-159,0,3,"Smiljanic, Mr. Mile",male,,8.6625
-160,0,3,"Sage, Master. Thomas Henry",male,,69.55
-161,0,3,"Cribb, Mr. John Hatfield",male,44,16.1
-162,1,2,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40,15.75
-163,0,3,"Bengtsson, Mr. John Viktor",male,26,7.775
-164,0,3,"Calic, Mr. Jovo",male,17,8.6625
-165,0,3,"Panula, Master. Eino Viljami",male,1,39.6875
-166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",male,9,20.525
-167,1,1,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,55
-168,0,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,27.9
-169,0,1,"Baumann, Mr. John D",male,,25.925
-170,0,3,"Ling, Mr. Lee",male,28,56.4958
-171,0,1,"Van der hoef, Mr. Wyckoff",male,61,33.5
-172,0,3,"Rice, Master. Arthur",male,4,29.125
-173,1,3,"Johnson, Miss. Eleanor Ileen",female,1,11.1333
-174,0,3,"Sivola, Mr. Antti Wilhelm",male,21,7.925
-175,0,1,"Smith, Mr. James Clinch",male,56,30.6958
-176,0,3,"Klasen, Mr. Klas Albin",male,18,7.8542
-177,0,3,"Lefebre, Master. Henry Forbes",male,,25.4667
-178,0,1,"Isham, Miss. Ann Elizabeth",female,50,28.7125
-179,0,2,"Hale, Mr. Reginald",male,30,13
-180,0,3,"Leonard, Mr. Lionel",male,36,0
-181,0,3,"Sage, Miss. Constance Gladys",female,,69.55
-182,0,2,"Pernot, Mr. Rene",male,,15.05
-183,0,3,"Asplund, Master. Clarence Gustaf Hugo",male,9,31.3875
-184,1,2,"Becker, Master. Richard F",male,1,39
-185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",female,4,22.025
-186,0,1,"Rood, Mr. Hugh Roscoe",male,,50
-187,1,3,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,,15.5
-188,1,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45,26.55
-189,0,3,"Bourke, Mr. John",male,40,15.5
-190,0,3,"Turcin, Mr. Stjepan",male,36,7.8958
-191,1,2,"Pinsky, Mrs. (Rosa)",female,32,13
-192,0,2,"Carbines, Mr. William",male,19,13
-193,1,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,7.8542
-194,1,2,"Navratil, Master. Michel M",male,3,26
-195,1,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,27.7208
-196,1,1,"Lurette, Miss. Elise",female,58,146.5208
-197,0,3,"Mernagh, Mr. Robert",male,,7.75
-198,0,3,"Olsen, Mr. Karl Siegwart Andreas",male,42,8.4042
-199,1,3,"Madigan, Miss. Margaret ""Maggie""",female,,7.75
-200,0,2,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24,13
-201,0,3,"Vande Walle, Mr. Nestor Cyriel",male,28,9.5
-202,0,3,"Sage, Mr. Frederick",male,,69.55
-203,0,3,"Johanson, Mr. Jakob Alfred",male,34,6.4958
-204,0,3,"Youseff, Mr. Gerious",male,45.5,7.225
-205,1,3,"Cohen, Mr. Gurshon ""Gus""",male,18,8.05
-206,0,3,"Strom, Miss. Telma Matilda",female,2,10.4625
-207,0,3,"Backstrom, Mr. Karl Alfred",male,32,15.85
-208,1,3,"Albimona, Mr. Nassef Cassem",male,26,18.7875
-209,1,3,"Carr, Miss. Helen ""Ellen""",female,16,7.75
-210,1,1,"Blank, Mr. Henry",male,40,31
-211,0,3,"Ali, Mr. Ahmed",male,24,7.05
-212,1,2,"Cameron, Miss. Clear Annie",female,35,21
-213,0,3,"Perkin, Mr. John Henry",male,22,7.25
-214,0,2,"Givard, Mr. Hans Kristensen",male,30,13
-215,0,3,"Kiernan, Mr. Philip",male,,7.75
-216,1,1,"Newell, Miss. Madeleine",female,31,113.275
-217,1,3,"Honkanen, Miss. Eliina",female,27,7.925
-218,0,2,"Jacobsohn, Mr. Sidney Samuel",male,42,27
-219,1,1,"Bazzani, Miss. Albina",female,32,76.2917
-220,0,2,"Harris, Mr. Walter",male,30,10.5
-221,1,3,"Sunderland, Mr. Victor Francis",male,16,8.05
-222,0,2,"Bracken, Mr. James H",male,27,13
-223,0,3,"Green, Mr. George Henry",male,51,8.05
-224,0,3,"Nenkoff, Mr. Christo",male,,7.8958
-225,1,1,"Hoyt, Mr. Frederick Maxfield",male,38,90
-226,0,3,"Berglund, Mr. Karl Ivar Sven",male,22,9.35
-227,1,2,"Mellors, Mr. William John",male,19,10.5
-228,0,3,"Lovell, Mr. John Hall (""Henry"")",male,20.5,7.25
-229,0,2,"Fahlstrom, Mr. Arne Jonas",male,18,13
-230,0,3,"Lefebre, Miss. Mathilde",female,,25.4667
-231,1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,83.475
-232,0,3,"Larsson, Mr. Bengt Edvin",male,29,7.775
-233,0,2,"Sjostedt, Mr. Ernst Adolf",male,59,13.5
-234,1,3,"Asplund, Miss. Lillian Gertrud",female,5,31.3875
-235,0,2,"Leyson, Mr. Robert William Norman",male,24,10.5
-236,0,3,"Harknett, Miss. Alice Phoebe",female,,7.55
-237,0,2,"Hold, Mr. Stephen",male,44,26
-238,1,2,"Collyer, Miss. Marjorie ""Lottie""",female,8,26.25
-239,0,2,"Pengelly, Mr. Frederick William",male,19,10.5
-240,0,2,"Hunt, Mr. George Henry",male,33,12.275
-241,0,3,"Zabour, Miss. Thamine",female,,14.4542
-242,1,3,"Murphy, Miss. Katherine ""Kate""",female,,15.5
-243,0,2,"Coleridge, Mr. Reginald Charles",male,29,10.5
-244,0,3,"Maenpaa, Mr. Matti Alexanteri",male,22,7.125
-245,0,3,"Attalah, Mr. Sleiman",male,30,7.225
-246,0,1,"Minahan, Dr. William Edward",male,44,90
-247,0,3,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,7.775
-248,1,2,"Hamalainen, Mrs. William (Anna)",female,24,14.5
-249,1,1,"Beckwith, Mr. Richard Leonard",male,37,52.5542
-250,0,2,"Carter, Rev. Ernest Courtenay",male,54,26
-251,0,3,"Reed, Mr. James George",male,,7.25
-252,0,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,10.4625
-253,0,1,"Stead, Mr. William Thomas",male,62,26.55
-254,0,3,"Lobb, Mr. William Arthur",male,30,16.1
-255,0,3,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,20.2125
-256,1,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,15.2458
-257,1,1,"Thorne, Mrs. Gertrude Maybelle",female,,79.2
-258,1,1,"Cherry, Miss. Gladys",female,30,86.5
-259,1,1,"Ward, Miss. Anna",female,35,512.3292
-260,1,2,"Parrish, Mrs. (Lutie Davis)",female,50,26
-261,0,3,"Smith, Mr. Thomas",male,,7.75
-262,1,3,"Asplund, Master. Edvin Rojj Felix",male,3,31.3875
-263,0,1,"Taussig, Mr. Emil",male,52,79.65
-264,0,1,"Harrison, Mr. William",male,40,0
-265,0,3,"Henry, Miss. Delia",female,,7.75
-266,0,2,"Reeves, Mr. David",male,36,10.5
-267,0,3,"Panula, Mr. Ernesti Arvid",male,16,39.6875
-268,1,3,"Persson, Mr. Ernst Ulrik",male,25,7.775
-269,1,1,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,153.4625
-270,1,1,"Bissette, Miss. Amelia",female,35,135.6333
-271,0,1,"Cairns, Mr. Alexander",male,,31
-272,1,3,"Tornquist, Mr. William Henry",male,25,0
-273,1,2,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,19.5
-274,0,1,"Natsch, Mr. Charles H",male,37,29.7
-275,1,3,"Healy, Miss. Hanora ""Nora""",female,,7.75
-276,1,1,"Andrews, Miss. Kornelia Theodosia",female,63,77.9583
-277,0,3,"Lindblom, Miss. Augusta Charlotta",female,45,7.75
-278,0,2,"Parkes, Mr. Francis ""Frank""",male,,0
-279,0,3,"Rice, Master. Eric",male,7,29.125
-280,1,3,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,20.25
-281,0,3,"Duane, Mr. Frank",male,65,7.75
-282,0,3,"Olsson, Mr. Nils Johan Goransson",male,28,7.8542
-283,0,3,"de Pelsmaeker, Mr. Alfons",male,16,9.5
-284,1,3,"Dorking, Mr. Edward Arthur",male,19,8.05
-285,0,1,"Smith, Mr. Richard William",male,,26
-286,0,3,"Stankovic, Mr. Ivan",male,33,8.6625
-287,1,3,"de Mulder, Mr. Theodore",male,30,9.5
-288,0,3,"Naidenoff, Mr. Penko",male,22,7.8958
-289,1,2,"Hosono, Mr. Masabumi",male,42,13
-290,1,3,"Connolly, Miss. Kate",female,22,7.75
-291,1,1,"Barber, Miss. Ellen ""Nellie""",female,26,78.85
-292,1,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,91.0792
-293,0,2,"Levy, Mr. Rene Jacques",male,36,12.875
-294,0,3,"Haas, Miss. Aloisia",female,24,8.85
-295,0,3,"Mineff, Mr. Ivan",male,24,7.8958
-296,0,1,"Lewy, Mr. Ervin G",male,,27.7208
-297,0,3,"Hanna, Mr. Mansour",male,23.5,7.2292
-298,0,1,"Allison, Miss. Helen Loraine",female,2,151.55
-299,1,1,"Saalfeld, Mr. Adolphe",male,,30.5
-300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,247.5208
-301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,,7.75
-302,1,3,"McCoy, Mr. Bernard",male,,23.25
-303,0,3,"Johnson, Mr. William Cahoone Jr",male,19,0
-304,1,2,"Keane, Miss. Nora A",female,,12.35
-305,0,3,"Williams, Mr. Howard Hugh ""Harry""",male,,8.05
-306,1,1,"Allison, Master. Hudson Trevor",male,0.92,151.55
-307,1,1,"Fleming, Miss. Margaret",female,,110.8833
-308,1,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,108.9
-309,0,2,"Abelson, Mr. Samuel",male,30,24
-310,1,1,"Francatelli, Miss. Laura Mabel",female,30,56.9292
-311,1,1,"Hays, Miss. Margaret Bechstein",female,24,83.1583
-312,1,1,"Ryerson, Miss. Emily Borie",female,18,262.375
-313,0,2,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,26
-314,0,3,"Hendekovic, Mr. Ignjac",male,28,7.8958
-315,0,2,"Hart, Mr. Benjamin",male,43,26.25
-316,1,3,"Nilsson, Miss. Helmina Josefina",female,26,7.8542
-317,1,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,26
-318,0,2,"Moraweck, Dr. Ernest",male,54,14
-319,1,1,"Wick, Miss. Mary Natalie",female,31,164.8667
-320,1,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,134.5
-321,0,3,"Dennis, Mr. Samuel",male,22,7.25
-322,0,3,"Danoff, Mr. Yoto",male,27,7.8958
-323,1,2,"Slayter, Miss. Hilda Mary",female,30,12.35
-324,1,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,29
-325,0,3,"Sage, Mr. George John Jr",male,,69.55
-326,1,1,"Young, Miss. Marie Grice",female,36,135.6333
-327,0,3,"Nysveen, Mr. Johan Hansen",male,61,6.2375
-328,1,2,"Ball, Mrs. (Ada E Hall)",female,36,13
-329,1,3,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,20.525
-330,1,1,"Hippach, Miss. Jean Gertrude",female,16,57.9792
-331,1,3,"McCoy, Miss. Agnes",female,,23.25
-332,0,1,"Partner, Mr. Austen",male,45.5,28.5
-333,0,1,"Graham, Mr. George Edward",male,38,153.4625
-334,0,3,"Vander Planke, Mr. Leo Edmondus",male,16,18
-335,1,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,133.65
-336,0,3,"Denkoff, Mr. Mitto",male,,7.8958
-337,0,1,"Pears, Mr. Thomas Clinton",male,29,66.6
-338,1,1,"Burns, Miss. Elizabeth Margaret",female,41,134.5
-339,1,3,"Dahl, Mr. Karl Edwart",male,45,8.05
-340,0,1,"Blackwell, Mr. Stephen Weart",male,45,35.5
-341,1,2,"Navratil, Master. Edmond Roger",male,2,26
-342,1,1,"Fortune, Miss. Alice Elizabeth",female,24,263
-343,0,2,"Collander, Mr. Erik Gustaf",male,28,13
-344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",male,25,13
-345,0,2,"Fox, Mr. Stanley Hubert",male,36,13
-346,1,2,"Brown, Miss. Amelia ""Mildred""",female,24,13
-347,1,2,"Smith, Miss. Marion Elsie",female,40,13
-348,1,3,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,16.1
-349,1,3,"Coutts, Master. William Loch ""William""",male,3,15.9
-350,0,3,"Dimic, Mr. Jovan",male,42,8.6625
-351,0,3,"Odahl, Mr. Nils Martin",male,23,9.225
-352,0,1,"Williams-Lambert, Mr. Fletcher Fellows",male,,35
-353,0,3,"Elias, Mr. Tannous",male,15,7.2292
-354,0,3,"Arnold-Franchi, Mr. Josef",male,25,17.8
-355,0,3,"Yousif, Mr. Wazli",male,,7.225
-356,0,3,"Vanden Steen, Mr. Leo Peter",male,28,9.5
-357,1,1,"Bowerman, Miss. Elsie Edith",female,22,55
-358,0,2,"Funk, Miss. Annie Clemmer",female,38,13
-359,1,3,"McGovern, Miss. Mary",female,,7.8792
-360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",female,,7.8792
-361,0,3,"Skoog, Mr. Wilhelm",male,40,27.9
-362,0,2,"del Carlo, Mr. Sebastiano",male,29,27.7208
-363,0,3,"Barbara, Mrs. (Catherine David)",female,45,14.4542
-364,0,3,"Asim, Mr. Adola",male,35,7.05
-365,0,3,"O'Brien, Mr. Thomas",male,,15.5
-366,0,3,"Adahl, Mr. Mauritz Nils Martin",male,30,7.25
-367,1,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,75.25
-368,1,3,"Moussa, Mrs. (Mantoura Boulos)",female,,7.2292
-369,1,3,"Jermyn, Miss. Annie",female,,7.75
-370,1,1,"Aubart, Mme. Leontine Pauline",female,24,69.3
-371,1,1,"Harder, Mr. George Achilles",male,25,55.4417
-372,0,3,"Wiklund, Mr. Jakob Alfred",male,18,6.4958
-373,0,3,"Beavan, Mr. William Thomas",male,19,8.05
-374,0,1,"Ringhini, Mr. Sante",male,22,135.6333
-375,0,3,"Palsson, Miss. Stina Viola",female,3,21.075
-376,1,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,82.1708
-377,1,3,"Landergren, Miss. Aurora Adelia",female,22,7.25
-378,0,1,"Widener, Mr. Harry Elkins",male,27,211.5
-379,0,3,"Betros, Mr. Tannous",male,20,4.0125
-380,0,3,"Gustafsson, Mr. Karl Gideon",male,19,7.775
-381,1,1,"Bidois, Miss. Rosalie",female,42,227.525
-382,1,3,"Nakid, Miss. Maria (""Mary"")",female,1,15.7417
-383,0,3,"Tikkanen, Mr. Juho",male,32,7.925
-384,1,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,52
-385,0,3,"Plotcharsky, Mr. Vasil",male,,7.8958
-386,0,2,"Davies, Mr. Charles Henry",male,18,73.5
-387,0,3,"Goodwin, Master. Sidney Leonard",male,1,46.9
-388,1,2,"Buss, Miss. Kate",female,36,13
-389,0,3,"Sadlier, Mr. Matthew",male,,7.7292
-390,1,2,"Lehmann, Miss. Bertha",female,17,12
-391,1,1,"Carter, Mr. William Ernest",male,36,120
-392,1,3,"Jansson, Mr. Carl Olof",male,21,7.7958
-393,0,3,"Gustafsson, Mr. Johan Birger",male,28,7.925
-394,1,1,"Newell, Miss. Marjorie",female,23,113.275
-395,1,3,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,16.7
-396,0,3,"Johansson, Mr. Erik",male,22,7.7958
-397,0,3,"Olsson, Miss. Elina",female,31,7.8542
-398,0,2,"McKane, Mr. Peter David",male,46,26
-399,0,2,"Pain, Dr. Alfred",male,23,10.5
-400,1,2,"Trout, Mrs. William H (Jessie L)",female,28,12.65
-401,1,3,"Niskanen, Mr. Juha",male,39,7.925
-402,0,3,"Adams, Mr. John",male,26,8.05
-403,0,3,"Jussila, Miss. Mari Aina",female,21,9.825
-404,0,3,"Hakkarainen, Mr. Pekka Pietari",male,28,15.85
-405,0,3,"Oreskovic, Miss. Marija",female,20,8.6625
-406,0,2,"Gale, Mr. Shadrach",male,34,21
-407,0,3,"Widegren, Mr. Carl/Charles Peter",male,51,7.75
-408,1,2,"Richards, Master. William Rowe",male,3,18.75
-409,0,3,"Birkeland, Mr. Hans Martin Monsen",male,21,7.775
-410,0,3,"Lefebre, Miss. Ida",female,,25.4667
-411,0,3,"Sdycoff, Mr. Todor",male,,7.8958
-412,0,3,"Hart, Mr. Henry",male,,6.8583
-413,1,1,"Minahan, Miss. Daisy E",female,33,90
-414,0,2,"Cunningham, Mr. Alfred Fleming",male,,0
-415,1,3,"Sundman, Mr. Johan Julian",male,44,7.925
-416,0,3,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,8.05
-417,1,2,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,32.5
-418,1,2,"Silven, Miss. Lyyli Karoliina",female,18,13
-419,0,2,"Matthews, Mr. William John",male,30,13
-420,0,3,"Van Impe, Miss. Catharina",female,10,24.15
-421,0,3,"Gheorgheff, Mr. Stanio",male,,7.8958
-422,0,3,"Charters, Mr. David",male,21,7.7333
-423,0,3,"Zimmerman, Mr. Leo",male,29,7.875
-424,0,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,14.4
-425,0,3,"Rosblom, Mr. Viktor Richard",male,18,20.2125
-426,0,3,"Wiseman, Mr. Phillippe",male,,7.25
-427,1,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,26
-428,1,2,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19,26
-429,0,3,"Flynn, Mr. James",male,,7.75
-430,1,3,"Pickard, Mr. Berk (Berk Trembisky)",male,32,8.05
-431,1,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,26.55
-432,1,3,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,16.1
-433,1,2,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,26
-434,0,3,"Kallio, Mr. Nikolai Erland",male,17,7.125
-435,0,1,"Silvey, Mr. William Baird",male,50,55.9
-436,1,1,"Carter, Miss. Lucile Polk",female,14,120
-437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",female,21,34.375
-438,1,2,"Richards, Mrs. Sidney (Emily Hocking)",female,24,18.75
-439,0,1,"Fortune, Mr. Mark",male,64,263
-440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",male,31,10.5
-441,1,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,26.25
-442,0,3,"Hampe, Mr. Leon",male,20,9.5
-443,0,3,"Petterson, Mr. Johan Emil",male,25,7.775
-444,1,2,"Reynaldo, Ms. Encarnacion",female,28,13
-445,1,3,"Johannesen-Bratthammer, Mr. Bernt",male,,8.1125
-446,1,1,"Dodge, Master. Washington",male,4,81.8583
-447,1,2,"Mellinger, Miss. Madeleine Violet",female,13,19.5
-448,1,1,"Seward, Mr. Frederic Kimber",male,34,26.55
-449,1,3,"Baclini, Miss. Marie Catherine",female,5,19.2583
-450,1,1,"Peuchen, Major. Arthur Godfrey",male,52,30.5
-451,0,2,"West, Mr. Edwy Arthur",male,36,27.75
-452,0,3,"Hagland, Mr. Ingvald Olai Olsen",male,,19.9667
-453,0,1,"Foreman, Mr. Benjamin Laventall",male,30,27.75
-454,1,1,"Goldenberg, Mr. Samuel L",male,49,89.1042
-455,0,3,"Peduzzi, Mr. Joseph",male,,8.05
-456,1,3,"Jalsevac, Mr. Ivan",male,29,7.8958
-457,0,1,"Millet, Mr. Francis Davis",male,65,26.55
-458,1,1,"Kenyon, Mrs. Frederick R (Marion)",female,,51.8625
-459,1,2,"Toomey, Miss. Ellen",female,50,10.5
-460,0,3,"O'Connor, Mr. Maurice",male,,7.75
-461,1,1,"Anderson, Mr. Harry",male,48,26.55
-462,0,3,"Morley, Mr. William",male,34,8.05
-463,0,1,"Gee, Mr. Arthur H",male,47,38.5
-464,0,2,"Milling, Mr. Jacob Christian",male,48,13
-465,0,3,"Maisner, Mr. Simon",male,,8.05
-466,0,3,"Goncalves, Mr. Manuel Estanslas",male,38,7.05
-467,0,2,"Campbell, Mr. William",male,,0
-468,0,1,"Smart, Mr. John Montgomery",male,56,26.55
-469,0,3,"Scanlan, Mr. James",male,,7.725
-470,1,3,"Baclini, Miss. Helene Barbara",female,0.75,19.2583
-471,0,3,"Keefe, Mr. Arthur",male,,7.25
-472,0,3,"Cacic, Mr. Luka",male,38,8.6625
-473,1,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,27.75
-474,1,2,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,13.7917
-475,0,3,"Strandberg, Miss. Ida Sofia",female,22,9.8375
-476,0,1,"Clifford, Mr. George Quincy",male,,52
-477,0,2,"Renouf, Mr. Peter Henry",male,34,21
-478,0,3,"Braund, Mr. Lewis Richard",male,29,7.0458
-479,0,3,"Karlsson, Mr. Nils August",male,22,7.5208
-480,1,3,"Hirvonen, Miss. Hildur E",female,2,12.2875
-481,0,3,"Goodwin, Master. Harold Victor",male,9,46.9
-482,0,2,"Frost, Mr. Anthony Wood ""Archie""",male,,0
-483,0,3,"Rouse, Mr. Richard Henry",male,50,8.05
-484,1,3,"Turkula, Mrs. (Hedwig)",female,63,9.5875
-485,1,1,"Bishop, Mr. Dickinson H",male,25,91.0792
-486,0,3,"Lefebre, Miss. Jeannie",female,,25.4667
-487,1,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,90
-488,0,1,"Kent, Mr. Edward Austin",male,58,29.7
-489,0,3,"Somerton, Mr. Francis William",male,30,8.05
-490,1,3,"Coutts, Master. Eden Leslie ""Neville""",male,9,15.9
-491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",male,,19.9667
-492,0,3,"Windelov, Mr. Einar",male,21,7.25
-493,0,1,"Molson, Mr. Harry Markland",male,55,30.5
-494,0,1,"Artagaveytia, Mr. Ramon",male,71,49.5042
-495,0,3,"Stanley, Mr. Edward Roland",male,21,8.05
-496,0,3,"Yousseff, Mr. Gerious",male,,14.4583
-497,1,1,"Eustis, Miss. Elizabeth Mussey",female,54,78.2667
-498,0,3,"Shellard, Mr. Frederick William",male,,15.1
-499,0,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,151.55
-500,0,3,"Svensson, Mr. Olof",male,24,7.7958
-501,0,3,"Calic, Mr. Petar",male,17,8.6625
-502,0,3,"Canavan, Miss. Mary",female,21,7.75
-503,0,3,"O'Sullivan, Miss. Bridget Mary",female,,7.6292
-504,0,3,"Laitinen, Miss. Kristina Sofia",female,37,9.5875
-505,1,1,"Maioni, Miss. Roberta",female,16,86.5
-506,0,1,"Penasco y Castellana, Mr. Victor de Satode",male,18,108.9
-507,1,2,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,26
-508,1,1,"Bradley, Mr. George (""George Arthur Brayton"")",male,,26.55
-509,0,3,"Olsen, Mr. Henry Margido",male,28,22.525
-510,1,3,"Lang, Mr. Fang",male,26,56.4958
-511,1,3,"Daly, Mr. Eugene Patrick",male,29,7.75
-512,0,3,"Webber, Mr. James",male,,8.05
-513,1,1,"McGough, Mr. James Robert",male,36,26.2875
-514,1,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,59.4
-515,0,3,"Coleff, Mr. Satio",male,24,7.4958
-516,0,1,"Walker, Mr. William Anderson",male,47,34.0208
-517,1,2,"Lemore, Mrs. (Amelia Milley)",female,34,10.5
-518,0,3,"Ryan, Mr. Patrick",male,,24.15
-519,1,2,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36,26
-520,0,3,"Pavlovic, Mr. Stefo",male,32,7.8958
-521,1,1,"Perreault, Miss. Anne",female,30,93.5
-522,0,3,"Vovk, Mr. Janko",male,22,7.8958
-523,0,3,"Lahoud, Mr. Sarkis",male,,7.225
-524,1,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,57.9792
-525,0,3,"Kassem, Mr. Fared",male,,7.2292
-526,0,3,"Farrell, Mr. James",male,40.5,7.75
-527,1,2,"Ridsdale, Miss. Lucy",female,50,10.5
-528,0,1,"Farthing, Mr. John",male,,221.7792
-529,0,3,"Salonen, Mr. Johan Werner",male,39,7.925
-530,0,2,"Hocking, Mr. Richard George",male,23,11.5
-531,1,2,"Quick, Miss. Phyllis May",female,2,26
-532,0,3,"Toufik, Mr. Nakli",male,,7.2292
-533,0,3,"Elias, Mr. Joseph Jr",male,17,7.2292
-534,1,3,"Peter, Mrs. Catherine (Catherine Rizk)",female,,22.3583
-535,0,3,"Cacic, Miss. Marija",female,30,8.6625
-536,1,2,"Hart, Miss. Eva Miriam",female,7,26.25
-537,0,1,"Butt, Major. Archibald Willingham",male,45,26.55
-538,1,1,"LeRoy, Miss. Bertha",female,30,106.425
-539,0,3,"Risien, Mr. Samuel Beard",male,,14.5
-540,1,1,"Frolicher, Miss. Hedwig Margaritha",female,22,49.5
-541,1,1,"Crosby, Miss. Harriet R",female,36,71
-542,0,3,"Andersson, Miss. Ingeborg Constanzia",female,9,31.275
-543,0,3,"Andersson, Miss. Sigrid Elisabeth",female,11,31.275
-544,1,2,"Beane, Mr. Edward",male,32,26
-545,0,1,"Douglas, Mr. Walter Donald",male,50,106.425
-546,0,1,"Nicholson, Mr. Arthur Ernest",male,64,26
-547,1,2,"Beane, Mrs. Edward (Ethel Clarke)",female,19,26
-548,1,2,"Padro y Manent, Mr. Julian",male,,13.8625
-549,0,3,"Goldsmith, Mr. Frank John",male,33,20.525
-550,1,2,"Davies, Master. John Morgan Jr",male,8,36.75
-551,1,1,"Thayer, Mr. John Borland Jr",male,17,110.8833
-552,0,2,"Sharp, Mr. Percival James R",male,27,26
-553,0,3,"O'Brien, Mr. Timothy",male,,7.8292
-554,1,3,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,7.225
-555,1,3,"Ohman, Miss. Velin",female,22,7.775
-556,0,1,"Wright, Mr. George",male,62,26.55
-557,1,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,39.6
-558,0,1,"Robbins, Mr. Victor",male,,227.525
-559,1,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,79.65
-560,1,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,17.4
-561,0,3,"Morrow, Mr. Thomas Rowan",male,,7.75
-562,0,3,"Sivic, Mr. Husein",male,40,7.8958
-563,0,2,"Norman, Mr. Robert Douglas",male,28,13.5
-564,0,3,"Simmons, Mr. John",male,,8.05
-565,0,3,"Meanwell, Miss. (Marion Ogden)",female,,8.05
-566,0,3,"Davies, Mr. Alfred J",male,24,24.15
-567,0,3,"Stoytcheff, Mr. Ilia",male,19,7.8958
-568,0,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,21.075
-569,0,3,"Doharr, Mr. Tannous",male,,7.2292
-570,1,3,"Jonsson, Mr. Carl",male,32,7.8542
-571,1,2,"Harris, Mr. George",male,62,10.5
-572,1,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,51.4792
-573,1,1,"Flynn, Mr. John Irwin (""Irving"")",male,36,26.3875
-574,1,3,"Kelly, Miss. Mary",female,,7.75
-575,0,3,"Rush, Mr. Alfred George John",male,16,8.05
-576,0,3,"Patchett, Mr. George",male,19,14.5
-577,1,2,"Garside, Miss. Ethel",female,34,13
-578,1,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,55.9
-579,0,3,"Caram, Mrs. Joseph (Maria Elias)",female,,14.4583
-580,1,3,"Jussila, Mr. Eiriik",male,32,7.925
-581,1,2,"Christy, Miss. Julie Rachel",female,25,30
-582,1,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,110.8833
-583,0,2,"Downton, Mr. William James",male,54,26
-584,0,1,"Ross, Mr. John Hugo",male,36,40.125
-585,0,3,"Paulner, Mr. Uscher",male,,8.7125
-586,1,1,"Taussig, Miss. Ruth",female,18,79.65
-587,0,2,"Jarvis, Mr. John Denzil",male,47,15
-588,1,1,"Frolicher-Stehli, Mr. Maxmillian",male,60,79.2
-589,0,3,"Gilinski, Mr. Eliezer",male,22,8.05
-590,0,3,"Murdlin, Mr. Joseph",male,,8.05
-591,0,3,"Rintamaki, Mr. Matti",male,35,7.125
-592,1,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,78.2667
-593,0,3,"Elsbury, Mr. William James",male,47,7.25
-594,0,3,"Bourke, Miss. Mary",female,,7.75
-595,0,2,"Chapman, Mr. John Henry",male,37,26
-596,0,3,"Van Impe, Mr. Jean Baptiste",male,36,24.15
-597,1,2,"Leitch, Miss. Jessie Wills",female,,33
-598,0,3,"Johnson, Mr. Alfred",male,49,0
-599,0,3,"Boulos, Mr. Hanna",male,,7.225
-600,1,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49,56.9292
-601,1,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,27
-602,0,3,"Slabenoff, Mr. Petco",male,,7.8958
-603,0,1,"Harrington, Mr. Charles H",male,,42.4
-604,0,3,"Torber, Mr. Ernst William",male,44,8.05
-605,1,1,"Homer, Mr. Harry (""Mr E Haven"")",male,35,26.55
-606,0,3,"Lindell, Mr. Edvard Bengtsson",male,36,15.55
-607,0,3,"Karaic, Mr. Milan",male,30,7.8958
-608,1,1,"Daniel, Mr. Robert Williams",male,27,30.5
-609,1,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,41.5792
-610,1,1,"Shutes, Miss. Elizabeth W",female,40,153.4625
-611,0,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,31.275
-612,0,3,"Jardin, Mr. Jose Neto",male,,7.05
-613,1,3,"Murphy, Miss. Margaret Jane",female,,15.5
-614,0,3,"Horgan, Mr. John",male,,7.75
-615,0,3,"Brocklebank, Mr. William Alfred",male,35,8.05
-616,1,2,"Herman, Miss. Alice",female,24,65
-617,0,3,"Danbom, Mr. Ernst Gilbert",male,34,14.4
-618,0,3,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,16.1
-619,1,2,"Becker, Miss. Marion Louise",female,4,39
-620,0,2,"Gavey, Mr. Lawrence",male,26,10.5
-621,0,3,"Yasbeck, Mr. Antoni",male,27,14.4542
-622,1,1,"Kimball, Mr. Edwin Nelson Jr",male,42,52.5542
-623,1,3,"Nakid, Mr. Sahid",male,20,15.7417
-624,0,3,"Hansen, Mr. Henry Damsgaard",male,21,7.8542
-625,0,3,"Bowen, Mr. David John ""Dai""",male,21,16.1
-626,0,1,"Sutton, Mr. Frederick",male,61,32.3208
-627,0,2,"Kirkland, Rev. Charles Leonard",male,57,12.35
-628,1,1,"Longley, Miss. Gretchen Fiske",female,21,77.9583
-629,0,3,"Bostandyeff, Mr. Guentcho",male,26,7.8958
-630,0,3,"O'Connell, Mr. Patrick D",male,,7.7333
-631,1,1,"Barkworth, Mr. Algernon Henry Wilson",male,80,30
-632,0,3,"Lundahl, Mr. Johan Svensson",male,51,7.0542
-633,1,1,"Stahelin-Maeglin, Dr. Max",male,32,30.5
-634,0,1,"Parr, Mr. William Henry Marsh",male,,0
-635,0,3,"Skoog, Miss. Mabel",female,9,27.9
-636,1,2,"Davis, Miss. Mary",female,28,13
-637,0,3,"Leinonen, Mr. Antti Gustaf",male,32,7.925
-638,0,2,"Collyer, Mr. Harvey",male,31,26.25
-639,0,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,39.6875
-640,0,3,"Thorneycroft, Mr. Percival",male,,16.1
-641,0,3,"Jensen, Mr. Hans Peder",male,20,7.8542
-642,1,1,"Sagesser, Mlle. Emma",female,24,69.3
-643,0,3,"Skoog, Miss. Margit Elizabeth",female,2,27.9
-644,1,3,"Foo, Mr. Choong",male,,56.4958
-645,1,3,"Baclini, Miss. Eugenie",female,0.75,19.2583
-646,1,1,"Harper, Mr. Henry Sleeper",male,48,76.7292
-647,0,3,"Cor, Mr. Liudevit",male,19,7.8958
-648,1,1,"Simonius-Blumer, Col. Oberst Alfons",male,56,35.5
-649,0,3,"Willey, Mr. Edward",male,,7.55
-650,1,3,"Stanley, Miss. Amy Zillah Elsie",female,23,7.55
-651,0,3,"Mitkoff, Mr. Mito",male,,7.8958
-652,1,2,"Doling, Miss. Elsie",female,18,23
-653,0,3,"Kalvik, Mr. Johannes Halvorsen",male,21,8.4333
-654,1,3,"O'Leary, Miss. Hanora ""Norah""",female,,7.8292
-655,0,3,"Hegarty, Miss. Hanora ""Nora""",female,18,6.75
-656,0,2,"Hickman, Mr. Leonard Mark",male,24,73.5
-657,0,3,"Radeff, Mr. Alexander",male,,7.8958
-658,0,3,"Bourke, Mrs. John (Catherine)",female,32,15.5
-659,0,2,"Eitemiller, Mr. George Floyd",male,23,13
-660,0,1,"Newell, Mr. Arthur Webster",male,58,113.275
-661,1,1,"Frauenthal, Dr. Henry William",male,50,133.65
-662,0,3,"Badt, Mr. Mohamed",male,40,7.225
-663,0,1,"Colley, Mr. Edward Pomeroy",male,47,25.5875
-664,0,3,"Coleff, Mr. Peju",male,36,7.4958
-665,1,3,"Lindqvist, Mr. Eino William",male,20,7.925
-666,0,2,"Hickman, Mr. Lewis",male,32,73.5
-667,0,2,"Butler, Mr. Reginald Fenton",male,25,13
-668,0,3,"Rommetvedt, Mr. Knud Paust",male,,7.775
-669,0,3,"Cook, Mr. Jacob",male,43,8.05
-670,1,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,52
-671,1,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,39
-672,0,1,"Davidson, Mr. Thornton",male,31,52
-673,0,2,"Mitchell, Mr. Henry Michael",male,70,10.5
-674,1,2,"Wilhelms, Mr. Charles",male,31,13
-675,0,2,"Watson, Mr. Ennis Hastings",male,,0
-676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",male,18,7.775
-677,0,3,"Sawyer, Mr. Frederick Charles",male,24.5,8.05
-678,1,3,"Turja, Miss. Anna Sofia",female,18,9.8417
-679,0,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,46.9
-680,1,1,"Cardeza, Mr. Thomas Drake Martinez",male,36,512.3292
-681,0,3,"Peters, Miss. Katie",female,,8.1375
-682,1,1,"Hassab, Mr. Hammad",male,27,76.7292
-683,0,3,"Olsvigen, Mr. Thor Anderson",male,20,9.225
-684,0,3,"Goodwin, Mr. Charles Edward",male,14,46.9
-685,0,2,"Brown, Mr. Thomas William Solomon",male,60,39
-686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",male,25,41.5792
-687,0,3,"Panula, Mr. Jaako Arnold",male,14,39.6875
-688,0,3,"Dakic, Mr. Branko",male,19,10.1708
-689,0,3,"Fischer, Mr. Eberhard Thelander",male,18,7.7958
-690,1,1,"Madill, Miss. Georgette Alexandra",female,15,211.3375
-691,1,1,"Dick, Mr. Albert Adrian",male,31,57
-692,1,3,"Karun, Miss. Manca",female,4,13.4167
-693,1,3,"Lam, Mr. Ali",male,,56.4958
-694,0,3,"Saad, Mr. Khalil",male,25,7.225
-695,0,1,"Weir, Col. John",male,60,26.55
-696,0,2,"Chapman, Mr. Charles Henry",male,52,13.5
-697,0,3,"Kelly, Mr. James",male,44,8.05
-698,1,3,"Mullens, Miss. Katherine ""Katie""",female,,7.7333
-699,0,1,"Thayer, Mr. John Borland",male,49,110.8833
-700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,7.65
-701,1,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,227.525
-702,1,1,"Silverthorne, Mr. Spencer Victor",male,35,26.2875
-703,0,3,"Barbara, Miss. Saiide",female,18,14.4542
-704,0,3,"Gallagher, Mr. Martin",male,25,7.7417
-705,0,3,"Hansen, Mr. Henrik Juul",male,26,7.8542
-706,0,2,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39,26
-707,1,2,"Kelly, Mrs. Florence ""Fannie""",female,45,13.5
-708,1,1,"Calderhead, Mr. Edward Pennington",male,42,26.2875
-709,1,1,"Cleaver, Miss. Alice",female,22,151.55
-710,1,3,"Moubarek, Master. Halim Gonios (""William George"")",male,,15.2458
-711,1,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,49.5042
-712,0,1,"Klaber, Mr. Herman",male,,26.55
-713,1,1,"Taylor, Mr. Elmer Zebley",male,48,52
-714,0,3,"Larsson, Mr. August Viktor",male,29,9.4833
-715,0,2,"Greenberg, Mr. Samuel",male,52,13
-716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,7.65
-717,1,1,"Endres, Miss. Caroline Louise",female,38,227.525
-718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",female,27,10.5
-719,0,3,"McEvoy, Mr. Michael",male,,15.5
-720,0,3,"Johnson, Mr. Malkolm Joackim",male,33,7.775
-721,1,2,"Harper, Miss. Annie Jessie ""Nina""",female,6,33
-722,0,3,"Jensen, Mr. Svend Lauritz",male,17,7.0542
-723,0,2,"Gillespie, Mr. William Henry",male,34,13
-724,0,2,"Hodges, Mr. Henry Price",male,50,13
-725,1,1,"Chambers, Mr. Norman Campbell",male,27,53.1
-726,0,3,"Oreskovic, Mr. Luka",male,20,8.6625
-727,1,2,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,21
-728,1,3,"Mannion, Miss. Margareth",female,,7.7375
-729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,26
-730,0,3,"Ilmakangas, Miss. Pieta Sofia",female,25,7.925
-731,1,1,"Allen, Miss. Elisabeth Walton",female,29,211.3375
-732,0,3,"Hassan, Mr. Houssein G N",male,11,18.7875
-733,0,2,"Knight, Mr. Robert J",male,,0
-734,0,2,"Berriman, Mr. William John",male,23,13
-735,0,2,"Troupiansky, Mr. Moses Aaron",male,23,13
-736,0,3,"Williams, Mr. Leslie",male,28.5,16.1
-737,0,3,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,34.375
-738,1,1,"Lesurer, Mr. Gustave J",male,35,512.3292
-739,0,3,"Ivanoff, Mr. Kanio",male,,7.8958
-740,0,3,"Nankoff, Mr. Minko",male,,7.8958
-741,1,1,"Hawksford, Mr. Walter James",male,,30
-742,0,1,"Cavendish, Mr. Tyrell William",male,36,78.85
-743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,262.375
-744,0,3,"McNamee, Mr. Neal",male,24,16.1
-745,1,3,"Stranden, Mr. Juho",male,31,7.925
-746,0,1,"Crosby, Capt. Edward Gifford",male,70,71
-747,0,3,"Abbott, Mr. Rossmore Edward",male,16,20.25
-748,1,2,"Sinkkonen, Miss. Anna",female,30,13
-749,0,1,"Marvin, Mr. Daniel Warner",male,19,53.1
-750,0,3,"Connaghton, Mr. Michael",male,31,7.75
-751,1,2,"Wells, Miss. Joan",female,4,23
-752,1,3,"Moor, Master. Meier",male,6,12.475
-753,0,3,"Vande Velde, Mr. Johannes Joseph",male,33,9.5
-754,0,3,"Jonkoff, Mr. Lalio",male,23,7.8958
-755,1,2,"Herman, Mrs. Samuel (Jane Laver)",female,48,65
-756,1,2,"Hamalainen, Master. Viljo",male,0.67,14.5
-757,0,3,"Carlsson, Mr. August Sigfrid",male,28,7.7958
-758,0,2,"Bailey, Mr. Percy Andrew",male,18,11.5
-759,0,3,"Theobald, Mr. Thomas Leonard",male,34,8.05
-760,1,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,86.5
-761,0,3,"Garfirth, Mr. John",male,,14.5
-762,0,3,"Nirva, Mr. Iisakki Antino Aijo",male,41,7.125
-763,1,3,"Barah, Mr. Hanna Assi",male,20,7.2292
-764,1,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,120
-765,0,3,"Eklund, Mr. Hans Linus",male,16,7.775
-766,1,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,77.9583
-767,0,1,"Brewe, Dr. Arthur Jackson",male,,39.6
-768,0,3,"Mangan, Miss. Mary",female,30.5,7.75
-769,0,3,"Moran, Mr. Daniel J",male,,24.15
-770,0,3,"Gronnestad, Mr. Daniel Danielsen",male,32,8.3625
-771,0,3,"Lievens, Mr. Rene Aime",male,24,9.5
-772,0,3,"Jensen, Mr. Niels Peder",male,48,7.8542
-773,0,2,"Mack, Mrs. (Mary)",female,57,10.5
-774,0,3,"Elias, Mr. Dibo",male,,7.225
-775,1,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,23
-776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,7.75
-777,0,3,"Tobin, Mr. Roger",male,,7.75
-778,1,3,"Emanuel, Miss. Virginia Ethel",female,5,12.475
-779,0,3,"Kilgannon, Mr. Thomas J",male,,7.7375
-780,1,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,211.3375
-781,1,3,"Ayoub, Miss. Banoura",female,13,7.2292
-782,1,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,57
-783,0,1,"Long, Mr. Milton Clyde",male,29,30
-784,0,3,"Johnston, Mr. Andrew G",male,,23.45
-785,0,3,"Ali, Mr. William",male,25,7.05
-786,0,3,"Harmer, Mr. Abraham (David Lishin)",male,25,7.25
-787,1,3,"Sjoblom, Miss. Anna Sofia",female,18,7.4958
-788,0,3,"Rice, Master. George Hugh",male,8,29.125
-789,1,3,"Dean, Master. Bertram Vere",male,1,20.575
-790,0,1,"Guggenheim, Mr. Benjamin",male,46,79.2
-791,0,3,"Keane, Mr. Andrew ""Andy""",male,,7.75
-792,0,2,"Gaskell, Mr. Alfred",male,16,26
-793,0,3,"Sage, Miss. Stella Anna",female,,69.55
-794,0,1,"Hoyt, Mr. William Fisher",male,,30.6958
-795,0,3,"Dantcheff, Mr. Ristiu",male,25,7.8958
-796,0,2,"Otter, Mr. Richard",male,39,13
-797,1,1,"Leader, Dr. Alice (Farnham)",female,49,25.9292
-798,1,3,"Osman, Mrs. Mara",female,31,8.6833
-799,0,3,"Ibrahim Shawah, Mr. Yousseff",male,30,7.2292
-800,0,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,24.15
-801,0,2,"Ponesell, Mr. Martin",male,34,13
-802,1,2,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,26.25
-803,1,1,"Carter, Master. William Thornton II",male,11,120
-804,1,3,"Thomas, Master. Assad Alexander",male,0.42,8.5167
-805,1,3,"Hedman, Mr. Oskar Arvid",male,27,6.975
-806,0,3,"Johansson, Mr. Karl Johan",male,31,7.775
-807,0,1,"Andrews, Mr. Thomas Jr",male,39,0
-808,0,3,"Pettersson, Miss. Ellen Natalia",female,18,7.775
-809,0,2,"Meyer, Mr. August",male,39,13
-810,1,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,53.1
-811,0,3,"Alexander, Mr. William",male,26,7.8875
-812,0,3,"Lester, Mr. James",male,39,24.15
-813,0,2,"Slemen, Mr. Richard James",male,35,10.5
-814,0,3,"Andersson, Miss. Ebba Iris Alfrida",female,6,31.275
-815,0,3,"Tomlin, Mr. Ernest Portage",male,30.5,8.05
-816,0,1,"Fry, Mr. Richard",male,,0
-817,0,3,"Heininen, Miss. Wendla Maria",female,23,7.925
-818,0,2,"Mallet, Mr. Albert",male,31,37.0042
-819,0,3,"Holm, Mr. John Fredrik Alexander",male,43,6.45
-820,0,3,"Skoog, Master. Karl Thorsten",male,10,27.9
-821,1,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,93.5
-822,1,3,"Lulic, Mr. Nikola",male,27,8.6625
-823,0,1,"Reuchlin, Jonkheer. John George",male,38,0
-824,1,3,"Moor, Mrs. (Beila)",female,27,12.475
-825,0,3,"Panula, Master. Urho Abraham",male,2,39.6875
-826,0,3,"Flynn, Mr. John",male,,6.95
-827,0,3,"Lam, Mr. Len",male,,56.4958
-828,1,2,"Mallet, Master. Andre",male,1,37.0042
-829,1,3,"McCormack, Mr. Thomas Joseph",male,,7.75
-830,1,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62,80
-831,1,3,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,14.4542
-832,1,2,"Richards, Master. George Sibley",male,0.83,18.75
-833,0,3,"Saad, Mr. Amin",male,,7.2292
-834,0,3,"Augustsson, Mr. Albert",male,23,7.8542
-835,0,3,"Allum, Mr. Owen George",male,18,8.3
-836,1,1,"Compton, Miss. Sara Rebecca",female,39,83.1583
-837,0,3,"Pasic, Mr. Jakob",male,21,8.6625
-838,0,3,"Sirota, Mr. Maurice",male,,8.05
-839,1,3,"Chip, Mr. Chang",male,32,56.4958
-840,1,1,"Marechal, Mr. Pierre",male,,29.7
-841,0,3,"Alhomaki, Mr. Ilmari Rudolf",male,20,7.925
-842,0,2,"Mudd, Mr. Thomas Charles",male,16,10.5
-843,1,1,"Serepeca, Miss. Augusta",female,30,31
-844,0,3,"Lemberopolous, Mr. Peter L",male,34.5,6.4375
-845,0,3,"Culumovic, Mr. Jeso",male,17,8.6625
-846,0,3,"Abbing, Mr. Anthony",male,42,7.55
-847,0,3,"Sage, Mr. Douglas Bullen",male,,69.55
-848,0,3,"Markoff, Mr. Marin",male,35,7.8958
-849,0,2,"Harper, Rev. John",male,28,33
-850,1,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,89.1042
-851,0,3,"Andersson, Master. Sigvard Harald Elias",male,4,31.275
-852,0,3,"Svensson, Mr. Johan",male,74,7.775
-853,0,3,"Boulos, Miss. Nourelain",female,9,15.2458
-854,1,1,"Lines, Miss. Mary Conover",female,16,39.4
-855,0,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,26
-856,1,3,"Aks, Mrs. Sam (Leah Rosen)",female,18,9.35
-857,1,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,164.8667
-858,1,1,"Daly, Mr. Peter Denis ",male,51,26.55
-859,1,3,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,19.2583
-860,0,3,"Razi, Mr. Raihed",male,,7.2292
-861,0,3,"Hansen, Mr. Claus Peter",male,41,14.1083
-862,0,2,"Giles, Mr. Frederick Edward",male,21,11.5
-863,1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,25.9292
-864,0,3,"Sage, Miss. Dorothy Edith ""Dolly""",female,,69.55
-865,0,2,"Gill, Mr. John William",male,24,13
-866,1,2,"Bystrom, Mrs. (Karolina)",female,42,13
-867,1,2,"Duran y More, Miss. Asuncion",female,27,13.8583
-868,0,1,"Roebling, Mr. Washington Augustus II",male,31,50.4958
-869,0,3,"van Melkebeke, Mr. Philemon",male,,9.5
-870,1,3,"Johnson, Master. Harold Theodor",male,4,11.1333
-871,0,3,"Balkic, Mr. Cerin",male,26,7.8958
-872,1,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,52.5542
-873,0,1,"Carlsson, Mr. Frans Olof",male,33,5
-874,0,3,"Vander Cruyssen, Mr. Victor",male,47,9
-875,1,2,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,24
-876,1,3,"Najib, Miss. Adele Kiamie ""Jane""",female,15,7.225
-877,0,3,"Gustafsson, Mr. Alfred Ossian",male,20,9.8458
-878,0,3,"Petroff, Mr. Nedelio",male,19,7.8958
-879,0,3,"Laleff, Mr. Kristo",male,,7.8958
-880,1,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,83.1583
-881,1,2,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,26
-882,0,3,"Markun, Mr. Johann",male,33,7.8958
-883,0,3,"Dahlberg, Miss. Gerda Ulrika",female,22,10.5167
-884,0,2,"Banfield, Mr. Frederick James",male,28,10.5
-885,0,3,"Sutehall, Mr. Henry Jr",male,25,7.05
-886,0,3,"Rice, Mrs. William (Margaret Norton)",female,39,29.125
-887,0,2,"Montvila, Rev. Juozas",male,27,13
-888,1,1,"Graham, Miss. Margaret Edith",female,19,30
-889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",female,,23.45
-890,1,1,"Behr, Mr. Karl Howell",male,26,30
-891,0,3,"Dooley, Mr. Patrick",male,32,7.75
+name,sex,age,outcome,wealth,gbp
+"Braund, Mr. Owen Harris",Male,22,Died,Poor,7.25
+"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",Female,38,Survived,Rich,71.2833
+"Heikkinen, Miss. Laina",Female,26,Survived,Poor,7.925
+"Futrelle, Mrs. Jacques Heath (Lily May Peel)",Female,35,Survived,Rich,53.1
+"Allen, Mr. William Henry",Male,35,Died,Poor,8.05
+"Moran, Mr. James",Male,NA,Died,Poor,8.4583
+"McCarthy, Mr. Timothy J",Male,54,Died,Rich,51.8625
+"Palsson, Master. Gosta Leonard",Male,2,Died,Poor,21.075
+"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",Female,27,Survived,Poor,11.1333
+"Nasser, Mrs. Nicholas (Adele Achem)",Female,14,Survived,Middle,30.0708
+"Sandstrom, Miss. Marguerite Rut",Female,4,Survived,Poor,16.7
+"Bonnell, Miss. Elizabeth",Female,58,Survived,Rich,26.55
+"Saundercock, Mr. William Henry",Male,20,Died,Poor,8.05
+"Andersson, Mr. Anders Johan",Male,39,Died,Poor,31.275
+"Vestrom, Miss. Hulda Amanda Adolfina",Female,14,Died,Poor,7.8542
+"Hewlett, Mrs. (Mary D Kingcome)",Female,55,Survived,Middle,16
+"Rice, Master. Eugene",Male,2,Died,Poor,29.125
+"Williams, Mr. Charles Eugene",Male,NA,Survived,Middle,13
+"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",Female,31,Died,Poor,18
+"Masselmani, Mrs. Fatima",Female,NA,Survived,Poor,7.225
+"Fynney, Mr. Joseph J",Male,35,Died,Middle,26
+"Beesley, Mr. Lawrence",Male,34,Survived,Middle,13
+"McGowan, Miss. Anna ""Annie""",Female,15,Survived,Poor,8.0292
+"Sloper, Mr. William Thompson",Male,28,Survived,Rich,35.5
+"Palsson, Miss. Torborg Danira",Female,8,Died,Poor,21.075
+"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",Female,38,Survived,Poor,31.3875
+"Emir, Mr. Farred Chehab",Male,NA,Died,Poor,7.225
+"Fortune, Mr. Charles Alexander",Male,19,Died,Rich,263
+"O'Dwyer, Miss. Ellen ""Nellie""",Female,NA,Survived,Poor,7.8792
+"Todoroff, Mr. Lalio",Male,NA,Died,Poor,7.8958
+"Uruchurtu, Don. Manuel E",Male,40,Died,Rich,27.7208
+"Spencer, Mrs. William Augustus (Marie Eugenie)",Female,NA,Survived,Rich,146.5208
+"Glynn, Miss. Mary Agatha",Female,NA,Survived,Poor,7.75
+"Wheadon, Mr. Edward H",Male,66,Died,Middle,10.5
+"Meyer, Mr. Edgar Joseph",Male,28,Died,Rich,82.1708
+"Holverson, Mr. Alexander Oskar",Male,42,Died,Rich,52
+"Mamee, Mr. Hanna",Male,NA,Survived,Poor,7.2292
+"Cann, Mr. Ernest Charles",Male,21,Died,Poor,8.05
+"Vander Planke, Miss. Augusta Maria",Female,18,Died,Poor,18
+"Nicola-Yarred, Miss. Jamila",Female,14,Survived,Poor,11.2417
+"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",Female,40,Died,Poor,9.475
+"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",Female,27,Died,Middle,21
+"Kraeff, Mr. Theodor",Male,NA,Died,Poor,7.8958
+"Laroche, Miss. Simonne Marie Anne Andree",Female,3,Survived,Middle,41.5792
+"Devaney, Miss. Margaret Delia",Female,19,Survived,Poor,7.8792
+"Rogers, Mr. William John",Male,NA,Died,Poor,8.05
+"Lennon, Mr. Denis",Male,NA,Died,Poor,15.5
+"O'Driscoll, Miss. Bridget",Female,NA,Survived,Poor,7.75
+"Samaan, Mr. Youssef",Male,NA,Died,Poor,21.6792
+"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",Female,18,Died,Poor,17.8
+"Panula, Master. Juha Niilo",Male,7,Died,Poor,39.6875
+"Nosworthy, Mr. Richard Cater",Male,21,Died,Poor,7.8
+"Harper, Mrs. Henry Sleeper (Myna Haxtun)",Female,49,Survived,Rich,76.7292
+"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",Female,29,Survived,Middle,26
+"Ostby, Mr. Engelhart Cornelius",Male,65,Died,Rich,61.9792
+"Woolner, Mr. Hugh",Male,NA,Survived,Rich,35.5
+"Rugg, Miss. Emily",Female,21,Survived,Middle,10.5
+"Novel, Mr. Mansouer",Male,28.5,Died,Poor,7.2292
+"West, Miss. Constance Mirium",Female,5,Survived,Middle,27.75
+"Goodwin, Master. William Frederick",Male,11,Died,Poor,46.9
+"Sirayanian, Mr. Orsen",Male,22,Died,Poor,7.2292
+"Icard, Miss. Amelie",Female,38,Survived,Rich,80
+"Harris, Mr. Henry Birkhardt",Male,45,Died,Rich,83.475
+"Skoog, Master. Harald",Male,4,Died,Poor,27.9
+"Stewart, Mr. Albert A",Male,NA,Died,Rich,27.7208
+"Moubarek, Master. Gerios",Male,NA,Survived,Poor,15.2458
+"Nye, Mrs. (Elizabeth Ramell)",Female,29,Survived,Middle,10.5
+"Crease, Mr. Ernest James",Male,19,Died,Poor,8.1583
+"Andersson, Miss. Erna Alexandra",Female,17,Survived,Poor,7.925
+"Kink, Mr. Vincenz",Male,26,Died,Poor,8.6625
+"Jenkin, Mr. Stephen Curnow",Male,32,Died,Middle,10.5
+"Goodwin, Miss. Lillian Amy",Female,16,Died,Poor,46.9
+"Hood, Mr. Ambrose Jr",Male,21,Died,Middle,73.5
+"Chronopoulos, Mr. Apostolos",Male,26,Died,Poor,14.4542
+"Bing, Mr. Lee",Male,32,Survived,Poor,56.4958
+"Moen, Mr. Sigurd Hansen",Male,25,Died,Poor,7.65
+"Staneff, Mr. Ivan",Male,NA,Died,Poor,7.8958
+"Moutal, Mr. Rahamin Haim",Male,NA,Died,Poor,8.05
+"Caldwell, Master. Alden Gates",Male,0.83,Survived,Middle,29
+"Dowdell, Miss. Elizabeth",Female,30,Survived,Poor,12.475
+"Waelens, Mr. Achille",Male,22,Died,Poor,9
+"Sheerlinck, Mr. Jan Baptist",Male,29,Survived,Poor,9.5
+"McDermott, Miss. Brigdet Delia",Female,NA,Survived,Poor,7.7875
+"Carrau, Mr. Francisco M",Male,28,Died,Rich,47.1
+"Ilett, Miss. Bertha",Female,17,Survived,Middle,10.5
+"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",Female,33,Survived,Poor,15.85
+"Ford, Mr. William Neal",Male,16,Died,Poor,34.375
+"Slocovski, Mr. Selman Francis",Male,NA,Died,Poor,8.05
+"Fortune, Miss. Mabel Helen",Female,23,Survived,Rich,263
+"Celotti, Mr. Francesco",Male,24,Died,Poor,8.05
+"Christmann, Mr. Emil",Male,29,Died,Poor,8.05
+"Andreasson, Mr. Paul Edvin",Male,20,Died,Poor,7.8542
+"Chaffee, Mr. Herbert Fuller",Male,46,Died,Rich,61.175
+"Dean, Mr. Bertram Frank",Male,26,Died,Poor,20.575
+"Coxon, Mr. Daniel",Male,59,Died,Poor,7.25
+"Shorney, Mr. Charles Joseph",Male,NA,Died,Poor,8.05
+"Goldschmidt, Mr. George B",Male,71,Died,Rich,34.6542
+"Greenfield, Mr. William Bertram",Male,23,Survived,Rich,63.3583
+"Doling, Mrs. John T (Ada Julia Bone)",Female,34,Survived,Middle,23
+"Kantor, Mr. Sinai",Male,34,Died,Middle,26
+"Petranec, Miss. Matilda",Female,28,Died,Poor,7.8958
+"Petroff, Mr. Pastcho (""Pentcho"")",Male,NA,Died,Poor,7.8958
+"White, Mr. Richard Frasar",Male,21,Died,Rich,77.2875
+"Johansson, Mr. Gustaf Joel",Male,33,Died,Poor,8.6542
+"Gustafsson, Mr. Anders Vilhelm",Male,37,Died,Poor,7.925
+"Mionoff, Mr. Stoytcho",Male,28,Died,Poor,7.8958
+"Salkjelsvik, Miss. Anna Kristine",Female,21,Survived,Poor,7.65
+"Moss, Mr. Albert Johan",Male,NA,Survived,Poor,7.775
+"Rekic, Mr. Tido",Male,38,Died,Poor,7.8958
+"Moran, Miss. Bertha",Female,NA,Survived,Poor,24.15
+"Porter, Mr. Walter Chamberlain",Male,47,Died,Rich,52
+"Zabour, Miss. Hileni",Female,14.5,Died,Poor,14.4542
+"Barton, Mr. David John",Male,22,Died,Poor,8.05
+"Jussila, Miss. Katriina",Female,20,Died,Poor,9.825
+"Attalah, Miss. Malake",Female,17,Died,Poor,14.4583
+"Pekoniemi, Mr. Edvard",Male,21,Died,Poor,7.925
+"Connors, Mr. Patrick",Male,70.5,Died,Poor,7.75
+"Turpin, Mr. William John Robert",Male,29,Died,Middle,21
+"Baxter, Mr. Quigg Edmond",Male,24,Died,Rich,247.5208
+"Andersson, Miss. Ellis Anna Maria",Female,2,Died,Poor,31.275
+"Hickman, Mr. Stanley George",Male,21,Died,Middle,73.5
+"Moore, Mr. Leonard Charles",Male,NA,Died,Poor,8.05
+"Nasser, Mr. Nicholas",Male,32.5,Died,Middle,30.0708
+"Webber, Miss. Susan",Female,32.5,Survived,Middle,13
+"White, Mr. Percival Wayland",Male,54,Died,Rich,77.2875
+"Nicola-Yarred, Master. Elias",Male,12,Survived,Poor,11.2417
+"McMahon, Mr. Martin",Male,NA,Died,Poor,7.75
+"Madsen, Mr. Fridtjof Arne",Male,24,Survived,Poor,7.1417
+"Peter, Miss. Anna",Female,NA,Survived,Poor,22.3583
+"Ekstrom, Mr. Johan",Male,45,Died,Poor,6.975
+"Drazenoic, Mr. Jozef",Male,33,Died,Poor,7.8958
+"Coelho, Mr. Domingos Fernandeo",Male,20,Died,Poor,7.05
+"Robins, Mrs. Alexander A (Grace Charity Laury)",Female,47,Died,Poor,14.5
+"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",Female,29,Survived,Middle,26
+"Sobey, Mr. Samuel James Hayden",Male,25,Died,Middle,13
+"Richard, Mr. Emile",Male,23,Died,Middle,15.0458
+"Newsom, Miss. Helen Monypeny",Female,19,Survived,Rich,26.2833
+"Futrelle, Mr. Jacques Heath",Male,37,Died,Rich,53.1
+"Osen, Mr. Olaf Elon",Male,16,Died,Poor,9.2167
+"Giglio, Mr. Victor",Male,24,Died,Rich,79.2
+"Boulos, Mrs. Joseph (Sultana)",Female,NA,Died,Poor,15.2458
+"Nysten, Miss. Anna Sofia",Female,22,Survived,Poor,7.75
+"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",Female,24,Survived,Poor,15.85
+"Burke, Mr. Jeremiah",Male,19,Died,Poor,6.75
+"Andrew, Mr. Edgardo Samuel",Male,18,Died,Middle,11.5
+"Nicholls, Mr. Joseph Charles",Male,19,Died,Middle,36.75
+"Andersson, Mr. August Edvard (""Wennerstrom"")",Male,27,Survived,Poor,7.7958
+"Ford, Miss. Robina Maggie ""Ruby""",Female,9,Died,Poor,34.375
+"Navratil, Mr. Michel (""Louis M Hoffman"")",Male,36.5,Died,Middle,26
+"Byles, Rev. Thomas Roussel Davids",Male,42,Died,Middle,13
+"Bateman, Rev. Robert James",Male,51,Died,Middle,12.525
+"Pears, Mrs. Thomas (Edith Wearne)",Female,22,Survived,Rich,66.6
+"Meo, Mr. Alfonzo",Male,55.5,Died,Poor,8.05
+"van Billiard, Mr. Austin Blyler",Male,40.5,Died,Poor,14.5
+"Olsen, Mr. Ole Martin",Male,NA,Died,Poor,7.3125
+"Williams, Mr. Charles Duane",Male,51,Died,Rich,61.3792
+"Gilnagh, Miss. Katherine ""Katie""",Female,16,Survived,Poor,7.7333
+"Corn, Mr. Harry",Male,30,Died,Poor,8.05
+"Smiljanic, Mr. Mile",Male,NA,Died,Poor,8.6625
+"Sage, Master. Thomas Henry",Male,NA,Died,Poor,69.55
+"Cribb, Mr. John Hatfield",Male,44,Died,Poor,16.1
+"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",Female,40,Survived,Middle,15.75
+"Bengtsson, Mr. John Viktor",Male,26,Died,Poor,7.775
+"Calic, Mr. Jovo",Male,17,Died,Poor,8.6625
+"Panula, Master. Eino Viljami",Male,1,Died,Poor,39.6875
+"Goldsmith, Master. Frank John William ""Frankie""",Male,9,Survived,Poor,20.525
+"Chibnall, Mrs. (Edith Martha Bowerman)",Female,NA,Survived,Rich,55
+"Skoog, Mrs. William (Anna Bernhardina Karlsson)",Female,45,Died,Poor,27.9
+"Baumann, Mr. John D",Male,NA,Died,Rich,25.925
+"Ling, Mr. Lee",Male,28,Died,Poor,56.4958
+"Van der hoef, Mr. Wyckoff",Male,61,Died,Rich,33.5
+"Rice, Master. Arthur",Male,4,Died,Poor,29.125
+"Johnson, Miss. Eleanor Ileen",Female,1,Survived,Poor,11.1333
+"Sivola, Mr. Antti Wilhelm",Male,21,Died,Poor,7.925
+"Smith, Mr. James Clinch",Male,56,Died,Rich,30.6958
+"Klasen, Mr. Klas Albin",Male,18,Died,Poor,7.8542
+"Lefebre, Master. Henry Forbes",Male,NA,Died,Poor,25.4667
+"Isham, Miss. Ann Elizabeth",Female,50,Died,Rich,28.7125
+"Hale, Mr. Reginald",Male,30,Died,Middle,13
+"Leonard, Mr. Lionel",Male,36,Died,Poor,0
+"Sage, Miss. Constance Gladys",Female,NA,Died,Poor,69.55
+"Pernot, Mr. Rene",Male,NA,Died,Middle,15.05
+"Asplund, Master. Clarence Gustaf Hugo",Male,9,Died,Poor,31.3875
+"Becker, Master. Richard F",Male,1,Survived,Middle,39
+"Kink-Heilmann, Miss. Luise Gretchen",Female,4,Survived,Poor,22.025
+"Rood, Mr. Hugh Roscoe",Male,NA,Died,Rich,50
+"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",Female,NA,Survived,Poor,15.5
+"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",Male,45,Survived,Rich,26.55
+"Bourke, Mr. John",Male,40,Died,Poor,15.5
+"Turcin, Mr. Stjepan",Male,36,Died,Poor,7.8958
+"Pinsky, Mrs. (Rosa)",Female,32,Survived,Middle,13
+"Carbines, Mr. William",Male,19,Died,Middle,13
+"Andersen-Jensen, Miss. Carla Christine Nielsine",Female,19,Survived,Poor,7.8542
+"Navratil, Master. Michel M",Male,3,Survived,Middle,26
+"Brown, Mrs. James Joseph (Margaret Tobin)",Female,44,Survived,Rich,27.7208
+"Lurette, Miss. Elise",Female,58,Survived,Rich,146.5208
+"Mernagh, Mr. Robert",Male,NA,Died,Poor,7.75
+"Olsen, Mr. Karl Siegwart Andreas",Male,42,Died,Poor,8.4042
+"Madigan, Miss. Margaret ""Maggie""",Female,NA,Survived,Poor,7.75
+"Yrois, Miss. Henriette (""Mrs Harbeck"")",Female,24,Died,Middle,13
+"Vande Walle, Mr. Nestor Cyriel",Male,28,Died,Poor,9.5
+"Sage, Mr. Frederick",Male,NA,Died,Poor,69.55
+"Johanson, Mr. Jakob Alfred",Male,34,Died,Poor,6.4958
+"Youseff, Mr. Gerious",Male,45.5,Died,Poor,7.225
+"Cohen, Mr. Gurshon ""Gus""",Male,18,Survived,Poor,8.05
+"Strom, Miss. Telma Matilda",Female,2,Died,Poor,10.4625
+"Backstrom, Mr. Karl Alfred",Male,32,Died,Poor,15.85
+"Albimona, Mr. Nassef Cassem",Male,26,Survived,Poor,18.7875
+"Carr, Miss. Helen ""Ellen""",Female,16,Survived,Poor,7.75
+"Blank, Mr. Henry",Male,40,Survived,Rich,31
+"Ali, Mr. Ahmed",Male,24,Died,Poor,7.05
+"Cameron, Miss. Clear Annie",Female,35,Survived,Middle,21
+"Perkin, Mr. John Henry",Male,22,Died,Poor,7.25
+"Givard, Mr. Hans Kristensen",Male,30,Died,Middle,13
+"Kiernan, Mr. Philip",Male,NA,Died,Poor,7.75
+"Newell, Miss. Madeleine",Female,31,Survived,Rich,113.275
+"Honkanen, Miss. Eliina",Female,27,Survived,Poor,7.925
+"Jacobsohn, Mr. Sidney Samuel",Male,42,Died,Middle,27
+"Bazzani, Miss. Albina",Female,32,Survived,Rich,76.2917
+"Harris, Mr. Walter",Male,30,Died,Middle,10.5
+"Sunderland, Mr. Victor Francis",Male,16,Survived,Poor,8.05
+"Bracken, Mr. James H",Male,27,Died,Middle,13
+"Green, Mr. George Henry",Male,51,Died,Poor,8.05
+"Nenkoff, Mr. Christo",Male,NA,Died,Poor,7.8958
+"Hoyt, Mr. Frederick Maxfield",Male,38,Survived,Rich,90
+"Berglund, Mr. Karl Ivar Sven",Male,22,Died,Poor,9.35
+"Mellors, Mr. William John",Male,19,Survived,Middle,10.5
+"Lovell, Mr. John Hall (""Henry"")",Male,20.5,Died,Poor,7.25
+"Fahlstrom, Mr. Arne Jonas",Male,18,Died,Middle,13
+"Lefebre, Miss. Mathilde",Female,NA,Died,Poor,25.4667
+"Harris, Mrs. Henry Birkhardt (Irene Wallach)",Female,35,Survived,Rich,83.475
+"Larsson, Mr. Bengt Edvin",Male,29,Died,Poor,7.775
+"Sjostedt, Mr. Ernst Adolf",Male,59,Died,Middle,13.5
+"Asplund, Miss. Lillian Gertrud",Female,5,Survived,Poor,31.3875
+"Leyson, Mr. Robert William Norman",Male,24,Died,Middle,10.5
+"Harknett, Miss. Alice Phoebe",Female,NA,Died,Poor,7.55
+"Hold, Mr. Stephen",Male,44,Died,Middle,26
+"Collyer, Miss. Marjorie ""Lottie""",Female,8,Survived,Middle,26.25
+"Pengelly, Mr. Frederick William",Male,19,Died,Middle,10.5
+"Hunt, Mr. George Henry",Male,33,Died,Middle,12.275
+"Zabour, Miss. Thamine",Female,NA,Died,Poor,14.4542
+"Murphy, Miss. Katherine ""Kate""",Female,NA,Survived,Poor,15.5
+"Coleridge, Mr. Reginald Charles",Male,29,Died,Middle,10.5
+"Maenpaa, Mr. Matti Alexanteri",Male,22,Died,Poor,7.125
+"Attalah, Mr. Sleiman",Male,30,Died,Poor,7.225
+"Minahan, Dr. William Edward",Male,44,Died,Rich,90
+"Lindahl, Miss. Agda Thorilda Viktoria",Female,25,Died,Poor,7.775
+"Hamalainen, Mrs. William (Anna)",Female,24,Survived,Middle,14.5
+"Beckwith, Mr. Richard Leonard",Male,37,Survived,Rich,52.5542
+"Carter, Rev. Ernest Courtenay",Male,54,Died,Middle,26
+"Reed, Mr. James George",Male,NA,Died,Poor,7.25
+"Strom, Mrs. Wilhelm (Elna Matilda Persson)",Female,29,Died,Poor,10.4625
+"Stead, Mr. William Thomas",Male,62,Died,Rich,26.55
+"Lobb, Mr. William Arthur",Male,30,Died,Poor,16.1
+"Rosblom, Mrs. Viktor (Helena Wilhelmina)",Female,41,Died,Poor,20.2125
+"Touma, Mrs. Darwis (Hanne Youssef Razi)",Female,29,Survived,Poor,15.2458
+"Thorne, Mrs. Gertrude Maybelle",Female,NA,Survived,Rich,79.2
+"Cherry, Miss. Gladys",Female,30,Survived,Rich,86.5
+"Ward, Miss. Anna",Female,35,Survived,Rich,512.3292
+"Parrish, Mrs. (Lutie Davis)",Female,50,Survived,Middle,26
+"Smith, Mr. Thomas",Male,NA,Died,Poor,7.75
+"Asplund, Master. Edvin Rojj Felix",Male,3,Survived,Poor,31.3875
+"Taussig, Mr. Emil",Male,52,Died,Rich,79.65
+"Harrison, Mr. William",Male,40,Died,Rich,0
+"Henry, Miss. Delia",Female,NA,Died,Poor,7.75
+"Reeves, Mr. David",Male,36,Died,Middle,10.5
+"Panula, Mr. Ernesti Arvid",Male,16,Died,Poor,39.6875
+"Persson, Mr. Ernst Ulrik",Male,25,Survived,Poor,7.775
+"Graham, Mrs. William Thompson (Edith Junkins)",Female,58,Survived,Rich,153.4625
+"Bissette, Miss. Amelia",Female,35,Survived,Rich,135.6333
+"Cairns, Mr. Alexander",Male,NA,Died,Rich,31
+"Tornquist, Mr. William Henry",Male,25,Survived,Poor,0
+"Mellinger, Mrs. (Elizabeth Anne Maidment)",Female,41,Survived,Middle,19.5
+"Natsch, Mr. Charles H",Male,37,Died,Rich,29.7
+"Healy, Miss. Hanora ""Nora""",Female,NA,Survived,Poor,7.75
+"Andrews, Miss. Kornelia Theodosia",Female,63,Survived,Rich,77.9583
+"Lindblom, Miss. Augusta Charlotta",Female,45,Died,Poor,7.75
+"Parkes, Mr. Francis ""Frank""",Male,NA,Died,Middle,0
+"Rice, Master. Eric",Male,7,Died,Poor,29.125
+"Abbott, Mrs. Stanton (Rosa Hunt)",Female,35,Survived,Poor,20.25
+"Duane, Mr. Frank",Male,65,Died,Poor,7.75
+"Olsson, Mr. Nils Johan Goransson",Male,28,Died,Poor,7.8542
+"de Pelsmaeker, Mr. Alfons",Male,16,Died,Poor,9.5
+"Dorking, Mr. Edward Arthur",Male,19,Survived,Poor,8.05
+"Smith, Mr. Richard William",Male,NA,Died,Rich,26
+"Stankovic, Mr. Ivan",Male,33,Died,Poor,8.6625
+"de Mulder, Mr. Theodore",Male,30,Survived,Poor,9.5
+"Naidenoff, Mr. Penko",Male,22,Died,Poor,7.8958
+"Hosono, Mr. Masabumi",Male,42,Survived,Middle,13
+"Connolly, Miss. Kate",Female,22,Survived,Poor,7.75
+"Barber, Miss. Ellen ""Nellie""",Female,26,Survived,Rich,78.85
+"Bishop, Mrs. Dickinson H (Helen Walton)",Female,19,Survived,Rich,91.0792
+"Levy, Mr. Rene Jacques",Male,36,Died,Middle,12.875
+"Haas, Miss. Aloisia",Female,24,Died,Poor,8.85
+"Mineff, Mr. Ivan",Male,24,Died,Poor,7.8958
+"Lewy, Mr. Ervin G",Male,NA,Died,Rich,27.7208
+"Hanna, Mr. Mansour",Male,23.5,Died,Poor,7.2292
+"Allison, Miss. Helen Loraine",Female,2,Died,Rich,151.55
+"Saalfeld, Mr. Adolphe",Male,NA,Survived,Rich,30.5
+"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",Female,50,Survived,Rich,247.5208
+"Kelly, Miss. Anna Katherine ""Annie Kate""",Female,NA,Survived,Poor,7.75
+"McCoy, Mr. Bernard",Male,NA,Survived,Poor,23.25
+"Johnson, Mr. William Cahoone Jr",Male,19,Died,Poor,0
+"Keane, Miss. Nora A",Female,NA,Survived,Middle,12.35
+"Williams, Mr. Howard Hugh ""Harry""",Male,NA,Died,Poor,8.05
+"Allison, Master. Hudson Trevor",Male,0.92,Survived,Rich,151.55
+"Fleming, Miss. Margaret",Female,NA,Survived,Rich,110.8833
+"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",Female,17,Survived,Rich,108.9
+"Abelson, Mr. Samuel",Male,30,Died,Middle,24
+"Francatelli, Miss. Laura Mabel",Female,30,Survived,Rich,56.9292
+"Hays, Miss. Margaret Bechstein",Female,24,Survived,Rich,83.1583
+"Ryerson, Miss. Emily Borie",Female,18,Survived,Rich,262.375
+"Lahtinen, Mrs. William (Anna Sylfven)",Female,26,Died,Middle,26
+"Hendekovic, Mr. Ignjac",Male,28,Died,Poor,7.8958
+"Hart, Mr. Benjamin",Male,43,Died,Middle,26.25
+"Nilsson, Miss. Helmina Josefina",Female,26,Survived,Poor,7.8542
+"Kantor, Mrs. Sinai (Miriam Sternin)",Female,24,Survived,Middle,26
+"Moraweck, Dr. Ernest",Male,54,Died,Middle,14
+"Wick, Miss. Mary Natalie",Female,31,Survived,Rich,164.8667
+"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",Female,40,Survived,Rich,134.5
+"Dennis, Mr. Samuel",Male,22,Died,Poor,7.25
+"Danoff, Mr. Yoto",Male,27,Died,Poor,7.8958
+"Slayter, Miss. Hilda Mary",Female,30,Survived,Middle,12.35
+"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",Female,22,Survived,Middle,29
+"Sage, Mr. George John Jr",Male,NA,Died,Poor,69.55
+"Young, Miss. Marie Grice",Female,36,Survived,Rich,135.6333
+"Nysveen, Mr. Johan Hansen",Male,61,Died,Poor,6.2375
+"Ball, Mrs. (Ada E Hall)",Female,36,Survived,Middle,13
+"Goldsmith, Mrs. Frank John (Emily Alice Brown)",Female,31,Survived,Poor,20.525
+"Hippach, Miss. Jean Gertrude",Female,16,Survived,Rich,57.9792
+"McCoy, Miss. Agnes",Female,NA,Survived,Poor,23.25
+"Partner, Mr. Austen",Male,45.5,Died,Rich,28.5
+"Graham, Mr. George Edward",Male,38,Died,Rich,153.4625
+"Vander Planke, Mr. Leo Edmondus",Male,16,Died,Poor,18
+"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",Female,NA,Survived,Rich,133.65
+"Denkoff, Mr. Mitto",Male,NA,Died,Poor,7.8958
+"Pears, Mr. Thomas Clinton",Male,29,Died,Rich,66.6
+"Burns, Miss. Elizabeth Margaret",Female,41,Survived,Rich,134.5
+"Dahl, Mr. Karl Edwart",Male,45,Survived,Poor,8.05
+"Blackwell, Mr. Stephen Weart",Male,45,Died,Rich,35.5
+"Navratil, Master. Edmond Roger",Male,2,Survived,Middle,26
+"Fortune, Miss. Alice Elizabeth",Female,24,Survived,Rich,263
+"Collander, Mr. Erik Gustaf",Male,28,Died,Middle,13
+"Sedgwick, Mr. Charles Frederick Waddington",Male,25,Died,Middle,13
+"Fox, Mr. Stanley Hubert",Male,36,Died,Middle,13
+"Brown, Miss. Amelia ""Mildred""",Female,24,Survived,Middle,13
+"Smith, Miss. Marion Elsie",Female,40,Survived,Middle,13
+"Davison, Mrs. Thomas Henry (Mary E Finck)",Female,NA,Survived,Poor,16.1
+"Coutts, Master. William Loch ""William""",Male,3,Survived,Poor,15.9
+"Dimic, Mr. Jovan",Male,42,Died,Poor,8.6625
+"Odahl, Mr. Nils Martin",Male,23,Died,Poor,9.225
+"Williams-Lambert, Mr. Fletcher Fellows",Male,NA,Died,Rich,35
+"Elias, Mr. Tannous",Male,15,Died,Poor,7.2292
+"Arnold-Franchi, Mr. Josef",Male,25,Died,Poor,17.8
+"Yousif, Mr. Wazli",Male,NA,Died,Poor,7.225
+"Vanden Steen, Mr. Leo Peter",Male,28,Died,Poor,9.5
+"Bowerman, Miss. Elsie Edith",Female,22,Survived,Rich,55
+"Funk, Miss. Annie Clemmer",Female,38,Died,Middle,13
+"McGovern, Miss. Mary",Female,NA,Survived,Poor,7.8792
+"Mockler, Miss. Helen Mary ""Ellie""",Female,NA,Survived,Poor,7.8792
+"Skoog, Mr. Wilhelm",Male,40,Died,Poor,27.9
+"del Carlo, Mr. Sebastiano",Male,29,Died,Middle,27.7208
+"Barbara, Mrs. (Catherine David)",Female,45,Died,Poor,14.4542
+"Asim, Mr. Adola",Male,35,Died,Poor,7.05
+"O'Brien, Mr. Thomas",Male,NA,Died,Poor,15.5
+"Adahl, Mr. Mauritz Nils Martin",Male,30,Died,Poor,7.25
+"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",Female,60,Survived,Rich,75.25
+"Moussa, Mrs. (Mantoura Boulos)",Female,NA,Survived,Poor,7.2292
+"Jermyn, Miss. Annie",Female,NA,Survived,Poor,7.75
+"Aubart, Mme. Leontine Pauline",Female,24,Survived,Rich,69.3
+"Harder, Mr. George Achilles",Male,25,Survived,Rich,55.4417
+"Wiklund, Mr. Jakob Alfred",Male,18,Died,Poor,6.4958
+"Beavan, Mr. William Thomas",Male,19,Died,Poor,8.05
+"Ringhini, Mr. Sante",Male,22,Died,Rich,135.6333
+"Palsson, Miss. Stina Viola",Female,3,Died,Poor,21.075
+"Meyer, Mrs. Edgar Joseph (Leila Saks)",Female,NA,Survived,Rich,82.1708
+"Landergren, Miss. Aurora Adelia",Female,22,Survived,Poor,7.25
+"Widener, Mr. Harry Elkins",Male,27,Died,Rich,211.5
+"Betros, Mr. Tannous",Male,20,Died,Poor,4.0125
+"Gustafsson, Mr. Karl Gideon",Male,19,Died,Poor,7.775
+"Bidois, Miss. Rosalie",Female,42,Survived,Rich,227.525
+"Nakid, Miss. Maria (""Mary"")",Female,1,Survived,Poor,15.7417
+"Tikkanen, Mr. Juho",Male,32,Died,Poor,7.925
+"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",Female,35,Survived,Rich,52
+"Plotcharsky, Mr. Vasil",Male,NA,Died,Poor,7.8958
+"Davies, Mr. Charles Henry",Male,18,Died,Middle,73.5
+"Goodwin, Master. Sidney Leonard",Male,1,Died,Poor,46.9
+"Buss, Miss. Kate",Female,36,Survived,Middle,13
+"Sadlier, Mr. Matthew",Male,NA,Died,Poor,7.7292
+"Lehmann, Miss. Bertha",Female,17,Survived,Middle,12
+"Carter, Mr. William Ernest",Male,36,Survived,Rich,120
+"Jansson, Mr. Carl Olof",Male,21,Survived,Poor,7.7958
+"Gustafsson, Mr. Johan Birger",Male,28,Died,Poor,7.925
+"Newell, Miss. Marjorie",Female,23,Survived,Rich,113.275
+"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",Female,24,Survived,Poor,16.7
+"Johansson, Mr. Erik",Male,22,Died,Poor,7.7958
+"Olsson, Miss. Elina",Female,31,Died,Poor,7.8542
+"McKane, Mr. Peter David",Male,46,Died,Middle,26
+"Pain, Dr. Alfred",Male,23,Died,Middle,10.5
+"Trout, Mrs. William H (Jessie L)",Female,28,Survived,Middle,12.65
+"Niskanen, Mr. Juha",Male,39,Survived,Poor,7.925
+"Adams, Mr. John",Male,26,Died,Poor,8.05
+"Jussila, Miss. Mari Aina",Female,21,Died,Poor,9.825
+"Hakkarainen, Mr. Pekka Pietari",Male,28,Died,Poor,15.85
+"Oreskovic, Miss. Marija",Female,20,Died,Poor,8.6625
+"Gale, Mr. Shadrach",Male,34,Died,Middle,21
+"Widegren, Mr. Carl/Charles Peter",Male,51,Died,Poor,7.75
+"Richards, Master. William Rowe",Male,3,Survived,Middle,18.75
+"Birkeland, Mr. Hans Martin Monsen",Male,21,Died,Poor,7.775
+"Lefebre, Miss. Ida",Female,NA,Died,Poor,25.4667
+"Sdycoff, Mr. Todor",Male,NA,Died,Poor,7.8958
+"Hart, Mr. Henry",Male,NA,Died,Poor,6.8583
+"Minahan, Miss. Daisy E",Female,33,Survived,Rich,90
+"Cunningham, Mr. Alfred Fleming",Male,NA,Died,Middle,0
+"Sundman, Mr. Johan Julian",Male,44,Survived,Poor,7.925
+"Meek, Mrs. Thomas (Annie Louise Rowley)",Female,NA,Died,Poor,8.05
+"Drew, Mrs. James Vivian (Lulu Thorne Christian)",Female,34,Survived,Middle,32.5
+"Silven, Miss. Lyyli Karoliina",Female,18,Survived,Middle,13
+"Matthews, Mr. William John",Male,30,Died,Middle,13
+"Van Impe, Miss. Catharina",Female,10,Died,Poor,24.15
+"Gheorgheff, Mr. Stanio",Male,NA,Died,Poor,7.8958
+"Charters, Mr. David",Male,21,Died,Poor,7.7333
+"Zimmerman, Mr. Leo",Male,29,Died,Poor,7.875
+"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",Female,28,Died,Poor,14.4
+"Rosblom, Mr. Viktor Richard",Male,18,Died,Poor,20.2125
+"Wiseman, Mr. Phillippe",Male,NA,Died,Poor,7.25
+"Clarke, Mrs. Charles V (Ada Maria Winfield)",Female,28,Survived,Middle,26
+"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",Female,19,Survived,Middle,26
+"Flynn, Mr. James",Male,NA,Died,Poor,7.75
+"Pickard, Mr. Berk (Berk Trembisky)",Male,32,Survived,Poor,8.05
+"Bjornstrom-Steffansson, Mr. Mauritz Hakan",Male,28,Survived,Rich,26.55
+"Thorneycroft, Mrs. Percival (Florence Kate White)",Female,NA,Survived,Poor,16.1
+"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",Female,42,Survived,Middle,26
+"Kallio, Mr. Nikolai Erland",Male,17,Died,Poor,7.125
+"Silvey, Mr. William Baird",Male,50,Died,Rich,55.9
+"Carter, Miss. Lucile Polk",Female,14,Survived,Rich,120
+"Ford, Miss. Doolina Margaret ""Daisy""",Female,21,Died,Poor,34.375
+"Richards, Mrs. Sidney (Emily Hocking)",Female,24,Survived,Middle,18.75
+"Fortune, Mr. Mark",Male,64,Died,Rich,263
+"Kvillner, Mr. Johan Henrik Johannesson",Male,31,Died,Middle,10.5
+"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",Female,45,Survived,Middle,26.25
+"Hampe, Mr. Leon",Male,20,Died,Poor,9.5
+"Petterson, Mr. Johan Emil",Male,25,Died,Poor,7.775
+"Reynaldo, Ms. Encarnacion",Female,28,Survived,Middle,13
+"Johannesen-Bratthammer, Mr. Bernt",Male,NA,Survived,Poor,8.1125
+"Dodge, Master. Washington",Male,4,Survived,Rich,81.8583
+"Mellinger, Miss. Madeleine Violet",Female,13,Survived,Middle,19.5
+"Seward, Mr. Frederic Kimber",Male,34,Survived,Rich,26.55
+"Baclini, Miss. Marie Catherine",Female,5,Survived,Poor,19.2583
+"Peuchen, Major. Arthur Godfrey",Male,52,Survived,Rich,30.5
+"West, Mr. Edwy Arthur",Male,36,Died,Middle,27.75
+"Hagland, Mr. Ingvald Olai Olsen",Male,NA,Died,Poor,19.9667
+"Foreman, Mr. Benjamin Laventall",Male,30,Died,Rich,27.75
+"Goldenberg, Mr. Samuel L",Male,49,Survived,Rich,89.1042
+"Peduzzi, Mr. Joseph",Male,NA,Died,Poor,8.05
+"Jalsevac, Mr. Ivan",Male,29,Survived,Poor,7.8958
+"Millet, Mr. Francis Davis",Male,65,Died,Rich,26.55
+"Kenyon, Mrs. Frederick R (Marion)",Female,NA,Survived,Rich,51.8625
+"Toomey, Miss. Ellen",Female,50,Survived,Middle,10.5
+"O'Connor, Mr. Maurice",Male,NA,Died,Poor,7.75
+"Anderson, Mr. Harry",Male,48,Survived,Rich,26.55
+"Morley, Mr. William",Male,34,Died,Poor,8.05
+"Gee, Mr. Arthur H",Male,47,Died,Rich,38.5
+"Milling, Mr. Jacob Christian",Male,48,Died,Middle,13
+"Maisner, Mr. Simon",Male,NA,Died,Poor,8.05
+"Goncalves, Mr. Manuel Estanslas",Male,38,Died,Poor,7.05
+"Campbell, Mr. William",Male,NA,Died,Middle,0
+"Smart, Mr. John Montgomery",Male,56,Died,Rich,26.55
+"Scanlan, Mr. James",Male,NA,Died,Poor,7.725
+"Baclini, Miss. Helene Barbara",Female,0.75,Survived,Poor,19.2583
+"Keefe, Mr. Arthur",Male,NA,Died,Poor,7.25
+"Cacic, Mr. Luka",Male,38,Died,Poor,8.6625
+"West, Mrs. Edwy Arthur (Ada Mary Worth)",Female,33,Survived,Middle,27.75
+"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",Female,23,Survived,Middle,13.7917
+"Strandberg, Miss. Ida Sofia",Female,22,Died,Poor,9.8375
+"Clifford, Mr. George Quincy",Male,NA,Died,Rich,52
+"Renouf, Mr. Peter Henry",Male,34,Died,Middle,21
+"Braund, Mr. Lewis Richard",Male,29,Died,Poor,7.0458
+"Karlsson, Mr. Nils August",Male,22,Died,Poor,7.5208
+"Hirvonen, Miss. Hildur E",Female,2,Survived,Poor,12.2875
+"Goodwin, Master. Harold Victor",Male,9,Died,Poor,46.9
+"Frost, Mr. Anthony Wood ""Archie""",Male,NA,Died,Middle,0
+"Rouse, Mr. Richard Henry",Male,50,Died,Poor,8.05
+"Turkula, Mrs. (Hedwig)",Female,63,Survived,Poor,9.5875
+"Bishop, Mr. Dickinson H",Male,25,Survived,Rich,91.0792
+"Lefebre, Miss. Jeannie",Female,NA,Died,Poor,25.4667
+"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",Female,35,Survived,Rich,90
+"Kent, Mr. Edward Austin",Male,58,Died,Rich,29.7
+"Somerton, Mr. Francis William",Male,30,Died,Poor,8.05
+"Coutts, Master. Eden Leslie ""Neville""",Male,9,Survived,Poor,15.9
+"Hagland, Mr. Konrad Mathias Reiersen",Male,NA,Died,Poor,19.9667
+"Windelov, Mr. Einar",Male,21,Died,Poor,7.25
+"Molson, Mr. Harry Markland",Male,55,Died,Rich,30.5
+"Artagaveytia, Mr. Ramon",Male,71,Died,Rich,49.5042
+"Stanley, Mr. Edward Roland",Male,21,Died,Poor,8.05
+"Yousseff, Mr. Gerious",Male,NA,Died,Poor,14.4583
+"Eustis, Miss. Elizabeth Mussey",Female,54,Survived,Rich,78.2667
+"Shellard, Mr. Frederick William",Male,NA,Died,Poor,15.1
+"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",Female,25,Died,Rich,151.55
+"Svensson, Mr. Olof",Male,24,Died,Poor,7.7958
+"Calic, Mr. Petar",Male,17,Died,Poor,8.6625
+"Canavan, Miss. Mary",Female,21,Died,Poor,7.75
+"O'Sullivan, Miss. Bridget Mary",Female,NA,Died,Poor,7.6292
+"Laitinen, Miss. Kristina Sofia",Female,37,Died,Poor,9.5875
+"Maioni, Miss. Roberta",Female,16,Survived,Rich,86.5
+"Penasco y Castellana, Mr. Victor de Satode",Male,18,Died,Rich,108.9
+"Quick, Mrs. Frederick Charles (Jane Richards)",Female,33,Survived,Middle,26
+"Bradley, Mr. George (""George Arthur Brayton"")",Male,NA,Survived,Rich,26.55
+"Olsen, Mr. Henry Margido",Male,28,Died,Poor,22.525
+"Lang, Mr. Fang",Male,26,Survived,Poor,56.4958
+"Daly, Mr. Eugene Patrick",Male,29,Survived,Poor,7.75
+"Webber, Mr. James",Male,NA,Died,Poor,8.05
+"McGough, Mr. James Robert",Male,36,Survived,Rich,26.2875
+"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",Female,54,Survived,Rich,59.4
+"Coleff, Mr. Satio",Male,24,Died,Poor,7.4958
+"Walker, Mr. William Anderson",Male,47,Died,Rich,34.0208
+"Lemore, Mrs. (Amelia Milley)",Female,34,Survived,Middle,10.5
+"Ryan, Mr. Patrick",Male,NA,Died,Poor,24.15
+"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",Female,36,Survived,Middle,26
+"Pavlovic, Mr. Stefo",Male,32,Died,Poor,7.8958
+"Perreault, Miss. Anne",Female,30,Survived,Rich,93.5
+"Vovk, Mr. Janko",Male,22,Died,Poor,7.8958
+"Lahoud, Mr. Sarkis",Male,NA,Died,Poor,7.225
+"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",Female,44,Survived,Rich,57.9792
+"Kassem, Mr. Fared",Male,NA,Died,Poor,7.2292
+"Farrell, Mr. James",Male,40.5,Died,Poor,7.75
+"Ridsdale, Miss. Lucy",Female,50,Survived,Middle,10.5
+"Farthing, Mr. John",Male,NA,Died,Rich,221.7792
+"Salonen, Mr. Johan Werner",Male,39,Died,Poor,7.925
+"Hocking, Mr. Richard George",Male,23,Died,Middle,11.5
+"Quick, Miss. Phyllis May",Female,2,Survived,Middle,26
+"Toufik, Mr. Nakli",Male,NA,Died,Poor,7.2292
+"Elias, Mr. Joseph Jr",Male,17,Died,Poor,7.2292
+"Peter, Mrs. Catherine (Catherine Rizk)",Female,NA,Survived,Poor,22.3583
+"Cacic, Miss. Marija",Female,30,Died,Poor,8.6625
+"Hart, Miss. Eva Miriam",Female,7,Survived,Middle,26.25
+"Butt, Major. Archibald Willingham",Male,45,Died,Rich,26.55
+"LeRoy, Miss. Bertha",Female,30,Survived,Rich,106.425
+"Risien, Mr. Samuel Beard",Male,NA,Died,Poor,14.5
+"Frolicher, Miss. Hedwig Margaritha",Female,22,Survived,Rich,49.5
+"Crosby, Miss. Harriet R",Female,36,Survived,Rich,71
+"Andersson, Miss. Ingeborg Constanzia",Female,9,Died,Poor,31.275
+"Andersson, Miss. Sigrid Elisabeth",Female,11,Died,Poor,31.275
+"Beane, Mr. Edward",Male,32,Survived,Middle,26
+"Douglas, Mr. Walter Donald",Male,50,Died,Rich,106.425
+"Nicholson, Mr. Arthur Ernest",Male,64,Died,Rich,26
+"Beane, Mrs. Edward (Ethel Clarke)",Female,19,Survived,Middle,26
+"Padro y Manent, Mr. Julian",Male,NA,Survived,Middle,13.8625
+"Goldsmith, Mr. Frank John",Male,33,Died,Poor,20.525
+"Davies, Master. John Morgan Jr",Male,8,Survived,Middle,36.75
+"Thayer, Mr. John Borland Jr",Male,17,Survived,Rich,110.8833
+"Sharp, Mr. Percival James R",Male,27,Died,Middle,26
+"O'Brien, Mr. Timothy",Male,NA,Died,Poor,7.8292
+"Leeni, Mr. Fahim (""Philip Zenni"")",Male,22,Survived,Poor,7.225
+"Ohman, Miss. Velin",Female,22,Survived,Poor,7.775
+"Wright, Mr. George",Male,62,Died,Rich,26.55
+"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",Female,48,Survived,Rich,39.6
+"Robbins, Mr. Victor",Male,NA,Died,Rich,227.525
+"Taussig, Mrs. Emil (Tillie Mandelbaum)",Female,39,Survived,Rich,79.65
+"de Messemaeker, Mrs. Guillaume Joseph (Emma)",Female,36,Survived,Poor,17.4
+"Morrow, Mr. Thomas Rowan",Male,NA,Died,Poor,7.75
+"Sivic, Mr. Husein",Male,40,Died,Poor,7.8958
+"Norman, Mr. Robert Douglas",Male,28,Died,Middle,13.5
+"Simmons, Mr. John",Male,NA,Died,Poor,8.05
+"Meanwell, Miss. (Marion Ogden)",Female,NA,Died,Poor,8.05
+"Davies, Mr. Alfred J",Male,24,Died,Poor,24.15
+"Stoytcheff, Mr. Ilia",Male,19,Died,Poor,7.8958
+"Palsson, Mrs. Nils (Alma Cornelia Berglund)",Female,29,Died,Poor,21.075
+"Doharr, Mr. Tannous",Male,NA,Died,Poor,7.2292
+"Jonsson, Mr. Carl",Male,32,Survived,Poor,7.8542
+"Harris, Mr. George",Male,62,Survived,Middle,10.5
+"Appleton, Mrs. Edward Dale (Charlotte Lamson)",Female,53,Survived,Rich,51.4792
+"Flynn, Mr. John Irwin (""Irving"")",Male,36,Survived,Rich,26.3875
+"Kelly, Miss. Mary",Female,NA,Survived,Poor,7.75
+"Rush, Mr. Alfred George John",Male,16,Died,Poor,8.05
+"Patchett, Mr. George",Male,19,Died,Poor,14.5
+"Garside, Miss. Ethel",Female,34,Survived,Middle,13
+"Silvey, Mrs. William Baird (Alice Munger)",Female,39,Survived,Rich,55.9
+"Caram, Mrs. Joseph (Maria Elias)",Female,NA,Died,Poor,14.4583
+"Jussila, Mr. Eiriik",Male,32,Survived,Poor,7.925
+"Christy, Miss. Julie Rachel",Female,25,Survived,Middle,30
+"Thayer, Mrs. John Borland (Marian Longstreth Morris)",Female,39,Survived,Rich,110.8833
+"Downton, Mr. William James",Male,54,Died,Middle,26
+"Ross, Mr. John Hugo",Male,36,Died,Rich,40.125
+"Paulner, Mr. Uscher",Male,NA,Died,Poor,8.7125
+"Taussig, Miss. Ruth",Female,18,Survived,Rich,79.65
+"Jarvis, Mr. John Denzil",Male,47,Died,Middle,15
+"Frolicher-Stehli, Mr. Maxmillian",Male,60,Survived,Rich,79.2
+"Gilinski, Mr. Eliezer",Male,22,Died,Poor,8.05
+"Murdlin, Mr. Joseph",Male,NA,Died,Poor,8.05
+"Rintamaki, Mr. Matti",Male,35,Died,Poor,7.125
+"Stephenson, Mrs. Walter Bertram (Martha Eustis)",Female,52,Survived,Rich,78.2667
+"Elsbury, Mr. William James",Male,47,Died,Poor,7.25
+"Bourke, Miss. Mary",Female,NA,Died,Poor,7.75
+"Chapman, Mr. John Henry",Male,37,Died,Middle,26
+"Van Impe, Mr. Jean Baptiste",Male,36,Died,Poor,24.15
+"Leitch, Miss. Jessie Wills",Female,NA,Survived,Middle,33
+"Johnson, Mr. Alfred",Male,49,Died,Poor,0
+"Boulos, Mr. Hanna",Male,NA,Died,Poor,7.225
+"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",Male,49,Survived,Rich,56.9292
+"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",Female,24,Survived,Middle,27
+"Slabenoff, Mr. Petco",Male,NA,Died,Poor,7.8958
+"Harrington, Mr. Charles H",Male,NA,Died,Rich,42.4
+"Torber, Mr. Ernst William",Male,44,Died,Poor,8.05
+"Homer, Mr. Harry (""Mr E Haven"")",Male,35,Survived,Rich,26.55
+"Lindell, Mr. Edvard Bengtsson",Male,36,Died,Poor,15.55
+"Karaic, Mr. Milan",Male,30,Died,Poor,7.8958
+"Daniel, Mr. Robert Williams",Male,27,Survived,Rich,30.5
+"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",Female,22,Survived,Middle,41.5792
+"Shutes, Miss. Elizabeth W",Female,40,Survived,Rich,153.4625
+"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",Female,39,Died,Poor,31.275
+"Jardin, Mr. Jose Neto",Male,NA,Died,Poor,7.05
+"Murphy, Miss. Margaret Jane",Female,NA,Survived,Poor,15.5
+"Horgan, Mr. John",Male,NA,Died,Poor,7.75
+"Brocklebank, Mr. William Alfred",Male,35,Died,Poor,8.05
+"Herman, Miss. Alice",Female,24,Survived,Middle,65
+"Danbom, Mr. Ernst Gilbert",Male,34,Died,Poor,14.4
+"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",Female,26,Died,Poor,16.1
+"Becker, Miss. Marion Louise",Female,4,Survived,Middle,39
+"Gavey, Mr. Lawrence",Male,26,Died,Middle,10.5
+"Yasbeck, Mr. Antoni",Male,27,Died,Poor,14.4542
+"Kimball, Mr. Edwin Nelson Jr",Male,42,Survived,Rich,52.5542
+"Nakid, Mr. Sahid",Male,20,Survived,Poor,15.7417
+"Hansen, Mr. Henry Damsgaard",Male,21,Died,Poor,7.8542
+"Bowen, Mr. David John ""Dai""",Male,21,Died,Poor,16.1
+"Sutton, Mr. Frederick",Male,61,Died,Rich,32.3208
+"Kirkland, Rev. Charles Leonard",Male,57,Died,Middle,12.35
+"Longley, Miss. Gretchen Fiske",Female,21,Survived,Rich,77.9583
+"Bostandyeff, Mr. Guentcho",Male,26,Died,Poor,7.8958
+"O'Connell, Mr. Patrick D",Male,NA,Died,Poor,7.7333
+"Barkworth, Mr. Algernon Henry Wilson",Male,80,Survived,Rich,30
+"Lundahl, Mr. Johan Svensson",Male,51,Died,Poor,7.0542
+"Stahelin-Maeglin, Dr. Max",Male,32,Survived,Rich,30.5
+"Parr, Mr. William Henry Marsh",Male,NA,Died,Rich,0
+"Skoog, Miss. Mabel",Female,9,Died,Poor,27.9
+"Davis, Miss. Mary",Female,28,Survived,Middle,13
+"Leinonen, Mr. Antti Gustaf",Male,32,Died,Poor,7.925
+"Collyer, Mr. Harvey",Male,31,Died,Middle,26.25
+"Panula, Mrs. Juha (Maria Emilia Ojala)",Female,41,Died,Poor,39.6875
+"Thorneycroft, Mr. Percival",Male,NA,Died,Poor,16.1
+"Jensen, Mr. Hans Peder",Male,20,Died,Poor,7.8542
+"Sagesser, Mlle. Emma",Female,24,Survived,Rich,69.3
+"Skoog, Miss. Margit Elizabeth",Female,2,Died,Poor,27.9
+"Foo, Mr. Choong",Male,NA,Survived,Poor,56.4958
+"Baclini, Miss. Eugenie",Female,0.75,Survived,Poor,19.2583
+"Harper, Mr. Henry Sleeper",Male,48,Survived,Rich,76.7292
+"Cor, Mr. Liudevit",Male,19,Died,Poor,7.8958
+"Simonius-Blumer, Col. Oberst Alfons",Male,56,Survived,Rich,35.5
+"Willey, Mr. Edward",Male,NA,Died,Poor,7.55
+"Stanley, Miss. Amy Zillah Elsie",Female,23,Survived,Poor,7.55
+"Mitkoff, Mr. Mito",Male,NA,Died,Poor,7.8958
+"Doling, Miss. Elsie",Female,18,Survived,Middle,23
+"Kalvik, Mr. Johannes Halvorsen",Male,21,Died,Poor,8.4333
+"O'Leary, Miss. Hanora ""Norah""",Female,NA,Survived,Poor,7.8292
+"Hegarty, Miss. Hanora ""Nora""",Female,18,Died,Poor,6.75
+"Hickman, Mr. Leonard Mark",Male,24,Died,Middle,73.5
+"Radeff, Mr. Alexander",Male,NA,Died,Poor,7.8958
+"Bourke, Mrs. John (Catherine)",Female,32,Died,Poor,15.5
+"Eitemiller, Mr. George Floyd",Male,23,Died,Middle,13
+"Newell, Mr. Arthur Webster",Male,58,Died,Rich,113.275
+"Frauenthal, Dr. Henry William",Male,50,Survived,Rich,133.65
+"Badt, Mr. Mohamed",Male,40,Died,Poor,7.225
+"Colley, Mr. Edward Pomeroy",Male,47,Died,Rich,25.5875
+"Coleff, Mr. Peju",Male,36,Died,Poor,7.4958
+"Lindqvist, Mr. Eino William",Male,20,Survived,Poor,7.925
+"Hickman, Mr. Lewis",Male,32,Died,Middle,73.5
+"Butler, Mr. Reginald Fenton",Male,25,Died,Middle,13
+"Rommetvedt, Mr. Knud Paust",Male,NA,Died,Poor,7.775
+"Cook, Mr. Jacob",Male,43,Died,Poor,8.05
+"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",Female,NA,Survived,Rich,52
+"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",Female,40,Survived,Middle,39
+"Davidson, Mr. Thornton",Male,31,Died,Rich,52
+"Mitchell, Mr. Henry Michael",Male,70,Died,Middle,10.5
+"Wilhelms, Mr. Charles",Male,31,Survived,Middle,13
+"Watson, Mr. Ennis Hastings",Male,NA,Died,Middle,0
+"Edvardsson, Mr. Gustaf Hjalmar",Male,18,Died,Poor,7.775
+"Sawyer, Mr. Frederick Charles",Male,24.5,Died,Poor,8.05
+"Turja, Miss. Anna Sofia",Female,18,Survived,Poor,9.8417
+"Goodwin, Mrs. Frederick (Augusta Tyler)",Female,43,Died,Poor,46.9
+"Cardeza, Mr. Thomas Drake Martinez",Male,36,Survived,Rich,512.3292
+"Peters, Miss. Katie",Female,NA,Died,Poor,8.1375
+"Hassab, Mr. Hammad",Male,27,Survived,Rich,76.7292
+"Olsvigen, Mr. Thor Anderson",Male,20,Died,Poor,9.225
+"Goodwin, Mr. Charles Edward",Male,14,Died,Poor,46.9
+"Brown, Mr. Thomas William Solomon",Male,60,Died,Middle,39
+"Laroche, Mr. Joseph Philippe Lemercier",Male,25,Died,Middle,41.5792
+"Panula, Mr. Jaako Arnold",Male,14,Died,Poor,39.6875
+"Dakic, Mr. Branko",Male,19,Died,Poor,10.1708
+"Fischer, Mr. Eberhard Thelander",Male,18,Died,Poor,7.7958
+"Madill, Miss. Georgette Alexandra",Female,15,Survived,Rich,211.3375
+"Dick, Mr. Albert Adrian",Male,31,Survived,Rich,57
+"Karun, Miss. Manca",Female,4,Survived,Poor,13.4167
+"Lam, Mr. Ali",Male,NA,Survived,Poor,56.4958
+"Saad, Mr. Khalil",Male,25,Died,Poor,7.225
+"Weir, Col. John",Male,60,Died,Rich,26.55
+"Chapman, Mr. Charles Henry",Male,52,Died,Middle,13.5
+"Kelly, Mr. James",Male,44,Died,Poor,8.05
+"Mullens, Miss. Katherine ""Katie""",Female,NA,Survived,Poor,7.7333
+"Thayer, Mr. John Borland",Male,49,Died,Rich,110.8833
+"Humblen, Mr. Adolf Mathias Nicolai Olsen",Male,42,Died,Poor,7.65
+"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",Female,18,Survived,Rich,227.525
+"Silverthorne, Mr. Spencer Victor",Male,35,Survived,Rich,26.2875
+"Barbara, Miss. Saiide",Female,18,Died,Poor,14.4542
+"Gallagher, Mr. Martin",Male,25,Died,Poor,7.7417
+"Hansen, Mr. Henrik Juul",Male,26,Died,Poor,7.8542
+"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",Male,39,Died,Middle,26
+"Kelly, Mrs. Florence ""Fannie""",Female,45,Survived,Middle,13.5
+"Calderhead, Mr. Edward Pennington",Male,42,Survived,Rich,26.2875
+"Cleaver, Miss. Alice",Female,22,Survived,Rich,151.55
+"Moubarek, Master. Halim Gonios (""William George"")",Male,NA,Survived,Poor,15.2458
+"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",Female,24,Survived,Rich,49.5042
+"Klaber, Mr. Herman",Male,NA,Died,Rich,26.55
+"Taylor, Mr. Elmer Zebley",Male,48,Survived,Rich,52
+"Larsson, Mr. August Viktor",Male,29,Died,Poor,9.4833
+"Greenberg, Mr. Samuel",Male,52,Died,Middle,13
+"Soholt, Mr. Peter Andreas Lauritz Andersen",Male,19,Died,Poor,7.65
+"Endres, Miss. Caroline Louise",Female,38,Survived,Rich,227.525
+"Troutt, Miss. Edwina Celia ""Winnie""",Female,27,Survived,Middle,10.5
+"McEvoy, Mr. Michael",Male,NA,Died,Poor,15.5
+"Johnson, Mr. Malkolm Joackim",Male,33,Died,Poor,7.775
+"Harper, Miss. Annie Jessie ""Nina""",Female,6,Survived,Middle,33
+"Jensen, Mr. Svend Lauritz",Male,17,Died,Poor,7.0542
+"Gillespie, Mr. William Henry",Male,34,Died,Middle,13
+"Hodges, Mr. Henry Price",Male,50,Died,Middle,13
+"Chambers, Mr. Norman Campbell",Male,27,Survived,Rich,53.1
+"Oreskovic, Mr. Luka",Male,20,Died,Poor,8.6625
+"Renouf, Mrs. Peter Henry (Lillian Jefferys)",Female,30,Survived,Middle,21
+"Mannion, Miss. Margareth",Female,NA,Survived,Poor,7.7375
+"Bryhl, Mr. Kurt Arnold Gottfrid",Male,25,Died,Middle,26
+"Ilmakangas, Miss. Pieta Sofia",Female,25,Died,Poor,7.925
+"Allen, Miss. Elisabeth Walton",Female,29,Survived,Rich,211.3375
+"Hassan, Mr. Houssein G N",Male,11,Died,Poor,18.7875
+"Knight, Mr. Robert J",Male,NA,Died,Middle,0
+"Berriman, Mr. William John",Male,23,Died,Middle,13
+"Troupiansky, Mr. Moses Aaron",Male,23,Died,Middle,13
+"Williams, Mr. Leslie",Male,28.5,Died,Poor,16.1
+"Ford, Mrs. Edward (Margaret Ann Watson)",Female,48,Died,Poor,34.375
+"Lesurer, Mr. Gustave J",Male,35,Survived,Rich,512.3292
+"Ivanoff, Mr. Kanio",Male,NA,Died,Poor,7.8958
+"Nankoff, Mr. Minko",Male,NA,Died,Poor,7.8958
+"Hawksford, Mr. Walter James",Male,NA,Survived,Rich,30
+"Cavendish, Mr. Tyrell William",Male,36,Died,Rich,78.85
+"Ryerson, Miss. Susan Parker ""Suzette""",Female,21,Survived,Rich,262.375
+"McNamee, Mr. Neal",Male,24,Died,Poor,16.1
+"Stranden, Mr. Juho",Male,31,Survived,Poor,7.925
+"Crosby, Capt. Edward Gifford",Male,70,Died,Rich,71
+"Abbott, Mr. Rossmore Edward",Male,16,Died,Poor,20.25
+"Sinkkonen, Miss. Anna",Female,30,Survived,Middle,13
+"Marvin, Mr. Daniel Warner",Male,19,Died,Rich,53.1
+"Connaghton, Mr. Michael",Male,31,Died,Poor,7.75
+"Wells, Miss. Joan",Female,4,Survived,Middle,23
+"Moor, Master. Meier",Male,6,Survived,Poor,12.475
+"Vande Velde, Mr. Johannes Joseph",Male,33,Died,Poor,9.5
+"Jonkoff, Mr. Lalio",Male,23,Died,Poor,7.8958
+"Herman, Mrs. Samuel (Jane Laver)",Female,48,Survived,Middle,65
+"Hamalainen, Master. Viljo",Male,0.67,Survived,Middle,14.5
+"Carlsson, Mr. August Sigfrid",Male,28,Died,Poor,7.7958
+"Bailey, Mr. Percy Andrew",Male,18,Died,Middle,11.5
+"Theobald, Mr. Thomas Leonard",Male,34,Died,Poor,8.05
+"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",Female,33,Survived,Rich,86.5
+"Garfirth, Mr. John",Male,NA,Died,Poor,14.5
+"Nirva, Mr. Iisakki Antino Aijo",Male,41,Died,Poor,7.125
+"Barah, Mr. Hanna Assi",Male,20,Survived,Poor,7.2292
+"Carter, Mrs. William Ernest (Lucile Polk)",Female,36,Survived,Rich,120
+"Eklund, Mr. Hans Linus",Male,16,Died,Poor,7.775
+"Hogeboom, Mrs. John C (Anna Andrews)",Female,51,Survived,Rich,77.9583
+"Brewe, Dr. Arthur Jackson",Male,NA,Died,Rich,39.6
+"Mangan, Miss. Mary",Female,30.5,Died,Poor,7.75
+"Moran, Mr. Daniel J",Male,NA,Died,Poor,24.15
+"Gronnestad, Mr. Daniel Danielsen",Male,32,Died,Poor,8.3625
+"Lievens, Mr. Rene Aime",Male,24,Died,Poor,9.5
+"Jensen, Mr. Niels Peder",Male,48,Died,Poor,7.8542
+"Mack, Mrs. (Mary)",Female,57,Died,Middle,10.5
+"Elias, Mr. Dibo",Male,NA,Died,Poor,7.225
+"Hocking, Mrs. Elizabeth (Eliza Needs)",Female,54,Survived,Middle,23
+"Myhrman, Mr. Pehr Fabian Oliver Malkolm",Male,18,Died,Poor,7.75
+"Tobin, Mr. Roger",Male,NA,Died,Poor,7.75
+"Emanuel, Miss. Virginia Ethel",Female,5,Survived,Poor,12.475
+"Kilgannon, Mr. Thomas J",Male,NA,Died,Poor,7.7375
+"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",Female,43,Survived,Rich,211.3375
+"Ayoub, Miss. Banoura",Female,13,Survived,Poor,7.2292
+"Dick, Mrs. Albert Adrian (Vera Gillespie)",Female,17,Survived,Rich,57
+"Long, Mr. Milton Clyde",Male,29,Died,Rich,30
+"Johnston, Mr. Andrew G",Male,NA,Died,Poor,23.45
+"Ali, Mr. William",Male,25,Died,Poor,7.05
+"Harmer, Mr. Abraham (David Lishin)",Male,25,Died,Poor,7.25
+"Sjoblom, Miss. Anna Sofia",Female,18,Survived,Poor,7.4958
+"Rice, Master. George Hugh",Male,8,Died,Poor,29.125
+"Dean, Master. Bertram Vere",Male,1,Survived,Poor,20.575
+"Guggenheim, Mr. Benjamin",Male,46,Died,Rich,79.2
+"Keane, Mr. Andrew ""Andy""",Male,NA,Died,Poor,7.75
+"Gaskell, Mr. Alfred",Male,16,Died,Middle,26
+"Sage, Miss. Stella Anna",Female,NA,Died,Poor,69.55
+"Hoyt, Mr. William Fisher",Male,NA,Died,Rich,30.6958
+"Dantcheff, Mr. Ristiu",Male,25,Died,Poor,7.8958
+"Otter, Mr. Richard",Male,39,Died,Middle,13
+"Leader, Dr. Alice (Farnham)",Female,49,Survived,Rich,25.9292
+"Osman, Mrs. Mara",Female,31,Survived,Poor,8.6833
+"Ibrahim Shawah, Mr. Yousseff",Male,30,Died,Poor,7.2292
+"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",Female,30,Died,Poor,24.15
+"Ponesell, Mr. Martin",Male,34,Died,Middle,13
+"Collyer, Mrs. Harvey (Charlotte Annie Tate)",Female,31,Survived,Middle,26.25
+"Carter, Master. William Thornton II",Male,11,Survived,Rich,120
+"Thomas, Master. Assad Alexander",Male,0.42,Survived,Poor,8.5167
+"Hedman, Mr. Oskar Arvid",Male,27,Survived,Poor,6.975
+"Johansson, Mr. Karl Johan",Male,31,Died,Poor,7.775
+"Andrews, Mr. Thomas Jr",Male,39,Died,Rich,0
+"Pettersson, Miss. Ellen Natalia",Female,18,Died,Poor,7.775
+"Meyer, Mr. August",Male,39,Died,Middle,13
+"Chambers, Mrs. Norman Campbell (Bertha Griggs)",Female,33,Survived,Rich,53.1
+"Alexander, Mr. William",Male,26,Died,Poor,7.8875
+"Lester, Mr. James",Male,39,Died,Poor,24.15
+"Slemen, Mr. Richard James",Male,35,Died,Middle,10.5
+"Andersson, Miss. Ebba Iris Alfrida",Female,6,Died,Poor,31.275
+"Tomlin, Mr. Ernest Portage",Male,30.5,Died,Poor,8.05
+"Fry, Mr. Richard",Male,NA,Died,Rich,0
+"Heininen, Miss. Wendla Maria",Female,23,Died,Poor,7.925
+"Mallet, Mr. Albert",Male,31,Died,Middle,37.0042
+"Holm, Mr. John Fredrik Alexander",Male,43,Died,Poor,6.45
+"Skoog, Master. Karl Thorsten",Male,10,Died,Poor,27.9
+"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",Female,52,Survived,Rich,93.5
+"Lulic, Mr. Nikola",Male,27,Survived,Poor,8.6625
+"Reuchlin, Jonkheer. John George",Male,38,Died,Rich,0
+"Moor, Mrs. (Beila)",Female,27,Survived,Poor,12.475
+"Panula, Master. Urho Abraham",Male,2,Died,Poor,39.6875
+"Flynn, Mr. John",Male,NA,Died,Poor,6.95
+"Lam, Mr. Len",Male,NA,Died,Poor,56.4958
+"Mallet, Master. Andre",Male,1,Survived,Middle,37.0042
+"McCormack, Mr. Thomas Joseph",Male,NA,Survived,Poor,7.75
+"Stone, Mrs. George Nelson (Martha Evelyn)",Female,62,Survived,Rich,80
+"Yasbeck, Mrs. Antoni (Selini Alexander)",Female,15,Survived,Poor,14.4542
+"Richards, Master. George Sibley",Male,0.83,Survived,Middle,18.75
+"Saad, Mr. Amin",Male,NA,Died,Poor,7.2292
+"Augustsson, Mr. Albert",Male,23,Died,Poor,7.8542
+"Allum, Mr. Owen George",Male,18,Died,Poor,8.3
+"Compton, Miss. Sara Rebecca",Female,39,Survived,Rich,83.1583
+"Pasic, Mr. Jakob",Male,21,Died,Poor,8.6625
+"Sirota, Mr. Maurice",Male,NA,Died,Poor,8.05
+"Chip, Mr. Chang",Male,32,Survived,Poor,56.4958
+"Marechal, Mr. Pierre",Male,NA,Survived,Rich,29.7
+"Alhomaki, Mr. Ilmari Rudolf",Male,20,Died,Poor,7.925
+"Mudd, Mr. Thomas Charles",Male,16,Died,Middle,10.5
+"Serepeca, Miss. Augusta",Female,30,Survived,Rich,31
+"Lemberopolous, Mr. Peter L",Male,34.5,Died,Poor,6.4375
+"Culumovic, Mr. Jeso",Male,17,Died,Poor,8.6625
+"Abbing, Mr. Anthony",Male,42,Died,Poor,7.55
+"Sage, Mr. Douglas Bullen",Male,NA,Died,Poor,69.55
+"Markoff, Mr. Marin",Male,35,Died,Poor,7.8958
+"Harper, Rev. John",Male,28,Died,Middle,33
+"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",Female,NA,Survived,Rich,89.1042
+"Andersson, Master. Sigvard Harald Elias",Male,4,Died,Poor,31.275
+"Svensson, Mr. Johan",Male,74,Died,Poor,7.775
+"Boulos, Miss. Nourelain",Female,9,Died,Poor,15.2458
+"Lines, Miss. Mary Conover",Female,16,Survived,Rich,39.4
+"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",Female,44,Died,Middle,26
+"Aks, Mrs. Sam (Leah Rosen)",Female,18,Survived,Poor,9.35
+"Wick, Mrs. George Dennick (Mary Hitchcock)",Female,45,Survived,Rich,164.8667
+"Daly, Mr. Peter Denis",Male,51,Survived,Rich,26.55
+"Baclini, Mrs. Solomon (Latifa Qurban)",Female,24,Survived,Poor,19.2583
+"Razi, Mr. Raihed",Male,NA,Died,Poor,7.2292
+"Hansen, Mr. Claus Peter",Male,41,Died,Poor,14.1083
+"Giles, Mr. Frederick Edward",Male,21,Died,Middle,11.5
+"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",Female,48,Survived,Rich,25.9292
+"Sage, Miss. Dorothy Edith ""Dolly""",Female,NA,Died,Poor,69.55
+"Gill, Mr. John William",Male,24,Died,Middle,13
+"Bystrom, Mrs. (Karolina)",Female,42,Survived,Middle,13
+"Duran y More, Miss. Asuncion",Female,27,Survived,Middle,13.8583
+"Roebling, Mr. Washington Augustus II",Male,31,Died,Rich,50.4958
+"van Melkebeke, Mr. Philemon",Male,NA,Died,Poor,9.5
+"Johnson, Master. Harold Theodor",Male,4,Survived,Poor,11.1333
+"Balkic, Mr. Cerin",Male,26,Died,Poor,7.8958
+"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",Female,47,Survived,Rich,52.5542
+"Carlsson, Mr. Frans Olof",Male,33,Died,Rich,5
+"Vander Cruyssen, Mr. Victor",Male,47,Died,Poor,9
+"Abelson, Mrs. Samuel (Hannah Wizosky)",Female,28,Survived,Middle,24
+"Najib, Miss. Adele Kiamie ""Jane""",Female,15,Survived,Poor,7.225
+"Gustafsson, Mr. Alfred Ossian",Male,20,Died,Poor,9.8458
+"Petroff, Mr. Nedelio",Male,19,Died,Poor,7.8958
+"Laleff, Mr. Kristo",Male,NA,Died,Poor,7.8958
+"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",Female,56,Survived,Rich,83.1583
+"Shelley, Mrs. William (Imanita Parrish Hall)",Female,25,Survived,Middle,26
+"Markun, Mr. Johann",Male,33,Died,Poor,7.8958
+"Dahlberg, Miss. Gerda Ulrika",Female,22,Died,Poor,10.5167
+"Banfield, Mr. Frederick James",Male,28,Died,Middle,10.5
+"Sutehall, Mr. Henry Jr",Male,25,Died,Poor,7.05
+"Rice, Mrs. William (Margaret Norton)",Female,39,Died,Poor,29.125
+"Montvila, Rev. Juozas",Male,27,Died,Middle,13
+"Graham, Miss. Margaret Edith",Female,19,Survived,Rich,30
+"Johnston, Miss. Catherine Helen ""Carrie""",Female,NA,Died,Poor,23.45
+"Behr, Mr. Karl Howell",Male,26,Survived,Rich,30
+"Dooley, Mr. Patrick",Male,32,Died,Poor,7.75
