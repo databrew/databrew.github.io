@@ -3038,7 +3038,7 @@
         #tech_logos {
             display: inline-block;
             vertical-align: middle;
-            align-content: center;
+            justify-content: center;
         }
            #tech .image img {
             height: 42px;
