@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Introduction to data science using R</title>
+  <meta name="description" content="A resource &amp; workbook for learning R" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Introduction to data science using R" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="A resource &amp; workbook for learning R" />
+  <meta name="github-repo" content="databrew/intro-to-data-science" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Introduction to data science using R" />
+  
+  <meta name="twitter:description" content="A resource &amp; workbook for learning R" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="#welcome"><i class="fa fa-check"></i><b>1</b> Welcome!</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#what-is-this-website"><i class="fa fa-check"></i>What is this website?</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#who-this-is-for"><i class="fa fa-check"></i>Who this is for</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#what-you-will-learn"><i class="fa fa-check"></i>What you will learn</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to data science using R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Introduction to data science using R</h1>
+</div>
+<div id="welcome" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Module 1</span> Welcome!<a href="#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="what-is-this-website" class="section level2 unnumbered hasAnchor">
+<h2>What is this website?<a href="#what-is-this-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This is not a textbook or an encyclopedia. This is not a reference manual. It is not exhaustive or comprehensive. We barely mention statistical tests at all. There is almost no theory. In fact, this curriculum is biased, non-representative, and incomplete – <em>by design.</em></p>
+<p><strong>So what is this?</strong> This website is a <em>guide</em> designed to help you through the most dangerous period in your data science education: your very first steps. The first few weeks. That is when 99% percent of people give up on learning to code.</p>
+<p>You want to be part of the 1%? Okay, then you need to understand these 3 things:</p>
+<p><strong>Premise 1: We learn best by doing.</strong> Our goal is to get you <em>doing</em> data science. We will keep theory and detail to a minimum. We will give you the absolute basics, then offer you exercises and puzzles that motivate you to learn the rest. Then, once you’ve been <em>doing</em> data science for a bit, you soon begin <em>thinking</em> like a data scientist. By that, we mean tackling ambiguous problems with persistence, independence, and creative problem solving. With the focus on <em>doing</em> (as opposed to listening, reading, watching, etc.), the burden is on <em>you</em>. You gotta do the work.</p>
+<p><strong>Premise 2: We learn best with purpose.</strong> Once you gain comfort with the basic skills, you will be able to start working on real data, for real projects, with real impact. You will start to <em>care about what you are coding</em>. And that is when the learning curve <em>skyrockets</em> – because you are motivated, and because you are learning <em>reactively</em>, instead of preemptively. Our goal is to get you to the point of take-off as quickly as possible.</p>
+<p><strong>Premise 3: A simple toolbox is all you need to build a house.</strong> Once you become comfortable with a few basic coding tools, you can build pretty much anything. The toolbox doesn’t need to be that big; if you know how to use your tools well, and if you have enough building supplies (i.e., data), the possibilities are limitless.</p>
+<p><strong>One more thing that this is not:</strong> This is not a fancy interactive tutorial with bells or whistles. We purposefully designed this to be simple and “analog”. You will not be typing your code into this website and getting feedback from a robot, or setting up an account to track your progress, or getting pretty merit badges or points when you complete each module.</p>
+<p>Instead, you will be doing your work on your <em>own machine</em>, working with <em>real folders and files</em>, downloading data and moving it around, etc. – all the things you will be doing as a real data scientist in the real world.</p>
+</div>
+<div id="who-this-is-for" class="section level2 unnumbered hasAnchor">
+<h2>Who this is for<a href="#who-this-is-for" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This curriculum covers everything from the absolute basics of writing code in <code>R</code> to machine learning. As such, it is designed to be useful to everyone in some way. But the target audience for these tutorials is the <em>rookie</em>: the student who <em>wants</em> to work with data but has <em>zero</em> formal training in programming, computer science, or statistics.</p>
+</div>
+<div id="what-you-will-learn" class="section level2 unnumbered hasAnchor">
+<h2>What you will learn<a href="#what-you-will-learn" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>The <strong>Getting started</strong> unit teaches you how to use <code>R</code> (in <code>RStudio</code>). Here you will add the first and most important tools to your toolbox: working with variables, vectors, dataframes, scripts, and file directories.</p></li>
+<li><p>More sections will go here…</p></li>
+</ul>
+<p> </p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
